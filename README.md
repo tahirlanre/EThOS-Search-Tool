@@ -29,7 +29,8 @@ python -m spacy download en_core_web_sm
 Currently uses 
 python -m spacy download en_core_web_lg
 
-
+need to install poppler
+brew install poppler
 ### Optional (to get the optional file "webscraper.py" to work)
 
 selenium (<https://pypi.org/project/selenium/>). Make sure to install read the instructions carefully as the process is odd.
