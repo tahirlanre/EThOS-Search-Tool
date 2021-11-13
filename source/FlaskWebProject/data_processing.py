@@ -26,7 +26,7 @@ THUMBS_PATH = 'FlaskWebProject/static/thumbs/'
 WORD_VECTOR_PATH = 'FlaskWebProject/database/word_vectors/'
 NAMES_ORDER_PATH = 'FlaskWebProject/database/name_orders.txt'
 
-download_folder = os.path.dirname(os.path.abspath(__file__)) + "\\database\\downloaded"
+download_folder = os.path.dirname(os.path.abspath(__file__)) + "/database/downloaded"
 
 # Globals
 paper_queue = []
@@ -59,29 +59,28 @@ def check_folders():
 
 
 def SummarisePaper(paper_name):
-    global stop_word, RAW_TEXT_PATH
-    print("Summarising: " + paper_name)
+        global stop_word, RAW_TEXT_PATH
+        print("Summarising: " + paper_name)
 
-    input = ""
+        input = ""
 
-    input = get_abstract(paper_name)
+        input = get_abstract(paper_name)
 
-    summarization = ""
-    min_characters = 300.0
-    abstract_characters = len(input)
-    proportion = min_characters / abstract_characters
-
-    ### ML CODE:
-    sentence_set,sentence_with_index = esearch.split_sentence(input, punctuation_list="!.?")
-    tfidf_matrix = esearch.get_tfidf_matrix(sentence_set,stop_word)
-    sentence_with_words_weight = esearch.get_sentence_with_words_weight(tfidf_matrix)
-    sentence_with_position_weight = esearch.get_sentence_with_position_weight(sentence_set)
-    sentence_score = esearch.get_similarity_weight(tfidf_matrix)
-    sort_sent_weight = esearch.ranking_base_on_weigth(sentence_with_words_weight,sentence_with_position_weight,sentence_score, feature_weight = [0.6,0.2,0.2])
-    summarization = esearch.get_summarization(sentence_with_index,sort_sent_weight,topK_ratio =proportion)
-    ### END OF ML CODE
-    
-    return summarization.strip()
+        summarization = ""
+        min_characters = 300.0
+        abstract_characters = len(input)
+        proportion = min_characters / abstract_characters
+        ### ML CODE:
+        sentence_set,sentence_with_index = esearch.split_sentence(input, punctuation_list="!.?")
+        tfidf_matrix = esearch.get_tfidf_matrix(sentence_set,stop_word)
+        sentence_with_words_weight = esearch.get_sentence_with_words_weight(tfidf_matrix)
+        sentence_with_position_weight = esearch.get_sentence_with_position_weight(sentence_set)
+        sentence_score = esearch.get_similarity_weight(tfidf_matrix)
+        sort_sent_weight = esearch.ranking_base_on_weigth(sentence_with_words_weight,sentence_with_position_weight,sentence_score, feature_weight = [0.6,0.2,0.2])
+        summarization = esearch.get_summarization(sentence_with_index,sort_sent_weight,topK_ratio =proportion)
+        ### END OF ML CODE
+        
+        return summarization.strip()
 
 def clean_files(all_paper_names):
     global SUMMARISED_PATH,RAW_TEXT_PATH,THUMBS_PATH,PREVIEWS_PATH,WORD_VECTOR_PATH
