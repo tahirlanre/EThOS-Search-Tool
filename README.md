@@ -26,6 +26,9 @@ PIL (<https://pypi.org/project/Pillow/>)
 
 Downloading the pre-trained NLP model:  
 python -m spacy download en_core_web_sm  
+Currently uses 
+python -m spacy download en_core_web_lg
+
 
 ### Optional (to get the optional file "webscraper.py" to work)
 
