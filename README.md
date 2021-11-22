@@ -23,6 +23,7 @@ tika (<https://pypi.org/project/tika/>)
 jsonpickle (<https://pypi.org/project/jsonpickle/>)  
 pdf2image (<https://pypi.org/project/pdf2image/>)  
 PIL (<https://pypi.org/project/Pillow/>)  
+webdriver-manager
 
 Downloading the pre-trained NLP model:  
 python -m spacy download en_core_web_sm  
