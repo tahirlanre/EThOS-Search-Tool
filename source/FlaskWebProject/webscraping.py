@@ -1,5 +1,6 @@
 
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -7,6 +8,9 @@ import time
 import os
 import zipfile
 import shutil
+
+
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 #from selenium import webdriver
 #from webdriver_manager.chrome import ChromeDriverManager
@@ -79,11 +83,11 @@ def scrape(search_text, max_pages, download_folder):
 class ScrapeSpider():
 
     def __init__(self, download_location):
-        self.driver = webdriver.Chrome()
+        self.driver = driver
         chrome_options = webdriver.ChromeOptions()
         prefs = {'download.default_directory' : download_location}
         chrome_options.add_experimental_option('prefs', prefs)
-        self.login_driver = webdriver.Chrome(chrome_options=chrome_options)
+        self.login_driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_options)
 
 
     def start_requests(self, search_text_list, max_pages):
