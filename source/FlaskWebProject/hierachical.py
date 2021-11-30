@@ -2,7 +2,7 @@ import os
 from os import listdir
 import numpy as np
 import pandas as pd
-from sklearn.cluster import AgglomerativeClustering as aggl 
+from sklearn.cluster import AgglomerativeClustering  
 import matplotlib.pyplot as plt
 from os.path import isfile, join
 import pickle
@@ -17,6 +17,9 @@ import math
 import time
 import collections
 from shutil import copyfile
+from scipy.cluster.hierarchy import dendrogram
+from scipy.cluster import hierarchy
+
 import spacy
 first_run=0
 nlp = None
@@ -102,9 +105,34 @@ def key_search(keys):
 	# use grep in the summary txt files to return a list of tuples (filename, occurances)
 	# select x most common and return the list of tuples
 
+
+def plot_dendrogram(model,name_order, **kwargs):
+    # Create linkage matrix and then plot the dendrogram
+
+    # create the counts of samples under each node
+    counts = np.zeros(model.children_.shape[0])
+    n_samples = len(model.labels_)
+    for i, merge in enumerate(model.children_):
+        current_count = 0
+        for child_idx in merge:
+            if child_idx < n_samples:
+                current_count += 1  # leaf node
+            else:
+                current_count += counts[child_idx - n_samples]
+        counts[i] = current_count
+
+    linkage_matrix = np.column_stack(
+        [model.children_, model.distances_, counts]
+    ).astype(float)
+    print(linkage_matrix)
+    
+    # Plot the corresponding dendrogram
+    dendrogram(linkage_matrix, **kwargs)
+    return(linkage_matrix)
+
 def agglomerative_clustering(word_matrix, name_order, files):
     print("create model")
-    model = aggl(distance_threshold=None, n_clusters=8)
+    model = AgglomerativeClustering(distance_threshold=0, n_clusters=None)
     print("fit matrix to model")
     print(word_matrix)
     model = model.fit(word_matrix)
@@ -112,21 +140,19 @@ def agglomerative_clustering(word_matrix, name_order, files):
     print(model)
 
     from scipy.cluster.hierarchy import dendrogram, linkage
-    from scipy.cluster import hierarchy
-    z = hierarchy.linkage(model.children_, 'ward')
-    print(z)
-    print(name_order)
-    plt.figure(figsize=(20,10))
-    print("values passed to leaf_label_func\nleaves : ", R["leaves"])
+    #z = hierarchy.linkage(model.children_, 'ward')
 
-    # create a label dictionary
-    temp = {R["leaves"][ii]: name_order[ii] for ii in range(len(R["leaves"]))}
-    def llf(xx):
-        return "{} - custom label!".format(temp[xx])
-    dn = hierarchy.dendrogram(z)
-    plt.show()
-
-    return(model)
+    #print(z)
+    #print(name_order)
+    
+    # plot the top three levels of the dendrogram
+    linkage = plot_dendrogram(model,name_order,labels=name_order,  leaf_rotation = 90)
+    tree = hierarchy.to_tree(linkage, rd=True)
+    tree_root = tree[0]
+    plt.xlabel("Number of points in node (or index of point if no parenthesis).")
+    plt.tight_layout()
+    plt.savefig('den.png')
+    return(model, linkage, tree)
 
 def create_word_vectors():
     global RAW_TEXT_PATH, WORD_VECTOR_PATH, NAMES_ORDER_PATH, all_paper_names, word_vector_names_order, word_vector_matrix
@@ -185,6 +211,16 @@ def generate_vector(files):
 	print('generate_vector')
 
 
+#method to return all the file names of theses in a given subcluster on the bst
+def get_child_leaf_names(tree_node, names_order):
+    leaves = tree_node.pre_order(lambda x: x.id)
+    labels = []
+    for leaf in leaves:
+        labels.append(names_order[leaf])
+    return labels
+
+
+
 files = key_search([['mining',5], ['text',1], ['python',1],['code',3], ['data',2]])
 files = files[:9]
 print(files)
@@ -205,5 +241,11 @@ else:
 
 
 print(names_order)
-model = agglomerative_clustering(matrix, names_order, files)
 
+model, linkage, tree = agglomerative_clustering(matrix, names_order, files)
+tree_root = tree[0]
+print(tree_root.get_left().pre_order(lambda x: x.id))
+
+print(get_child_leaf_names(tree_root.get_left(), names_order))
+print(names_order[tree_root.get_left().get_left().get_id()])
+# now we have our bst
