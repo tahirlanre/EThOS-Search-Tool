@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.cluster import AgglomerativeClustering as aggl 
 import matplotlib.pyplot as plt
 from os.path import isfile, join
-
+import pickle
 import ATS_demo as esearch
 import getTag as groupsystem
 from tika import parser
@@ -18,7 +18,7 @@ import time
 import collections
 from shutil import copyfile
 import spacy
-
+first_run=0
 nlp = None
 
 # Paths (constants)
@@ -67,6 +67,7 @@ word_vector_matrix = []
 
 # when the user is happy with the current group they then can 'check out and have their search completed'
 
+# Adding key weighting
 def key_search(keys):
 	path = 'database/summarised'
 	current = os.path.dirname(__file__)
@@ -187,7 +188,22 @@ def generate_vector(files):
 files = key_search([['mining',5], ['text',1], ['python',1],['code',3], ['data',2]])
 files = files[:9]
 print(files)
-matrix, names_order = create_word_matrix(files,'database/raw_text/', WORD_VECTOR_PATH)
+matrix =[]
+names_order = []
+if(first_run):
+    matrix, names_order = create_word_matrix(files,'database/raw_text/', WORD_VECTOR_PATH)
+    print(matrix)
+    f_matrix = open('matrix.txt', 'wb')
+    f_names_order = open('names_order.txt', 'wb')
+    pickle.dump(names_order, f_names_order)
+    pickle.dump(matrix, f_matrix)
+    f_matrix.close()
+    f_names_order.close()
+else:
+    matrix = pickle.load(open("matrix.txt", 'rb'))
+    names_order = pickle.load(open("names_order.txt", 'rb'))
+
+
 print(names_order)
 model = agglomerative_clustering(matrix, names_order, files)
 
