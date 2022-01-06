@@ -1,13 +1,13 @@
 """
 Routes and views for the flask application.
 """
-
+import json
 from datetime import datetime
 from flask import render_template, request, jsonify
 from FlaskWebProject import app
 import FlaskWebProject.data_processing as backend
 import FlaskWebProject.ticket_manager as ticketmanager
-
+import FlaskWebProject.hierachical as hierachical
 @app.route('/')
 @app.route('/home')
 def home():
@@ -15,6 +15,14 @@ def home():
     return render_template(
         'index.html',
         title='Home Page',
+        year=datetime.now().year,
+    )
+@app.route('/hierachy')
+def hierachy():
+    """Renders the home page."""
+    return render_template(
+        'hierachy.html',
+        title='Hierachy Page',
         year=datetime.now().year,
     )
 
@@ -41,6 +49,35 @@ def search():
         return result
 
     return "NO DATA"
+
+@app.route('/hierachy_search', methods=['POST', 'GET'])
+def hierachy_search():
+    error = None
+    if request.method == 'POST':
+        #got the data
+        data = request.form['data']
+        message_tag = request.form['message_tag']
+
+        data = json.loads(data)
+        new_lis = list(data.items())
+        x = 0
+        keys = []
+        breadth = int(new_lis[0][1])
+        new_lis = new_lis[1:]
+        while x < len(new_lis):
+            keys.append([new_lis[x][1],int(new_lis[x+1][1])])
+            x+=2
+
+        print(keys)
+        print(breadth)
+        print(new_lis)
+        result = hierachical.run_search(keys,2, breadth)
+        print(result)
+        result = "good"
+        return result
+
+    return "NO DATA"
+
 
 @app.route('/devtool', methods=['POST', 'GET'])
 def devtool():

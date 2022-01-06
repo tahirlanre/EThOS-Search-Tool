@@ -6,7 +6,7 @@ from sklearn.cluster import AgglomerativeClustering
 import matplotlib.pyplot as plt
 from os.path import isfile, join
 import pickle
-import FlaskWebProject.getTag as groupsystem
+import getTag as groupsystem
 from tika import parser
 import string
 from pdf2image import convert_from_path, convert_from_bytes
@@ -25,18 +25,18 @@ first_run=0
 nlp = None
 
 # Paths (constants)
-SUMMARISED_PATH = 'FlaskWebProject/database/summarised/'
-RAW_TEXT_PATH = 'FlaskWebProject/database/raw_text/'
-PREVIEWS_PATH = 'FlaskWebProject/database/previews/'
-DOWNLOADS_PATH = 'FlaskWebProject/database/downloaded/'
+SUMMARISED_PATH = 'database/summarised/'
+RAW_TEXT_PATH = 'database/raw_text/'
+PREVIEWS_PATH = 'database/previews/'
+DOWNLOADS_PATH = 'database/downloaded/'
 
-PDF_INPUT_PATH = 'FlaskWebProject/static/PDF_Files_Input/'
-THUMBS_PATH = 'FlaskWebProject/static/thumbs/'
+PDF_INPUT_PATH = 'static/PDF_Files_Input/'
+THUMBS_PATH = 'static/thumbs/'
 
-WORD_VECTOR_PATH = 'FlaskWebProject/database/word_vectors/'
-NAMES_ORDER_PATH = 'FlaskWebProject/database/name_orders.txt'
+WORD_VECTOR_PATH = 'database/word_vectors/'
+NAMES_ORDER_PATH = 'database/name_orders.txt'
 
-download_folder = os.path.dirname(os.path.abspath(__file__)) + "FlaskWebProject//database/downloaded"
+download_folder = os.path.dirname(os.path.abspath(__file__)) + "database/downloaded"
 
 # Globals
 paper_queue = []
@@ -155,14 +155,14 @@ def agglomerative_clustering(word_matrix, name_order, files):
 
     #print(z)
     #print(name_order)
-    names_order_truncated = [name[:20] for name in name_order]
+    
     # plot the top three levels of the dendrogram
-    linkage = plot_dendrogram(model,name_order,labels=names_order_truncated,  leaf_rotation = 90)
+    linkage = plot_dendrogram(model,name_order,labels=name_order,  leaf_rotation = 90)
     tree = hierarchy.to_tree(linkage, rd=True)
     tree_root = tree[0]
     plt.xlabel("Number of points in node (or index of point if no parenthesis).")
     plt.tight_layout()
-    plt.savefig("FlaskWebProject/static/dendograms/den.png")
+    plt.savefig("static/dendograms/den.png")
     return(model, linkage, tree)
 
 def create_word_vectors():
@@ -241,31 +241,31 @@ def run_search(keys, first_run, breadth):
     print(keys)
     files = key_search(keys)
     files = files[:breadth]
-    print(files)
+    #print(files)
     matrix =[]
     names_order = []
     if(first_run == 1):
-        matrix, names_order = create_word_matrix(files,'FlaskWebProject/database/raw_text/', WORD_VECTOR_PATH)
+        matrix, names_order = create_word_matrix(files,'database/raw_text/', WORD_VECTOR_PATH)
         print(matrix)
-        f_matrix = open('FlaskWebProject/matrix.txt', 'wb')
-        f_names_order = open('FlaskWebProject/names_order.txt', 'wb')
+        f_matrix = open('matrix.txt', 'wb')
+        f_names_order = open('names_order.txt', 'wb')
         pickle.dump(names_order, f_names_order)
         pickle.dump(matrix, f_matrix)
         f_matrix.close()
         f_names_order.close()
     elif(first_run == 2):
-        whole_matrix = pickle.load(open("FlaskWebProject/matrix.txt", 'rb'))
-        whole_names_order = pickle.load(open("FlaskWebProject/names_order.txt", 'rb'))
+        whole_matrix = pickle.load(open("matrix.txt", 'rb'))
+        whole_names_order = pickle.load(open("names_order.txt", 'rb'))
         matrix = []
-        files_bare = [file[0] for file in files]
         names_order = []
-        for index in range(0,len(whole_names_order)):
-            if whole_names_order[index] in files_bare:
-                matrix.append(whole_matrix[index])
-                names_order.append(whole_names_order[index])
+        for index in range(0,len(names_order)):
+            if whole_names_order[index] in files:
+                matrix.append[whole_matrix[index]]
+                names_order.append[whole_names_order[index]]
+        print(matrix,names_order)        
     else:
-        matrix = pickle.load(open("FlaskWebProject/matrix.txt", 'rb'))
-        names_order = pickle.load(open("FlaskWebProject/names_order.txt", 'rb'))
+        matrix = pickle.load(open("matrix.txt", 'rb'))
+        names_order = pickle.load(open("names_order.txt", 'rb'))
 
 
     print(names_order)
@@ -281,14 +281,18 @@ def run_search(keys, first_run, breadth):
     # need to implement the digging function
 
 
-    def compute_full_matrix():
-        files = get_all_filenames()
-        matrix, names_order = create_word_matrix(files,'FlaskWebProject/database/raw_text/', WORD_VECTOR_PATH)
-        print(matrix)
-        f_matrix = open('FlaskWebProject/matrix.txt', 'wb')
-        f_names_order = open('FlaskWebProject/names_order.txt', 'wb')
-        pickle.dump(names_order, f_names_order)
-        pickle.dump(matrix, f_matrix)
-        f_matrix.close()
-        f_names_order.close()
+def compute_full_matrix():
+    files = get_all_filenames()
+    print(len(files))
+    matrix, names_order = create_word_matrix(files,'database/raw_text/', WORD_VECTOR_PATH)
+
+    print(matrix)
+    f_matrix = open('matrix.txt', 'wb')
+    f_names_order = open('names_order.txt', 'wb')
+    pickle.dump(names_order, f_names_order)
+    pickle.dump(matrix, f_matrix)
+    f_matrix.close()
+    f_names_order.close()
+
+compute_full_matrix()
 
