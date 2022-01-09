@@ -72,7 +72,6 @@ function submit_keywords() {
     console.log(json);
     send_keywords(json)
     event.preventDefault();
-    transition_to_start();
 }
 
 function send_keywords(keyword_data) {
