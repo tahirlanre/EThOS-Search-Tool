@@ -1,27 +1,29 @@
 import os
 from os import listdir
+from os import path
+from os.path import isfile, join
+
+import math
+import time
 import numpy as np
 import pandas as pd
-from sklearn.cluster import AgglomerativeClustering  
+
 import matplotlib.pyplot as plt
-from os.path import isfile, join
 import pickle
 import FlaskWebProject.getTag as groupsystem
 from tika import parser
 import string
 from pdf2image import convert_from_path, convert_from_bytes
 from PIL import Image
-from os import path
-import math
-import time
-import collections
+
 
 from shutil import copyfile
-from scipy.cluster.hierarchy import dendrogram
+
+from sklearn.cluster import AgglomerativeClustering  
 from scipy.cluster import hierarchy
+from scipy.cluster.hierarchy import dendrogram, linkage
 
 import spacy
-first_run=0
 nlp = None
 
 # Paths (constants)
@@ -143,26 +145,26 @@ def plot_dendrogram(model,name_order, **kwargs):
 
 def agglomerative_clustering(word_matrix, name_order, files):
     print("create model")
+    plt.clf()
+
     model = AgglomerativeClustering(distance_threshold=0, n_clusters=None)
-    print("fit matrix to model")
-    print(word_matrix)
+
     model = model.fit(word_matrix)
-    print("fitted")
-    print(model)
 
-    from scipy.cluster.hierarchy import dendrogram, linkage
-    #z = hierarchy.linkage(model.children_, 'ward')
 
-    #print(z)
-    #print(name_order)
     names_order_truncated = [name[:20] for name in name_order]
-    # plot the top three levels of the dendrogram
+
     linkage = plot_dendrogram(model,name_order,labels=names_order_truncated,  leaf_rotation = 90)
+
     tree = hierarchy.to_tree(linkage, rd=True)
+
     tree_root = tree[0]
+
     plt.xlabel("Number of points in node (or index of point if no parenthesis).")
     plt.tight_layout()
+    os.remove("FlaskWebProject/static/dendograms/den.png")
     plt.savefig("FlaskWebProject/static/dendograms/den.png")
+
     return(model, linkage, tree)
 
 def create_word_vectors():
@@ -276,7 +278,7 @@ def run_search(keys, first_run, breadth):
 
     #print(get_child_leaf_names(tree_root.get_left(), names_order))
     #print(names_order[tree_root.get_left().get_left().get_id()])
-    return(tree)
+    return(tree, linkage, names_order)
     # now we have our bst
     # need to implement the digging function
 

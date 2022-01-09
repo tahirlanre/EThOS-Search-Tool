@@ -167,13 +167,78 @@ function submit_ticket() {
     event.preventDefault();
     transition_to_start();
 }
+function submit_keywords() {
 
 
+    console.log("Submitting keywords");
+
+    keywordsform = document.getElementById("keywords");
+    var formData = new FormData(keywordsform);
+    console.log(formData);
+    var object = {};
+    formData.forEach((value, key) => {
+        // Reflect.has in favor of: object.hasOwnProperty(key)
+        if(!Reflect.has(object, key)){
+            object[key] = value;
+            return;
+        }
+        if(!Array.isArray(object[key])){
+            object[key] = [object[key]];    
+        }
+        object[key].push(value);
+    });
+    var json = JSON.stringify(object);
+    console.log(json);
+    send_keywords(json)
+    event.preventDefault();
+    transition_to_start();
+}
+
+function send_keywords(keyword_data) {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function () {
+        if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
+            keyword_response(xmlHttp);
+    }
+    xmlHttp.ontimeout = function (e) {
+        dev_error("Error contacting server!");
+    };
+    var FD = new FormData();
+    FD.append("message_tag", "keywords");
+    FD.append("data", keyword_data);
+
+    xmlHttp.open("POST", "/hierachy_search", true); // false for synchronous request
+    //xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xmlHttp.send(FD);
+}
+
+function keyword_response(xmlHttp_response){
+    console.log("good");
+
+    var json_response = JSON.parse(xmlHttp_response.responseText);
+    tree_data = json_response;
+    console.log(tree_data)
+    var tree_box = document.getElementById("tree");
+    tree_box.style = "display: inline-block;"
+    refreshImage('den', '/get_image');
+    console.log("done");
+}
 function submit_search(event) {
     request_all_papers_in_ticket();
     event.preventDefault();
     transition_to_results(title="Showing All Results");
 }
+
+function refreshImage(imgElement, imgURL){    
+    // create a new timestamp 
+    var timestamp = new Date().getTime();  
+  
+    var el = document.getElementById(imgElement);  
+    console.log(el)
+    var queryString = "?t=" + timestamp;    
+   
+    el.src = imgURL + queryString;    
+}    
 
 function create_PDF_result_HTML(paper_name ,preview, thumbnail_url, pdf_url) {
     var preview_split = preview.split(/\r?\n/);

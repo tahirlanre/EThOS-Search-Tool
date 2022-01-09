@@ -8,6 +8,8 @@ from FlaskWebProject import app
 import FlaskWebProject.data_processing as backend
 import FlaskWebProject.ticket_manager as ticketmanager
 import FlaskWebProject.hierachical as hierachical
+from flask import send_file
+
 @app.route('/')
 @app.route('/home')
 def home():
@@ -54,10 +56,9 @@ def search():
 def hierachy_search():
     error = None
     if request.method == 'POST':
-        #got the data
+        #separate useful data from request and structure
         data = request.form['data']
         message_tag = request.form['message_tag']
-
         data = json.loads(data)
         new_lis = list(data.items())
         x = 0
@@ -71,9 +72,27 @@ def hierachy_search():
         print(keys)
         print(breadth)
         print(new_lis)
-        result = hierachical.run_search(keys,2, breadth)
+
+
+        #do some clustering based on results
+        tree, linkage, names_order = hierachical.run_search(keys,2, breadth)
+
+        #return a big json of all the useful shit
+
+
+        #
+        summaries = []
+        for x in names_order:
+            summary = open('FlaskWebProject/database/summarised/'+x)
+            txt = summary.read()
+            summary.close()
+            summaries.append(txt)
+        print(summaries)
+        result = [linkage.tolist(), names_order, summaries]
+
         print(result)
-        result = "good"
+        result = jsonify(result)
+        print(result)
         return result
 
     return "NO DATA"
@@ -94,6 +113,14 @@ def devtool():
 
         return result
     return "NO DATA"
+
+@app.route('/get_image')
+def get_image():
+    print('test')
+    filename = 'static/dendograms/den.png'
+    
+    return send_file(filename, mimetype='image/gif')
+
 
 def devtool_delete_generated_data():
     backend.delete_generated_data()
@@ -194,6 +221,8 @@ def create_json_from_papers(enumerable_of_papers, ticket_id):
         "pdf_urls": pdf_url_array,
         "ticket": ticket_id
         })
+
+
 
 #backend.update_database(True)
 backend.load_data_into_memory()
