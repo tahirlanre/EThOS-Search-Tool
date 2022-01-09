@@ -221,6 +221,9 @@ function keyword_response(xmlHttp_response){
     var tree_box = document.getElementById("tree");
     tree_box.style = "display: inline-block;"
     refreshImage('den', '/get_image');
+
+    var summaries_para = document.getElementById('summaries');
+    summaries_para.innerHTML = tree_data;
     console.log("done");
 }
 function submit_search(event) {

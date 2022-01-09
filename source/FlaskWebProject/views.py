@@ -90,9 +90,9 @@ def hierachy_search():
         print(summaries)
         result = [linkage.tolist(), names_order, summaries]
 
-        print(result)
+        #print(result)
         result = jsonify(result)
-        print(result)
+        #print(result)
         return result
 
     return "NO DATA"
