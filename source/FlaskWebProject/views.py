@@ -257,7 +257,7 @@ def gpt3_summary(bodies):
       model="text-davinci-002",
       prompt="Summarize these abstracts:\n\n" + bodies,
       temperature=0.7,
-      max_tokens=256,
+      max_tokens=512,
       top_p=1.0,
       frequency_penalty=0.0,
       presence_penalty=0.0
@@ -272,7 +272,7 @@ def gpt3_keywords(bodies):
       model="text-davinci-002",
       prompt="Extract keywords from this text:\n\n"  + bodies,       
       temperature=0.3,
-      max_tokens=20,
+      max_tokens=256,
       top_p=1.0,
       frequency_penalty=0.8,
       presence_penalty=0.0

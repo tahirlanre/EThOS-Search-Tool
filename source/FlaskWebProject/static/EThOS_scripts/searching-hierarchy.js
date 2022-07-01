@@ -388,7 +388,8 @@ function left_traverse(){
 
     document.getElementById("left-list").innerHTML = '';
     document.getElementById("right-list").innerHTML = '';
-
+    document.getElementById("right_c_responses").innerHTML = '';
+    document.getElementById("left_c_responses").innerHTML = '';
 
 
     var left = node_name_to_list(tree_dict_new['children'][0]['name'], names_order, summaries);
@@ -440,7 +441,8 @@ function right_traverse(){
         tree_dict_new = tree_dict['children'][1];
     
     if (tree_dict_new['name'].length >=3){
-
+    document.getElementById("right_c_responses").innerHTML = '';
+    document.getElementById("left_c_responses").innerHTML = '';
 
     document.getElementById("left-list").innerHTML = '';
     document.getElementById("right-list").innerHTML = '';
