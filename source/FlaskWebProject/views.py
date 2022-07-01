@@ -10,6 +10,13 @@ import FlaskWebProject.ticket_manager as ticketmanager
 import FlaskWebProject.hierachical as hierachical
 from flask import send_file
 
+#openai setup
+import os
+import openai
+openai.api_key = "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"
+
+
+
 @app.route('/')
 @app.route('/home')
 def home():
@@ -245,11 +252,33 @@ def create_json_from_papers(enumerable_of_papers, ticket_id):
 
 def gpt3_summary(bodies):
     print(bodies)
-    return( jsonify({'got it': 'true'}))
+
+    response = openai.Completion.create(
+      model="text-davinci-002",
+      prompt="Summarize these abstracts:\n\n" + bodies,
+      temperature=0.7,
+      max_tokens=256,
+      top_p=1.0,
+      frequency_penalty=0.0,
+      presence_penalty=0.0
+    )
+    print(response)
+
+    return( jsonify({'keywords': response}))
 
 def gpt3_keywords(bodies):
     print(bodies)
-    return( jsonify({'got it': 'true'}))
+    response = openai.Completion.create(
+      model="text-davinci-002",
+      prompt="Extract keywords from this text:\n\n"  + bodies,       
+      temperature=0.3,
+      max_tokens=20,
+      top_p=1.0,
+      frequency_penalty=0.8,
+      presence_penalty=0.0
+    )
+    print(response)
+    return( jsonify({'keywords': response}))
 
 
 

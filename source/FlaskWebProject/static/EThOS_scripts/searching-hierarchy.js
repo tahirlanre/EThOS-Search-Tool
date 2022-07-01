@@ -55,7 +55,7 @@ function keywordsRequest(side) {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
-            keywordGPTResponse(xmlHttp);
+            keywordGPTResponse(xmlHttp, side);
     }
     xmlHttp.ontimeout = function (e) {
         dev_error("Error contacting server!");
@@ -75,14 +75,14 @@ function summaryRequest(side) {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
-            summaryGPTResponse(xmlHttp);
+            summaryGPTResponse(xmlHttp, side);
     }
     xmlHttp.ontimeout = function (e) {
         dev_error("Error contacting server!");
     };
     var FD = new FormData();
     FD.append("message_tag", "summaryRequest");
-    FD.append("bodies", abstracts_list.toString);
+    FD.append("bodies", abstracts_list.toString());
 
 
     xmlHttp.open("POST", "/search", true); // false for synchronous request
@@ -127,13 +127,35 @@ function papers_response(xmlHttp_response) {
     return papers
 }
 
-function summaryGPTResponse(xmlHttp_response){
+function summaryGPTResponse(xmlHttp_response, side){
     var json_response = JSON.parse(xmlHttp_response.responseText);
-    console.log(json_response)
+    var text = json_response.keywords.choices[0].text
+    console.log(text)
+    let response_r =   document.getElementById("right_c_responses")
+    let response_l =   document.getElementById("left_c_responses")
+    let text_gpt = document.createElement('p')
+    text_gpt.innerHTML = text
+    if(side == 0){
+        response_l.appendChild(text_gpt)
+    }else{
+        response_r.appendChild(text_gpt)
+    }
+
 }
-function keywordGPTResponse(xmlHttp_response){
+function keywordGPTResponse(xmlHttp_response, side){
     var json_response = JSON.parse(xmlHttp_response.responseText);
-    console.log(json_response)
+    var text = json_response.keywords.choices[0].text
+    console.log(text)
+    let response_r =   document.getElementById("right_c_responses")
+    let response_l =   document.getElementById("left_c_responses")
+    let text_gpt = document.createElement('p')
+    text_gpt.innerHTML = text
+    if(side == 0){
+        response_l.appendChild(text_gpt)
+    }else{
+        response_r.appendChild(text_gpt)
+    }
+
 }
 
 function summarisationRequest(paper_name) {
