@@ -1,0 +1,5 @@
+This thesis focuses on issues
+related to discovery of knowledge from semi-structured or unstructured data formats
+through the applications of textual data mining techniques to automate the
+classification of textual information into two different categories or classes which can
+then be used to help manage the knowledge available in multiple data formats.

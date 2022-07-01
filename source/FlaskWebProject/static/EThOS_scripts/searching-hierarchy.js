@@ -1,3 +1,44 @@
+var names_order;
+var summaries;
+var json_tree;
+var tree_dict;
+
+//binary search tree
+
+class TreeNode {
+  constructor(value) {
+    this.value = value;
+    this.descendants = [];
+  }
+}
+//takes json and returns a tree
+function to_Tree(dict, names_order, current_node){
+    
+    var child_names = Object.keys(dict);
+    console.log(child_names);
+    if(child_names.length == 0){
+        return(current_node);
+    }else{
+        for (child in child_names){
+            var child_node = to_Tree(dict[child], names_order, new TreeNode(child));
+            current_node.descendants.push(child_node);
+
+         }
+    }   
+}
+
+//end
+
+function node_name_to_list(name, names_order, summaries){
+    var list = [];
+    for( char in name){
+        if (name[char] != '-'){
+            list.push([names_order[parseInt(name[char])], summaries[parseInt(name[char])]]);
+        }
+    }
+    return list;
+}
+
 
 function papersRequest(paper_list) {
     var xmlHttp = new XMLHttpRequest();
@@ -19,6 +60,21 @@ function papersRequest(paper_list) {
     xmlHttp.send(FD);
 }
 
+
+function papers_response(xmlHttp_response) {
+    var json_response = JSON.parse(xmlHttp_response.responseText);
+    papers = [];
+    for (var i = 0; i < json_response.paper_names.length; i++) {
+
+        var thumnail_source = json_response.thumbnails[i].substring(16);
+        var pdf_source = json_response.pdf_urls[i].substring(16);
+
+        var PDF_Result_HTML = create_PDF_result_HTML(json_response.paper_names[i], json_response.previews[i], thumnail_source, pdf_source);
+        papers.push[json_response.paper_names[i], json_response.previews[i],thumnail_source, pdf_source, PDF_Result_HTML]
+
+    }
+    return papers
+}
 
 function summarisationRequest(paper_name) {
     var xmlHttp = new XMLHttpRequest();
@@ -73,7 +129,7 @@ function submit_keywords() {
     send_keywords(json)
     event.preventDefault();
 }
-
+//function to send the keywords to the flask server
 function send_keywords(keyword_data) {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function () {
@@ -93,19 +149,266 @@ function send_keywords(keyword_data) {
 }
 
 function keyword_response(xmlHttp_response){
-    console.log("good");
-
     var json_response = JSON.parse(xmlHttp_response.responseText);
     tree_data = json_response;
-    console.log(tree_data)
+    var linkage = tree_data[0];
+    names_order = tree_data[1];
+    
+    summaries = tree_data[2];
+    json_tree = tree_data[3];
+    tree_dict = JSON.parse(json_tree);
+    //cut out root node
+    tree_dict = tree_dict['children'][0];
+
+   
+   
     var tree_box = document.getElementById("tree");
     tree_box.style = "display: inline-block;"
     refreshImage('den', '/get_image');
 
+    //dump the json
     var summaries_para = document.getElementById('summaries');
     summaries_para.innerHTML = tree_data;
-    console.log("done");
+
+
+
+    var choices_zone = document.getElementById("choices-list");
+
+    var left = node_name_to_list(tree_dict['children'][0]['name'], names_order, summaries);
+    var right = node_name_to_list(tree_dict['children'][1]['name'], names_order, summaries);
+
+    
+    //list titles of theses in left and right subclusters
+    for( x in left){
+    var row = document.createElement("TR");                 // Create a <li> node
+    var node = document.createElement("TD");                 // Create a <li> node
+    var textnode = document.createTextNode(left[x][0]);         // Create a text node
+    node.appendChild(textnode);  
+    var node2 = document.createElement("TD");                 // Create a <li> node
+    var textnode2 = document.createTextNode(left[x][1]);         // Create a text node
+    node2.appendChild(textnode2);                               // Append the text to <li>
+    row.appendChild(node)
+    row.appendChild(node2)
+    document.getElementById("left-list").appendChild(row);
+
+    }
+
+    for( x in right){
+    var row = document.createElement("TR");                 // Create a <li> node
+    var node = document.createElement("TD");                 // Create a <li> node
+    var textnode = document.createTextNode(right[x][0]);         // Create a text node
+    node.appendChild(textnode);  
+    var node2 = document.createElement("TD");                 // Create a <li> node
+    var textnode2 = document.createTextNode(right[x][1]);         // Create a text node
+    node2.appendChild(textnode2);                               // Append the text to <li>
+    row.appendChild(node)
+    row.appendChild(node2)
+    document.getElementById("right-list").appendChild(row);
+
+    }
+
+
+
+
+    
+    
+
+    
 }
+function keyword_response_2(xmlHttp_response){
+    var json_response = JSON.parse(xmlHttp_response.responseText);
+    tree_data = json_response;
+    var linkage = tree_data[0];
+    names_order = tree_data[1];
+    
+    summaries = tree_data[2];
+    json_tree = tree_data[3];
+    tree_dict = JSON.parse(json_tree);
+    //cut out root node
+    tree_dict = tree_dict['children'][0];
+
+   var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function () {
+        if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
+            papers = papers_response(xmlHttp);
+            console.log("good serch");
+            console.log(papers)
+   
+    var tree_box = document.getElementById("tree");
+    tree_box.style = "display: inline-block;"
+    refreshImage('den', '/get_image');
+
+    //dump the json
+    var summaries_para = document.getElementById('summaries');
+    summaries_para.innerHTML = tree_data;
+
+
+
+    var choices_zone = document.getElementById("choices-list");
+
+    var left = node_name_to_list(tree_dict['children'][0]['name'], names_order, summaries);
+    var right = node_name_to_list(tree_dict['children'][1]['name'], names_order, summaries);
+
+    
+    //list titles of theses in left and right subclusters
+    for( x in left){
+    var row = document.createElement("TR");                 // Create a <li> node
+    var node = document.createElement("TD");                 // Create a <li> node
+    var textnode = document.createTextNode(left[x][0]);         // Create a text node
+    node.appendChild(textnode);  
+    var node2 = document.createElement("TD");                 // Create a <li> node
+    var textnode2 = document.createTextNode(left[x][1]);         // Create a text node
+    node2.appendChild(textnode2);                               // Append the text to <li>
+    row.appendChild(node)
+    row.appendChild(node2)
+    document.getElementById("left-list").appendChild(row);
+
+    }
+
+    for( x in right){
+    var row = document.createElement("TR");                 // Create a <li> node
+    var node = document.createElement("TD");                 // Create a <li> node
+    var textnode = document.createTextNode(right[x][0]);         // Create a text node
+    node.appendChild(textnode);  
+    var node2 = document.createElement("TD");                 // Create a <li> node
+    var textnode2 = document.createTextNode(right[x][1]);         // Create a text node
+    node2.appendChild(textnode2);                               // Append the text to <li>
+    row.appendChild(node)
+    row.appendChild(node2)
+    document.getElementById("right-list").appendChild(row);
+
+    }
+
+
+
+
+    }
+    xmlHttp.ontimeout = function (e) {
+        dev_error("Error contacting server!");
+    };
+    var FD = new FormData();
+    FD.append("message_tag", "papers_request_h");
+    FD.append("ticket", 17);
+    FD.append("papers", names_order.toString());
+
+
+    xmlHttp.open("POST", "/search", true); // false for synchronous request
+    xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xmlHttp.send(FD);
+
+    
+}
+function left_traverse(){
+    if (tree_dict['name'].length != 1){
+    tree_dict_new = tree_dict['children'][0];
+    
+    if (tree_dict_new['name'].length >=3){
+
+    document.getElementById("left-list").innerHTML = '';
+    document.getElementById("right-list").innerHTML = '';
+
+
+
+    var left = node_name_to_list(tree_dict_new['children'][0]['name'], names_order, summaries);
+    var right = node_name_to_list(tree_dict_new['children'][1]['name'], names_order, summaries);
+
+    
+    //list titles of theses in left and right subclusters
+    for( x in left){
+    var row = document.createElement("TR");                 // Create a <li> node
+    var node = document.createElement("TD");                 // Create a <li> node
+    var textnode = document.createTextNode(left[x][0]);         // Create a text node
+    node.appendChild(textnode);  
+    var node2 = document.createElement("TD");                 // Create a <li> node
+    var textnode2 = document.createTextNode(left[x][1]);         // Create a text node
+    node2.appendChild(textnode2);                               // Append the text to <li>
+    row.appendChild(node)
+    row.appendChild(node2)
+    document.getElementById("left-list").appendChild(row);
+
+    }
+
+    for( x in right){
+    var row = document.createElement("TR");                 // Create a <li> node
+    var node = document.createElement("TD");                 // Create a <li> node
+    var textnode = document.createTextNode(right[x][0]);         // Create a text node
+    node.appendChild(textnode);  
+    var node2 = document.createElement("TD");                 // Create a <li> node
+    var textnode2 = document.createTextNode(right[x][1]);         // Create a text node
+    node2.appendChild(textnode2);                               // Append the text to <li>
+    row.appendChild(node)
+    row.appendChild(node2)
+    document.getElementById("right-list").appendChild(row);
+
+
+}
+    //update tree dictionary
+
+tree_dict = tree_dict_new
+}
+else{
+    console.log('less than three theses')
+    }
+
+}
+else{console.log('cant go deeper')}
+}
+function right_traverse(){
+    if (tree_dict['name'].length != 1){
+        tree_dict_new = tree_dict['children'][1];
+    
+    if (tree_dict_new['name'].length >=3){
+
+
+    document.getElementById("left-list").innerHTML = '';
+    document.getElementById("right-list").innerHTML = '';
+
+
+
+    var left = node_name_to_list(tree_dict_new['children'][0]['name'], names_order, summaries);
+    var right = node_name_to_list(tree_dict_new['children'][1]['name'], names_order, summaries);
+
+    
+    //list titles of theses in left and right subclusters
+    for( x in left){
+    var row = document.createElement("TR");                 // Create a <li> node
+    var node = document.createElement("TD");                 // Create a <li> node
+    var textnode = document.createTextNode(left[x][0]);         // Create a text node
+    node.appendChild(textnode);  
+    var node2 = document.createElement("TD");                 // Create a <li> node
+    var textnode2 = document.createTextNode(left[x][1]);         // Create a text node
+    node2.appendChild(textnode2);                               // Append the text to <li>
+    row.appendChild(node)
+    row.appendChild(node2)
+    document.getElementById("left-list").appendChild(row);
+
+    }
+
+    for( x in right){
+    var row = document.createElement("TR");                 // Create a <li> node
+    var node = document.createElement("TD");                 // Create a <li> node
+    var textnode = document.createTextNode(right[x][0]);         // Create a text node
+    node.appendChild(textnode);  
+    var node2 = document.createElement("TD");                 // Create a <li> node
+    var textnode2 = document.createTextNode(right[x][1]);         // Create a text node
+    node2.appendChild(textnode2);                               // Append the text to <li>
+    row.appendChild(node)
+    row.appendChild(node2)
+    document.getElementById("right-list").appendChild(row);
+
+
+    }
+    //update tree dictionary
+    tree_dict = tree_dict_new
+
+}else{
+    console.log('less than three theses')
+    }
+
+}
+else{console.log('cant go deeper')}
+}
+
 function submit_search(event) {
     request_all_papers_in_ticket();
     event.preventDefault();
@@ -119,9 +422,20 @@ function refreshImage(imgElement, imgURL){
     var el = document.getElementById(imgElement);  
     console.log(el)
     var queryString = "?t=" + timestamp;    
-   
     el.src = imgURL + queryString;    
 }    
+
+
+
+
+
+//function to handle digging down the bst to find a useful cluster
+function dig_tree(theses_summary, theses_title, tree){
+
+} 
+
+
+
 
 function create_PDF_result_HTML(paper_name ,preview, thumbnail_url, pdf_url) {
     var preview_split = preview.split(/\r?\n/);
@@ -159,3 +473,6 @@ function create_PDF_result_HTML(paper_name ,preview, thumbnail_url, pdf_url) {
         "</div>";
     return PDF_Result_HTML;
 }
+
+
+

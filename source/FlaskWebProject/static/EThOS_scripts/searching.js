@@ -167,6 +167,8 @@ function submit_ticket() {
     event.preventDefault();
     transition_to_start();
 }
+
+//sending the list of keywords for the keywords search
 function submit_keywords() {
 
 
@@ -194,11 +196,13 @@ function submit_keywords() {
     transition_to_start();
 }
 
+
+//function to send the keywords to the flask server
 function send_keywords(keyword_data) {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
-            keyword_response(xmlHttp);
+            keyword_response(xmlHttp, keyword_data);
     }
     xmlHttp.ontimeout = function (e) {
         dev_error("Error contacting server!");
@@ -212,12 +216,22 @@ function send_keywords(keyword_data) {
     xmlHttp.send(FD);
 }
 
-function keyword_response(xmlHttp_response){
+
+//function to handle the flask servers keyword response
+function keyword_response(xmlHttp_response, keyword_data){
     console.log("good");
 
     var json_response = JSON.parse(xmlHttp_response.responseText);
     tree_data = json_response;
-    console.log(tree_data)
+    var linkage = tree_data[0];
+    var names_order = tree_data[1];
+    var summaries = tree_data[2];
+    var json_tree = tree_data[3];
+    var tree_dict = JSON.parse(json_tree);
+
+    console.log(tree_data);
+    console.log(tree_dict);
+
     var tree_box = document.getElementById("tree");
     tree_box.style = "display: inline-block;"
     refreshImage('den', '/get_image');
@@ -225,7 +239,38 @@ function keyword_response(xmlHttp_response){
     var summaries_para = document.getElementById('summaries');
     summaries_para.innerHTML = tree_data;
     console.log("done");
+
+    var choices_zone = document.getElementById("choices-zone");
+    var left_theses = document.createElement("P", "left");
+    var right_theses = document.createElement("P", "right");
+
+
 }
+
+//takes linkage matrix and returns a tree
+function to_Tree(linkage, names_order){
+    console.log(linkage);
+    console.log(names_order);
+
+
+    //new bst
+    var tree = New BinaryTree;
+    for(x = 0; x < len(linkage); x+=1){
+
+    }
+
+
+
+}
+//function to handle digging down the bst to find a useful cluster
+function dig_tree(theses_summary, theses_title, tree){
+
+} 
+
+
+
+
+
 function submit_search(event) {
     request_all_papers_in_ticket();
     event.preventDefault();

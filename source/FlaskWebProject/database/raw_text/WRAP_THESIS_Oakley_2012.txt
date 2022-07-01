@@ -1,0 +1,3018 @@
+University of Warwick institutional repository: http://go
+University of Warwick institutional repository: http://go.warwick.ac.uk/wrap  
+A Thesis Submitted for the Degree of PhD at the University of Warwick 
+http://go.warwick.ac.uk/wrap/55970 
+This thesis is made available online and is protected by original copyright.  
+Please scroll down to view the document itself.  
+Please refer to the repository record for this item for information to help you to 
+cite it. Our policy information is available from the repository home page.  
+http://go.warwick.ac.uk/wrap
+http://go.warwick.ac.uk/wrap/55970
+The Assessment of Pre-morbid Levels of Intellectual Functioning in 
+People with Dementia 
+Emilie W Oakley 
+This thesis is submitted in partial fulfilment of the requirements for the degree of 
+Doctorate in Clinical Psychology 
+The Universities of Coventry and Warwick 
+Department of Clinical Psychology 
+May 2012 
+Page ii 
+Contents 
+Chapter 1: Literature Review 
+Page iii 
+Chapter 2: Empirical Paper 
+Page iv 
+Chapter 3: Reflective Paper 
+Page v 
+Page vi 
+List of Tables 
+Chapter 1 
+Figure 1:   Validity Criteria       Page 5 
+Figure 2:   Inclusion Criteria       Page 9 
+Table 1:    Summary of Literature Review Papers    Page 10 
+Table 2:    Validity Criteria Assessed by each Study    Page 15 
+Table 3:    Exclusion Criteria       Page 28 
+Chapter 2 
+Table 1:   Demographic Variables, Education and Mean Scores  Page 56 
+Table 2:   Mean Cognitive Decline per Intelligence Classification  Page 58 
+Table 3:   The Models Ability to Predict Group Allocation    Page 60 
+Table 4:   Odds Ratios        Page 60 
+Page vii 
+List of Appendices 
+Appendices 1-4: Ethical Approval 
+Coventry University       Page  91 
+Black Country Research and Ethics Committee   Page  92 
+Research and Development Committee    Page  95 
+National Information Governance Board     Page  97 
+Appendices 5-6: Research Amendments Approval 
+Black Country Research and Ethic Committee   Page  99 
+Research and Development Committee    Page 101 
+Appendix 7: Literature Search Strategy     Page 102 
+Appendices 8-9: Measures 
+Wechsler Test of Adult Reading (WTAR)    Page 103  
+Mini Mental State Examination (MMSE)    Page 104 
+Appendix 10:  Coding for Education      Page 105 
+Appendices 11-12: Participant Information  
+Cover Sheet        Page 106 
+Participant Information Sheet & Consent Form   Page 107 
+Appendix 13: Z-score Calculations      Page 108 
+Appendices 14-16: Scatter plots  
+Dementia Group Correlation      Page 109  
+Mild Cognitive Impairment Group Correlation   Page 110  
+No Cognitive Impairment Group Correlation    Page 111 
+Appendices 17-18: Journal Submission Guidelines 
+ British Journal of Clinical Psychology    Page 112 
+ Journal of Aging and Mental Health     Page 116 
+Page viii 
+List of Abbreviations 
+CAMDEX  Cambridge Mental Disorders of the Elderly Examination 
+CCRT  Cambridge Contextual Reading Test 
+DRS  Dementia Rating Scale 
+DSM-III-R Diagnostic and Statistical Manual of Mental Disorders Version Three 
+Revised 
+DSM-IV  Diagnostic and Statistical Manual of Mental Disorders Version Four 
+ICD-10  International Classification of Diseases Part 10 
+IQ   Intelligence Quotidian 
+GP   General Practitioner 
+MCI  Mild Cognitive Impairment 
+MMSE  Mini-Mental State Examination 
+NART (-R) National Adult Reading Test (Revised) 
+NHS  National Health Service 
+NICE  National Institute for Health and Clinical Excellence 
+NIGB  National Information Governance Board for Health and Social Care 
+NINDS/ADRDA National Institute of Neurological and Communicative Disorders and 
+           Stroke and the Alzheimer's Disease and Related Disorders Association 
+NoCI  No Cognitive Impairment 
+PASW   Predictive Analytics SoftWare 
+PMIF  Pre-Morbid Intellectual Functioning 
+R & D  Research and Development Office 
+RBANS  Repeatable Battery for the Assessment of Neuropsychological Status 
+STW  Spot-the-Word Test 
+TOPF  Test of Pre-morbid Functioning 
+WAIS (-R)  Wechsler Adult Intelligence Scale (Revised) 
+WTAR  Wechsler Test of Adult Reading 
+UK  United Kingdom 
+Page ix 
+Acknowledgements 
+Firstly I want to acknowledge the help and support I have received from both Tom 
+Patterson and Jane Muers. I am very grateful to them for their enthusiasm, patience 
+and commitment throughout the whole research process. This research may have 
+taken a very different approach if it were not for their clinical knowledge and 
+expertise. Thanks also go to Ian Hume for his statistical prowess, and constructive 
+comments on my empirical paper. 
+To my best friends, Aditi and James, I want to say thank you for keeping me 
+grounded throughout the last three years and reminding me that there is more to life 
+than work 
+I want to thank my parents and family for their continued support in my chosen 
+career. Their love, encouragement and unfaltering belief in my abilities, has helped 
+me enormously.  
+Finally to Simon, I want to thank him for being with me on every step of the journey. 
+His constant love, support and reassurance have been invaluable and I could not have 
+done this without him.  
+Page x 
+Declaration 
+This thesis was carried out under the supervision of Dr Tom Patterson, Mrs Jane 
+Muers and Dr Ian Hume. Authorship of published papers will be shared with the 
+above. The ideas for this research were my own, and developed following discussions 
+with Dr Tom Patterson and Mrs Jane Muers. With the exception of the 
+aforementioned collaborations, the thesis is my own work. This thesis has not been 
+submitted for a degree to any other university. 
+Ethical approval (Appendices 1-6) was obtained from Coventry University Research 
+Ethics Committee, the Black Country Research Ethics Committee and the NHS 
+Trusts Research and Development Office
+. Approval was also granted from the 
+National Information Governance Board for support under section 251 of the NHS 
+Act (2006) to process patient information without consent.  
+It is intended that Chapter 1 will be submitted for publication to the British Journal of 
+Clinical Psychology. Chapter 2 will be submitted for publication to the Journal of 
+Aging and Mental Health (see Appendices 17-18 for instructions to authors). 
+ In compliance with the guidelines stipulated by the NIGB, the locations of the memory clinics have been kept 
+confidential. As such any references to location, including the name of the relevant NHS Research and 
+Development Office, have been removed. This accounts for any blank spaces in the appendices.  
+Page xi 
+Summary 
+This thesis consists of three papers: a literature review, an empirical paper and a 
+reflective paper. The literature review considers the validity of measures of pre-
+morbid intellectual functioning with people with varying levels of dementia severity. 
+It aims to be of use to British clinicians by focussing specially on tests that were 
+designed for use with a British English speaking population. No single measure of 
+pre-morbid intellectual functioning is found to be valid for use with people of all 
+levels of dementia severity. The use of multiple measures for estimating pre-morbid 
+intellectual functioning are indicated. 
+The empirical paper investigates the relationship between a persons pre-morbid level 
+of intellectual functioning and the amount of cognitive decline that they experience 
+prior to gaining a diagnosis of dementia. It uses a retrospective correlational design to 
+analyse data from existing memory clinic files. A significant positive Pearsons 
+correlation coefficient is found between pre-morbid intellectual functioning and 
+amount of cognitive decline at the point of diagnosis, in all three of the diagnostic 
+groups. This suggests that people with high pre-morbid functioning have to undergo 
+greater cognitive decline before they are given a diagnosis of dementia. Changes to 
+current clinical practice are indicated which take account of relative amounts of 
+cognitive decline in the diagnostic process.  
+Finally, a reflective account is presented which is based on the authors thoughts and 
+experiences of carrying out research in the field of dementia. This focuses on the 
+challenges in accessing retrospective clinical data. Suggestions are made regarding 
+future research and clinical practice. 
+Page 1 
+Chapter 1: Literature Review 
+The Validity of Pre-Morbid Measures of Cognitive Functioning in 
+People with Varying Levels of Dementia: A Systematic Review of the 
+Literature 
+KEY WORDS 
+Dementia; Cognitive Decline; Pre-morbid Intellectual Functioning; Validity. 
+Word count: 5,287 (excluding abstract, reference list, tables and figures) 
+Page 2 
+ABSTRACT 
+Purpose 
+The present paper reviews existing evidence on the validity of pre-morbid measures 
+of functioning with people with dementia. It aims to be of use to British clinicians, 
+by specifically focussing on tests that were designed for use with a British English 
+speaking population.  
+Methods 
+A search of databases (including PsycINFO, Web of Science, Cinahl and Medline), 
+citation searches and reference lists was conducted to identify relevant studies. 
+Twelve studies met the inclusion criteria.  
+Results 
+Performance on the National Adult Reading Test (NART) and the Wechsler Test of 
+Adult Reading (WTAR) are shown to be affected by dementia, with people making 
+significantly more errors as dementia severity increases. The Cambridge Contextual 
+Reading Test (CCRT) may be a better estimate of pre-morbid functioning, as it 
+produces a higher estimate of reading ability and has a higher correlation with 
+current intellectual ability in the control group. However, performance on the 
+CCRT also reduces with increased dementia severity. An area for further 
+investigation is that of lexical-decision-making tasks such as the Spot-the-word 
+(STW). This has had some promising results and may be valid for use with people 
+with dyslexia.  Nonetheless the evidence base for this is small and more research is 
+needed.    
+Page 3 
+Conclusions 
+The use of objective, pre-morbid measures are vital in diagnosing dementia in order 
+to avoid misdiagnosis. No single measure has been found to be valid for all stages 
+of dementia, and the use of multiple measures may be needed in order to provide an 
+accurate estimate of pre-morbid functioning. 
+Practitioner Points 
+Clinical implications 
+ Performance on both the NART and WTAR is affected by dementia 
+severity. 
+ Placing NART words into the contextual sentences of the CCRT, produces a 
+better estimate of pre-morbid intellectual functioning. However, CCRT 
+performance is also affected by dementia severity.    
+ Clinicians should use a number of different pre-morbid measures for more 
+accurate estimates of pre-morbid intellectual functioning. 
+Limitations 
+ There is a lack of consistency in the studies reviewed both in the diagnostic 
+criteria utilised and in the labelling of dementia severity. 
+ Most pre-morbid measures of intellectual functioning have a ceiling effect, 
+above which pre-morbid intellectual ability cannot be estimated.  
+Page 4 
+PURPOSE 
+Background  
+Dementia is defined in the Diagnostic and Statistical Manual of Mental Disorders, 
+4th Edition (DSM-IV; American Psychiatric Association, 2000, page 157) as the 
+development of a memory impairment accompanied by one of the following 
+cognitive disturbances: aphasia, apraxia, agnosia and disturbance in executive 
+functioning. The cognitive deficits identified should each cause significant 
+impairment in social or occupational functioning and represent a significant decline 
+from a previous level of functioning. 
+Presently there is no gold standard for the process of determining levels of pre-
+morbid intellectual functioning (PMIF). Ideally this would be determined using 
+measures that were taken before any cognitive decline commenced, but in reality it 
+is not possible to predict which individuals will go on to develop dementia, so 
+PMIF is not routinely assessed. Thus pre-morbid levels have to be estimated 
+retrospectively. The difficulty with this is that in order to accurately estimate PMIF, 
+assessment tools need to measure abilities that are not affected by dementia. An 
+overestimate of PMIF could lead to people being wrongly diagnosed with dementia 
+(false positives), while an underestimate could result in people with dementia being 
+missed (false negatives). 
+Several methods have been proposed to estimate PMIF. These include the use of 
+reading tests with words which do not follow the typical grapheme to phoneme 
+translations, such as the National Adult Reading Test (NART, Nelson & Willison, 
+1991) and the Wechsler Adult Reading Test (WTAR; Wechsler, 2001); contextual 
+word reading tests such as the Cambridge Contextual Reading Test (CCRT; 
+Beardsall & Huppert, 1994); demographic-based formulae (Wilson et al., 1978; 
+Page 5 
+Barona, Reynolds & Chastain, 1984; Crawford et al., 1989a) and lexical-decision-
+making tasks such as the Spot-the-Word (STW; Baddeley, Emslie & Nimmo-Smith, 
+1993).  
+Validity Criteria 
+Figure 1: Validity Criteria 
+For a measure of PMIF to be valid for use with people with dementia there needs 
+to be evidence that the measure does one or more of the following criteria:  
+1. It correlates well with IQ scores that were measured prior to the onset 
+of cognitive decline.  
+2. It produces consistent scores regardless of changes to individuals 
+dementia severity. 
+3. It correlates well with measures of current intellectual ability in the 
+control group.  
+4. It overestimates the current abilities of people with dementia. 
+Studies which assess the validity of a measure of PMIF for use with people with 
+dementia should address at least one, if not more, of the above criteria. Ideally, 
+for a gold standard level of validity assessment, there should be evidence that the 
+measure addresses all of these criteria. Realistically, however, it is acknowledged 
+that there are limitations to these criteria and that some measures will be unable 
+to produce consistent scores beyond a particular level of dementia severity.  
+These validity criteria have been developed as a quality framework for the 
+purposes of this literature review, with individual criterion being drawn from the 
+papers reviewed. 
+Page 6 
+Rationale  
+There has been considerable debate as to how valid pre-morbid measures are. Some 
+studies state that performance on measures derived from current abilities, such as 
+the NART, are not affected by dementia (Nelson & McKenna, 1975; Nelson & 
+OConnell, 1978; Sharpe & OCarroll, 1991), whilst others disagree (OCarroll et 
+al., 1995; Stebbins, Wilson, Gilley, Bernard & Fox, 1990; Fromm, Holland, Nebes 
+& Oakley 1991). Conversely demographic variables, which are not derived from 
+current ability, are not affected by dementia. However, Crawford et al., (1989b) 
+found that demographic variables can only account for 50% of variance in WAIS 
+Full-Scale IQ (Wechsler, 1981), whereas the NART was able to account for 66% of 
+variance. It is therefore unclear which method is the most valid. 
+OCarroll (1995) critically reviewed studies which used demographic variables, 
+reading ability or lexical-decision-making tasks to evaluate pre-morbid abilities. 
+This included people with: Alzheimers disease, Huntingtons disease, 
+Schizophrenia, Korsakoffs Syndrome, Depression and Glioma.  OCarroll (1995) 
+suggested that there was too much error in the predictive scores of demographic 
+variables, which could result in an underestimation of individuals abilities. He 
+concluded that whilst the NART was popular, performance on the test may be 
+compromised in Alzheimers disease. It was suggested that the NART words either 
+needed to be placed into context to improve their validity, or else combined with 
+demographic variables. Additionally lexical-decision-making tasks were suggested 
+as a measure of pre-morbid ability in some individuals with dysphasic, dyslexic or 
+articulatory problems, as people can point to the correct answer. However, the 
+validity of these measures needs to be examined further in people with dementia.  
+Page 7 
+Similarly Franzen, Burgess & Smith-Seemiller (1997) explored some available 
+methods of estimating PMIF. They noted a need to examine different disorders 
+separately, as currently many studies group people in terms of brain-injury versus 
+no brain-injury. They suggested pre-morbid measures can often be influenced by 
+demographic factors such as age and ethnicity, which need to be controlled for. 
+They also highlighted the need to focus on cognitive decline in areas other than IQ, 
+such as memory and executive function. They found that none of the existing 
+measures were optimal for use and that improvements were needed. However, they 
+concluded that current objective measures were still considerably better than relying 
+on subjective clinical judgement alone.  
+Whilst both aforementioned reviews explored the use of pre-morbid measures with 
+people with dementia, dementia was not the main focus and was often examined as 
+part of a larger brain-injury group. Given that dementia affects cognitive 
+functioning very differently from schizophrenia for example, there is a need to 
+research the validity of measures of PMIF in the assessment of dementia separately. 
+Furthermore, an updated critical review of the research in this area is needed, given 
+that previous reviews only considered literature published prior to 1997. 
+Not all pre-morbid tests are valid for use with people in Britain. The NART was 
+originally developed using frequently used British words. However, doubts were 
+raised about the transferability of the NART to American populations and American 
+versions were developed, such as The American National Adult Reading Test 
+(Schwartz & Saffran, 1987) and the North American Adult Reading Test (Blair & 
+Spreen, 1989). Tests such as these should be excluded when considering a British 
+population. 
+Page 8 
+The present literature review aims to critically appraise the validity of measures 
+used to assess PMIF in people with dementia, mindful of the criteria presented in 
+Figure 1. It aims to be of use to clinicians who work in dementia services in Britain; 
+therefore it aims to evaluate only those measures which have been designed for use 
+with a British-English speaking population. 
+In order to provide continuity with the existing reviews this paper will explore the 
+literature from 1996 onwards.  
+Page 9 
+METHODS 
+Literature searches were carried out between October 2011 and January 2012, using 
+the databases PsycINFO, Cinahl, Medline and Web of Science. Search terms 
+included Premorbid OR Pre-morbid AND (IQ OR intell*
+ OR funct*) AND 
+Dementia NOT (Schizophrenia OR psychosis). Reference lists of included papers 
+were searched and cited reference searches were made using the Web of Science. 
+The British Journal of Clinical Psychology was also searched using the above 
+criteria, but no additional papers were found.  
+The search strategy (Appendix 7) yielded 544 papers overall. Abstracts of articles 
+were read to check their suitability for inclusion.  Articles were only included if 
+they met the inclusion criteria in Figure 2. Twelve papers met these criteria. The 
+main aspects of these papers are summarised in Table 1. 
+Figure 2: Inclusion Criteria 
+ The * symbol is used to denote a truncation in order to search for any words beginning with those 
+letters 
+Papers were included if: 
+ they were published in peer-reviewed journals 
+ they were in the English language 
+ they contained a distinct dementia population 
+ the measures had been designed for use with a British-English speaking 
+population 
+ the research evaluated the use of a pre-morbid measure  
+ the study was published from 1996 onwards 
+Page 10 
+Study Participants 
+Mean age in 
+years (range) 
+Dementia 
+severity 
+Pre-morbid 
+Measures* 
+Main findings 
+Bucks, Scott, 
+Pearsall & 
+Ashworth 
+(1996) 
+202 subjects: 
+119 dementia 
+(not specified)              
+83 controls 
+Overall mean: 
+70.1  (44-88) 
+Not included 
+Short NART              
+The short NART could not accurately 
+predict scores for the full version of the 
+NART, as it underestimated scores by up to 
+one standard deviation. It was deemed to be 
+unacceptable as a clinical measure in its 
+current format.  
+Beardsall & 
+Huppert (1997) 
+20 dementia                       
+61 normal                   
+Dementia  
+Minimal 
+mean: 83.6 
+(78-95)                           
+Mild/moderate 
+mean: 86.6 
+(79-95)          
+Controls 
+mean: 83.0 
+(77-94) 
+13 Minimal               
+7 mild/ 
+moderate         
+as defined by 
+CAMDEX 
+Short NART 
+Short CCRT                           
+Short Spot-the-
+Word (STW)    
+The short CCRT produced a higher 
+estimate of pre-morbid ability in both 
+people with dementia and controls, than the 
+short NART. Short STW performance was 
+good for people with minimal dementia but 
+grossly impaired in people with 
+mild/moderate dementia. It was therefore 
+suggested that each test is only appropriate 
+for specific groups of people. 
+Paolo, Trster, 
+Ryan & Koller 
+(1997) 
+44 Alzheimer's  
+44 Controls 
+Alzheimer's 
+Mild mean: 
+74.04       
+Alzheimer's 
+Moderate 
+mean:74.20            
+Controls 
+mean: 73.20   
+24 mild mean 
+Dementia 
+Rating Scale 
+(DRS) score: 
+115.38 
+20 moderate 
+mean DRS 
+score: 99.15             
+Barona 
+demographics                   
+(WAIS-R) 
+NART and Barona demographics both 
+overestimated the IQs of people with 
+Alzheimer's, when compared to WAIS-R 
+IQ. People with moderate dementia scored 
+lower than those with mild dementia on the 
+NART, suggesting that the NART is 
+sensitive to dementia severity. However, 
+given that the scores were still higher than 
+the WAIS-R, the NART may still provide 
+relevant clinical information.  
+Page 11 
+Study Participants 
+Mean age in 
+years (range) 
+Dementia 
+severity 
+Pre-morbid 
+Measures* 
+Main findings 
+Conway & 
+OCarroll (1997) 
+30 Alzheimer's 
+Group mean 
+Two groups                  
+MMSE < 17 
+MMSE  17 
+Overall mean 
+MMSE:16.4  
+(5-26) 
+Placing NART words in the context of 
+sentences (CCRT) reduced the number of 
+pronunciation errors made. This effect was 
+largest for the more severe dementia group. 
+Moreover, the CCRT was not correlated to 
+the MMSE whereas the NART was. This 
+suggests that the CCRT is a better estimate 
+of pre-morbid ability than the NART.  
+Law & O'Carroll 
+(1998) 
+21 Alzheimer's          
+114 controls (but 
+reduced to 50 
+controls when 
+matched to 
+Alzheimers 
+subjects) 
+Alzheimer's 
+mean: 77.4   
+Controls 
+mean: 67.5  
+Alzheimers 
+MMSE mean: 
+17.0 (10-21) 
+Controls 
+MMSE: no 
+mean given 
+(25-30) 
+All three measures were relatively 
+unaffected by Alzheimer's. Both the NART 
+and the CCRT correlated well with current 
+measures of verbal intelligence in the 
+control group, but the STW had a low 
+correlation. Placing the words in context 
+resulted in 4.4 fewer errors for the 
+Alzheimers group and 0.8 fewer errors for 
+controls. Overall, CCRT is recommended 
+as the fairest estimate of pre-morbid ability. 
+Taylor (1999) 
+43 Alzheimer's            
+41 Multi-infarct 
+dementia 
+Alzheimer's 
+mean 75.3 
+(53-91)    
+Multi-infarct 
+dementia 
+mean 69.5 
+(37-92)   
+Average 
+duration of 
+dementia was  
+3 years 
+Demographic 
+variables 
+(Crawford et al. 
+1990) 
+The NART correlated strongly with 
+measures of current functioning, this 
+suggests that it is influenced by dementia 
+severity. To avoid an underestimation of 
+ability, demographic variables should be 
+used either as a substitute for, or in addition 
+to, the NART. 
+Page 12 
+Study Participants 
+Mean age in 
+years (range) 
+Dementia 
+severity 
+Pre-morbid 
+Measures* 
+Main findings 
+Cockburn, 
+Keene, Hope & 
+Smith (2000) 
+78 Alzheimers 
+or mixed 
+dementia 
+Overall mean 
+(at time of 
+entry to the 
+study): 78.63 
+(60-95) 
+MMSE scores   
+mean: 14.32      
+range: 0-26 
+(MMSE) 
+Four annual assessments were carried out 
+with people with dementia. NART score 
+was found to decline over time. The amount 
+of decline in the NART scores was a 
+function of previous MMSE scores, with 
+greater decline being shown as MMSE 
+scores decreased. This suggests that the 
+NART is associated with current cognitive 
+ability and its validity is compromised as 
+severity increases. 
+Bright, Jaldow 
+& Kopelman 
+(2002) 
+32 Alzheimers             
+51 controls                 
+64 other 
+conditions (e.g. 
+Frontal lesions, 
+Korsakoffs 
+Syndrome and 
+temporal lobe)        
+Alzheimer's 
+mean 67.16     
+Controls 
+mean: 55.39 
+Mean duration 
+of symptoms: 
+2.9 years  
+(6 months- 6 
+years). 
+NART-R          
+Demographic 
+variables  
+(Crawford et 
+al., 1989a; 
+Crawford & 
+Allen, 1997)     
+(WAIS) 
+(WAIS-R)   
+NART/NART-R had higher correlations 
+with current WAIS IQ in controls than 
+demographics variables. An equation 
+combining NART and demographics did 
+not increase the amount of variance that 
+could be explained. This suggests that the 
+NART is a valid predictor of pre-morbid 
+ability in early Alzheimer's. 
+McGurn et al. 
+(2004) 
+45 Dementia      
+(Alzheimer's,  
+vascular and 
+unspecified 
+dementia)                       
+464 Controls 
+Dementia 
+mean: 79.0             
+Controls 
+mean: 79.1 
+Dementia 
+MMSE mean: 
+22.3. (Mild-
+moderate).  
+Controls 
+MMSE mean: 
+NART scores in both dementia and control 
+groups were compared to an IQ test that 
+was taken at age 11. After controlling for 
+childhood ability, there were no differences 
+between the groups on the NART. The 
+NART is valid as an estimator of ability in 
+mild to moderate dementia. 
+Page 13 
+Study Participants 
+Mean age in 
+years (range) 
+Dementia 
+severity 
+Pre-morbid 
+Measures* 
+Main findings 
+McFarlane, 
+Welch & 
+Rodgers (2006) 
+66 Alzheimer's: 
+(30 minimal 
+36 mild)                
+32 controls  
+Minimal 
+mean: 73.6 
+(47-91)                      
+Mild mean: 
+75.6 (47-91)            
+Controls  
+mean: 70.0 
+(48-84) 
+Minimal: 
+MMSE 24.6  
+(24-28) 
+Mild: MMSE                
+18.6 (14-23)  
+Controls: 
+MMSE 29.5 
+Demographics 
+regression 
+equation 
+(Crawford & 
+Allen, 1997) 
+Irregular word reading is compromised in 
+mild dementia. This group performed better 
+on the CCRT than the NART, but still made 
+significantly more errors than the minimum 
+or control group. Demographic variables 
+produced a significantly higher estimate of 
+pre-morbid IQ than the NART in the mild 
+group. There were no significant 
+differences for the minimal or control 
+groups, or when compared to the CCRT. 
+No significant group differences were 
+found on the STW test. This suggests that 
+lexical decision tasks may provide a more 
+accurate pre-morbid measure for people 
+with mild dementia. 
+Hilsabeck & 
+Sutker (2009) 
+Demographics 
+from Study 2 
+31 dementia:        
+(18 Alzheimer's         
+10 MCI                   
+1 Vascular,        
+1 Lewy bodies, 
+and 1 
+unspecified)                  
+100  controls 
+Dementia 
+mean: 74.94   
+Controls 
+mean: 24.68 
+Dementia 
+MMSE mean: 
+(19-30)   
+Anagrams 
+Solutions            
+(RBANS) 
+(WAIS-III)                                       
+The anagrams solution, is not effective at 
+predicting pre-morbid memory functioning. 
+Whilst there were no significant differences 
+between the groups on the anagrams 
+solutions task, there was a low correlation 
+between this task and other memory tests. 
+Demographic variables and IQ combined, 
+only accounted for between 24% and 31% 
+of variance.  
+Page 14 
+Study Participants 
+Mean age in 
+years (range) 
+Dementia 
+severity 
+Pre-morbid 
+Measures* 
+Main findings 
+Duff, Chelune & 
+Dennett (2011) 
+1,059 referrals to 
+dementia clinic 
+Group mean: 
+MMSE mean: 
+MMSE scores:                           
+18%  < 21                  
+23% 21-24                     
+29% 25-27                           
+30% 28-30    
+Test of         
+Pre-morbid 
+Functioning                   
+Pre-morbid 
+memory 
+equations 
+(Duff, 2010) 
+Explored the validity of formulae (based on 
+demographic variables and an estimate of 
+pre-morbid intellect) to estimate pre-morbid 
+memory functioning. Large and statistically 
+significant differences were observed 
+between pre-morbid and current memory 
+function. The use of these formulae in 
+future clinical work is supported but some 
+cautions are noted. 
+*Short National Adult Reading Test (Short NART; Beardsall & Brayne, 1990); National Adult Reading Test (NART; Nelson, 1982); 
+National Adult Reading Test Revised (NART-R; Nelson & Willison, 1991); Barona Demographics Index (Barona et al., 1984); 
+Cambridge Contextual Reading Test (CCRT; Beardsall & Huppert, 1994); Spot-the-Word (STW; Baddeley, Emslie & Nimmo-Smith, 
+1993); Demographic variables (Crawford & Allen, 1997; Crawford et al. 1989a; Crawford et al., 1990); Anagrams Solutions (Hilsabeck 
+& Sutker, 2009); Wechsler Test of Adult Reading (WTAR; Wechsler, 2001); Test of Pre-morbid Functioning (TOPF; Wechsler, 2011); 
+Pre-morbid memory equations (Duff, 2010). 
+Table 1: Summary of Included Papers   
+Page 15 
+RESULTS 
+Assessment of Validity Criteria 
+Study 
+Criteria that the study assessed: 
+Correlation 
+with scores 
+produced 
+prior to 
+dementia 
+onset 
+Use of 
+different 
+levels of 
+dementia 
+severity  
+Correlation 
+with current 
+abilities in 
+control 
+group  
+Correlation 
+with current 
+abilities in 
+dementia 
+group 
+Paolo, Trster, 
+Ryan & Koller 
+(1997) 
+Bright, Jaldow & 
+Kopelman (2002) 
+Hilsabeck & 
+Sutker (2009) 
+McGurn et al. 
+(2004) 
+Cockburn, 
+Keene, Hope & 
+Smith (2000) 
+Beardsall & 
+Huppert (1997) 
+Conway & 
+OCarroll (1997) 
+McFarlane, 
+Welch & Rodgers 
+(2006) 
+Law & O'Carroll 
+(1998) 
+Taylor (1999) 
+Duff, Chelune & 
+Dennett (2011) 
+Bucks, Scott, 
+Pearsall & 
+Ashworth (1996) 
+Table 2: Validity Criteria Assessed by each Study 
+Page 16 
+Each of the included papers was cross-checked against the validity criteria set out in 
+Figure 1. The studies have been ordered on the basis of the number of criteria that 
+they assessed for (Table Two). Studies which assessed a greater number of the 
+criteria were deemed to be of a higher quality than those studies which assessed 
+fewer aspects.  
+The National Adult Reading Test (NART)  
+ Validity with dementia. 
+Ten of the papers reviewed explored the validity of the NART. Five papers 
+suggested that performance on the NART is affected by dementia and five 
+concluded that it is not. These papers are critically appraised below.  
+Bright, Jaldow and Kopelman (2002), who assessed two of the validity criteria, 
+found the NART to be a valid estimate of pre-morbid intelligence. They studied 
+groups of people with various conditions including Alzheimers disease, 
+Korsakoffs Syndrome, frontal or temporal lobe lesions and healthy controls. They 
+examined participants scores on: the NART (both original and revised versions; 
+NART-R), demographic variables and a combination of both. They compared these 
+scores to participants current WAIS/WAIS-R scores and to the control group. In 
+the control group both the NART and NART-R had higher correlations with current 
+functioning (r=0.75 and r=0.73 respectively), than either of the demographic 
+variables (r=0.50 and r=0.46). In the Alzheimers group the NART significantly 
+overestimated peoples WAIS/WAIS-R scores. They concluded that the NART is 
+valid as an estimate of pre-morbid intellectual functioning. 
+Bright et al., (2002) used a relatively small Alzheimers population (n=32) who 
+were in the early stages of dementia (average symptom duration of 2.9 years). The 
+Page 17 
+authors themselves note that it would be interesting to explore whether or not 
+reading ability deteriorates with increased dementia severity, as they suspected it 
+might. If ability does deteriorate then the NART, which has to be read, would not be 
+valid with people with severe dementia. 
+Further support for the NART is provided by Law and OCarroll (1998). They 
+compared the performance of 21 people with dementia and 114 controls, on the 
+NART, the CCRT and the STW. They found that performance on all three measures 
+was relatively unaffected by Alzheimers disease, as there were no significant 
+differences between the Alzheimers and control group. Moreover, they showed that 
+scores on the NART correlated well with current verbal intelligence in the control 
+group (r=0.72). As such they concluded that the NART is valid as a measure of pre-
+morbid functioning. 
+However, whilst the control groups correlation between NART and verbal 
+intelligence was good, the correlation with WAIS full-scale IQ was low (r=0.55), 
+leaving a lot of variance left unexplained. Given that the NART is used as a 
+predictor of pre-morbid IQ and not just verbal intelligence, it would be expected 
+that this correlation would be higher, raising questions about the validity of the 
+NART.  
+Furthermore, Law and OCarrolls control group had a Mini-Mental State 
+Examination score (MMSE; Folstein et al., 1975) of over 24. The authors 
+acknowledge that it is still possible to have significant cognitive impairment with an 
+MMSE score of 25 or above. This potential confound may have contributed to a 
+lack of difference between the dementia and control groups.  
+Page 18 
+McFarlane, Welch and Rodgers, (2006) used a cross-sectional design to study the 
+effects of dementia severity on performance on a range of pre-morbid measures 
+including: the NART, CCRT, WTAR, STW and demographic regression equations. 
+They studied 66 people with Alzheimers and 32 controls, and separated the 
+dementia group into two stages of dementia severity (minimal: MMSE 24-28 and 
+mild: MMSE 14-23). Overall, they found that the mild dementia group made 
+significantly more errors on the reading tests than either the controls or minimal 
+group. These errors were reduced when the words were put into context, using the 
+CCRT, but the mild group still made significantly more errors. They concluded that 
+NART performance is affected by mild dementia and may not be valid for people 
+with an MMSE score of between 14 and 23.  
+A criticism of this study is the disparity in the MMSE range of the two dementia 
+groups. The minimal group had a range of 5 MMSE values (24-28), whereas the 
+mild group covered 10 MMSE values (14-23). It is possible that group differences 
+emerged due to the values at the lower end of the range, and that these may not have 
+been present if an MMSE range of 19-23 had been used. Further research is needed 
+to clarify this. Secondly, it would be naive to assume that the NART is valid above 
+a certain MMSE score, but invalid below this. Instead, it is likely that the NARTs 
+validity reduces gradually as dementia severity increases, and clinicians should be 
+aware of this. 
+Paolo, Trster, Ryan and Koller (1997) explored the validity of the NART, in a 
+sample of 44 people with Alzheimers disease and 44 controls. They found that 
+NART performance was affected by dementia severity, with participants with more 
+severe dementia (Dementia Rating Scale (DRS) < 110; Mattis, 1988) gaining lower 
+scores. However, given that NART estimated pre-morbid IQs were higher than 
+Page 19 
+scores of current ability, they concluded that the NART may still be able to provide 
+some relevant clinical information. Of all the included studies, Paolo et al. (1997) 
+assessed the highest number of validity criteria (Table 2), consequently greater 
+reliance should be placed on the findings of this study. 
+Longitudinal NART Studies.  
+Two studies employed a longitudinal approach to assessing the validity of the 
+NART. A longitudinal approach provides an insight into how an individuals score 
+changes over time, and removes any between-subject differences.  
+McGurn et al., (2004) compared NART predicted pre-morbid IQ scores with actual 
+pre-morbid IQ scores (taken from age 11 school tests), in both a dementia and 
+control group. This was the only included study which assessed this validity 
+criterion and as such provides a rare assessment of the NARTs validity. The 
+dementia group was classed as having mild to moderate dementia with a mean 
+MMSE score of 22.3. McGurn et al., found that the correlations between NART and 
+age 11 IQ were similar for both the dementia (r=0.63) and control groups (r=0.60). 
+These authors concluded that the NART is a valid measure in people with mild to 
+moderate dementia. However, they did not explore the scores of people with more 
+severe dementia. 
+Cockburn, Keene, Hope and Smith (2000) explored whether NART scores change 
+with dementia progression. Unlike other studies, they assessed this validity criterion 
+using the same group of individuals. They conducted annual assessments of 78 
+people with Alzheimers disease and followed them up until they died, up to nine 
+years later. NART scores were found to decline as dementia severity increased. The 
+amount of NART decline was found to be a function of a persons previous MMSE 
+Page 20 
+score, with lower MMSE scores predicting larger amounts of subsequent NART 
+decline. This suggests that the NART may be sensitive to current cognitive 
+functioning, and is not solely measuring pre-morbid abilities.  
+Interestingly there was an exception to these findings with one participant 
+producing stable NART scores throughout, despite a decline in MMSE. Cockburn 
+et al., (2000) concluded that relying on group data may be misleading and suggested 
+there is more to learn about how dementia affects reading ability. 
+Overall, while the NART appears to overestimate the current abilities of people 
+with dementia, performance has been shown to be affected by dementia severity, 
+with lower scores being produced for people with more severe dementia.  
+Short NART  
+Following criticism that the full NART may be distressing to people who performed 
+badly, it was suggested that the NART could be estimated on the basis of the first 
+half of the test alone (Beardsall & Brayne, 1990; Crawford, Parker, Allan, Jack & 
+Morrison, 1991). Bucks et al., (1996) aimed to validate this with a group of 119 
+people with dementia and 83 controls. The authors stated that there were 
+unacceptably large discrepancies between the scores of the two versions of the 
+NART and subsequently the short NART was deemed not to be valid as a 
+replacement for the full NART. A criticism of Bucks at al., (1996) is that it was the 
+only study which did not assess any of the suggested validity criteria. More research 
+is needed to assess the validity of the short NART in terms of its correlation with 
+current measures of ability. 
+Beardsall and Huppert (1997) which assessed only one the validity criteria, found 
+no significant differences between the dementia group (n=20) and the control group 
+Page 21 
+of average reading ability (n=30), on the short NART, CCRT and STW. However, 
+the short NART led to a lower estimate of reading ability than the short CCRT, 
+mean of 2.3 fewer words for the controls, and 3.8 for the dementia group. This 
+suggests that the CCRT is superior to the NART, but further work is needed to see 
+if a higher score on the CCRT equates to a better prediction of pre-morbid IQ.  
+From the papers reviewed, there is little to support the validity of the short NART, 
+as other measures can provide a fairer estimate of PMIF. 
+Demographic Variables 
+Whilst demographic variables are completely independent of current functioning, 
+Crawford et al. (1989b) have shown that they are not able to explain as much of the 
+variance in WAIS Full-Scale IQ as the NART. It is therefore not clear how valid 
+demographic variables are. 
+McFarlane et al. (2006) found demographic variables (based on Crawford and 
+Allans (1997) regression equation) to be a better estimate of pre-morbid 
+functioning than the NART, in people with mild dementia (MMSE score 14-23). 
+Likewise Taylor (1999) supported the use of demographic variables. In a study of 
+84 people with dementia Taylor found that NART performance is affected by 
+dementia severity as it correlated significantly with tests of current cognitive ability. 
+He concluded that the NART was not valid as a measure and instead he advocated 
+the use of demographics which are not affected by dementia severity.  
+As previously reported, Bright et al., (2002) found that demographics variables 
+demonstrated lower correlations with current WAIS ability in the control group than 
+the NART. As such they found that the NART was a better predictor of pre-morbid 
+functioning. However, the authors noted that performance on the NART may 
+Page 22 
+deteriorate if a more advanced dementia population was used; whereas estimates 
+from demographic variables would not be affected.  
+Paolo et al., (1997) which assessed three of the validity criterion, found that Barona 
+demographics accurately predicted short WAIS-R IQs in the control group (n=44), 
+and overestimated short WAIS-R IQs in the dementia group (n=44). The Barona 
+demographics could detect deterioration in more people diagnosed with mild 
+impairment (DRS  110) than the NART. They concluded that demographic 
+variables may be more powerful in detecting decline. 
+Uncertainty remains about the validity of demographic variables. Despite lower 
+correlations with current abilities, demographic variables may be preferable in 
+situations where other measures are compromised, such as with people with severe 
+dementia; although, by this stage the dementia would probably be evident without 
+the need for neuropsychological assessments. 
+The NART assumes that words which are not pronounced correctly are not in a 
+persons reading vocabulary. However, Beardsall and Huppert (1994) suspected 
+that some people mispronounced words which they read accurately in everyday life. 
+They suggested that words needed to be placed into context in order to facilitate 
+recognition, so they developed the CCRT. Franzen et al.s (1997) concluded that 
+whilst people produced fewer pronunciation errors on the CCRT than the NART, 
+work was needed to see whether or not this made the CCRT a better predictor of 
+pre-morbid IQ. 
+The present review identified four studies that have investigated the validity of the 
+CCRT. As already stated Beardsall and Huppert (1997) found that the short CCRT 
+Page 23 
+provided a higher estimate of pre-morbid functioning than the short NART, in 
+people with both minimal and mild/moderate dementia. Conway and OCarroll 
+(1997) supported this by comparing the scores of 30 people with Alzheimers 
+disease on both the NART and the CCRT. They found that people made 
+significantly fewer errors on the CCRT than the NART (t=3.08, p<0.01), with the 
+more severe dementia group (MMSE < 17) showing a greater increase in scores (2.6 
+fewer errors), than the group with an MMSE  17 (0.9 fewer errors). Moreover, the 
+authors found that whilst the NART was correlated to MMSE scores, the CCRT 
+was not. This suggests that performance on the CCRT is affected less by dementia 
+severity than the NART. 
+Law and OCarroll (1998) compared the scores of 21 people with Alzheimers to 
+114 controls on the NART, CCRT and STW. They found performance on all three 
+measures were relatively unaffected by Alzheimers disease. People in the dementia 
+group scored 4.4 words higher on average on the CCRT than the NART. Moreover, 
+in the control group, the CCRT was shown to have a higher correlation (r=0.63) 
+with measures of current intellectual abilities than either the NART (r=0.55) or the 
+STW (r=0.36). From this they concluded that the CCRT was the fairest estimate of 
+pre-morbid ability.  
+McFarlane et al. (2006) showed that performance on the CCRT was affected by 
+dementia severity. They found that despite scoring higher on the CCRT than the 
+NART, people with mild dementia (MMSE: 14-23) made significantly more errors 
+than either the minimal dementia (MMSE: 24-28) or the control group.  
+A criticism of these studies is the size of the dementia groups. The largest study, 
+McFarlane et al. (2006), used a sample of 66 people, however, this sample was 
+Page 24 
+reported to be underpowered. If any of the other studies were also underpowered 
+then this could have a significant impact on the conclusions made, and replications 
+with larger populations are needed.  
+The finding that the CCRT correlates more highly with current ability in the control 
+group, suggests that the CCRT is a better estimate of pre-morbid IQ than the 
+NART. However, none of these studies assessed the correlation between the CCRT 
+and either: scores taken prior to the onset of dementia, or current abilities in the 
+dementia group. These criteria need to be assessed in order to determine the full 
+validity of the CCRT.  
+Despite its popularity among clinicians, only McFarlane et al., (2006) evaluated the 
+validity of the WTAR. No differences between the controls and combined minimal 
+and mild dementia group were found on the WTAR, t(95)=1.71, p>0.05, although 
+there were significant differences between the minimal (MMSE: 24-28) and mild 
+(MMSE: 14-23) dementia groups t(65)=2.21, p<0.05. This suggests that people 
+make significantly more errors on the WTAR as dementia severity increases. As 
+such the WTAR may only be valid with people with minimal dementia; however, 
+further research is needed to confirm this. Moreover, there is a need to assess the 
+validity of the WTAR in terms of its correlation with current intellectual ability, 
+something that McFarlane et al. did not assess. 
+Beardsall and Huppert (1997) found no significant differences between the 
+dementia and control groups on the short STW, a test of lexical-decision-making. 
+However, the authors noted that the probability was of borderline significance 
+Page 25 
+(F=3.0, p<0.06), with people with more severe dementia: mild/moderate, (as 
+defined by the Cambridge Mental Disorders of the Elderly Examination, 
+CAMDEX; Roth et al., 1986), performing significantly worse than controls. They 
+therefore suggested that the short STW is not valid as a predictor of pre-morbid IQ 
+in people with mild/moderate dementia. Given that Baddeley et al. (1993) found the 
+correlation between the short and full STW was 0.94, Beardsall and Hupperts 
+(1997) findings can be generalised to the full STW. A limitation of this study is that 
+the probability level is set at 0.06, which increases the chances of making a type 1 
+error. Moreover, as only 7 people had mild/moderate dementia, this study may be 
+underpowered and replications are needed.  
+McFarlane et al. (2006) found that there were no significant differences between the 
+controls and the combined minimal and mild dementia group on the STW, 
+t(95)=0.61, p>0.05. They also found no significant differences between the mild 
+(MMSE: 14-23) and minimal dementia (MMSE: 24-28) groups t(65)=1.11, p>0.05. 
+They concluded that the STW is valid with all levels of dementia severity and may 
+provide the best estimate of PMIF in people with mild dementia. However, they 
+note the need to further investigate the correlation between the STW and current 
+intellectual ability, something which Law and OCarroll (1998) found to be low 
+(r=0.36).  
+The evidence suggests that the STW may be useful as an estimate of pre-morbid IQ 
+but further studies are needed to support this. It is noted, however, that McFarlane 
+used a later version of the STW and further research is needed to explore whether 
+this makes a difference to the findings stated. 
+Page 26 
+Pre-Morbid Memory 
+Most of the methods of estimating PMIF, described above, focus on measuring a 
+persons pre-morbid IQ. However, cognitive decline encompasses impairment in a 
+persons memory abilities too. Given that pre-morbid IQ is often predicted on the 
+basis of verbal IQ alone, memory abilities are being ignored. Currently, pre-morbid 
+memory is measured by clinical judgement on the basis of demographics alone, but 
+this is liable to considerable error. A need to develop objective measures of pre-
+morbid memory is indicated. 
+Hilsabeck & Sutker (2009) suggested the use of an implicit memory task, the 
+Anagrams Solutions, as an objective way of measuring pre-morbid memory. 
+However, they found that it was not valid as a measure of memory function, as it 
+did not correlate significantly with explicit memory measures in the control group.  
+Duff, Chelune and Dennett (2011) evaluated the use of formulae (based on 
+demographic variables and an estimate of pre-morbid intellect; Duff, 2010), to 
+estimate pre-morbid memory in 1,059 Dementia clinic referrals. The pre-morbid 
+memory equations significantly overestimated current abilities on four different 
+measures. However, the memory formulae were found to correlate to MMSE 
+scores, suggesting that they are affected by dementia severity. As such their validity 
+is uncertain.  
+A critique of this study is that formal dementia diagnoses were not stated, with 
+cognitive impairment seemingly implied from either MMSE or DRS. Thirty percent 
+of participants scored 28 or higher on the MMSE, and consequently may not have 
+had any cognitive decline. Replications of these findings using a confirmed 
+dementia population are needed. Moreover, there is a need to explore the formulaes 
+Page 27 
+validity across different levels of dementia severity, and when compared to a 
+control group. These criteria need to be assessed before making conclusions as to 
+the validity of this measure. 
+Limitations 
+Classification of Severity 
+There is little consistency in the way that dementia severity is defined: seven studies 
+used the MMSE, one used the DRS, one the CAMDEX and three did not comment. 
+The same is true for severity terminology. McFarlane et al. (2006) classed people as 
+having minimal dementia if they had an MMSE score between 24 and 28, and 
+mild between 14 and 23. Duff et al., (2011) classed people as milder with an 
+average MMSE of 24.5, whereas, Law and OCarroll (1998), accepted people in the 
+control group with an MMSE score of 25. Standardisation of severity terms are 
+needed in order to fully integrate the research into clinical practice. Without this it 
+will be difficult to determine how valid these measures of PMIF are with people 
+with varying levels of dementia. 
+MMSE scores are affected by variables such as age and education (Anthony, 
+LeResche, Niaz, Von Korff & Folstein, 1982; Crum, Anthony, Bassett, & Folstein, 
+1993) so need to be adjusted accordingly. However, of the seven studies that used 
+the MMSE, only McGurn et al., (2004) and Hilsabeck & Sutker (2009) explicitly 
+noted the use of adjusted MMSE scores (the former for age 11 IQ and the latter for 
+age and gender). This suggests that the other studies may be flawed if they classed 
+severity on unadjusted MMSE scores.  
+Page 28 
+Study Exclusion criteria 
+Bucks, Scott, Pearsall & 
+Ashworth (1996) 
+Not specified 
+Beardsall & Huppert (1997) Depression 
+Paolo, Trster, Ryan & Koller 
+(1997) 
+Stroke, psychiatric disorder, significant head trauma, illicit drug or alcohol abuse, medication that impairs 
+cognition and other signs/symptoms of neurological disorders that may compromise cognition 
+Conway & OCarroll (1997) 
+Infective, metabolic, nutritional and hormonal causes of organic disorder were excluded as well as 
+functional psychiatric disorders 
+Law & O'Carroll (1998) Not specified 
+Taylor (1999) 
+History of alcohol abuse, uncorrected sight/hearing, physical disability affecting testing, recent infection 
+or other illness, head injury, major psychiatric problems or ECT 
+Cockburn, Keene, Hope & 
+Smith (2000) 
+Alcohol abuse, any suggestion of causes of disease other than dementia i.e. previous head injury or 
+hypothyroidism 
+Page 29 
+Table Three: Exclusion Criteria 
+Bright, Jaldow & Kopelman 
+(2002) 
+Hypertensive or cerebrovascular disease 
+McGurn et al. (2004) Not specified 
+McFarlane, Welch & Rodgers 
+(2006) 
+Alcohol abuse, depression, stroke, head injury and any uncorrected eyesight problems 
+Hilsabeck & Sutker (2009) 
+Current or past neurological or psychiatric illness, history of significant head trauma, active substance 
+abuse or dependence or cognitive impairment so severe as to prohibit participation in the study 
+Duff, Chelune &  Dennett 
+(2011) 
+Not specified 
+Page 30 
+Causes of Cognitive Decline 
+Several factors can cause cognitive decline other than dementia. These include: age 
+(Morris, Craik & Gick, 1990), psychosis (Bilder et al., 2000; Addington et al., 
+2003); substance misuse (Block & Ghoneim, 1993); excessive alcohol (Evert & 
+Oscar-Berman, 1995); prescribed medications (Fox et al., 2011); acquired brain 
+injury (Whyte, Skidmore, Aizenstein, Ricker & Butters, 2011) and stroke (Mok et 
+al., 2004). However, very few studies screened for these factors (see Table Three). 
+There may be potential confounds in any research, which assumes cognitive decline 
+to be produced by dementia alone.  
+Dyslexia  
+Several measures require a person to read irregular words. However, this may result 
+in an underestimation of pre-morbid functioning in some people with dyslexia, if 
+they rely on phonetics to help them to read. Indeed the NART states that it is not 
+valid with people with dyslexia. The STW, however, is cited as being valid for use 
+with dyslexia (Baddeley at al., 1993) although its validity with a dementia 
+population still needs to be proven. Newer non-reading estimates, such as Spot-the-
+book and Spot-the-country (Scott, Wit & Deary, 2006), have also shown promise in 
+healthy participants, but further assessment with participants with both dyslexia and 
+dementia is needed.   
+Demographic Equations 
+Throughout this paper demographic variables have been explored as one group. 
+However, demographic estimates are derived from several different regression 
+equations (Crawford et al., 1989a; Barona et al., 1984; Crawford & Allan, 1997). It 
+http://bjp.rcpsych.org/content/191/51/s52.full#ref-6
+http://bjp.rcpsych.org/content/191/51/s52.full#ref-1
+http://bjp.rcpsych.org/content/191/51/s52.full#ref-1
+Page 31 
+would be interesting to know if there are significant differences between these 
+equations, and if so, which is the most valid with dementia.  
+Diagnostic Criteria  
+There is considerable variation in how dementia is classified. The NINDS-ADRDA 
+(McKhann et al., 1984) referring specifically to Alzheimers disease, was referred 
+to in six studies; the CAMDEX and DSM-IV were both used in two studies, while 
+ICD-10 (World Health Organisation, 1992), the Hachinski Index (Hachinski et al., 
+1975) and DSM-III-R (American Psychiatric Association, 1987) were all referred to 
+once (one study used two criteria). Choice of diagnostic criteria seems varied. A 
+study by Wetterling, Kanitz & Borgis (1996) on vascular dementia found a 
+concordance rate of only 53% between the diagnostic criteria used. Research is 
+needed to clarify whether diagnostic variations in the literature reviewed in this 
+present paper have any impact on the findings stated. 
+CLINICAL IMPLICATIONS  
+The present review evaluated the validity of measures of pre-morbid intellectual 
+functioning with dementia. No evidence was found supporting the validity of one 
+single measure for use with dementia at all stages of severity. Moreover, a number 
+of measures should not be used in particular situations. Both the NART and the 
+WTAR are shown to underestimate the ability of people with an MMSE less than 
+24. Whilst the CCRT produced higher estimates of pre-morbid reading ability, it 
+too is affected by dementia, and may be unreliable with people with an MMSE less 
+than 24. There was no evidence to support the use of the short NART as a valid 
+estimator, and this should be avoided where possible. This is also true for the 
+Anagram Solutions, whose use was not validated. 
+Page 32 
+In terms of tests that should be used by clinicians, the current evidence suggests that 
+the CCRT is the most valid measure in people with minimal dementia (MMSE  
+24). It correlates well with current abilities in the control group, and produced an 
+estimate of reading ability up to 4.4 words higher than the NART. In the dementia 
+group, it was also shown not to correlate with current measures of ability. 
+There is more debate, however, as to which measure to use with people with more 
+severe dementia (MMSE<24). Given that several measures are affected by 
+dementia severity, underestimation of ability may occur if these measures are used 
+with people with more severe dementia. At present it is advised that demographic 
+variables, which are not affected by dementia severity, are the best predictors of 
+pre-morbid ability at this level of severity.  
+The Spot-the-Word test has some promising results across all levels of dementia 
+severity but the evidence base for this is limited. However, one study questioned its 
+correlation to current measures of ability in controls. Given that this could 
+potentially be valid for both people with mild dementia and people with dyslexia, 
+there is a need to investigate this further.  
+Furthermore, ceiling effects in measures must always be acknowledged. The 
+highest possible pre-morbid IQ estimated on the WTAR is 119. Therefore estimated 
+IQs should be considered as a lower estimate of ability, and not an absolute value.  
+Clinicians are advised to make use of multiple measures in order to estimate pre-
+morbid ability. Scores gained from at least two distinct measures should be cross-
+checked against each other. Large discrepancies will highlight potential limitations 
+in the measures, and alert clinicians to a possible underestimation of ability. 
+Consequently this should help to reduce the number of clinical errors made. 
+Page 33 
+Conclusions 
+Currently available objective measures of pre-morbid ability, used in addition to 
+clinical judgement, should reduce the chance of clinical misdiagnosis. The CCRT is 
+suggested as the best available measure of PMIF for people with MMSE scores of 
+24 or more, while demographic variables are recommended for scores below 24. It 
+is suggested that a combination of measures may be best to ensure an accurate 
+estimate of PMIF. Finally, a consistent definition of dementia severity is needed, 
+against which to compare the validity of different measures of pre-morbid 
+intellectual functioning.  
+Page 34 
+References 
+Review papers 
+Beardsall, L., & Huppert, F. (1997). Short NART, CCRT and Spot-the-Word: 
+Comparisons in older and demented persons. British Journal of Clinical 
+Psychology, 36 (4 ), 619-622.  
+Bright, P., Jaldow, E., & Kopelman, M. D. (2002). The National Adult Reading 
+Test as a measure of pre-morbid intelligence: A comparison with estimates 
+derived from demographic variables. Journal of the International 
+Neuropsychological Society, 8 (6) , 847-854. 
+Bucks, R.S., Scott, M.I., Pearsall, T. & Ashworth, D.L. (1996). The Short NART: 
+Utility in a memory disorders clinic. British Journal of Clinical 
+Psychology, 35 (1), 133-141. 
+Cockburn, J., Keene, J., Hope, T., & Smith, P. (2000). Progressive decline in 
+NART score with increasing dementia severity. Journal of Clinical and 
+Experimental Neuropsychology, 22 (4) , 508-517.  
+Conway, S.C., & OCarroll, R.E. (1997). An evaluation of the Cambridge 
+Contextual Reading Test (CCRT) in Alzheimer's disease. British Journal of 
+Clinical Psychology, 36 (4), 623-625. 
+Duff, K., Chelune, G.J., & Dennett, K. (2011). Predicting estimates of premorbid 
+memory functioning: Validation in a dementia sample. Archives of Clinical 
+Neuropsychology, 26, 701-705. 
+http://0-search.proquest.com.pugwash.lib.warwick.ac.uk/psycinfo/docview/619472105/132E8959E0C4EC08D71/5?accountid=14888
+http://0-search.proquest.com.pugwash.lib.warwick.ac.uk/psycinfo/docview/619472105/132E8959E0C4EC08D71/5?accountid=14888
+Page 35 
+Hilsabeck, R. C., & Sutker, P. B. (2009). Using an Implicit Memory Task to 
+Estimate Premorbid Memory. Archives of Clinical Neuropsychology, 24 
+(2), 179-191.  
+Law, R., & O'Carroll, R. E. (1998). A comparison of three measures of estimating 
+premorbid intellectual level in dementia of the Alzheimer type. 
+International Journal of Geriatric Psychiatry, 13, 727-730. 
+McFarlane, J., Welch, J., & Rodgers, J. (2006). Severity of Alzheimer's disease and 
+effect on premorbid measures of intelligence.  British Journal of Clinical 
+Psychology, 45, 453-463.    
+McGurn, B., Starr, J. M., Topfer, J. A., Pattie, A., Whiteman, M. C., Lemmon, H.A. 
+... & Deary, I.J. (2004). Pronunciation of irregular words is preserved in 
+dementia, validating premorbid IQ estimation. Neurology, 62 (7), 1184-
+1186.  
+Paolo, A. M., Trster, A. I., Ryan, J. J., & Koller, W.C. (1997). Comparison of 
+NART and Barona demographic equation premorbid IQ estimates in 
+Alzheimer's disease. Journal of Clinical Psychology, 53 (7) , 713-722.  
+Taylor, R. (1999). National Adult Reading Test performance in established 
+dementia. Archives of Gerontology and Geriatrics,  29 (3) , 291-296.  
+http://apps.webofknowledge.com/full_record.do?product=WOS&search_mode=MarkedList&qid=32&SID=P1BnjB2N5OBNK7ejFn7&page=1&doc=18&colName=WOS
+http://apps.webofknowledge.com/full_record.do?product=WOS&search_mode=MarkedList&qid=32&SID=P1BnjB2N5OBNK7ejFn7&page=1&doc=18&colName=WOS
+http://0-search.proquest.com.pugwash.lib.warwick.ac.uk/psycinfo/docview/619363542/132E8959E0C4EC08D71/7?accountid=14888
+http://0-search.proquest.com.pugwash.lib.warwick.ac.uk/psycinfo/docview/619363542/132E8959E0C4EC08D71/7?accountid=14888
+http://apps.webofknowledge.com/full_record.do?product=WOS&search_mode=MarkedList&qid=32&SID=P1BnjB2N5OBNK7ejFn7&page=1&doc=24&colName=WOS
+http://apps.webofknowledge.com/full_record.do?product=WOS&search_mode=MarkedList&qid=32&SID=P1BnjB2N5OBNK7ejFn7&page=1&doc=24&colName=WOS
+http://0-search.proquest.com.pugwash.lib.warwick.ac.uk/psycinfo/docview/620378526/132E8959E0C4EC08D71/2?accountid=14888
+http://0-search.proquest.com.pugwash.lib.warwick.ac.uk/psycinfo/docview/620378526/132E8959E0C4EC08D71/2?accountid=14888
+http://0-search.proquest.com.pugwash.lib.warwick.ac.uk/psycinfo/docview/619217081/132E8959E0C4EC08D71/11?accountid=14888
+http://0-search.proquest.com.pugwash.lib.warwick.ac.uk/psycinfo/docview/619217081/132E8959E0C4EC08D71/11?accountid=14888
+http://0-search.proquest.com.pugwash.lib.warwick.ac.uk/psycinfo/docview/619217081/132E8959E0C4EC08D71/11?accountid=14888
+http://0-search.proquest.com.pugwash.lib.warwick.ac.uk/psycinfo/docview/619436725/132E8959E0C4EC08D71/6?accountid=14888
+http://0-search.proquest.com.pugwash.lib.warwick.ac.uk/psycinfo/docview/619436725/132E8959E0C4EC08D71/6?accountid=14888
+Page 36 
+Other references 
+Addington, J., Brooks, D. J. & Addington, D. (2003). Cognitive functioning in first 
+episode psychosis: initial presentation. Schizophrenia Research, 62, 59-64. 
+American Psychiatric Association. (1987). Diagnostic and statistical manual of 
+mental health disorders (3rd ed. revised). Washington, DC: Author. 
+American Psychiatric Association. (2000). Diagnostic and statistical manual of 
+mental health disorders (4th ed.). Washington, DC: Author. 
+Anthony, J.C., LeResche, L., Niaz, U., Von Korff, M.R., & Folstein, M.F. (1982). 
+Limits of the Mini-Mental State as a screening test for dementia and 
+delirium among hospital patients. Psychological Medicine, 12, 397-408. 
+Baddeley, A., Emslie, H. & Nimmo-Smith, I. (1993). The Spot-the-Word Test: A 
+robust estimate of verbal intelligence based on lexical decision. British 
+Journal of Clinical Psychology, 32, 55-65. 
+Barona, A., Reynolds, C.R., & Chastain, R. (1984). A demographically based index 
+of premorbid intelligence for the WAIS-R. Journal of Consulting and 
+Clinical Psychology, 52 (5), 885-887. 
+Beardsall, L. & Brayne, C. (1990). Estimation of verbal intelligence in an elderly 
+community: A prediction analysis using the shortened NART. British 
+Journal of Clinical Psychology, 29, 83-90.  
+Beardsall, L. & Huppert, F.A. (1994). Improvement in NART word reading in 
+demented and normal older persons using the Cambridge Contextual 
+Page 37 
+Reading Test. Journal of Clinical and Experimental Neuropsychology, 16, 
+232-242.                                                                                                                                       
+Bilder, R. M., Goldman, R. S., Robinson, D.E., Reiter, G., Bell, L., Bates, J.A., et 
+al. (2000). Neuropsychology of first-episode schizophrenia: Initial 
+characterization and clinical correlates. American Journal of Psychiatry, 
+157, 549 559. 
+Blair, J., & Spreen, O. (1989). Predicting premorbid  IQ:  A Revision  of  the 
+National Adult Reading Test. The Clinical Neuropsychologist, 25, 119-124. 
+Block, R.I., & Ghoneim, M.M. (1993). Effects of chronic marijuana use on human 
+cognition. Psychopharmacology, 110, 219-228. 
+Crawford, J.R. & Allan, K.M. (1997). Estimating premorbid IQ with demographic 
+variables: Regression equations derived from a UK sample. Clinical 
+Neuropsychologist, 11, 192-197. 
+Crawford, J.R., Allan, K.M., Cochrane, R.H.B., & Parker, D.M. (1990). Assessing 
+the validity of the NART-estimated premorbid IQs in the individual case. 
+British Journal of Clinical Psychology, 29, 435-436. 
+Crawford, J.R., Parker, D.M., Allan, K.M., Jack, A.M. & Morrison, F.M. (1991). 
+The Short NART: Cross-validation, relationship to IQ and some practical 
+considerations. British Journal of Clinical Psychology, 30, 223-229. 
+Crawford, J.R., Stewart, L.E., Cochrane, R.H.B., Foulds, J.A., Besson, J.A.O., & 
+Parker, D.M. (1989a). Estimating premorbid IQ from demographic 
+variables: Regression equations derived from a UK sample. British Journal 
+of Clinical Psychology, 28, 275-278. 
+Page 38 
+Crawford, J.R., Stewart, L.E., Cochrane, R., Foulds, J., Besson, J.A.O., & Parker, 
+D.M. (1989b). Estimation of premorbid intelligence in organic conditions. 
+British Journal of Psychiatry, 153, 178-181. 
+Crum, R.M., Anthony, J.C., Bassett, S.S. & Folstein, M.F. (1993). Population-
+based norms for the Mini-Mental State Examination by age and educational 
+level. Journal of the American Medical Association, 269 (18), 2386-91. 
+Duff, K. (2010). Predicting premorbid memory functioning in older adults. Applied 
+Neuropsychology, 17 (4), 278-282. 
+Evert, D.L., & Oscar-Berman, M. (1995). Alcohol-related cognitive impairments: 
+An overview of how alcoholism may affect the workings of the brain. 
+Alcohol Health and Research World, 19 (2), 89-96. 
+Folstein,  M.F.,  Folstein,  S.E.,  &  McHugh,  P.R. (1975).  Mini-Mental State. A 
+practical method for grading the cognitive state of patients for the clinician.  
+Journal of Psychiatric Research, 12, 189-198. 
+Fox, C., Richardson, K., Maidment, I.D., Savva. G.M., Matthews, F.E., Smithard, 
+D., ... Brayne, C. (2011). Anticholinergic Medication Use and Cognitive 
+Impairment in the Older Population: The Medical Research Council 
+Cognitive Function and Ageing Study. Journal of the American Geriatric 
+Society, 59 (8), 1477-1483. 
+Franzen, M. D., Burgess, E. J., & Smith-Seemiller, L. (1997). Methods of 
+estimating premorbid functioning. Archives of Clinical Neuropsychology, 
+12, 711-738. 
+Page 39 
+Fromm, D., Holland, A. l., Nebes, R.D., & Oakley, M. A. (1991). A longitudinal 
+study of word-reading ability in Alzheimers disease: Evidence from the 
+National Adult Reading Test. Cortex, 27, 367-376. 
+Hachinski, V.C., Iliff, C.D., Zilhka, E., Du Boulay, G.H., McAllister, V.L., 
+Marshall, J., ... Symon, I. (1975). Cerebral blood flow in dementia. Archives 
+of Neurology, 32, 632-637. 
+Mattis, S. (1988). Dementia Rating Scale: Professional manual. Odessa, FL: 
+Psychological Assessment Resources.  
+McKhann, G., Drachman, D., Folstein, M., Katzman, R., Price, D. & Stadlan, E.M. 
+(1984). Clinical diagnosis of Alzheimer's disease: report of the NINCDS-
+ADRDA Work Group under the auspices of Department of Health and 
+Human Services Task Force on Alzheimer's Disease. Neurology, 34 (7), 
+939-944.  
+Mok, V. C. T., Wong, A., Lam, W.W.M., Fan, Y.H., Tang, W.K., Kwok, T., ... 
+Wong, K.S. (2004). Cognitive impairment and functional outcome after 
+stroke associated with small vessel disease. Journal of Neurology, 
+Neurosurgery and Psychiatry, 75, 560-566. 
+Morris, R.G., Craik, F.I.M. & Gick, M.L. (1990). Age differences in working 
+memory tasks. The role of secondary memory and the central executive 
+system. Quarterly Journal of Experimental Psychology, 42, 67-86. 
+Nelson, H. E. (1982). National Adult Reading Test (NART): Test manual. Windsor, 
+UK: NFER-Nelson.  
+http://jnnp.bmj.com/search?author1=V+C+T+Mok&sortspec=date&submit=Submit
+Page 40 
+Nelson, H.E., & McKenna, P. (1975). The use of current reading ability in the 
+assessment of dementia. British Journal of Social and Clinical Psychology, 
+14, 259-267.            
+Nelson, H.E., & OConnell, A. (1978). Dementia: The estimation of premorbid 
+intelligence levels  using the New Adult Reading Test. Cortex, 14, 234-244. 
+Nelson, H.E. & Willison, J.R. (1991). The Revised National Adult Reading Test- 
+Test manual. Windsor, UK; NFER-Nelson. 
+OCarroll, R.E. (1995). The assessment of premorbid ability: A critical review. 
+Neurocase, 1, 83-89.  
+O'Carroll, R.E., Prentice, N., Murray, C., van Beck, M., Ebmeier, K.P. & Goodwin, 
+G.M. (1995). Further evidence that reading ability is not preserved in 
+Alzheimer's disease. British Journal of Psychiatry, 167 (5), 659-62. 
+Roth, M, Tym, E., Mountjoy, C.Q., Huppert, F.A., Hendrie, H., Verma, S., & 
+Goddard, R. (1986). CAMDEX. A standardised instrument for the diagnosis 
+of mental disorder in the elderly with special reference to the early detection 
+of dementia. The British Journal of Psychiatry, 149, 698-709. 
+Schwartz, M., & Saffran, E. (1987). The American-Nart: Replication and extension 
+of the British findings on the persistence of word pronunciation skills in 
+patients with dementia, unpublished manuscript. Philadelphia.  
+Scott, K.M., Wit, I., & Deary, I.J. (2006). Spotting books and countries: New 
+approaches to estimating and conceptualizing prior intelligence. 
+Intelligence, 34, 429-436. 
+http://www.ncbi.nlm.nih.gov/pubmed?term=%22O'Carroll%20RE%22%5BAuthor%5D
+http://www.ncbi.nlm.nih.gov/pubmed?term=%22Prentice%20N%22%5BAuthor%5D
+http://www.ncbi.nlm.nih.gov/pubmed?term=%22Murray%20C%22%5BAuthor%5D
+http://www.ncbi.nlm.nih.gov/pubmed?term=%22van%20Beck%20M%22%5BAuthor%5D
+http://www.ncbi.nlm.nih.gov/pubmed?term=%22Ebmeier%20KP%22%5BAuthor%5D
+http://www.ncbi.nlm.nih.gov/pubmed?term=%22Goodwin%20GM%22%5BAuthor%5D
+http://www.ncbi.nlm.nih.gov/pubmed?term=%22Goodwin%20GM%22%5BAuthor%5D
+http://www.ncbi.nlm.nih.gov/pubmed/8564324
+Page 41 
+Sharpe, K., & OCarroll, R. (1991). Estimating premorbid intellectual level in 
+dementia using the National Adult Reading Test: A Canadian study. British 
+Journal of Clinical Psychology, 30, 381-384. 
+Stebbins, G.T., Wilson, R.S., Gilley, D.W., Bernard, B.A., & Fox, J.H. (1990). Use 
+of the National Adult Reading Test to estimate premorbid IQ in dementia. 
+Clinical Neuropsychologist, 4, 18-24. 
+Wechsler, D. (1981). Manual for the Wechsler Adult Intelligence Scale - Revised.  
+New York:  The Psychological Corporation. 
+Wechsler, D. (2001). Manual for the Wechsler Test of Adult Reading. San Antonio, 
+TX: The Psychological Corporation. 
+Wechsler, D. (2011). Manual for the Test of Premorbid Functioning. New York:  
+The Psychological Corporation.  
+Wetterling, T., Kanitz, R-D., & Borgis, K-J. (1996). Comparison of different 
+diagnostic criteria for Vascular Dementia (ADDTC, DSM-IV, ICD-10, 
+NINDS-AIREN). Stroke, 27, 30-36. 
+Whyte, E., Skidmore, E., Aizenstein, H., Ricker, J., & Butters, M. (2011). 
+Cognitive Impairment in Acquired Brain Injury: A Predictor of 
+Rehabilitation Outcomes and an Opportunity for Novel Interventions. The 
+Journal of Injury, Function, and Rehabilitation, 3 (6), S45-51. 
+Wilson, R. S., Rosenbaum, G., Brown, G., Rourke, D., Whitman, D. & Grisell, J. 
+(1978). An index of premorbid intelligence. Journal of Consulting and 
+Clinical Psychology, 46, 1554-1555.  
+Page 42 
+World Health Organization. (1992). Tenth Revision of the International 
+Classification of Diseases and Related Health Problems (ICD10). 
+Geneva: Author. 
+Page 43 
+Chapter 2: Empirical Paper 
+Diagnosis of Dementia and Relative Cognitive Decline 
+Emilie W Oakley 
+Clinical Psychology Department, Coventry University, Coventry, UK 
+WORD COUNT: 4,989 words (excluding references and tables) 
+Page 44 
+Diagnosis of Dementia and Relative Cognitive Decline 
+Journal of Aging & Mental Health 
+ABSTRACT 
+Objectives 
+The present study explores whether there is a relationship between estimated pre-
+morbid intellectual functioning and the amount of cognitive decline shown prior to 
+receiving a diagnosis of dementia. 
+Methods 
+A retrospective design was adopted which collected data including estimated pre-
+morbid IQ and RBANS scores from memory clinic patients files. This was used to 
+calculate the amount of cognitive decline that people undergo prior to having an 
+assessment for dementia. Correlational analyses were carried out comparing the 
+amount of cognitive decline and pre-morbid intellectual functioning. 
+Results 
+Of the population sampled, 135 patients had been diagnosed with dementia; 59 with 
+mild cognitive impairment and 51 showed no cognitive impairment. A positive 
+relationship was found for all groups between pre-morbid intellectual functioning 
+and amount of cognitive decline. As a persons estimated pre-morbid functioning 
+increased so too did the amount of cognitive decline that they experienced. A 
+multinomial logistic regression highlighted age and RBANS score as being the 
+most predictive of diagnostic classification. This model accounted for up to 53.8% 
+of the variance.  
+Page 45 
+Conclusions 
+Pre-morbidly high functioning people experience greater amounts of cognitive 
+decline prior to being given a diagnosis of dementia than other people. This 
+provides support for an ascertainment bias in the dementia assessment. Changes to 
+the current dementia assessment process are indicated, which take into account the 
+amount of cognitive decline experienced.  
+KEY WORDS: Dementia; Education; Pre-morbid Intellectual Functioning; 
+Ascertainment Bias. 
+Page 46 
+Diagnosis of Dementia and Relative Cognitive Decline 
+INTRODUCTION 
+Currently, there are over 800,000 people with dementia in the United Kingdom 
+(Alzheimers Society, 2012) and this figure is set to double in the next thirty years 
+as the population ages (Knapp et al., 2007). However, it is estimated that only 40% 
+of people with dementia receive a diagnosis (Alzheimers Society, 2011). 
+Living Well with Dementia: The National Dementia Strategy for England 
+(Department of Health, 2009) states that significant improvements need to be made 
+to dementia services in terms of improved access to services, earlier diagnosis and 
+intervention, and higher quality of care. An earlier diagnosis may improve the 
+quality of peoples lives by allowing people additional time to make legal and 
+financial decisions about their future. People with Alzheimers disease may receive 
+medication at an earlier stage, which can help to slow the progression of the 
+disease. They may also be taught psychological strategies to help them to maximise 
+the cognitive skills that they do have. It is therefore important to determine how 
+people with dementia can be identified as early as possible. 
+There is much debate as to the influence that education, and by association pre-
+morbid intellectual functioning has on dementia. Many studies show that education 
+is inversely related to dementia such that people with less education are more likely 
+to be diagnosed (the Canadian Study of Health and Aging, 1994; Dartigues et al., 
+1991; De Ronchi et al., 1998; Fratiglioni and Wang, 2007; Gatz et al., 2007; Hill et 
+al., 1993; Ngandu et al., 2007; Ott et al., 1995; Prencipe et al., 1996; Schmand, et 
+al., 1997 and Zhang et al., 1990). Paradoxically, however, people who were pre-
+morbidly high functioning have been shown to deteriorate at a much faster rate after 
+Page 47 
+being diagnosed with dementia, than those who were pre-morbidly low functioning 
+(Hall et al., 2007 and Stern, 2006). 
+Conversely, there are studies which found no evidence that less education is a risk 
+factor for diagnosis of dementia (Beard, Kokmen, Offord & Kurland, 1992; 
+Bonaiuto et al., 1995; Bowler, Munos, Merskey & Hachinski, 1998 & OConnor, 
+Pollitt & Treasure, 1991). Yet others that suggest that once diagnosed, pre-morbidly 
+high functioning people decline at the same rate as everybody else (Del Ser, 
+Hachinski, Merskey & Munoz, 1999).  
+One explanation that has been put forward to account for why dementia is 
+diagnosed less frequently in people with higher levels of education attributes this to 
+the presence of greater cognitive reserve in individuals with a higher level of 
+estimated pre-morbid intellectual functioning. Cognitive reserve describes the 
+minds resilience to neurological brain damage (Stern, 2002). Autopsy studies have 
+shown that some people experience considerable amounts of brain damage, but 
+exhibit little clinical manifestation of dementia itself (Katzman, 1988). This 
+phenomenon was found to apply mainly to people whose brains contained a greater 
+number of neurons than average and weighed more. Therefore when disease 
+processes began to cause damage to the brain, high-functioning individuals did not 
+exhibit any signs of the condition, as they effectively had a reserve of neurons. As 
+several studies have shown that individuals with higher IQs and/or greater 
+cognitive stimulation have larger brain volumes (Kesler, Adams, Blasey & Bigler, 
+2003 and Willerman, Schultz, Rutledge & Bigler, 1991), it is suggested that these 
+people also have a higher reserve. Ince (2001) provided support for cognitive 
+reserve. He found that 25% of people who met the pathological criteria for 
+Page 48 
+Alzheimers at autopsy, had previously unimpaired neuropsychological 
+assessments, on average 1.2 years before they died. Additional findings for brain 
+reserve have been provided by: Fratiglioni & Wang (2007); Roselli et al., (2009); 
+Stern, (2009) and Valenzuela (2008). 
+An alternative explanation of why people who are high-functioning are diagnosed 
+with dementia less frequently, is that there is an ascertainment bias in the way that 
+dementia is diagnosed. This explanation is supported by Tuokko, Garrett, 
+McDowell, Silverberg & Kristjansson, (2003).  These authors criticise the use of 
+criteria for assessing dementia which are based on an absolute threshold approach 
+(e.g. such as the MMSE cut-off score of 24, suggested in the National Institute for 
+Health and Clinical Excellence guidelines; NICE, 2006), and instead advocate the 
+need to establish relative cognitive decline within each individual (Bain, 2006). The 
+ascertainment bias model assumes that pre-morbidly high functioning individuals 
+must experience greater amounts of cognitive decline in order to reach that absolute 
+threshold and receive a diagnosis.  
+Support for the ascertainment bias is provided by findings that tests of cognitive 
+functioning are influenced by a persons education and intelligence (Christensen 
+and Jorm, 1992). As a result higher cut-off points on tests of cognitive functioning 
+should be used when assessing pre-morbidly high-functioning people with 
+dementia (Starr and Lonie, 2007). Moreover, when test scores are adjusted on the 
+basis of pre-morbid intellectual functioning, studies show that more people can be 
+detected as having dementia at an earlier stage (Lindeboon, Launer, Schmand, 
+Hooyer & Jonker, 1996; Rentz et al., 2004). 
+Page 49 
+Autopsy studies, which are able to confirm previously probable diagnosis of 
+Alzheimers disease, have provided further support to the ascertainment bias 
+theory. Munoz, Ganapathy, Eliasziw and Hachinski (2000) found that there were no 
+significant differences in terms of educational attainment between a group of people 
+who had autopsy-confirmed Alzheimers disease and a control group who did not. 
+This suggests that high education may not be as much of a protective factor for the 
+development of dementia as originally believed.   
+The presence of an ascertainment bias may account for the discrepancies in the 
+literature as to whether or not educational attainment is inversely proportional to 
+dementia. If people are diagnosed on the basis of absolute amounts of cognitive 
+decline, rather than relative amounts, this may prevent people with a high level of 
+education from gaining a diagnosis of dementia. Consequently, people with high 
+education will appear to be less susceptible to dementia, as they have not gained a 
+diagnosis. This study aims to move the literature forward by exploring this further. 
+Main Aim: To explore whether there is a relationship between peoples estimated 
+pre-morbid levels of intellectual functioning, and the amount of cognitive decline 
+shown before being diagnosed with dementia. 
+Hypothesis: It is hypothesised that in those individuals diagnosed with dementia, a 
+greater amount of cognitive decline will be shown at the point of diagnosis in 
+individuals with higher pre-morbid intellectual functioning, compared to 
+individuals with lower pre-morbid levels of intellectual functioning. 
+Page 50 
+Subsidiary Aim: To explore which variables, including clinical (cognitive) and 
+demographic variables, are the most predictive of variance within the diagnostic 
+process.  
+METHODS 
+Design  
+The present study uses a quantitative retrospective design. Patients were divided 
+into three groups on the basis of their diagnosis: Dementia, Mild Cognitive 
+Impairment (MCI) and No Cognitive Impairment (NoCI).  
+A correlational design was used to explore the relationship between estimated pre-
+morbid IQ and the amount of cognitive decline shown before receiving a diagnosis 
+of dementia. A multinomial logistic regression was used to explore which variables 
+contributed significantly to a model predicting diagnostic group allocation. 
+Participants 
+The sample for the present study was obtained from people who had previously 
+attended an NHS memory clinic and had been assessed for dementia. People who 
+met the relevant criteria (see below) were included in the study.  
+Measures 
+ Wechsler Test of Adult Reading (WTAR). 
+The Wechsler Test of Adult Reading (WTAR; Wechsler, 2001) (Appendix 8) is 
+used to estimate a persons pre-morbid IQ. It consists of 50 phonetically irregular 
+words that require prior knowledge of them in order to pronounce them correctly. 
+The test was standardised on a sample of 331 British people and 1134 Americans, 
+aged between 16-80 years old. The WTAR shows good internal consistency, with 
+coefficients ranging from 0.87 to 0.95, and good test-retest reliability (r=0.90) 
+Page 51 
+(Wechsler, 2001). The test shows good convergent validity with other reading tests, 
+such as the American National Adult Reading Test (AMNART; r=0.90) and 
+correlates highly with measures of intelligence, specifically the Wechsler Adult 
+Intelligence Scale (WAIS-III) Full-Scale IQ, (r=0.73) (Wechsler, 2001). 
+ Repeatable Battery for the Assessment of Neuropsychological Status 
+(RBANS). 
+The Repeatable Battery for the Assessment of Neuropsychological Status (RBANS; 
+Randolph, 1998) contains 12 subtests which measure a persons attention, language, 
+visuospatial/constructional abilities, immediate and delayed memory. It was 
+designed for use with English-speaking adults aged between 20 and 89 years and 
+has normative scores derived from a sample of 540 healthy adults (Randolph, 
+1998).  
+The RBANS indices have been shown to have high correlation coefficients when 
+measured against other neuropsychological measures. The language index, for 
+example, correlated highly with the Boston Naming Task, (r=0.75) and the 
+Visuospatial/Constructional index correlated highly with the Rey-Osterrieth 
+Complex Figure Test (r=0.79; Randolph, 1998).  The RBANS has been shown to 
+have good test-retest reliability across the two versions of the test, with a 
+correlation coefficient of 0.84 (Wilk et al., 2004). 
+ Mini-Mental State Examination (MMSE). 
+The Mini-Mental State Examination (MMSE; Folstein, Folstein & McHugh, 1975) 
+(Appendix 9) is a basic measure of a persons cognitive abilities. The test has been 
+shown to have good test-retest reliability over both 24 hours (r=0.89) and 28 day 
+intervals (r=0.98), and good inter-rater reliability (r=0.83) (Folstein et al., 1975). It 
+Page 52 
+was able to distinguish between people with and without cognitive impairment, 
+when tested on a group of 137 people (Folstein et al., 1975). It also correlated 
+strongly with the Wechsler Adult Intelligence Scale (WAIS) verbal (r=0.78) and 
+performance scales (r=0.66).  
+Procedure 
+Following ethical approval data was collected from patients memory clinic files. 
+All data was taken from the point of initial contact with the memory clinic, 
+regardless of whether subsequent assessments were carried out. Data consisted of 
+demographic details (age, gender and ethnicity); level of education (see Appendix 
+10 for coding); estimated pre-morbid IQ (measured by the WTAR); total RBANS 
+score; MMSE score and diagnostic outcome (as stated by the Psychiatrist involved 
+in the memory clinic). Data pertaining to the exclusion criteria (see below) were 
+also extracted, including the presence of a severe and enduring mental health 
+problem and excessive alcohol use.  
+ Closed patient files. 
+Permission to access the files of patients who have been discharged from the 
+service, closed files, was obtained from the National Information Governance 
+Board for Health and Social Care (NIGB), for support under section 251 of the 
+National Health Service Act (2006) to process patient information without consent.  
+Permission was also sought from the Black Country Research and Ethics 
+Page 53 
+Committee, the Research and Development Committee for the relevant NHS Trust
+and from the lead clinicians involved in each of the memory clinics. 
+ Open patient files. 
+In addition, information was collected from the files of patients who were still 
+accessing the memory clinic service. Written consent was obtained from these 
+individuals prior to accessing their files (Appendices 11-12). 
+Inclusion Criteria 
+For patient data to be included in the study, each patient file needed to have: 
+ A valid estimate of pre-morbid IQ as measured by the WTAR 
+ An RBANS total score 
+ A diagnostic outcome 
+Exclusion Criteria 
+Patient data was excluded from the study if patients had subtypes of dementia other 
+than Alzheimers disease, Vascular or Mixed Dementia. Patients data was also 
+excluded if patients had severe and enduring mental health problems, such as 
+schizophrenia, psychosis or bipolar disorder, as these conditions have been shown 
+to affect a persons cognitive abilities (Schouws et al., 2009; Wood et al., 2007; 
+OCarroll, 2000). If alcohol use was considered to be a factor in a patients 
+presentation, then their data was also excluded.  
+ To protect patient confidentiality, the location of the memory clinics will remain anonymous. This 
+includes the name of the NHS Trust where the memory clinics were based. 
+Page 54 
+In order to access the minimum amount of information necessary, the data of 
+patients who had previously accessed secondary or tertiary mental health services at 
+the memory clinic location were excluded. 
+Data Analysis 
+Data was analysed using the Predictive Analytics SoftWare (PASW) version 17. 
+For the purposes of analysis, the raw scores were converted into z-scores in order to 
+make them comparable (see appendix 13 for z-score calculation). Cognitive decline 
+was calculated by subtracting a persons total RBANS z-score, from their estimated 
+pre-morbid IQ z-score.  
+A correlational analysis was carried out in order to compare estimated pre-morbid 
+IQ and the amount of cognitive decline shown prior to diagnosis. This was done for 
+each of the three diagnostic levels.  
+A multinomial logistic regression was conducted in order to explore which 
+variables had a significant impact on the way that patients were assigned to a 
+diagnostic category.  
+RESULTS 
+The data from 245 memory clinic patients were included in the analysis. The data 
+was collected from four memory clinic sites and pertained to memory clinic 
+assessments carried out between 2006 and the time of the study. The dementia 
+group consisted of 135 patients comprising: 77 people with Alzheimers disease, 28 
+with vascular dementia and 30 with mixed dementia. There were 59 patients in the 
+Mild Cognitive Impairment (MCI) group and 51 in the No Cognitive Impairment 
+(NoCI) group. Table 1 shows demographic details; the highest level of education 
+achieved and the average scores for each of the groups.  
+Page 55 
+An Analysis of Variance (ANOVA) showed no significant differences between the 
+groups in terms of gender, ethnicity, or estimated pre-morbid IQ (F<1). There was a 
+significant difference between the groups in terms of the age of the patients 
+F(2,242)= 42.48, p<0.001, with the dementia patients being significantly older than 
+the other two groups. There was also a significant difference in education, 
+F(2,240)= 4.16, p=0.02, with patients in the dementia group receiving fewer years 
+of education overall. 
+Page 56 
+Dementia  
+(N=135) 
+(N=59) 
+No CI 
+(N=51) 
+sd = 8.06 
+(55-98)* 
+71.69     
+sd = 9.20 
+(45-92) 
+63.35     
+sd = 12.15 
+(42-88) 
+Gender (%) 
+Female:  48 Female:   39 Female:  45 
+Male:      52 Male:       61 Male:      55 
+Ethnicity (%) 
+White:  97.8 White:  96.6 White:  92.2 
+Asian:    0.7 Asian:    3.4 Asian:    5.9 
+Black:    0.7 
+Black:    1.9 
+Arabic:   0.7   
+School 
+Education 
+103 (76.3) 39   (66.1) 31   (60.8) 
+Further 
+Education 
+18   (13.3) 11   (18.6) 12   (23.5) 
+Higher 
+Education 
+12   (8.9) 6     (10.2) 6     (11.8) 
+Masters 1     (0.7) 1     (1.7) 2     (3.9) 
+unavailable 
+1     (0.7) 
+1     (1.7) 
+24.44    
+sd = 3.83  
+(10-30) 
+27.88    
+sd = 1.58 
+(24-30) 
+27.70    
+sd = 3.25 
+(14-30) 
+Pre-morbid IQ 
+101.49    
+sd = 10.51 
+(70-122) 
+100.97    
+sd = 10.47 
+(71-118) 
+104.10    
+sd = 9.07  
+(82-123) 
+RBANS Score 
+65.93    
+sd = 12.27   
+(47-107) 
+81.37    
+sd = 14.02 
+(53-113) 
+93.43    
+sd = 15.34 
+(49-122) 
+Cognitive Decline 
+(Z-score) 
+sd = 1.01 
+(-3.05  2.64) 
+-0.44    
+sd = 1.19 
+(-2.97  1.49) 
+-0.82    
+sd = 0.71 
+(-2.09  0.95) 
+*The Range is provided in brackets, unless otherwise stated.  
+Table 1: Demographic Variables, Education and Mean Scores. 
+Page 57 
+Correlations  
+A significant positive Pearsons correlation coefficient was found between 
+estimated pre-morbid IQ and amount of cognitive decline, in all three of the 
+diagnostic groups: Dementia group, r(134)=0.761, p<0.001; MCI group, 
+r(58)=0.745, p<0.001 and NoCI group, r(50)=0.409, p=0.003. The correlation was 
+strongest in the dementia group and weakest, but still significant, in the no 
+cognitive impairment group. Therefore the higher a persons estimated pre-morbid 
+IQ, the greater the amount of cognitive decline they experienced prior to receiving a 
+diagnosis of dementia.  
+Correlation coefficients were contrasted to determine whether the magnitude of the 
+relationships found for the three groups were significantly different. The strength of 
+the correlation coefficient did not alter significantly between the Dementia and MCI 
+groups, z=0.23, p=0.82. However, the NoCI group correlation was significantly 
+lower than either of the other groups: Dementia and NoCI, z=3.35, p=0.001 and the 
+MCI and NoCI groups, z=2.68, p=0.007.  
+According to the guidelines suggested by Cohen (1988), both the Dementia and the 
+MCI group had a large effect size and the NoCI group had a medium effect size. 
+Scatter plots for the three groups are shown in Appendices 14 to 16. 
+Power calculations were carried out in order to ascertain how many patient datasets 
+would be needed to replicate the findings from the present study. For an 80% 
+chance of the relationship being significant at the 0.05 level, 15 people would be 
+needed for the dementia group; 16 people for the MCI group and 48 people for the 
+NoCI group. This suggests that the sample sizes used in the present study were 
+sufficient to detect an effect occurring. 
+Page 58 
+A post-hoc analysis was conducted to further explore the mean cognitive decline 
+for people with different levels of estimated pre-morbid IQ (Table 2).  
+Diagnosis 
+Intelligence* 
+Classification N 
+Pre-morbid 
+IQ RBANS 
+Cognitive Decline  
+(z-score) 
+Dementia 
+Low Average/ 
+Borderline 
+83.76  
+sd = 6.17 
+57.18  
+sd = 7.70 
+-0.73  
+sd = 0.90 
+Average 83 
+99.64  
+sd = 5.33 
+65.11  
+sd = 11.05  
+sd = 0.74 
+High Average/ 
+Superior 
+114.49  
+sd = 3.16 
+72.11  
+sd = 13.84 
+sd = 0.80 
+Low Average/ 
+Borderline 
+78.67  
+sd = 6.35 
+71.33  
+sd = 7.69 
+-2.04  
+sd = 0.72 
+Average 42 
+100.74  
+sd = 5.46 
+83.02  
+sd = 15.27 
+-0.55  
+sd = 1.01 
+High Average/ 
+Superior 
+114.00  
+sd = 2.68 
+80.55  
+sd = 9.00 
+sd = 0.48 
+Low Average/ 
+Borderline 
+84.50  
+sd = 3.54 
+63.50  
+sd = 12.02 
+- 1.02  
+sd = 0.34 
+Average 33 
+100.39  
+sd = 5.51 
+90.49  
+sd = 14.15 
+- 1.01 
+ sd = 0.70 
+High Average/ 
+Superior 
+114.19 
+ sd = 4.29 
+103.25  
+sd = 10.32 
+- 0.40  
+sd = 0.60 
+* People were grouped into three levels of estimated pre-morbid IQ, this was based 
+on Wechslers intelligence classifications (Wechsler, 1997). Low 
+Average/Borderline = Estimated Pre-morbid IQ of 70-89; Average = 90-109; High 
+Average/Superior = 110-119 (highest score possible on WTAR). 
+Table 2: Mean Cognitive Decline Experienced by Different 
+Intelligence Classifications. 
+Page 59 
+Prediction of Diagnostic Category 
+A multinomial logistic regression was conducted to predict diagnostic group 
+allocation. Demographic variables (age, gender, ethnicity and education); scores 
+from the RBANS and MMSE; estimated pre-morbid IQ and amount of cognitive 
+decline were used as the predictor variables. 
+An alpha level of 0.05 was set for inclusion of variables remaining in the model. 
+Age, MMSE score and RBANS total were all found to be significant predictor 
+variables. However, it was clear that multicollinearity was an issue between MMSE 
+and RBANS score; they had a highly significant correlation, r=0.603, p<0.001. 
+Given that RBANS score was found to have a higher correlation (r=0.643) with 
+diagnostic group than the MMSE (r=0.402), this variable was chosen to remain in 
+the model and MMSE score was removed. Gender, ethnicity, education, estimated 
+pre-morbid IQ and amount of cognitive decline did not contribute significantly to 
+the diagnostic outcome and were removed from the model.  
+A test of the full model (age and RBANS score) against a constant only model was 
+statistically significant, indicating that the predictor variables as a set reliably 
+distinguished between the diagnostic classifications (
+(4)=153.204, p<0.001). The 
+model accounted for between 46.5% and 53.8% of the variance (Cox and Snells 
+and Nagelkerkes Pseudo R respectively). The model was able to predict 
+diagnostic group allocation with a 69.0% success rate overall, with the dementia 
+group being predicted the best (see Table 3). The classification accuracy surpassed 
+the by chance accuracy criteria, supporting the utility of the model.  
+Page 60 
+Actual Classification 
+Predicted Classification 
+Dementia MCI NoCI Correct (%) 
+Dementia 121 9 5 89.6 
+MCI 33 15 11 25.4 
+NoCI 6 12 33 64.7 
+Overall Percentage (%) 65.3 14.7 20.0 69.0 
+Table 3: Models Ability to Predict Diagnostic Group Allocation 
+In the dementia group both Age,  =0.129, Wald (1)=25.773, p<0.001 and 
+RBANS,  = -0.128, Wald (1)= 48.867, p<0.001 significantly predicted diagnostic 
+group allocation between the dementia and NoCI groups.  
+Age and RBANS score also significantly predicted diagnostic group allocation 
+between the MCI and NoCI groups: Age,  =0.062, Wald (1)=8.992, p=0.003, and 
+RBANS score,  = -0.049, Wald (1)=10.512, p=0.001. 
+ 95% Confidence Interval 
+for Odds Ratio 
+ Odds  Ratio Lower Upper 
+Dementia vs. Age 1.14 1.08 1.20 
+NoCI RBANS .88 .85 .91 
+MCI vs. NoCI 
+Age 1.06 1.02 1.11 
+RBANS .95 .92 .98 
+Table 4: Odds Ratios 
+Table 4 shows the Odds Ratios (OR) for the variables. The Odds Ratios show the 
+strength of association between a predictor and a response variable. For example, in 
+the Dementia group, when a persons age increases by 1 year, the chances of a 
+person being diagnosed with dementia increases by a factor of 1.14. Furthermore, 
+as RBANS score increases by 1 point, the chances of a person being diagnosed with 
+dementia increases by a factor of 0.88 (which equates to a 12% decrease in risk).  
+Page 61 
+DISCUSSION 
+Correlational Analyses 
+The results show that the higher a persons estimated pre-morbid IQ is, the greater 
+the amount of cognitive decline that they will show prior to being diagnosed with 
+dementia.  
+These findings provide support for the presence of an ascertainment bias in the 
+diagnostic process. The positive correlation between estimated pre-morbid 
+intellectual functioning and the amount of cognitive decline, suggests that an 
+absolute threshold level of impairment is currently being used to diagnose people. 
+This would explain why people with high pre-morbid intellectual functioning show 
+more cognitive decline prior to receiving a diagnosis, as their cognitive abilities 
+must decrease by a larger amount before they reach the absolute threshold level. 
+Conversely, people with lower pre-morbid intellectual functioning experience less 
+cognitive decline prior to reaching the diagnostic threshold. 
+These findings cannot be explained by the presence of cognitive reserve. The 
+Cognitive Reserve theory would suggest that cognitive reserve compensates for the 
+presence of brain damage and prevents a person with high pre-morbid intellectual 
+functioning from exhibiting signs of clinical or functional impairment. The finding 
+of large amounts of cognitive decline prior to diagnosis in pre-morbidly high 
+functioning people contradicts this theory. 
+Of particular note was the large amount of cognitive decline observed in patients 
+who did not receive a diagnosis of dementia. In the MCI group, 16 people showed 
+cognitive decline that was greater than the mean amount experienced by the 
+dementia group, but were still classed as having mild cognitive impairment. Of 
+Page 62 
+these 16 people, nine had an estimated pre-morbid IQ of 110 or over (the threshold 
+used to denote high average intelligence in the WTAR). Two people experienced 
+cognitive decline of almost three times the average of the dementia group. In the 
+NoCI group a further three people experienced cognitive decline greater that the 
+average amount of the dementia group; two of these people had an estimated pre-
+morbid IQ of 110 or over. The presence of an ascertainment bias in the assessment 
+process is able to explain these observations. This theory suggests that some people 
+with high estimated pre-morbid intellectual functioning are being incorrectly 
+categorised as not having dementia. Despite showing large amounts of cognitive 
+decline, their intellectual ability at the time of the assessment may still have been 
+above the threshold needed for dementia diagnosis.  
+If people with high estimated pre-morbid abilities are being incorrectly diagnosed, 
+then this would also account for the presence of a smaller, but still significant, 
+correlation in both the Mild Cognitive Impairment and No Cognitive Impairment 
+groups.  
+Prediction of Diagnostic Category 
+The results of the multinomial logistic regression show that out of all of the 
+variables investigated in the present research, only three variables: Age, RBANS 
+and MMSE score were able to predict diagnostic group allocation. Relative 
+cognitive decline was not predictive of diagnostic category. Given that RBANS and 
+MMSE scores were shown to be highly correlated, MMSE score was excluded from 
+the model. From the use of only a persons age and their RBANS score, 89.6% of 
+allocations into the dementia group could be correctly predicted.  
+Page 63 
+The finding that relative amounts of cognitive decline were not predictive of 
+diagnostic outcome provides further support for the presence of an ascertainment 
+bias, especially since measures that were significant (RBANS and MMSE) were 
+based on absolute threshold measures of cognitive decline. If diagnosis took into 
+account peoples previous levels of cognitive ability, then it would be expected that 
+relative amounts of cognitive decline would have an impact on the diagnostic 
+outcome that people receive. Instead, relative amounts of cognitive decline were not 
+significant. 
+Clinical Implications 
+These findings have significant clinical implications for the way that people with 
+high pre-morbid intellectual functioning are diagnosed with dementia. Based on the 
+findings of the present study, it is suggested that high-functioning people who go on 
+to develop dementia, must show a greater amount of cognitive decline before they 
+receive a diagnosis of dementia. This will have consequences for such individuals 
+in terms of accessing relevant healthcare provision. 
+The correlation between estimated pre-morbid IQ and amount of cognitive decline 
+also has implications for pre-morbidly low functioning people. The lowest recorded 
+estimated pre-morbid IQ in the no cognitive impairment group was 82 in 
+comparison to 71 in the mild cognitive impairment group and 70 in the dementia 
+group. It is possible that more people with lower estimated pre-morbid IQs are 
+being diagnosed with dementia or mild cognitive impairment and fewer people are 
+being labelled as having no cognitive impairment. Future research which segregates 
+people into distinct groups on the basis of their estimated pre-morbid IQs may be 
+needed to clarify this. 
+Page 64 
+These findings bring a new perspective to studies such as Ince (2001) which found 
+that 25% of people who met the criteria for Alzheimers disease at autopsy had 
+previously unimpaired neuropsychological assessments. Originally this was 
+believed to provide further support for the cognitive reserve model, but it may also 
+highlight the shortcomings of current neuropsychological assessments, which do 
+not account for relative amounts of cognitive decline. If neuropsychological 
+assessments cannot detect cognitive impairment in people with high pre-morbid 
+functioning, this could explain the inverse relationship between education and 
+dementia, as pre-morbidly high functioning people may fail to be diagnosed with 
+dementia. 
+The presence of an ascertainment bias could also explain why some studies (such as 
+Hall et al., 2007 and Stern, 2006) have suggested that people with high pre-morbid 
+functioning decline at a faster rate when they are diagnosed with dementia. One 
+explanation may be that because these individuals are being diagnosed at a much 
+later stage, this may result in a much more rapid progression of the disease. As such 
+their prognosis would be expected to be poorer.  
+Clinically, one area of concern is the recent changes to the way in which people are 
+being assessed for dementia within the NHS. Since 2010 dementia nurses have been 
+given more responsibility in assessing people for cognitive decline. However, they 
+do not utilise any neuropsychological tests to evaluate a persons estimated pre-
+morbid IQ. The findings of this study highlight the importance of assessments 
+taking account of relative cognitive decline. This is not possible unless a persons 
+pre-morbid IQ is estimated.  
+Page 65 
+Limitations 
+The WTAR was used to estimate pre-morbid functioning. However, there is debate 
+as to how valid the WTAR is as a measure. It has a significant ceiling effect with 
+the maximum possible estimated pre-morbid IQ being 119. It is therefore likely that 
+the amount of cognitive decline reported here is an underestimate of the true 
+amount, as some people may have started with scores significantly higher than 119. 
+If there is a move to use relative decline in dementia diagnosis, this ceiling effect 
+needs to be taken into account when interpreting neuropsychological assessments of 
+pre-morbidly high functioning individuals. 
+As the present study was making use of the assessment processes currently used in 
+memory clinics in the NHS, it was not possible to estimate pre-morbid IQ on the 
+basis of demographic variables (Crawford et al. 1989). It had been intended that the 
+WTAR estimated pre-morbid IQ would be cross-checked against an estimate 
+produced from demographic variables. However, there was a lack of detail in some 
+of the patients medical files as to what occupation people had, so this was not 
+possible. In future it may be an advantage to estimate pre-morbid intellectual 
+functioning through a range of measures and not rely solely on pre-morbid 
+estimation made by the WTAR. 
+The present study did not exclude people with depression. It is possible that this 
+may have confounded some of the results, as cognitive abilities have been shown to 
+be affected by depression (Austin, Mitchell & Goodwin, 2001; Goodwin, 1997). 
+However, as depression may have been present in all groups, it should not have had 
+a significant impact on overall findings. Future research should control for this.  
+Page 66 
+A further limitation of the present study is the inclusion criteria for the No 
+Cognitive Impairment group. This group was included in the study as it was 
+thought that some people with dementia, who had high estimated pre-morbid 
+intellectual functioning, may have been falsely classified as not having any 
+cognitive impairment. In addition, this group was used as a control group in the 
+regression model to which the other groups were compared. However, the fact that 
+this group may have contained people with cognitive decline, even if they had not 
+received a formal diagnosis, may affect its use as a reference group for the 
+regression model. This could explain why the model was unable to account for 
+more than 53.8% of variance. Replications of the regression analysis using people 
+who have not experienced any cognitive decline are needed in order to confirm 
+these results. 
+Future Research 
+There were a number of people whose cognitive abilities were re-assessed after 
+twelve months in order to confirm their diagnosis. It is possible that a number of 
+diagnoses were altered at this later time. This information was outside the remit of 
+this study. However, it would be interesting to explore this further to see how much 
+cognitive decline was shown prior to people gaining their final diagnosis.  
+While the present study indicates that people with high estimated pre-morbid 
+functioning undergo greater cognitive decline prior to receiving a diagnosis of 
+dementia, it does not explain why these people have already undergone greater 
+amounts of decline at the point of accessing the memory clinic. Anecdotally, 
+members of a dementia support group commented that they found it very difficult 
+to access secondary services. Some people commented that they had to visit their 
+Page 67 
+GP on several different occasions before their memory complaints were taken 
+seriously. Therefore, some GPs may be acting as a barrier to diagnosis and may 
+prevent people from accessing secondary services. Further research needs to be 
+done to explore what protocols are used by GPs when seeing patients with 
+subjective memory complaints. 
+The present study found a significant difference between the groups in terms of 
+educational attainment, whereby the people in the dementia group had significantly 
+fewer years of education than those in the other two groups. Now that an 
+ascertainment bias has been highlighted, further research is awaited to explore 
+whether an educational difference remains if people are diagnosed on the basis of 
+relative amounts of cognitive decline and not absolute values. The findings of such 
+research could have significant implications for the Cognitive Reserve theory.  
+Conclusion 
+The present study has shown that people with high estimated pre-morbid IQ show 
+greater amounts of cognitive decline prior to receiving a diagnosis of dementia, 
+than people with lower estimated pre-morbid IQ. The findings of the present study 
+challenge the argument that cognitive reserve can adequately account for the 
+inverse relationship between education and dementia diagnosis and instead suggest 
+that there is an ascertainment bias at work. Further research with larger sample 
+sizes is indicated to develop the evidence base for this finding. The idea that pre-
+morbidly high functioning people experience greater amounts of cognitive decline 
+prior to diagnosis, highlights the need for changes in the dementia assessment 
+process which takes into account relative amounts of cognitive decline.  
+Page 68 
+References 
+Alzheimers Society. (2011). Mapping the Dementia Gap. London: Author. 
+Alzheimers Society. (2012). Dementia 2012: A National Challenge. London: 
+Author. 
+Austin, M-P., Mitchell, P. & Goodwin, G.M. (2001). Cognitive deficits in 
+depression.  The British Journal of Psychiatry, 178, 200-206. 
+Bain, L.J. (2006). A review of the State of the Art on Mild Cognitive Impairment: 
+The Fourth Annual Symposium. Alzheimers & Dementia 2, 246-256. 
+Beard, C.M., Kokmen, E., Offord, K.P., & Kurland, L.T. (1992). Lack of 
+association between Alzheimers disease and education, occupation, marital 
+status, or living arrangement. Neurology, 42, 2063-2068. 
+Bonaiuto, S., Rocca, W.A., Lippi, A., Giannandrea, E., Mele, M., Cavarzeran, F., & 
+Amaducci, L. (1995). Education and occupation as risk factors for dementia: 
+a population-based case-control study. Neuroepidemiology, 14, 101-109. 
+Bowler, J.V., Munos, D.G., Merskey, H., Hachinski, V. (1998). Factors affecting 
+the age of onset and rate of progression of Alzheimers disease. Journal of 
+Neurology, Neurosurgery & Psychiatry, 65, 184-190. 
+Christensen, H. & Jorm, F.A. (1992). Effect of premorbid intelligence on the mini-
+mental state and IQCODE. International Journal of Geriatric Psychiatry, 7, 
+159-160. 
+Cohen, J. (1988). Statistical Power Analysis for the Behavioral Sciences (2nd ed.). 
+Hillsdale, NJ: Lawrence Erlbaum Associates.  
+http://en.wikipedia.org/wiki/Lawrence_Erlbaum_Associates
+Page 69 
+Crawford, J.R., Stewart, L.E., Cochrane, R.H.B., Foulds, J.A., Besson, J.A.O., & 
+Parker, D.M. (1989). Estimating premorbid IQ from demographic variables: 
+Regression equations derived from a UK sample. British Journal of Clinical 
+Psychology, 28, 275-278. 
+Dartigues, J.F., Gagnon, M., Michel, P., Letenneur, L., Commenges, D., Barberger-
+Gateau, P., ... Alprovitch, A. (1991). The Paquid research program on the 
+epidemiology of dementia. Methods and initial results. Revue Neurologique. 
+147 (3), 225-230.  
+De Ronchi, D.,  Fratiglioni, L.,  Rucci, P., Paternico, A., Graziani, S., Dalmonte, E. 
+(1998). The effect of education on dementia occurrence in an Italian 
+population with middle to high socioeconomic status. Neurology, 50, 1231-
+1238. 
+Del Ser, T., Hachinski, V., Merskey, H., & Munoz, D.G. (1999). An autopsy-
+verified study of the effect of education on degenerative dementia. Brain, 
+122, 2309-2319. 
+Department of Health. (2009). Living Well with Dementia: The National Dementia 
+Strategy for England. London, Stationery Office. 
+Folstein, M.F., Folstein, S., & McHugh, P.R. (1975). Mini Mental State: A practical 
+method for grading the cognitive states of patients for the clinician. Journal 
+of Psychiatric Research, 12, 189-198. 
+Fratiglioni, L., & Wang, H. (2007). Brain reserve hypothesis in dementia. Journal 
+of Alzheimer's Disease, 12 (1), 11-22.  
+Page 70 
+Gatz, M., Mortimer, J.A., Fratiglioni, L., Johansson, B., Berg, S., Andel, R., ... 
+Pedersen N.L. (2007). Accounting for the relationship between low 
+education and dementia: A twin study. Physiology and Behavior, 92, 232
+Goodwin, G.M. (1997). Neuropsychological and neuroimaging evidence for the 
+involvement of frontal lobes in depression. Journal of 
+Psychopharmacology, 11, 115-122.  
+Hall, C.B., Derby, C., LeValley, M.S., Katz, M.J., Verghese, M.D. & Lipton, R.B. 
+(2007).  Education delays accelerated decline on a memory test in persons 
+who develop dementia.  Neurology, 69, 1657-1664. 
+Hill, L.R., Klauber, M.R., Salmon, D.P., Yu, E.S., Liu, W.T., Zang, M., & 
+Katzman, R. (1993). Functional status, education, and the diagnosis of 
+dementia in the Shanghai survey. Neurology, 43, 138-145. 
+Ince, P.G. (2001).  Pathological correlates of late-onset dementia in a multicenter 
+community-based population in England and Wales. Lancet, 357, 169-175.   
+Katzman, R., Terry, R., DeTeresa, R., Brown, T., Davies, P., Fuld, P., ...  Peck, A. 
+(1988). Clinical, pathological, and neurochemical changes in dementia: a 
+subgroup with preserved mental status and numerous neocortical plaques. 
+Annals of Neurology, 23 (2), 138-144.   
+Kesler, S.R., Adams, H.F., Blasey, C.M., & Bigler, E.D. (2003). Premorbid 
+intellectual functioning, education, and brain size in traumatic brain injury. 
+An investigation of the cognitive reserve hypothesis. Applied 
+Neuropsychology, 10, 153-162.  
+Page 71 
+Knapp, M., Prince, M., Albanese, E.., Banerjee, S., Dhanasiri, S., Fernandez, J-L., 
+... Stewart, R. (2007). Dementia UK: The full report. London: Alzheimers 
+Society. 
+Lindeboon, J., Launer, L.J., Schmand, B.A., Hooyer, C., Jonker, C. (1996). Effects 
+of adjustment on the case-finding potential of cognitive tests. Journal of 
+Clinical Epidemiology, 49, 691-695.  
+Munoz, D., Ganapthy, G.R., Eliasziw, M., & Hachinski, V. (2000). Educational 
+attainment and socioeconomic status of patients with autopsy-confirmed 
+Alzheimer Disease. Archives of Neurology, 57, 85-89. 
+National Health Service Act. (2006). Section 251. London: Stationary Office. 
+National Institute for Health and Clinical Excellence/Social Care Institute for 
+Excellence. (2006). Dementia: Clinical guideline. London: NICE/SCIE. 
+Ngandu, T., von Strauss, E., Helkala, E.L., Winbald, B., Nissinen, A., Tuomiletho, 
+J., ... Kivipelto, M.  (2007). Education and dementia: What lies behind the 
+association. Neurology, 69  (14), 1142-1450. 
+OCarroll, R. (2000). Cognitive impairment in schizophrenia. Advances in 
+Psychiatric Treatment, 6, 161-168. 
+O'Connor, D.W., Pollitt, P.A. & Treasure, F.P. (1991). The influence of education 
+and social class on the diagnosis of dementia in a community population. 
+Psychological Medicine, 21, 219-224.  
+Ott, A., Breteler, M.M.,  van Harskamp, F., Claus, J.J., van der Cammen, T.J.M., 
+Grobbee, D.E. & Hofman., A. (1995). Prevalence of Alzheimers Disease 
+Page 72 
+and vascular dementia: association with education. The Rotterdam Study. 
+British Medical Journal, 310, 970-973. 
+Prencipe, M., Casini, A.R., Ferretti, C., Lattanzio, M.T., Fiorelli, M., Culasso, F. 
+(1996).  Prevalence of dementia in an elderly rural population: effects of 
+age, sex, and education. Journal of Neurology, Neurosurgery & Psychiatry, 
+60, 628-633. 
+Randolph, C., Tierney, M. C., Mohr, E., & Chase, T. N. (1998). The Repeatable 
+Battery for the Assessment of Neuropsychological Status (RBANS): 
+Preliminary clinical validity. The Journal of Clinical and Experimental 
+Neuropsychology, 20, 310-319. 
+Rentz, D.M., Huh, T.J., Faust, R.R., Budson, A.E., Scinto, L.F.M., Sperling, R.A., 
+& Daffner, K.R. (2004). Use of IQ-adjusted norms to predict progressive 
+cognitive decline in highly intelligent older individuals. Neuropsychology, 
+18 (1), 38-49. 
+Roselli, F., Tartaglione, B., Federico, F., Lepore, V., Defazio, G., Livrea, P. (2009). 
+Clinical Neurology and Neurosurgery, 111, 321-330.  
+Schmand, B., Smit, J., Lindeboon, J., Smits C, Hooijer C, Jonker C, Deelman B. 
+(1997). Low education is a genuine risk factor for accelerated memory 
+decline and dementia. Journal of Clinical Epidemiology, 50 (9), 1025-1033. 
+Schouws, S.N.T.M., Comijs, H.C., Stek, M.L., Dekker, J., Oostervink, F., 
+Naarding, P., ... Beekman, A.T.F. (2009). Cognitive Impairment in Early 
+and Late Bipolar Disorder. American Journal of Geriatric Psychiatry, 17 
+(6), 508-515. 
+http://www.ncbi.nlm.nih.gov/pubmed?term=%22Smits%20C%22%5BAuthor%5D
+http://www.ncbi.nlm.nih.gov/pubmed?term=%22Hooijer%20C%22%5BAuthor%5D
+http://www.ncbi.nlm.nih.gov/pubmed?term=%22Jonker%20C%22%5BAuthor%5D
+http://www.ncbi.nlm.nih.gov/pubmed?term=%22Deelman%20B%22%5BAuthor%5D
+Page 73 
+Starr, J.M. & Lonie, J. (2007). The influence of premorbid IQ on Mini- Mental 
+State Examination score at time of dementia presentation. International 
+Journal of Geriatric Psychiatry, 22, 382-384. 
+Stern, Y. (2002). What is cognitive reserve? Theory and research application of the 
+reserve concept. Journal of the International Neuropsychological Society, 8, 
+447-460. 
+Stern, Y. (2006). Cognitive reserve and Alzheimers disease. Alzheimer Disease & 
+Associates Disorders, 20, 112-117. 
+Stern, Y. (2009). Cognitive reserve. Neuropsychologia, 47, 2015-2028. 
+The Canadian Study of Health and Aging. (1994). The Canadian Study of Health 
+and Aging: risk factors for Alzheimers disease in Canada. Neurology, 44, 
+2073-2080.  
+Tuokko, H., Garrett, D. D., McDowell, I., Silverberg, N., & Kristjansson, B. 
+(2003). Cognitive decline in high-functioning older adults: Reserve or 
+ascertainment bias? Aging & Mental Health, 7 (4), 259-270. 
+Valenzuela, J. (2008). Brain reserve and the prevention of dementia. Current 
+Opinion in Psychiatry, 21 (3), 296-302.  
+Wechsler, D. (1997).  Wechsler Adult Intelligence Scale- Third edition. 
+San Antonio, TX: Psychological Corporation. 
+Wechsler, D. (2001). Wechsler Test of Adult Reading. San Antonio, TX: 
+Psychological Corporation. 
+Page 74 
+Wilk, C.M., Gold, J.M., Humber, K., Dickerson, F., Fenton, W.S., & Buchanan, 
+R.W. (2004). Brief cognitive assessment in schizophrenia: normative data 
+for the Repeatable Battery for the Assessment of Neuropsychological status. 
+Schizophrenia Research, 70, 175-186. 
+Willerman, L., Schultz, R., Rutledge, J.N., & Bigler, E.D. (1991). In vivo brain size 
+and intelligence. Intelligence, 15, 223-228.  
+Wood, G.J., Brewer, W.J., Koutsouradis, P., Philips, L.J., Francey, S.M., Proffitt, 
+T.M., ... Pantelis, C. (2007). Cognitive decline following psychosis onset: 
+data from the PACE clinic. British Journal of Psychiatry, 51: s52-57. 
+Zhang, M.Y., Katzman, R., Salmon, D., Jin, H., Cai, G.J., Wang, Z.Y., ... Levy, P. 
+(1990). The prevalence of dementia and Alzheimers disease in Shanghai, 
+China: impact of age, gender and education. Annuals of Neurology, 27, 428-
+Page 75 
+Chapter 3: Reflective Paper 
+Challenges in Accessing Retrospective Clinical Data for Research in 
+the Field of Dementia: A Reflective Account 
+Word Count: 3,987 (excluding references) 
+Page 76 
+Overview 
+In this paper I will reflect on the process of carrying out research in the field of 
+dementia. The material for this paper is taken from my own experiences of the 
+research process; observations that I have made along the way and my reflections 
+on factors that influenced me to carry out research into dementia. 
+I will reflect on elements of the research that were difficult to overcome, notably 
+that of accessing retrospective clinical data, and think of suggestions as to how to 
+make this process easier for future researchers. Finally I will discuss areas for 
+further research within the field of dementia.  
+Background and Interest in Dementia Research 
+Whilst on placement in an Older Adult Psychology service, I co-facilitated a 
+memory group for both people with dementia and their carers. I learned a great deal 
+about the experiences that people affected by dementia go through. Some 
+individuals with dementia were much more aware about their symptoms than 
+others, and despite being a group for people who were only just diagnosed, there 
+were noticeable differences in the levels of severity of dementia witnessed. This 
+made me curious to know why this was. 
+I was very moved by some of the stories shared in the group, both by the person 
+with dementia and by his or her carer. There was a vivid sense of sadness and loss 
+that surrounded dementia and it was difficult not to become immersed in these 
+feelings. I remember discussing this group with my supervisor, and we talked about 
+how, as Mental Health professionals, dementia is one condition that we work with 
+which remains a potential threat to all of us. Other conditions such as Schizophrenia 
+and Personality Disorders have an earlier peak onset age, after which the older we 
+Page 77 
+get the less likely it is that we will develop these disorders. However with dementia, 
+the reverse is true, with risk increasing with older age (Jorm & Jolley, 1998).  
+Moreover, from a psychological perspective, there is very little that can be done to 
+reduce the symptoms of cognitive decline. As a professional, these thoughts left me 
+with feelings of both hopelessness and helplessness regarding the people with 
+whom I was working. As an individual, I started to dread the prospect of myself or 
+someone close to me developing dementia. It was partly in response to these 
+difficult feelings that I decided to channel my attention into dementia research. I 
+may not be able to alter the course of dementia, but through my research I can help 
+to ensure that it is understood as well as it possibly can be.  
+Interest in Dementia Diagnosis 
+A personal experience of dementia affected me particularly. My grandfather was a 
+very capable and intellectual person. He worked as a mechanical engineer and his 
+accolades included being part of the design team which put the bubbles into Aero 
+bars. However, in later life he changed a great deal. His memory declined and he 
+became very confused. My clearest memory of this was when he drank some 
+barbecue sauce, convinced that it was in fact a glass of red wine. In addition, his 
+gait deteriorated, and he started to shuffle. His personality changed and he become 
+much more irate at things, when he had been a very passive and quiet man. With 
+hindsight, I am convinced that he had dementia, but this was never formally 
+diagnosed.  
+The reasons for his lack of diagnosis are not clear and having limited evidence, I 
+have to recognise the possibility that an underlying dementia process may not have 
+been present. It did however make me think about reasons why some people who 
+Page 78 
+have dementia may not get a diagnosis. In my grandfathers case, it is possible that 
+he was a victim of the ascertainment bias in the assessment process (Tuokko, 
+Garrett, McDowell, Silverberg & Kristjansson, 2003), whereby despite 
+experiencing cognitive decline he failed to reach the absolute threshold level 
+required for dementia diagnosis. As such it is appropriate that my research looks at 
+how dementia is diagnosed in pre-morbidly high functioning people. However, I 
+cant help but wonder whether my grandfather ever actually went to his GP about 
+his memory concerns. If not, what were his reasons for this? Was he unaware that 
+he may have had dementia, or was he in denial about his symptoms? 
+I also thought about the influence my Grandmother had. Carers perceptions of 
+dementia play a large role in the decisions of whether or not people seek help, as 
+often it is carers who are first to notice the presence of cognitive decline. It is 
+possible that she did not encourage him to seek help as she did not want to admit 
+that anything was wrong. Alternatively, she may not have perceived any benefits in 
+seeking help. Lots of people that I have talked to during my research, were unaware 
+that medications exist to slow the progression of dementia. If people are unaware of 
+such benefits, then they will be less likely to seek help, especially given the stigma 
+that surrounds conditions such as dementia. Further research is needed to explore 
+the potential barriers which prevent people from accessing memory services.  
+Accessing Patient Information 
+One of the biggest challenges of this research was accessing clients medical files. 
+When I first talked about my research idea with my supervisors, we were very 
+excited at the thought of using existing information that had already been collected 
+from memory clinics. We anticipated that it would be quicker to access this 
+Page 79 
+information and consequently I would be able to collect more data, making the 
+findings more representative of the general public. Moreover, the fact that the 
+information was taken from existing memory services meant that it added richness 
+to the research in the respect that this is what is actually happening in NHS memory 
+clinics.  
+Having carried out small scale research projects as part of the clinical doctorate, I 
+naively expected that I would be able to access this information without too many 
+difficulties. Given that patients had already consented for the memory assessment 
+to happen, I did not anticipate needing to gain consent again. Section 33 of the Data 
+Protection Act (1998) cites research as an exception to some of the eight data 
+protection principles, provided that set criteria are met. It states that identifiable 
+information may be accessed for the purposes of anonymising data for research. 
+This is provided that the research is in accordance with the original purpose that the 
+data was collected, and that the research will not cause any substantial damage or 
+distress to the participants involved. However, this research may only be carried out 
+by a member of the direct clinical care team. It does not apply to researchers from 
+outside the service. Given that I was not a member of the direct care team, approval 
+was required to use this data. 
+NIGB Application 
+There are two ways to gain approval to access existing clinical information, either 
+by speaking to each individual directly and getting their written consent to do so, or 
+by approval from the National Information Governance Board for Health and Social 
+Care (NIGB). The NIGB is an independent body that was set up in order to 
+promote, improve and monitor information governance in health and adult social 
+Page 80 
+care (NIGB, 2012). Under section 251 of the National Health Service Act (2006), 
+the NIGB is able to recommend that the common law duty of confidentiality is set 
+aside so as to access identifiable information without individual consent. This can 
+occur in situations where there is insufficient anonymous data and it would not be 
+practicable to gain individual consent. 
+Initially it was felt that it was not practicable to gain individual consent on a person-
+by-person basis for the present study. I did not have any contact with any of the 
+dementia clinic
+ patients. To avoid breaking confidentiality, contact would have 
+had to be initiated by a current member of care staff. In cases where patients were 
+still open to the dementia clinic, this contact could potentially have been made by 
+members of the Psychiatry team. He or she could have asked patients whether they 
+would be happy to be contacted by a researcher, in order to ask permission to 
+access his or her memory clinic file. However, in cases where the files were closed 
+to the dementia clinic, the initial contact would have had to be made by a clinician 
+that is known to them, such as their General Practitioner (GP). Unlike the dementia 
+clinic, where the client is seen on a regular basis, the GP would not have been 
+scheduled to see clients routinely, so specific contact would be needed. This would 
+have required the GP to take on additional tasks. Given the large number of 
+patients datasets required for this study, this approach did not seem like a viable 
+option. Therefore an application was submitted to the NIGB requesting that the 
+common law duty of confidentiality be set aside.  
+ A person is assessed for dementia at the memory clinic, and then attends the dementia clinic for 
+ongoing medication and support once they have been given a diagnosis of dementia. 
+Page 81 
+The NIGB is a valuable body as it helps to safeguard the use of personal data and 
+ensure that the eight principles of the Data Protection Act (1998) are upheld. It not 
+only advises on the use of section 251 of the National Health Service Act (2006), 
+but it supports improvements in national information governance practice by citing 
+good practice guidelines, and monitors relevant information governance trends 
+within the health and social care field. These strategies help to minimise the misuse 
+of data and reduce breaches of confidentiality. 
+Unfortunately, my initial application to the NIGB was refused. The committee had 
+concerns about the following areas:  
+ The level of access required to highly sensitive data 
+ Compliance with the third principle of the Data Protection Act 
+(1998)  
+ The identification of a practicable alternative to carrying this 
+research out without consent by undertaking it on a prospective, 
+consented basis.  
+These concerns were very frustrating and for a while put me off research altogether. 
+I felt that all my hard work in developing the research project to this point had been 
+in vain; especially given that I felt that the findings might potentially be very 
+exciting and that the aims of the research were in the best interests of the public. 
+Moreover, I was told by the NIGB that with more time and resources I could gain 
+individual consent from each and every person. This gave me a sense that only 
+large research organisations, with better resources, would be able to carry out 
+research projects like this. With only seven months left before my thesis submission 
+deadline I was faced with the prospect of having to start all over again. 
+Page 82 
+I was surprised by the NIGBs first concern that I would be accessing too much 
+sensitive information. Given my role as a Trainee Clinical Psychologist I am in no 
+doubt about my own abilities to maintain confidentiality, as I do so routinely. I 
+appreciate that identifiable information should only be accessed as a last resort, but 
+in the absence of an existing anonymous database, I felt that creating one was 
+justified. All of the information that I wanted to access was within a Psychologists 
+remit, as it pertained only to Mental Health services. It therefore felt that tasks 
+which I carry out regularly in my clinical practice were being scrutinised. As such I 
+felt that the NIGBs concern was unjustified and I struggled to think of ways in 
+which I could overcome this. Fortunately, with the help of my supervisors, we were 
+able to come up with a solution. It was possible to check the database to see 
+whether people had been referred to the service for reasons other than the memory 
+clinic; if they were, it was proposed that these patients files were excluded from 
+the research. As such the minimum possible amount of information was accessed. 
+On appeal, the NIGB accepted the proposed solution.  
+After gaining some distance, I now have a better appreciation of the NIGBs 
+concerns. I understand that not all researchers are practiced at dealing with 
+confidential information on a routine basis. Therefore limiting access to data helps 
+reduce the risk of confidential information being mistreated. Moreover, access to 
+the minimal amount of sensitive data helps to protect the welfare of the researcher. 
+Highly sensitive mental health details may be distressing to people who are 
+unaccustomed to them. Therefore it is in everyones best interests, that the 
+minimum amount of data is accessed. 
+Page 83 
+The NIGBs third concern was resolved when the NIGB were informed that a 
+prospective study was not possible due to changes in the way that dementia 
+assessments are currently carried out in the local memory services, meaning that 
+sufficient data for the research would not be present. 
+One obstacle remained though, regarding the NIGBs second concern that only the 
+minimum amount of data necessary should be accessed. In order to give me 
+permission to carry out the research, the NIGB required me to access only the 
+minimum sample size needed to answer my research question. To me this remains a 
+conundrum as it seems as if the principles of the Data Protection Act (1998) are at 
+odds with the purposes of research. The present research study was novel and 
+therefore it did not have an existing effect size from which to derive sample size. 
+Effect sizes could only be calculated retrospectively, once the study was underway. 
+To overcome this obstacle I provided the NIGB with broad and general sample size 
+estimates (Coaley, 2010, p 61), until specific sample sizes could be determined. In 
+future, the NIGB may need to consider being a bit more flexible with this principle 
+in order to facilitate research. However, it is still potentially worrying that research 
+can be carried out using a minimum sample size alone. This leaves research 
+vulnerable to being underpowered, if any subsequent data has to be excluded on the 
+basis of anomalies. More thought may be needed to constructively align these 
+contradictory perspectives. 
+Potential Improvements to the NIGB Process 
+Having acknowledged the importance of the NIGBs role, there are a few things 
+that could be done to help facilitate the undertaking of research in future. Firstly I 
+felt frustrated by how long it took for my application to be processed. As a trainee, 
+Page 84 
+carrying out this research as part of my doctorate, I had strict deadlines that I 
+needed to meet. However, the NIBG did not appear to be sympathetic to these 
+constraints. From the time of my initial inquiry to the final approval, the application 
+process took six months to complete. This is a third of the allotted time that I had 
+available to complete the whole project. This might prevent future research studies 
+from happening if they have a limited amount of time available. 
+My second concern relates to the lack of communication. In the initial stages, I 
+found it very difficult to get answers to queries that I had regarding my NIGB 
+application. Given that this process was new to me, and I did not know anyone else 
+who had previously applied to the NIGB, I inevitably had lots of questions. I found 
+it difficult to understand exactly what answers were required on the application 
+form. For example, the application requested both Corporate and System Level 
+Security Policies, and I was unsure if these policies applied to my research, and if 
+so, where to obtain them. Perhaps there is a need for some further online guidance 
+or sample applications to help people who are less familiar with this type of 
+research.   
+Finally the process may have been easier had I been given the opportunity to 
+discuss the committees concerns with them face to face. Some of their initial 
+queries could have been resolved straight away if I had been allowed to expand on 
+particular details from my application. As it was, my application was refused and I 
+had to wait a further two months while it went to appeal. Consequently I came very 
+close to not carrying out this project at all. In future, where concerns are raised 
+perhaps the NIGB could provide additional suggestions as to how the research may 
+be facilitated in a manner in keeping with the Data Protection Act (1998). 
+Page 85 
+Future Research 
+There is certainly scope to carry out more research into how people are diagnosed 
+with dementia. For my empirical study, a quantitative methodology was adopted. 
+However, I would be interested to explore peoples experiences from a qualitative 
+perspective. The findings from my empirical paper show that people with high pre-
+morbid intellectual abilities suffer greater cognitive decline at the point of being 
+assessed for dementia. However, it fails to determine why this may be. Qualitative 
+accounts of peoples journey through the process of dementia diagnosis may help to 
+illuminate this further. This could include when and by whom, the first signs of 
+cognitive decline were noticed, and at what point people decide to seek help from 
+healthcare professionals as a result. It would also be important to take into account 
+the viewpoints of people who have never accessed any dementia services, although 
+these people may be difficult to find. Such research may help to highlight potential 
+barriers to accessing services, which can consequently be addressed. An increased 
+understanding of these barriers may enable people to access the support that they 
+need. 
+Dementia: A National Challenge 
+On a positive note, the need for greater dementia research has recently been 
+acknowledged at a national level. The Alzheimers Society has recently released its 
+report Dementia 2012: A National Challenge. The report describes the escalating 
+number of people with dementia, and the subsequent costs of dementia services. As 
+a result David Cameron has labelled dementia a national crisis. Speaking at an 
+Alzheimers Society conference in March, 2012 he described how the levels of 
+dementia diagnosis, understanding and awareness are shockingly low and that 
+much more research is needed to increase our understanding of the condition 
+Page 86 
+(Cameron, 2012). Consequently, Cameron has pledged to double the national 
+dementia research budget and he aims for the UK to become a world leader in 
+dementia research. This is fantastic news for the field of dementia, as it may be 
+finally getting the national recognition that it deserves. Hopefully this extra 
+research will help to demystify dementia and allow for the development of better 
+treatments to help improve the quality of the lives of those individuals that are 
+affected by it. 
+Maximising Future Research  
+There is potential for further dementia research to be conducted using retrospective 
+research designs. There is a wealth of existing data which is routinely collected by 
+dementia services, which could be used to answer a variety of research hypotheses. 
+However, thought is needed as to how to gain individual consent to use this data, in 
+a way that is practicable. Perhaps patients could be asked from their initial contact 
+with services, whether they consent to their clinical files being accessed for the 
+purposes of research or not. That is not to say that this would give researchers 
+permission to access any information that they wish, as they would still be 
+governed by ethical procedures and the principles of the Data Protection Act 
+(1998). Effectively, it would mean extending section 33 of the Data Protection Act 
+(1998) to include researchers outside of the direct care team. This would allow 
+researchers access to a greater amount of data.  
+Alternatively, if there was concern about accessing patient-identifiable information, 
+then more work could be done to produce an anonymous database from the existing 
+clinical information. As electronic medical files become more and more 
+commonplace, it should be relatively easy to effectively anonymise patient data. 
+Page 87 
+This would help to maximise the research that can be carried and increase our 
+understanding of both dementia and current clinical practice. Again ethical 
+procedures would help to safeguard access to this data and to ensure that 
+information was not misused. If this was done sensitively, it would allow for data to 
+be combined from multiple sites, so as to help collate evidence and notice national 
+trends. This may be particularly useful with less common dementia subtypes which 
+do not present as often to memory clinic services. By increasing the amount of 
+research possible, this helps to ensure that clinical practice is kept up-to-date and 
+consequently the best possible care can be given to people with dementia.  
+My Hopes and Fears about My Research 
+It is my hope that the findings from my present research study will be used to alter 
+the way that people with high pre-morbid intellectual functioning are diagnosed 
+with dementia. My research has highlighted the importance of using relative 
+amounts of cognitive decline within the assessment process, rather than relying on 
+absolute values. In future I would expect clinicians to routinely estimate a persons 
+pre-morbid levels of intellectual functioning, in order to determine the amount of 
+cognitive decline that they have undergone. My greatest fear would be that these 
+findings are not recognised in any way, and that pre-morbidly high functioning 
+people with dementia continue not to be diagnosed promptly.  
+Clinically, I have gained a much better understanding of the research process. It has 
+become clear to me how important it is for clinical practice to be constantly 
+evaluated. This requires an up-to-date understanding of both mental health 
+disorders and therapeutic approaches, so that the best possible clinical intervention 
+can be implemented. As scientist-practitioners, Clinical Psychologists are uniquely 
+Page 88 
+positioned to be able to carry out this work. Our dual training in both research skills 
+and therapeutic interventions means that not only can we research gaps in clinical 
+knowledge, but we can then use those findings to improve our clinical practice in a 
+meaningful way. This is a real strength of our profession, and one which needs to 
+be nurtured.  
+In future I sincerely hope to be able to continue to work as a Clinical Psychologist 
+who carries out research, although I know that this may be difficult to achieve. All 
+too often clinicians have to deal with increasingly large caseloads which occupy 
+their time, leaving little space for research. As a result this area can get overlooked, 
+or can be left to be done by people who are solely researchers. I believe that to be 
+the best possible clinician it is important to keep challenging the way that clinical 
+work is carried out and not to take things for granted. This will help to ensure that 
+services remain effective, and deliver the best possible care. I will therefore need to 
+think carefully about how to ensure that I continue to carry out research when I 
+become a qualified Clinical Psychologist.   
+Conclusions     
+Despite setbacks along the way I have thoroughly enjoyed the research process. At 
+times it has been difficult to keep myself motivated, but overall I feel that I have 
+gained a lot from carrying out this study. It is encouraging to hear that the 
+Government has started to recognise the importance of dementia research, and I 
+hope that the additional funding will help to increase both public and professional 
+knowledge about dementia. Consideration is needed of how to make the most 
+effective use of existing data, in order to maximise the lessons that can be learnt 
+from clinical practice. However difficult it is to access existing data, it does not 
+Page 89 
+mean that it should not be used, and with a little extra thought this can be achieved. 
+This thesis is testimony to that fact.  
+I still feel anxious about one day being diagnosed with dementia. However, through 
+this research I have increased peoples awareness of some key aspects in the 
+assessment and diagnosis of dementia. Hopefully through awareness of the 
+importance of considering relative amounts of cognitive decline, a greater number 
+of people with high pre-morbid intellectual functioning will be diagnosed as 
+promptly as people with other levels of pre-morbid intellectual functioning. 
+Page 90 
+References 
+Alzheimers Society. (2012). Dementia 2012: A National Challenge. London: 
+Author. 
+Cameron, D. (2012, March). National Crisis. Speech presented at the Alzheimers 
+Society Dementia 2012 Conference, London. Retrieved from 
+http://www.alzheimers.org.uk/dementia2012  
+Coaley, K. (2010). An introduction to psychological assessment and psychometrics. 
+London: Sage. 
+Data Protection Act. (1998). London: Stationery Office. 
+Jorm, A.F., & Jolley, D. (1998). The incidence of dementia: a meta-analysis. 
+Neurology, 51, 728-733. 
+National Health Service Act. (2006). Section 251. London: Stationary Office. 
+National Information Governance Board for Health and Social Care. (2012). NIGB 
+homepage. Retrieved from http://www.nigb.nhs.uk. 
+Tuokko, H., Garrett, D. D., McDowell, I., Silverberg, N., & Kristjansson, B. 
+(2003). Cognitive decline in high-functioning older adults: Reserve or 
+ascertainment bias? Aging & Mental Health, 7 (4), 259-270. 
+Page 91 
+Appendices 1-4: Ethical Approval 
+Appendix 1: Coventry University  
+Page 92 
+Appendix 2: Black Country Research and Ethics Committee 
+Page 93 
+Page 94 
+Page 95 
+Appendix 3: Research and Development Committee    
+Page 96 
+Page 97 
+Appendix 4: National Information Governance Board 
+Page 98 
+Page 99 
+Appendices 5-6 Research Amendments Approval 
+Appendix 5: Black Country Research and Ethics Committee  
+Page 100 
+Page 101 
+ Appendix 6: Research and Development Committee  
+Steele Rebecca (RKB) R&D Facilitator                                                                  29/11/11 
+Re: Diagnosis of Dementia and Relative Cognitive Decline in People with 
+High Levels of Premorbid Intellectual Functioning. 
+REC Ref: 11/WM/0110 
+Dear Emilie, 
+Following review of substantial amendment number 01 for the above study,                                     
+NHS Partnership Trust confirms they can accommodate this amendment. The 
+amendment may therefore be immediately implemented at this site under the 
+existing NHS Permission.  Please note that you may only implement changes 
+that were described in the amendment notice. 
+The following documents were reviewed: 
+ Notice of Substantial Amendment form September 24
+ REC favourable opinion letter October 25
+ Protocol Version 4, September 23
+ Participant Consent Form, Version 1, September 23
+ 2011. 
+Thank you for keeping R&D informed. 
+Best wishes 
+Rebecca Steele 
+CLRN R&D Facilitator 
+The Clinical Research Network 
+Supporting research to make patients, and the NHS, better 
+Page 102 
+Appendix 7: Literature Search Strategy 
+PsycINFO, Cinahl, Medline and Web of 
+Science searched using the terms: 
+(Premorbid OR Pre-morbid) AND (IQ 
+OR intell* OR funct*) AND Dementia 
+NOT (Schizophrenia OR psychosis)'.  
+Excluded papers prior to 1996. 
+Papers examined for relevance, 
+exclusions included tests which 
+involved measures of pre-morbid 
+functioning, but  which did not evaluate 
+their use  
+Excluded studies which did not use a 
+distinct dementia population 
+Excluded studies with measures that 
+were not designed for use with a British 
+English speaking population 
+Replications removed 
+Citation and reference searches  
+conducted 
+544 papers 
+found 
+50 papers 
+27 papers 
+20 papers 
+11 papers 
+12 papers 
+included 
+Page 103 
+Appendices 8-9 Measures 
+Appendix 8: Wechsler Test of Adult Reading (WTAR) 
+Page 104 
+Appendix 9: Mini Mental State Examination (MMSE)  
+PATIENTS NAME:  ______________________________________ 
+Date: _____________________   Clients Highest Level of Education: __________ 
+Maximum Score      Score               ORIENTATION  
+ 5               (     ) What is the (year) (season) (date) (day) (month)? 
+ 5       (     ) where are we: (state) (county) (town) (hospital (floor)? 
+REGISTRATION 
+ 3       (     ) Name 3 unrelated objects (i.e.: apple, table, penny) 
+Then ask the patient all 3 after you have said them. 
+    Give 1 point for each correct answer.  Then repeat them 
+    until the patient learns all 3. 
+    Count trials and record.    Trials ______________ 
+    ATTENTION AND CALCULATION  
+ 5       (     ) Serial 7s.  1 point for each correct.  Stop after 5  
+    answers.  Alternatively spell world backwards. 
+    100  93  86  79  72  65  58 
+    RECALL 
+ 3       (     ) Ask for 3 objects repeated above.  Give 1 point for each. 
+    LANGUAGE 
+ 9       (     ) Name a pencil, and watch (2 points) 
+        (     ) Repeat the following:  No ifs, and or buts. (1 point) 
+        (     )  Follow a 3-stage command: 
+       Take this paper in your right hand, fold it in half, 
+       and put it on the floor.  (3 points) 
+        (     ) Read and obey the following:  Close your eyes (1 point) 
+        (     )  Write a sentence.  (1 point) 
+        (     ) Copy design. (1 point) 
+  __________  Total Score  (Out of 30)   
+23 OR LESS:  HIGH LIKELIHOOD OF DEMENTIA  
+25-30:  NORMAL AGING OR BORDERLINE DEMENTIA  
+Page 105 
+Appendix 10: Coding for Education 
+1= Finished school  
+2= Further Education 
+3= Higher Education 
+4= Masters 
+5= Doctorate 
+Page 106 
+Appendices 11-12: Participant Information 
+Appendix 11: Cover Sheet  
+Page 107 
+Appendix 12: Participant Information and Consent Form 
+Page 108 
+Appendix 13: Z-score Calculation 
+Z-scores can be calculated as: 
+z-score             
+where: 
+  is a raw score to be standardized 
+  is the mean of the sample scores 
+  is the standard deviation of the sample scores 
+http://en.wikipedia.org/wiki/Mean
+http://en.wikipedia.org/wiki/Standard_deviation
+Page 109 
+Appendix 14: Relationship between the Amount of Cognitive Decline 
+Shown and Estimated Pre-morbid IQ in the Dementia Group 
+Page 110 
+Appendix 15: Relationship between the Amount of Cognitive Decline 
+Shown and Estimated Pre-morbid IQ in the Mild Cognitive Impairment 
+Group 
+Page 111 
+Appendix 16: Relationship between the Amount of Cognitive Decline 
+Experienced and Estimated Pre-morbid IQ in the No Cognitive Impairment 
+Group 
+ R2 Linear = 0.168 
+Page 112 
+Appendices 17-18: Journal Submission Guidelines 
+Appendix 17: British Journal of Clinical Psychology  
+The British Journal of Clinical Psychology publishes original contributions to 
+scientific knowledge in clinical psychology. This includes descriptive comparisons, 
+as well as studies of the assessment, aetiology and treatment of people with a wide 
+range of psychological problems in all age groups and settings. The level of 
+analysis of studies ranges from biological influences on individual behaviour 
+through to studies of psychological interventions and treatments on individuals, 
+dyads, families and groups, to investigations of the relationships between explicitly 
+social and psychological levels of analysis. 
+The following types of paper are invited: 
+  Papers reporting original empirical investigations 
+ Theoretical papers, provided that these are sufficiently related to the empirical 
+ Review articles which need not be exhaustive but which should give an 
+interpretation of the state of the research in a given field and, where appropriate, 
+identify its clinical implications 
+ Brief reports and comments 
+1. Circulation 
+The circulation of the Journal is worldwide. Papers are invited and encouraged from 
+authors throughout the world. 
+2. Length 
+Papers should normally be no more than 5000 words (excluding abstract, reference 
+list, tables and figures), although the Editor retains discretion to publish papers 
+beyond this length in cases where the clear and concise expression of the scientific 
+content requires greater length. 
+3. Submission and reviewing 
+All manuscripts must be submitted via http://www.editorialmanager.com/bjcp/. The 
+Journal operates a policy of anonymous peer review. Before submitting, please read 
+the terms and conditions of submission and the declaration of competing interests. 
+4. Manuscript requirements 
+ Contributions must be typed in double spacing with wide margins. All sheets must 
+be numbered. 
+ Manuscripts should be preceded by a title page which includes a full list of 
+authors and their affiliations, as well as the corresponding author's contact details. 
+A template can be downloaded from the website. 
+http://www.editorialmanager.com/bjcp/
+http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)2044-8260/homepage/BPS_Journals_Declaration_of_Competing_Interests.doc
+http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)2044-8260/homepage/Sample_Manuscript_Title_Page.doc
+Page 113 
+ Tables should be typed in double spacing, each on a separate page with a self-
+explanatory title. Tables should be comprehensible without reference to the text. 
+They should be placed at the end of the manuscript with their approximate locations 
+indicated in the text. 
+ Figures can be included at the end of the document or attached as separate files, 
+carefully labelled in initial capital/lower case lettering with symbols in a form 
+consistent with text use. Unnecessary background patterns, lines and shading 
+should be avoided. Captions should be listed on a separate sheet. The resolution of 
+digital images must be at least 300 dpi. 
+ For articles containing original scientific research, a structured abstract of up to 
+250 words should be included with the headings: Objectives, Design, Methods, 
+Results, and Conclusions. Review articles should use these headings: Purpose, 
+Methods, Results, and Conclusions. 
+ All Articles must include Practitioner Points  these are 24 bullet points to detail 
+the positive clinical implications of the work, with a further 24 bullet points 
+outlining cautions or limitations of the study. They should be placed below the 
+abstract, with the heading Practitioner Points. 
+ For reference citations, please use APA style. Particular care should be taken to 
+ensure that references are accurate and complete. Give all journal titles in full. 
+ SI units must be used for all measurements, rounded off to practical values if 
+appropriate, with the imperial equivalent in parentheses. 
+ In normal circumstances, effect size should be incorporated. 
+ Authors are requested to avoid the use of sexist language. 
+ Authors are responsible for acquiring written permission to publish lengthy 
+quotations, illustrations, etc. for which they do not own copyright. For guidelines 
+on editorial style, please consult the APA Publication Manual published by the 
+American Psychological Association. 
+5. Brief reports and comments 
+These allow publication of research studies and theoretical, critical or review 
+comments with an essential contribution to make. They should be limited to 2000 
+words, including references. The abstract should not exceed 120 words and should 
+be structured under these headings: Objective, Method, Results, Conclusions. There 
+should be no more than one table or figure, which should only be included if it 
+conveys information more efficiently than the text. Title, author name and address 
+are not included in the word limit. 
+6. Supporting Information 
+BJC is happy to accept articles with supporting information supplied for online only 
+publication. This may include appendices, supplementary figures, sound files, video 
+clips etc. These will be posted on Wiley Online Library with the article. The print 
+version will have a note indicating that extra material is available online. Please 
+indicate clearly on submission which material is for online only publication. Please 
+http://www.amazon.co.uk/gp/product/1433805618?ie=UTF8&tag=thebritishpsy-21&linkCode=xm2&camp=1634&creativeASIN=1433805618
+Page 114 
+note that extra online only material is published as supplied by the author in the 
+same file format and is not copyedited or typeset. Further information about this 
+service can be found at  
+http://authorservices.wiley.com/bauthor/suppmat.asp 
+7. Copyright 
+Authors will be required to assign copyright to The British Psychological Society. 
+Copyright assignment is a condition of publication and papers will not be passed to 
+the publisher for production unless copyright has been assigned. To assist authors 
+an appropriate copyright assignment form will be supplied by the editorial office 
+and is also available on the journals website at 
+http://www.blackwellpublishing.com/pdf/CTA_BPS.pdf. Government employees in 
+both the US and the UK need to complete the Author Warranty sections, although 
+copyright in such cases does not need to be assigned. 
+8. Colour illustrations 
+Colour illustrations can be accepted for publication online. These would be 
+reproduced in greyscale in the print version. If authors would like these figures to 
+be reproduced in colour in print at their expense they should request this by 
+completing a Colour Work Agreement form upon acceptance of the paper. A copy 
+of the Colour Work Agreement form can be downloaded here. 
+9. Pre-submission English-language editing 
+Authors for whom English is a second language may choose to have their 
+manuscript professionally edited before submission to improve the English. A list 
+of independent suppliers of editing services can be found at  
+http://authorservices.wiley.com/bauthor/english_language.asp. All services are 
+paid for and arranged by the author, and use of one of these services does not 
+guarantee acceptance or preference for publication. 
+10. OnlineOpen 
+OnlineOpen is available to authors of primary research articles who wish to make 
+their article available to non-subscribers on publication, or whose funding agency 
+requires grantees to archive the final version of their article. With OnlineOpen, the 
+author, the author's funding agency, or the author's institution pays a fee to ensure 
+that the article is made available to non-subscribers upon publication via Wiley 
+Online Library, as well as deposited in the funding agency's preferred archive. For 
+the full list of terms and conditions, see 
+http://wileyonlinelibrary.com/onlineopen#OnlineOpen_Terms 
+Any authors wishing to send their paper OnlineOpen will be required to complete 
+the payment form available from our website at: 
+https://onlinelibrary.wiley.com/onlineOpenOrder 
+http://authorservices.wiley.com/bauthor/suppmat.asp
+http://www.blackwellpublishing.com/pdf/CTA_BPS.pdf
+http://www.blackwellpublishing.com/pdf/SN_Sub2000_F_CoW.pdf
+http://authorservices.wiley.com/bauthor/english_language.asp
+http://wileyonlinelibrary.com/onlineopen#OnlineOpen_Terms
+https://onlinelibrary.wiley.com/onlineOpenOrder
+Page 115 
+Prior to acceptance there is no requirement to inform an Editorial Office that you 
+intend to publish your paper OnlineOpen if you do not wish to. All OnlineOpen 
+articles are treated in the same way as any other article. They go through the 
+journal's standard peer-review process and will be accepted or rejected based on 
+their own merit. 
+11. Author Services 
+Author Services enables authors to track their article  once it has been accepted  
+through the production process to publication online and in print. Authors can 
+check the status of their articles online and choose to receive automated e-mails at 
+key stages of production. The author will receive an e-mail with a unique link that 
+enables them to register and have their article automatically added to the system. 
+Please ensure that a complete e-mail address is provided when submitting the 
+manuscript. Visit http://authorservices.wiley.com/bauthor/ for more details on 
+online production tracking and for a wealth of resources including FAQs and tips 
+on article preparation, submission and more. 
+12. The Later Stages 
+The corresponding author will receive an email alert containing a link to a web site. 
+A working e-mail address must therefore be provided for the corresponding author. 
+The proof can be downloaded as a PDF (portable document format) file from this 
+site. Acrobat Reader will be required in order to read this file. This software can be 
+downloaded (free of charge) from the following web site: 
+http://www.adobe.com/products/acrobat/readstep2.html. 
+This will enable the file to be opened, read on screen and annotated direct in the 
+PDF. Corrections can also be supplied by hard copy if preferred. Further 
+instructions will be sent with the proof. Hard copy proofs will be posted if no e-
+mail address is available. Excessive changes made by the author in the proofs, 
+excluding typesetting errors, will be charged separately. 
+13. Early View 
+British Journal of Clinical Psychology is covered by the Early View service on 
+Wiley Online Library. Early View articles are complete full-text articles published 
+online in advance of their publication in a printed issue. Articles are therefore 
+available as soon as they are ready, rather than having to wait for the next 
+scheduled print issue. Early View articles are complete and final. They have been 
+fully reviewed, revised and edited for publication, and the authors final corrections 
+have been incorporated. Because they are in final form, no changes can be made 
+after online publication. The nature of Early View articles means that they do not 
+yet have volume, issue or page numbers, so they cannot be cited in the traditional 
+way. They are cited using their Digital Object Identifier (DOI) with no volume and 
+issue or pagination information. E.g., Jones, A.B. (2010). Human rights 
+Issues. Human Rights Journal. Advance online publication. doi:10.1111/j.1467-
+9299.2010.00300.x 
+http://authorservices.wiley.com/bauthor/
+http://www.adobe.com/products/acrobat/readstep2.html
+Page 116 
+Appendix 18: Journal of Aging and Mental Health    
+Instructions for Authors 
+This journal uses ScholarOne Manuscripts (previously Manuscript Central) to peer 
+review manuscript submissions. Please read the guide for ScholarOne 
+authors before making a submission. Complete guidelines for preparing and 
+submitting your manuscript to this journal are provided below. 
+Aging & Mental Health welcomes original contributions from all parts of the 
+world on the understanding that their contents have not previously been published 
+nor submitted elsewhere for publication. We encourage the submission of timely 
+review articles that summarize emerging trends in an area of mental health and 
+aging, or which address issues which have been overlooked in the field. Reviews 
+should be conceptual and address theory and methodology as appropriate. All 
+submissions will be sent anonymously to independent referees. It is a condition of 
+acceptance that papers become the copyright of the publisher. 
+Manuscripts 
+Manuscripts may be in the form of: (i) regular articles not usually exceeding 5,000 
+words (under special circumstances, the Editors will consider articles up to 10,000 
+words); or (ii) short reports not exceeding 2,000 words. These word 
+limits exclude references and tables. 
+All submissions should be made online at Aging & Mental Health's ScholarOne 
+Manuscripts site. New users should first create an account. Once a user is logged 
+onto the site submissions should be made via the Author Centre. 
+Authors should prepare and upload two versions of their manuscript. One should be 
+a complete text, while in the second all document information identifying the author 
+should be removed from files to allow them to be sent anonymously to referees. 
+When uploading files authors will then be able to define the non-anonymous 
+version as "File not for review". 
+All submissions should be in the style of the Publication Manual of the American 
+Psychological Association (6th edition, 2009). Papers should be double spaced 
+throughout (including the references), with margins of at least 2.5 cm (1 inch). All 
+pages must be numbered. 
+The first page should include the title of the paper, first name, middle initial(s) and 
+last name of the author(s), and for each author a short institutional address, and an 
+abbreviated title (for running headlines within the article). At the bottom of the 
+page give the full name and address (including telephone and fax numbers and e-
+mail address if possible) of the author to whom all correspondence (including 
+proofs) should be sent. The second page should repeat the title and contain an 
+abstract of not more than 250 words. The third page should repeat the title as a 
+heading to the main body of the text. 
+http://journalauthors.tandf.co.uk/submission/ScholarOne.asp
+http://journalauthors.tandf.co.uk/submission/ScholarOne.asp
+http://mc.manuscriptcentral.com/camh
+http://mc.manuscriptcentral.com/camh
+Page 117 
+Structured abstracts: The main text should be preceded by a short structured 
+abstract, accompanied by a list of keywords. The abstract should be arranged as 
+follows: Title of manuscript; name of journal; abstract text containing the following 
+headings: Objectives, Method, Results, and Conclusion. 
+Key words: A list of 3-5 keywords should be provided. Words already used in the 
+title should be avoided if possible. 
+The text should normally be divided into sections with the headings Introduction, 
+Methods, Results, and Discussion. Long articles may need subheadings within 
+some sections to clarify their content. Within the text section headings and 
+subheadings should be typed on a separate line without numbering, indentation or 
+bold or italic typeface. 
+Style guidelines 
+Description of the Journal's article style. 
+Description of the Journal's reference style, Quick guide. 
+Any consistent spelling style is acceptable. Use single quotation marks with double 
+within if needed. 
+If you have any questions about references or formatting your article, please 
+contact authorqueries@tandf.co.uk (please mention the journal title in your email). 
+Word Templates 
+Word templates are available for this journal. 
+ If you are not able to use the template via the links or if you have any other 
+queries, please contact authortemplate@tandf.co.uk 
+Units of measurement 
+All measurements must be cited in SI units. 
+Illustrations  
+All illustrations (including photographs, graphs and diagrams) should be referred to 
+as Figures and their position indicated in the text (e.g. Fig. 3). Each should be 
+submitted numbered on the back with Figure number (Arabic numerals) and the 
+title of the paper. The captions of all figures should be submitted on a separate 
+page, should include keys to symbols, and should make interpretation possible 
+without reference to the text. 
+Figures should ideally be professionally drawn and designed with the format of the 
+journal (A4 portrait, 297 x 210 mm) in mind and should be capable of reduction. 
+Tables  
+Tables should be submitted on separate pages, numbered in Arabic numerals, and 
+their position indicated in the text (e.g. Table 1). Each table should have a short, 
+self-explanatory title. Vertical rules should not be used to separate columns. Units 
+should appear in parentheses in the column heading but not in the body of the table. 
+Any explanatory notes should be given as a footnote at the bottom of the table. 
+Page 118 
+Proofs  
+Proofs will be sent to the author nominated for correspondence. Proofs are supplied 
+for checking and making essential typographical corrections, not for general 
+revision or alteration. Proofs must be returned within 72 hours of receipt. 
+Free article access 
+Corresponding authors will receive free online access to their article through our 
+website, Taylor & Francis Online, and a complimentary copy of the issue 
+containing their article. Reprints of articles published in this journal can be 
+purchased through Rightslink when proofs are received. If you have any queries, 
+please contact our reprints department at reprints@tandf.co.uk 
+Copyright 
+It is a condition of publication that authors assign copyright or licence the 
+publication rights in their articles, including abstracts, to Taylor & Francis. This 
+enables us to ensure full copyright protection and to disseminate the article, and the 
+journal, to the widest possible readership in print and electronic formats as 
+appropriate. Authors retain many rights under the Taylor & Francis rights policies, 
+which can be found at http://journalauthors.tandf.co.uk/preparation/copyright.asp. 
+Authors are themselves responsible for obtaining permission to reproduce copyright 
+material from other sources. 
+Exceptions are made for certain Governments' employees whose policies require 
+that copyright cannot be transferred to other parties. We ask that a signed statement 
+to this effect is submitted when returning proofs for accepted papers. 
+Aging & Mental Health has a new editorial e-mail address: amh@ucl.ac.uk. 
+General enquires can be sent to m.orrell@ucl.ac.uk. 
+	coveroakley.pdf
+	University of Warwick institutional repository: http://go.warwick.ac.uk/wrap

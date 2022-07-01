@@ -1,0 +1,7 @@
+This study aims to investigate how lateral root (LR) and nodule
+development are balanced in response to low (0.
+The phenotypic measurements of root architecture of A17 in response to
+NH4NO3 and rhizobia showed that at high NH4NO3 rhizobia affected LR
+development. Whole genome profiling of early (2 and
+6 hour) root responses to high NH4NO3 and rhizobia identified 4793 genes
+that were differentially expressed (significance cutoff of P<0.

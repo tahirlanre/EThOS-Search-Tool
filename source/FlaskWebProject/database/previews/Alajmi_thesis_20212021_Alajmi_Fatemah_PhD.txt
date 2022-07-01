@@ -1,0 +1,51 @@
+Bangor University
+A knowledge of the conditions that influence the activities of enzymes that mediate the key
+processes occurring within peat soils is a prerequisite for predicting potential ecosystem
+responses to climate change, human utilization and management policies.
+In contrast to previous studies focussed on single biomes, the following study included three
+peatlands along a climatic gradient: Arctic (Svalbard, Norway), temperate (Wales, United
+Kingdom) and tropical (Andean mountains, Colombia). The study also encompasses a
+deliberately broad range of biotic and abiotic parameters, which were investigated along the
+peat profile.
+Contrasting relationships were found between measured parameters across the three
+peatlands. Generally, the highest biogeochemical processing rates occurred in the superficial
+layer indicating it to be the most biologically active layer. However, in the deeper mineral
+layer of Svalbard, phenol oxidase activity was as high as in the superficial layer, with higher
+pH and nutrient concentrations. Also, nitrous oxide flux from the deeper layers did not
+significantly differ from that of the upper layers, further highlighting the potential for the
+deeper layers of peats to be more active than is commonly assumed. The dominant
+controlling factor for phenol oxidase activity in Svalbard and Colombia was pH, while in
+Wales only hydrolases were positively correlated with pH. The response of hydrolase
+activities and gas fluxes to phenolics concentration also varied between the three regions,
+indicating that the three climatic peatlands differed in parent plant chemistry that controls
+peat chemical composition across the latitudinal transect from the Arctic to the tropics.
+A negative correlation was expected between enzyme activity and nutrient availability.
+However, contradictory results were found concerning this perspective, possibly because soil
+samples obtained from the three contrasting peatlands differed in nutrient concentrations,
+changing the dependency of in situ microbial communities on edaphic nutrients.
+Significant differences in measured parameters were identified between different regions.
+Relatively high hydrolase activities were observed in Colombia, possibly due to the higher
+demand for nutrients and/or higher energy supply. Phenol oxidase was relatively higher in the
+Arctic, associated with significantly higher pH and concentrations of most inorganic
+nutrients. Conversely, the Welsh peatland exhibited the lowest phenol oxidase activity,
+consistent with lowest pH and consequently highest phenolics concentration. The higher
+dissolved organic carbon (DOC) concentration towards the tropics can be attributed to the
+higher primary productivity towards the equator where there is a warmer climate and longer
+growing season. In addition, decreased DOC concentration has been linked to increased sea
+salt, which were high in Svalbard possibly due to the proximity of the sampling sites to the
+The effect of soil variables on community composition of micro-eukaryotes in peatlands
+along a climatic gradient is useful for predicting how peatland structure and function may
+respond to future climate change. In the present study, the diversity and relative abundance of
+micro-eukaryotes were determined. Also, attempts were made to relate micro-eukaryote
+community composition to abiotic and metabolic variables. The general pattern of peat soil
+micro-eukaryote abundance was consistent with other studies of peatlands, where the
+supergroups Alveolata, Opisthokonta, Rhizaria and Stramenopiles were dominant.
+Redundancy analysis revealed that the community composition of micro-eukaryotes differed
+significantly between the three regions in response to the selected variables; high pH,
+nutrients, organic matter content and oxygen concentration, and low temperature structured
+micro-eukaryotes community. The results showed that phagotrophs, phototrophs and
+mixotrophs dominated in the Arctic, while with increasing temperature and phenolics
+concentration, community composition showed an increasing dominance of parasites in the
+temperate peatland. Micro-eukaryotic community in the tropical peatland was dominated by
+osmotrophs and distinguished by the high enzyme activities, decreased phenolics
+concentration, and with relatively high pH and DOC concentration.

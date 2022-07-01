@@ -68,9 +68,13 @@
 							<h2 style="margin-top: 15px;">Keyword input</h2>
 							<p id="start-zone-body" style="white-space: pre-wrap;"></p>
 							<form name="keywords" id="keywords">
+
+
 								<div class="form-group" id="paper breadth">
 									<input type="number" name="breadth" min="2" max="128">
 								</div>
+
+
 								<div class="form-group" id="keyword_group_1">
 									<input type="text" name="keyword1" maxlength="100">
 									<input type="range" name="weight1" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
@@ -128,6 +132,40 @@
 							<p style="margin-bottom: 0">Please select a group that most closely matches what you are looking for.</p>
 						</div>
 						<div class="container-lg choices-zone" id="choices-zone">
+							<h2>Left Theses</h2>
+
+							<h2>create cluster summary</h2>
+
+							<h2>get keywords</h2>
+
+							<table class="table table-dark">
+							  <thead>
+							    <tr>
+							      <th scope="col">Name</th>
+							      <th scope="col">Summary</th>
+							    </tr>
+							  </thead>
+							  <tbody id="left-list">
+							  </tbody>
+							</table>
+
+							<button onclick="left_traverse()">Go Left</button>
+							<h2>Right Theses</h2>
+							
+							<h2>create cluster summary</h2>
+							
+							<h2>get keywords</h2>
+							<table class="table table-dark">
+							  <thead>
+							    <tr>
+							      <th scope="col">Name</th>
+							      <th scope="col">Summary</th>
+							    </tr>
+							  </thead>
+							  <tbody id="right-list">
+							  </tbody>
+							</table>
+							<button onclick="right_traverse()">Go Right</button>
 
 						</div>
 					</div>

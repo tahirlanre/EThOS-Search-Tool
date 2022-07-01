@@ -1,0 +1,6 @@
+Application of inoculant rhizobial
+strains is common practice in many areas, as plant growth is often nitrogen limited and
+the symbiosis can significantly enhance yields.
+Mathematical modelling was used to predict how plants should allocate resources
+to maximise growth rates, depending on rhizobial nitrogen provision and carbon
+requirements and on soil nitrogen conditions.

@@ -1,0 +1,30 @@
+Microsoft Word - GRADUATION THESIS.doc
+The incidence of diabetes is increasing alarmingly indicating a need for preventive
+strategies. Prospective evidence is inconclusive regarding the protective effect of
+high fibre intake on the risk of Type 2 diabetes mellitus (T2DM). Differences in
+fibre measuring methodologies may have contributed some of these inconsistencies.
+For the first time, this thesis employed both laboratory and epidemiological
+approaches to explore different aspects of dietary fibre.
+Firstly, 14 commonly consumed legumes were analysed for fibre content using
+the Association of Official Analytical Chemists (AOAC) method, and the values
+were significantly higher than published non-starch polysaccharide (NSP) values,
+with a mean AOAC-fibre: NSP ratio of 1:1.43. The UK Womens Cohort Study
+(UKWCS) data was used to compare AOAC-fibre intakes with NSP intakes. Good
+agreement (Kappa = 0.9) was observed between intakes of AOAC-fibre and NSP
+with a resulting AOAC-fibre: NSP ratio being generated of 1:1.43.
+Following this, the links between risk of incident T2DM and intakes of
+AOAC-fibre and NSP were investigated. There was no evidence of dose-response
+relationships between T2DM risk and total fibre intake (AOAC-fibre and NSP) or
+from key fibre sources, except an age-adjusted lower risk of T2DM with every
+5g/day increment in cereal fibre (OR=0.86; 95%CI: 0.75, 0.99).
+As an important fibre provider; the relationship between the risk of T2DM and
+legume consumption was also explored. Women in the highest dried legumes intake
+category experienced significantly lower odds of incident T2DM (OR=0.85;
+95%:0.52, 0.89, p =0.03) compared to women in the lowest category. Agreement of
+fibre intake obtained using different dietary assessments approaches suggested fair
+agreement of diary derived NSP vs. FFQ derived NSP and poor agreement for
+vegetable fibre.
+Overall, results do not support an increase in fibre intake to prevent diabetes in
+the studied population, although there may be a benefit of increased dried legume
+intake.
+List of publications and presentations

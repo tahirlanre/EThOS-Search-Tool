@@ -1,0 +1,4 @@
+From this point of view, evidence of a
+dependence of the bandgap size of graphene from doping percentage and position
+was obtained from theoretical investigations, highlighting the importance of a precise
+synthesis of the materials, which is not achievable with top-down methods.

@@ -1,0 +1,6 @@
+When Nod factor is added to legume root hair cells two calcium responses are
+observed: a rapid influx of calcium in the root hair tip and periodic calcium oscillations in
+and around the nuclear area. In order to
+study whether root hair calcium spiking is essential for cortical nodule organogenesis,
+Nod factor-induced calcium spiking was tested in the Lotus japonicus symrk14 har1-1
+mutant.

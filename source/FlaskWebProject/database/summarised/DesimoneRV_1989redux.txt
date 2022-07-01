@@ -1,0 +1,10 @@
+Part
+of the solution is achieved by integrating the best features of the previous EBL
+programs, in the following manner:
+identify the various types of control knowledge specified in EBL programs
+to date,
+analyse the learning techniques involved in these EBL programs,
+develop an extended EBL approach which incorporates the best features of
+these techniques and learns all these different types of control knowledge
+This approach reflects a standard methodology of extending scientific knowledge
+based upon a rational reconstruction of the fruits of previous research.

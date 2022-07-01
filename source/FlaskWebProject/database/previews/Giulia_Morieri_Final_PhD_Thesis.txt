@@ -1,0 +1,23 @@
+Microsoft Word - Final PhD Thesis Giulia Morieri.docx
+The legume-Rhizobium symbiosis results in the formation of nitrogen-fixing nodules.
+Bacterial infection occurs through the formation of a tunnel-like structure called an
+infection thread. The rhizobially-made Nod factor is essential for the establishment of this
+symbiosis. When Nod factor is added to legume root hair cells two calcium responses are
+observed: a rapid influx of calcium in the root hair tip and periodic calcium oscillations in
+and around the nuclear area. The role of these calcium responses in the infection of
+legume by rhizobial has been studied in this thesis. The function of the calcium flux was
+investigated in Medicago truncatula. Structurally-modified Nod factors produced by
+rhizobial mutants that are unable to infect roots successfully via infection threads, were
+impaired for induction of calcium flux. M. truncatula and L. japonicus infection mutants
+were also tested for the calcium flux response. Together the results point towards a key
+role for the Nod factorinduced calcium flux during infection thread initiation. In order to
+study whether root hair calcium spiking is essential for cortical nodule organogenesis,
+Nod factor-induced calcium spiking was tested in the Lotus japonicus symrk14 har1-1
+mutant. Inoculation of this mutant results in the formation of nodules that are not
+infected by mean of infection threads. The lack of infection thread and the huge
+reduction of calcium spiking in the symrk14-har1-1 mutant shows a link between calcium
+spiking and bacterial infection. Finally, the role of the Lectinnucleotide
+phosphohydrolase (LNP) in the Nod factor signalling pathway was investigated. The LNP
+antisense line blocked for nodule formation was found to be defective for Nod factor-
+induced calcium spiking, calcium flux and NIN gene expression, thus revealing a novel
+component of the Nod factor signalling pathway.

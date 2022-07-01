@@ -1,0 +1,28 @@
+Microsoft Word - Georgios_Michalakidis_PhD_Thesis_UniS_v3.docx
+A systematic approach to the extraction of data from disparate data sources is proposed. The
+World Wide Web is a most diverse dataset; identifying ways in which this large database
+provides means for data quality verification with concepts such as data lineage and provenance
+allows to follow the same approach as a means to aid decision-making in sensitive domains
+such as healthcare.
+Through lessons learned from research in the UK and internationally, we conclude that
+emphasis on interoperable and model-based support of the data syndication can enhance data
+quality, an issue still current (American Hospital Association, 2015) and with data barriers in
+healthcare due to governance concerns. To improve on the above, we start by proposing a
+system for solution-orientated reporting of errors associated with the extraction of routinely
+collected clinical data. We then explore key concepts to assess the readiness of data for
+research and define an ontology-driven approach to create data dictionaries for quality
+improvement in healthcare. Finally, we apply this research to facilitate the enablement of
+consistent data recording across a health system to allow for service quality comparisons.
+Work deriving from this research and built by the author commissioned and aided by the UK
+NHS, University of Surrey, Green Cross Medical, particularly in creating and testing software
+systems in real-world scenarios, has facilitated: quality improvement in healthcare data
+extraction from GP practices in the UK, a state-of-art system for Web-enabling Hospital
+Episode Statistics (HES) data for dermatology and, finally, an online system designed to
+enable cancer Multi-Disciplinary Teams (MDTs) to self-assess and receive feedback on how
+their team performs against the standards set out in The Characteristics of an Effective
+MDT provided by NHS IQ, formerly part of National Cancer Action Team (NCAT), which in
+2016 won the Quality in Care Programmes Digital Innovation in the Treatment of Cancer
+award.
+Further experimentation shows there is potential for the methods proposed to be applicable in
+other sectors such as the investment sector (initial investigation has happened through the
+early stages of this research) but it is suggested that this potential be explored further.

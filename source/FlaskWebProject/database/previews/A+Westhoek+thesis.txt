@@ -1,0 +1,28 @@
+Resource allocation in the legume-
+The symbiosis between plants of the legume family and nitrogen-fixing rhizobia
+underpins global food security. Legume crops are a major source of protein in human
+diets, either directly or indirectly as feed for livestock. Application of inoculant rhizobial
+strains is common practice in many areas, as plant growth is often nitrogen limited and
+the symbiosis can significantly enhance yields. However, rhizobial strains and outcomes
+of the symbiosis vary widely. This variation has also been studied by evolutionary
+biologists interested in the stability of mutualisms. They proposed that plants may
+prevent establishing symbioses with ineffective strains (partner choice), or provide them
+with fewer resources (sanctioning). I studied both mechanisms, combining modelling
+and experimental approaches.
+Mathematical modelling was used to predict how plants should allocate resources
+to maximise growth rates, depending on rhizobial nitrogen provision and carbon
+requirements and on soil nitrogen conditions. The use of marked mutant strains  easily
+distinguishable and differing in a single rhizobial characteristic  overcame previous
+experimental difficulties. It was found that pea (Pisum sativum L.) plants are not able to
+exert partner choice, but do sanction in a more complex way than was previously
+established. In line with model predictions, resources were preferentially allocated to the
+single  best available  strain, so that resources allocated to an intermediate-fixing strain
+depended on whether or not a strain providing more nitrogen was available. Contrary to
+model predictions, there was no indication of discrimination based on rhizobial carbon
+requirements.
+The results cannot be explained by resource allocation in proportion to nitrogen
+received, and indicate systemic integration of information from different nodules. I
+formulate a hypothesis about the underlying plant regulatory mechanisms, and discuss
+implications of the results for selecting inoculant strains and enhancing yields in the
+field. Future work will rely on further integration of theoretical and applied methods and
+perspectives.

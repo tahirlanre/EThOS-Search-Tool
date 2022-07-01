@@ -1,0 +1,28 @@
+K-means landscapes: exploring
+K-means, one of the simplest clustering algorithms, is ubiquitous in every scientific
+field. Its cost function supports many possible clustering solutions, and location of
+low-valued clustering solutions can be challenging. Hence, the topography of the cost
+function surface is crucial to understanding K-means performance. We present the
+application of energy landscape theory to the K-means cost function to elucidate its
+topography, which we deduce from K-means landscapes described in terms minima
+and transition states.
+We analyse K-means landscapes for Fishers Iris dataset, the glass identification
+dataset, and many variations in which we alter their properties. For K-means the
+number of clusters must be prespecified, and we consider the effect of that choice
+on the Iris landscapes. K-means landscapes are also constructed for the glass and
+Iris datasets with varying numbers of outliers, and different feature standardisa-
+tions. Both the removal of outliers and standardisation are common procedures
+during dataset preprocessing. Moreover, we systematically change the cluster over-
+lap and cluster populations for the two datasets, both of which are crucial to K-
+means accuracy. The K-means landscapes for all these modified datasets allows us
+to understand the effect of the most important dataset features on cost function
+topography.
+In all cases we observe that the cost function topography changes independently
+of K-means accuracy; a dataset modification that increases clustering accuracy can
+also make the cost function surface harder to explore. Therefore, the maximum
+accuracy is not always sufficient to understand K-means success, and we must also
+consider the feasibility of obtaining these accurate solutions. The K-means land-
+scapes allow us to address the second of these considerations. For most dataset
+properties the resulting topography changes are largely systematic, and the con-
+cepts can be applied to novel datasets to predict K-means performance, highlight
+possible problems, and select a sampling strategy to improve future applications.

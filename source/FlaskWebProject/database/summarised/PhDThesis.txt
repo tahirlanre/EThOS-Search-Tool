@@ -1,0 +1,7 @@
+We present the
+application of energy landscape theory to the K-means cost function to elucidate its
+topography, which we deduce from K-means landscapes described in terms minima
+and transition states.
+In all cases we observe that the cost function topography changes independently
+of K-means accuracy; a dataset modification that increases clustering accuracy can
+also make the cost function surface harder to explore.

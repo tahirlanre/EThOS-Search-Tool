@@ -1,0 +1,34 @@
+Microsoft Word - PhD Thesis JD 2020 complete
+Since the first isolation of graphene by Geim and Novoselov in 2004, a new field
+involving the preparation of tailored derivatives of this material has been exponentially
+growing. One of the major targets of this scientific endeavour is the conversion of
+graphene from conductor to semiconductor, leading to a new generation of
+miniaturized high-performance transistors and spintronics. To prepare semiconductors
+based on graphene, many different strategies have been pursued, mostly based on
+physical methods, or doping of graphene. In the latter approach, the most interesting
+results have been achieved using surface assisted chemistry, resulting in the formation
+of graphene presenting various heteroatoms as dopants (B, N, O, S) and
+semiconducting properties. However, this approach has been often limited by a difficult
+control over structure and inclusion of the dopants. A possible solution to these
+limitations comes from the preparation of BN-doped graphene. This highly polar couple
+is isoelectronic and isosteric with CC double bonds, thus allowing for an inclusion of the
+dopant without important changes in graphene structure. This results in a material with
+very similar morphology but different opto-electronic properties, featuring a wider
+bandgap compared to pristine graphene. From this point of view, evidence of a
+dependence of the bandgap size of graphene from doping percentage and position
+was obtained from theoretical investigations, highlighting the importance of a precise
+synthesis of the materials, which is not achievable with top-down methods.
+Consequently, a bottom-up approach in which BN-doped PAHs are synthesised using
+organic synthesis and then used as building blocks to form extended systems,
+represents the most reliable strategy towards precisely doped materials.
+A vast library of BN-doped PAHs has been synthesised by many different groups using
+different precursors, doping patterns, and strategies. Among these, the use of
+functionalized borazines as precursors has been often neglected and limited to the
+synthesis of the archetypal borazine-doped nanographene, namely Hexa-peri-
+hexabenzoborazinocoronene (HBBNC). The high interest towards this molecule,
+which can be considered as the smallest unit of a borazine-doped graphene (Figure
+1A), is related to theoretical studies predicting an efficient HOMO-LUMO gap widening
+in this derivative compared to the full carbon congener. Synthetic attempts resulted in
+HBBNC formation in low yield as very insoluble product, thus resulting in incomplete
+characterizations, which failed to produce comprehensive experimental evidence for
+the effect of the borazine doping on nanographene systems.

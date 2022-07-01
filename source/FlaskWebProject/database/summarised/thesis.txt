@@ -1,0 +1,6 @@
+The success of machine learning is due in part to the effectiveness of
+scalable computational methods, like stochastic gradient descent or Monte
+Carlo methods, that undergird learning algorithms. It introduces a new method for gradient estimation in discrete
+variable models, a new objective for maximum likelihood learning in the
+presence of latent variables, and two new gradient-based differentiable
+optimization methods.

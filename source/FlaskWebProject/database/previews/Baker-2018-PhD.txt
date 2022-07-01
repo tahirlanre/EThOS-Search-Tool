@@ -1,0 +1,30 @@
+Semantic text classification for cancer text mining
+Cancer researchers and oncologists benefit greatly from text mining major
+knowledge sources in biomedicine such as PubMed. Fundamentally, text mining
+depends on accurate text classification. In conventional natural language processing
+(NLP), this requires experts to annotate scientific text, which is costly and time
+consuming, resulting in small labelled datasets. This leads to extensive feature
+engineering and handcrafting in order to fully utilise small labelled datasets, which
+is again time consuming, and not portable between tasks and domains.
+In this work, we explore emerging neural network methods to reduce the burden
+of feature engineering while outperforming the accuracy of conventional pipeline
+NLP techniques. We focus specifically on the cancer domain in terms of applications,
+where we introduce two NLP classification tasks and datasets: the first task is that
+of semantic text classification according to the Hallmarks of Cancer (HoC), which
+enables text mining of scientific literature assisted by a taxonomy that explains the
+processes by which cancer starts and spreads in the body. The second task is that
+of the exposure routes of chemicals into the body that may lead to exposure to
+carcinogens.
+We present several novel contributions. We introduce two new semantic classifi-
+cation tasks (the hallmarks, and exposure routes) at both sentence and document
+levels along with accompanying datasets, and implement and investigate a conven-
+tional pipelineNLP classification approach for both tasks, performing both intrinsic
+and extrinsic evaluation. We propose a new approach to classification using multi-
+level embeddings and apply this approach to several tasks; we subsequently apply
+deep learning methods to the task of hallmark classification and evaluate its outcome.
+Utilising our text classification methods, we develop and two novel text mining
+tools targeting real-world cancer researchers. The first tool is a cancer hallmark text
+mining tool that identifies association between a search query and cancer hallmarks;
+the second tool is a new literature-based discovery (LBD) system designed for the
+cancer domain. We evaluate both tools with end users (cancer researchers) and find
+they demonstrate good accuracy and promising potential for cancer research.

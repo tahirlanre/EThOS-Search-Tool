@@ -1,0 +1,6 @@
+Inductively coupled plasma - mass spectrometry (ICP-MS) has been applied to a
+reconnaissance survey of river water geochemistry in former metalliferous mining
+areas of mid- and north Wales. A semi-quantitative method of analysis, with a single
+internal standard, was used which is a rapid and sensitive technique with detection
+limits <1 tgL-1 for many elements and provides values which agree with fully
+quantitative results to within 30%, while agreement is often much better than this.

@@ -38,6 +38,9 @@ def search():
             result = all_papers_in_ticket(int(request.form['ticket_id']))
         elif message_tag == "papers_request":
             result = papers_request(request.form['papers'], request.form['ticket'])
+        elif message_tag == "papers_request_h":
+            print("request h")
+            result = papers_request_h(request.form['papers'], request.form['ticket'])
         elif message_tag == "summarisation_request":
             result = summarisation_request(request.form['paper_name'])
         elif message_tag == "group_search":
@@ -75,7 +78,7 @@ def hierachy_search():
 
 
         #do some clustering based on results
-        tree, linkage, names_order = hierachical.run_search(keys,2, breadth)
+        tree, linkage, names_order, tree_json = hierachical.run_search(keys,2, breadth)
 
         #return a big json of all the useful shit
 
@@ -88,7 +91,7 @@ def hierachy_search():
             summary.close()
             summaries.append(txt)
         print(summaries)
-        result = [linkage.tolist(), names_order, summaries]
+        result = [linkage.tolist(), names_order, summaries, tree_json]
 
         #print(result)
         result = jsonify(result)
@@ -141,6 +144,16 @@ def summarisation_request(paper_name):
 
 def papers_request(papers, ticket_id):
     paper_list = papers.split(',')
+
+    return create_json_from_papers(paper_list, ticket_id)
+
+def papers_request_h(papers, ticket_id):
+    
+    
+    paper_list = papers.split(',')
+    for paper in range(0,len(paper_list)):
+        paper_list[paper] = paper_list[paper][:-4]
+    print (paper_list)
 
     return create_json_from_papers(paper_list, ticket_id)
 

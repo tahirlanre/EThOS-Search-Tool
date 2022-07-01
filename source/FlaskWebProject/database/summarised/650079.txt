@@ -1,0 +1,5 @@
+The aim of
+this thesis was to investigate the effects of soybean and chickpea protease inhibitor
+concentrates (PICs) in LNCaP, DU 145 and PC-3 prostate cancer cell models that
+represented differing stages of carcinogenesis, namely initiation, promotion and
+metastasis.

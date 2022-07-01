@@ -1,0 +1,10 @@
+Work deriving from this research and built by the author commissioned and aided by the UK
+NHS, University of Surrey, Green Cross Medical, particularly in creating and testing software
+systems in real-world scenarios, has facilitated: quality improvement in healthcare data
+extraction from GP practices in the UK, a state-of-art system for Web-enabling Hospital
+Episode Statistics (HES) data for dermatology and, finally, an online system designed to
+enable cancer Multi-Disciplinary Teams (MDTs) to self-assess and receive feedback on how
+their team performs against the standards set out in The Characteristics of an Effective
+MDT provided by NHS IQ, formerly part of National Cancer Action Team (NCAT), which in
+2016 won the Quality in Care Programmes Digital Innovation in the Treatment of Cancer
+award.

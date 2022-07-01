@@ -1,0 +1,13 @@
+Between Integrals and Optima:
+The success of machine learning is due in part to the effectiveness of
+scalable computational methods, like stochastic gradient descent or Monte
+Carlo methods, that undergird learning algorithms. This thesis contributes
+four new scalable methods for distinct problems that arise in machine
+learning. It introduces a new method for gradient estimation in discrete
+variable models, a new objective for maximum likelihood learning in the
+presence of latent variables, and two new gradient-based differentiable
+optimization methods. Although quite different, these contributions address
+distinct, critical parts of a typical machine learning workflow. Furthermore,
+each contribution is inspired by an interplay between the numerical problems
+of optimization and integration, an interplay that forms the central theme
+of this thesis.

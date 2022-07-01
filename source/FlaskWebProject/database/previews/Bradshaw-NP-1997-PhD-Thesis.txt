@@ -1,0 +1,26 @@
+An Analysis of Learning in Weightless Neural 
+This thesis brings together two strands of neural networks research - weightless
+systems and statistical learning theory - in an attempt to understand better the
+learning and generalisation abilities of a class of pattern classifying machines.
+The machines under consideration are n-tuple classifiers. While their analysis falls
+outside the domain of more widespread neural networks methods the method has
+found considerable application since its first publication in 1959. The larger class of
+learning systems to which the n-tuple classifier belongs is known as the set of weight-
+less or RAM-based systems, because of the fact that they store all their modifiable
+information in the nodes rather than as weights on the connections.
+The analytical tools used are those of statistical learning theory. Learning methods
+and machines are considered in terms of a formal learning problem which allows
+the precise definition of terms such as learning and generalisation (in this context).
+Results relating the empirical error of the machine on the training set, the number of
+training examples and the complexity of the machine (as measured by the Vapnik-
+Chervonenkis dimension) to the generalisation error are derived.
+In the thesis this theoretical framework is applied for the first time to weightless
+systems in general and to n-tuple classifiers in particular. Novel theoretical results
+are used to inspire the design of related learning machines and empirical tests are
+used to assess the power of these new machines. Also data-independent theoretical
+results are compared with data-dependent results to explain the apparent anomalies
+in the n-tuple classifier's behaviour.
+The thesis takes an original approach to the study of weightless networks, and one
+which gives new insights into their strengths as learning machines. It also allows
+a new family of learning machines to be introduced and a method for improving
+generalisation to be applied.
