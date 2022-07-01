@@ -31,6 +31,43 @@ function papersRequest(paper_list) {
     xmlHttp.send(FD);
 }
 
+function keywordsRequest(abstracts_list) {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function () {
+        if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
+            papers_response(xmlHttp);
+    }
+    xmlHttp.ontimeout = function (e) {
+        dev_error("Error contacting server!");
+    };
+    var FD = new FormData();
+    FD.append("message_tag", "keywordsRequest");
+    FD.append("bodies", abstracts_list.toString());
+
+    xmlHttp.open("POST", "/search", true); // false for synchronous request
+    //xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xmlHttp.send(FD);
+}
+
+function summaryRequest(abstracts_list) {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function () {
+        if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
+            papers_response(xmlHttp);
+    }
+    xmlHttp.ontimeout = function (e) {
+        dev_error("Error contacting server!");
+    };
+    var FD = new FormData();
+    FD.append("message_tag", "summaryRequest");
+    FD.append("bodies", abstracts_list.toString());
+
+
+    xmlHttp.open("POST", "/search", true); // false for synchronous request
+    //xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xmlHttp.send(FD);
+}
+
 
 function summarisationRequest(paper_name) {
     var xmlHttp = new XMLHttpRequest();

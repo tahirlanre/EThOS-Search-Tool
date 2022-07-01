@@ -51,6 +51,10 @@ def search():
             result = submit_ticket(request.form['search_terms'], int(request.form['group_size']),int(request.form['clustering_dimensions']))
         elif message_tag == "queue_request":
             result = get_ticket_queue_json()
+        elif message_tag == "keywordsRequest":
+            result = gpt3_keywords(request.form['bodies'])
+        elif message_tag == "summaryRequest":
+            result = gpt3_summary(request.form['bodies'])
         return result
 
     return "NO DATA"
@@ -234,6 +238,18 @@ def create_json_from_papers(enumerable_of_papers, ticket_id):
         "pdf_urls": pdf_url_array,
         "ticket": ticket_id
         })
+
+
+#authenticate open_ai
+#openai gpt3 quereys
+
+def gpt3_summary(bodies):
+    print(bodies)
+    return( jsonify({'got it': 'true'}))
+
+def gpt3_keywords(bodies):
+    print(bodies)
+    return( jsonify({'got it': 'true'}))
 
 
 

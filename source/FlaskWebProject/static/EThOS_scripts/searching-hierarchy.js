@@ -38,7 +38,58 @@ function node_name_to_list(name, names_order, summaries){
     }
     return list;
 }
+function node_name_to_abstract_list(name, names_order, summaries){
+    var list = [];
+    for( char in name){
+        if (name[char] != '-'){
+            list.push(summaries[parseInt(name[char])]);
+        }
+    }
+    return list;
+}
 
+function keywordsRequest(side) {
+    var abstracts_list = node_name_to_abstract_list(tree_dict['children'][side]['name'], names_order, summaries);
+
+    console.log(abstracts_list);
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function () {
+        if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
+            keywordGPTResponse(xmlHttp);
+    }
+    xmlHttp.ontimeout = function (e) {
+        dev_error("Error contacting server!");
+    };
+    var FD = new FormData();
+    FD.append("message_tag", "keywordsRequest");
+    FD.append("bodies", abstracts_list.toString());
+
+    xmlHttp.open("POST", "/search", true); // false for synchronous request
+    //xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xmlHttp.send(FD);
+}
+
+function summaryRequest(side) {
+    var abstracts_list = node_name_to_abstract_list(tree_dict['children'][side]['name'], names_order, summaries);
+    console.log(abstracts_list);
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function () {
+        if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
+            summaryGPTResponse(xmlHttp);
+    }
+    xmlHttp.ontimeout = function (e) {
+        dev_error("Error contacting server!");
+    };
+    var FD = new FormData();
+    FD.append("message_tag", "summaryRequest");
+    FD.append("bodies", abstracts_list.toString);
+
+
+    xmlHttp.open("POST", "/search", true); // false for synchronous request
+    //xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xmlHttp.send(FD);
+
+}
 
 function papersRequest(paper_list) {
     var xmlHttp = new XMLHttpRequest();
@@ -52,7 +103,7 @@ function papersRequest(paper_list) {
     var FD = new FormData();
     FD.append("message_tag", "papers_request");
     FD.append("ticket", 17);
-    FD.append("papers", paper_list.toString());
+    FD.append("papers", paper_list.toString);
 
 
     xmlHttp.open("POST", "/search", true); // false for synchronous request
@@ -74,6 +125,15 @@ function papers_response(xmlHttp_response) {
 
     }
     return papers
+}
+
+function summaryGPTResponse(xmlHttp_response){
+    var json_response = JSON.parse(xmlHttp_response.responseText);
+    console.log(json_response)
+}
+function keywordGPTResponse(xmlHttp_response){
+    var json_response = JSON.parse(xmlHttp_response.responseText);
+    console.log(json_response)
 }
 
 function summarisationRequest(paper_name) {
