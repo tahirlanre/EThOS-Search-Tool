@@ -17,7 +17,6 @@ openai.api_key = "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"
 
 
 
-@app.route('/')
 @app.route('/home')
 def home():
     """Renders the home page."""
@@ -26,6 +25,7 @@ def home():
         title='Home Page',
         year=datetime.now().year,
     )
+@app.route('/')
 @app.route('/hierachy')
 def hierachy():
     """Renders the home page."""
