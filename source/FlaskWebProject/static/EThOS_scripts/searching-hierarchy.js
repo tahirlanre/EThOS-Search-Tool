@@ -248,11 +248,7 @@ function keyword_response(xmlHttp_response){
     tree_box.style = "display: inline-block;"
     refreshImage('den', '/get_image');
 
-    //dump the json
-    var summaries_para = document.getElementById('summaries');
-    summaries_para.innerHTML = tree_data;
-
-
+    
 
     var choices_zone = document.getElementById("choices-list");
 
@@ -271,6 +267,10 @@ function keyword_response(xmlHttp_response){
     node2.appendChild(textnode2);                               // Append the text to <li>
     row.appendChild(node)
     row.appendChild(node2)
+    var node3 = document.createElement("TD");                 // Create a <li> node   
+    node3.innerHTML = "<p> <a href='../static/PDF_Files_Input/" + left[x][0].slice(0,-3) + "pdf'"+" target='_blank' rel='noopener noreferrer' class='btn btn-light btn-sm active btn-block' role='button'>Open PDF</a></p>"
+
+    row.appendChild(node3)
     document.getElementById("left-list").appendChild(row);
 
     }
@@ -285,6 +285,10 @@ function keyword_response(xmlHttp_response){
     node2.appendChild(textnode2);                               // Append the text to <li>
     row.appendChild(node)
     row.appendChild(node2)
+    var node3 = document.createElement("TD");                 // Create a <li> node   
+    node3.innerHTML = "<p> <a href='../static/PDF_Files_Input/" + right[x][0].slice(0,-3) + "pdf'"+" target='_blank' rel='noopener noreferrer' class='btn btn-light btn-sm active btn-block' role='button'>Open PDF</a></p>"
+
+    row.appendChild(node3)
     document.getElementById("right-list").appendChild(row);
 
     }
@@ -343,6 +347,9 @@ function keyword_response_2(xmlHttp_response){
     node2.appendChild(textnode2);                               // Append the text to <li>
     row.appendChild(node)
     row.appendChild(node2)
+    var node3 = document.createElement("TD");                 // Create a <li> node   
+    node3.innerHTML = "<p> <a href='../static/PDF_Files_Input/" + left[x][0].slice(0,-3) + "pdf'"+" target='_blank' rel='noopener noreferrer' class='btn btn-light btn-sm active btn-block' role='button'>Open PDF</a></p>"
+    row.appendChild(node3)
     document.getElementById("left-list").appendChild(row);
 
     }
@@ -357,6 +364,9 @@ function keyword_response_2(xmlHttp_response){
     node2.appendChild(textnode2);                               // Append the text to <li>
     row.appendChild(node)
     row.appendChild(node2)
+    var node3 = document.createElement("TD");                 // Create a <li> node   
+    node3.innerHTML = "<p> <a href='../static/PDF_Files_Input/" + right[x][0].slice(0,-3) + "pdf'"+" target='_blank' rel='noopener noreferrer' class='btn btn-light btn-sm active btn-block' role='button'>Open PDF</a></p>"
+    row.appendChild(node3)
     document.getElementById("right-list").appendChild(row);
 
     }
@@ -406,7 +416,11 @@ function left_traverse(){
     var textnode2 = document.createTextNode(left[x][1]);         // Create a text node
     node2.appendChild(textnode2);                               // Append the text to <li>
     row.appendChild(node)
-    row.appendChild(node2)
+    row.appendChild(node2) 
+    var node3 = document.createElement("TD");                 // Create a <li> node   
+    node3.innerHTML = "<p> <a href='../static/PDF_Files_Input/" + left[x][0].slice(0,-3) + "pdf'"+" target='_blank' rel='noopener noreferrer' class='btn btn-light btn-sm active btn-block' role='button'>Open PDF</a></p>"
+    row.appendChild(node3)
+
     document.getElementById("left-list").appendChild(row);
 
     }
@@ -421,6 +435,9 @@ function left_traverse(){
     node2.appendChild(textnode2);                               // Append the text to <li>
     row.appendChild(node)
     row.appendChild(node2)
+    var node3 = document.createElement("TD");                 // Create a <li> node   
+    node3.innerHTML = "<p> <a href='../static/PDF_Files_Input/" + right[x][0].slice(0,-3) + "pdf'"+" target='_blank' rel='noopener noreferrer' class='btn btn-light btn-sm active btn-block' role='button'>Open PDF</a></p>"
+    row.appendChild(node3)
     document.getElementById("right-list").appendChild(row);
 
 
@@ -464,6 +481,10 @@ function right_traverse(){
     node2.appendChild(textnode2);                               // Append the text to <li>
     row.appendChild(node)
     row.appendChild(node2)
+     var node3 = document.createElement("TD");                 // Create a <li> node   
+    node3.innerHTML = "<p> <a href='../static/PDF_Files_Input/" + left[x][0].slice(0,-3) + "pdf'"+" target='_blank' rel='noopener noreferrer' class='btn btn-light btn-sm active btn-block' role='button'>Open PDF</a></p>"
+
+    row.appendChild(node3)
     document.getElementById("left-list").appendChild(row);
 
     }
@@ -478,6 +499,10 @@ function right_traverse(){
     node2.appendChild(textnode2);                               // Append the text to <li>
     row.appendChild(node)
     row.appendChild(node2)
+     var node3 = document.createElement("TD");                 // Create a <li> node   
+        node3.innerHTML = "<p> <a href='../static/PDF_Files_Input/" + right[x][0].slice(0,-3) + "pdf'"+" target='_blank' rel='noopener noreferrer' class='btn btn-light btn-sm active btn-block' role='button'>Open PDF</a></p>"
+
+    row.appendChild(node3)
     document.getElementById("right-list").appendChild(row);
 
 
@@ -526,15 +551,15 @@ function set_n_keys(){
     keyList.innerHTML = ""
     for (let x = 0; x<number; x++){
         console.log((x+1).toString() )
-        keyList.innerHTML += '<div class="form-group" id="keyword_group_'+ (x+1).toString() +'">';
-         keyList.innerHTML +='    <input type="text" name="keyword'+ (x+1).toString() +'" placeholder="enter keyword '+ (x+1).toString() +'" maxlength="100">';
-        keyList.innerHTML +='    <input type="range" name="weight'+ (x+1).toString() +'" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value">';
-         keyList.innerHTML +='        <output>50</output>';
-         keyList.innerHTML +='</div>';
+        keyList.innerHTML +='<div class="form-group"><div class="input-group mb-3" id="keyword_group_'+ (x+1).toString() +'"> <input type="text" class="form-control" name="keyword'+ (x+1).toString() +'" placeholder="enter keyword '+ (x+1).toString() +'" maxlength="100">' +
+        '<div class="input-group-prepend"><span class="input-group-text">Weight (1-100)</span></div>'+
+        '<input type="number" class="form-control" name="weight'+ (x+1).toString() +'" value="50" min="1" max="100">'+
+        '</div></div>';
 
     }
     console.log(keyList.innerHTML)
 }
+
 
 
 function create_PDF_result_HTML(paper_name ,preview, thumbnail_url, pdf_url) {
