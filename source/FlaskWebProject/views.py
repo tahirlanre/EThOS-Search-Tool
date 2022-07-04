@@ -79,7 +79,10 @@ def hierachy_search():
         print(data)
         x = 0
         keys = []
-        breadth = int(new_lis[0][1])
+        breadth = 16
+        if( new_lis[0][1] != ''):
+            breadth = int(new_lis[0][1])
+        
         new_lis = new_lis[1:]
         while x < len(new_lis):
             keys.append([new_lis[x][1],int(new_lis[x+1][1])])

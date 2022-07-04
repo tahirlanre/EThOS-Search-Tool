@@ -527,7 +527,7 @@ function set_n_keys(){
     for (let x = 0; x<number; x++){
         console.log((x+1).toString() )
         keyList.innerHTML += '<div class="form-group" id="keyword_group_'+ (x+1).toString() +'">';
-         keyList.innerHTML +='    <input type="text" name="keyword'+ (x+1).toString() +'" maxlength="100">';
+         keyList.innerHTML +='    <input type="text" name="keyword'+ (x+1).toString() +'" placeholder="enter keyword '+ (x+1).toString() +'" maxlength="100">';
         keyList.innerHTML +='    <input type="range" name="weight'+ (x+1).toString() +'" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value">';
          keyList.innerHTML +='        <output>50</output>';
          keyList.innerHTML +='</div>';
