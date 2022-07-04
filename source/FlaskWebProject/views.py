@@ -75,6 +75,8 @@ def hierachy_search():
         message_tag = request.form['message_tag']
         data = json.loads(data)
         new_lis = list(data.items())
+        print(new_lis)
+        print(data)
         x = 0
         keys = []
         breadth = int(new_lis[0][1])

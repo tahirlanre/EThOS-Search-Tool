@@ -2,12 +2,13 @@ import os
 from os import listdir
 from os import path
 from os.path import isfile, join
+import functools
 
 import math
 import time
 import numpy as np
 import pandas as pd
-
+import json
 import matplotlib.pyplot as plt
 import pickle
 import FlaskWebProject.getTag as groupsystem
@@ -22,6 +23,8 @@ from shutil import copyfile
 from sklearn.cluster import AgglomerativeClustering  
 from scipy.cluster import hierarchy
 from scipy.cluster.hierarchy import dendrogram, linkage
+import scipy.spatial
+import scipy.cluster
 
 import spacy
 nlp = None
@@ -234,6 +237,34 @@ def get_child_leaf_names(tree_node, names_order):
 
 
 
+def add_node(node, parent ):
+    # First create the new node and append it to its parent's children
+    newNode = dict( node_id=node.id, children=[] )
+    parent["children"].append( newNode )
+
+    # Recursively add the current node's children
+    if node.left: add_node( node.left, newNode )
+    if node.right: add_node( node.right, newNode )
+
+
+def label_tree( n , names_order):
+    # If the node is a leaf, then we have its name
+    if len(n["children"]) == 0:
+        #leafNames = [ names_order[n["node_id"]] ]
+        leafNames = [ n["node_id"]]
+
+    # If not, flatten all the leaves in the node's subtree
+    else:
+        leafNames = functools.reduce(lambda ls, c: ls + label_tree(c, names_order), n["children"], [])
+
+    # Delete the node id since we don't need it anymore and
+    # it makes for cleaner JSON
+    del n["node_id"]
+
+    # Labeling convention: "-"-separated leaf names
+    n["name"] = name = "-".join(sorted(map(str, leafNames)))
+        
+    return leafNames
 
 
 def test():
@@ -274,16 +305,30 @@ def run_search(keys, first_run, breadth):
 
     model, linkage, tree = agglomerative_clustering(matrix, names_order, files)
     tree_root = tree[0]
-    #print(tree_root.get_left().pre_order(lambda x: x.id))
 
-    #print(get_child_leaf_names(tree_root.get_left(), names_order))
-    #print(names_order[tree_root.get_left().get_left().get_id()])
-    return(tree, linkage, names_order)
+    T = scipy.cluster.hierarchy.to_tree( linkage , rd=False )
+
+    # Create a nested dictionary from the ClusterNode's returned by SciPy
+    
+    # Initialize nested dictionary for d3, then recursively iterate through tree
+    d3Dendro = dict(children=[], name="Root1")
+    add_node( T, d3Dendro )
+
+    # Label each node with the names of each leaf in its subtree
+    
+
+    label_tree( d3Dendro["children"][0], names_order )
+
+    # Output to JSON
+    tree_json = json.dumps(d3Dendro, sort_keys=True, indent=4)
+
+   
+    return(tree, linkage, names_order, tree_json)
     # now we have our bst
     # need to implement the digging function
 
 
-    def compute_full_matrix():
+def compute_full_matrix():
         files = get_all_filenames()
         matrix, names_order = create_word_matrix(files,'FlaskWebProject/database/raw_text/', WORD_VECTOR_PATH)
         print(matrix)
@@ -293,4 +338,6 @@ def run_search(keys, first_run, breadth):
         pickle.dump(matrix, f_matrix)
         f_matrix.close()
         f_names_order.close()
+
+
 
