@@ -1,0 +1,17 @@
+J/  PRODUCTION IN PROTON-PROTON COLLISIONS AT ALICE
+A Large Ion Collider Experiment (ALICE) studies the strong interaction part
+(Quantum Chromo Dynamics) of the Standard Model at the CERN Large Hadron
+Collider. ALICE has been designed as a general-purpose heavy-ion detector in order
+to explore phenomena of strong interacting matter and the quark-gluon plasma
+(QGP) at extreme values of energy density and temperature in nucleus-nucleus
+collisions.
+Results are presented here on the study of J/ production in pp collisions at
+ALICE. In particular, a measurement of J/ cross-section at
+s = 7 TeV energy has
+been performed, together with a study of a possible algorithm to separate primary
+J/ from those coming from decays of B hadrons. The validity of this algorithm in
+ALICE has been demonstrated using Monte-Carlo samples. The J/ particles have
+been searched exclusively in the decay channel J/  e+e. The study focused on
+what would be achievable in a period of early running, with integrated luminosity
+of L = 1.25 nb1, at a proton-proton centre of mass collision energy of
+s = 7 TeV.

@@ -1,0 +1,7 @@
+This thesis presents the measurement of the production cross section of a W bo-
+son with a single charm quark in 7 TeV proton-proton collisions using the ATLAS
+detector at the Large Hadron Collider. Typically, the strange quark density is considered to be suppressed
+relative to that of the other light-quarks in the proton sea.
+The measured cross section provides further constraint for the determination of
+the strange quark density, advancing the knowledge of the fundamental structure
+of the proton.

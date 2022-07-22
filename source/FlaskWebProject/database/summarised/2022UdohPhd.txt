@@ -1,0 +1,4 @@
+As IoT systems are increasingly deployed into an environment characterised by continuous
+changes and uncertainties, there have been growing concerns on how to resolve the Quality of
+Service (QoS) contentions between heterogeneous devices with conflicting preferences to
+guarantee the execution of mission-critical actuation tasks.

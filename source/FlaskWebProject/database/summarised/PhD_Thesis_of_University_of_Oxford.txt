@@ -1,0 +1,6 @@
+This thesis covers several optics issues and solutions applicable to the
+Large Hadron Collider (LHC), its High Energy (HE-LHC) upgrade as well
+as the Future Circular Collider (FCC-hh). A key tool presented in this
+thesis is an optimisation method to produce short final focus triplets that
+produce large integrated gradients whilst having an aperture sufficiently
+large to sustain the beams and radiation shielding.

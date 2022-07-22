@@ -1,0 +1,22 @@
+Debonding and stretching of biogenic
+Plant material can regulate the mechanical properties of its cellular structure by
+changing: (i) the structure of the cell wall, (ii) the cell core pressure, and (iii)
+the cell-cell cohesion. The relevant scale at which such phenomena occur, though
+beyond the capacity of the human eye, can be followed by mechanical analysis
+and mathematical models based on micro-structural evidence. This thesis focuses
+on two fundamental mechanical aspects. First, it concerns the mechanism of cell
+debonding, as this is key in explaining the softening of fruit and legumes dur-
+ing storage or cooking, and is decisive for the perceived quality of food products.
+Particular attention is given to the mathematical modelling of damage through
+shear deformation as this has been largely neglected in the literature due to many
+theoretical and computational difficulties. Second, it provides a multiscale hyper-
+elastic framework which relates the stresses and strains of a whole structure to
+those at the cell level, and vice versa. Specifically, the non-linear elastic moduli
+at the macroscopic level are derived systematically from those at the cell level.
+Copyright c 2019 by Alexander Taufiq Safar.
+This work is licensed under the Creative Commons Attribution 4.0 Unported Li-
+cense. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042,
+The author, Alexander Taufiq Safar, reserves his moral right to be identified as
+the author of this work. This is reflected in the attribution clause of the applied
+license.

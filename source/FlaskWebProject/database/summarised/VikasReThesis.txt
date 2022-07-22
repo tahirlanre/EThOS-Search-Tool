@@ -1,0 +1,5 @@
+Chapter 1- The importance of the Probability of Winning in Risky Choices: Media reports say
+that high earners and syndicates buy lottery tickets in bulk. Do people try to trade-off probability of
+winning with other basic risk dimensions (for example, cost) to achieve a subjective threshold
+probability of winning (in environments they can) even when such choices are second-order
+stochastic dominated?

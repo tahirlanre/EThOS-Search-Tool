@@ -1,0 +1,3 @@
+This thesis focuses on three different examples of techniques designed to extract
+signal from background in the highly polluted by QCD environment of the proton-
+proton collisions at the Large Hadron Collider.

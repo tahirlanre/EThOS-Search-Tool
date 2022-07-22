@@ -1,0 +1,50 @@
+DIVERSIFICATION OF LEGUME-FEEDING PSYLLIDS 
+Psyllids ( jumping plant lice) are small phytophagous insects that are related to aphids,
+scales and whiteflies (Hemiptera, Stemorrhyncha). Psyllids are highly host specific,
+occurring on one or a few closely related hosts, and they predominantly feed on
+dicotyledonous angiosperms. In the subfamily Arytaininae (Psylloidea, Psyllinae) there are
+five psyllid genera that feed exclusively on shrubby legumes in the Genisteae
+(Leguminosae, Papilionoideae), and the species diversity for both plant and insect groups
+is highest in the Mediterranean. I made a detailed field survey of psyllids on Genisteae
+hosts in the western Mediterranean, including southern Iberia, NW Africa and two of the
+Macaronesian archipelagos (Canary Islands and Madeira). These collections (over 300) of
+both psyllids and legumes provided the basis for the taxonomic, phylogenetic and co
+diversification analyses presented in this study.
+I have reassessed the classification of the legume-feeding psyllids native to
+Macaronesia, and I have revised the taxonomy of one genus (Arytainilla). I present
+evidence that the largest Macaronesian group has a unique island origin distinct from the
+predominantly continental genera. This Macaronesian group, which also has three
+continental members, is described as a new genus in order to clarify the monophyly and
+placement of this group within the Arytaininae. Seventeen new psyllid species in four
+arytainine genera, discovered in continental and Macaronesian regions, are proposed.
+I constructed phylogenies for both the arytainine psyllids and their legume host
+plants, in order to compare colonization, biogeographic patterns and island radiations. I
+present a phylogenetic study of the Palaearctic arytainine psyllids that incorporates both
+morphological data (adult and nymphal characters) and molecular data (mitochondrial
+genes: cytochrome oxidase I and II, including the intervening tRNA leucine; and the small
+ribosomal subunit rRNA). To investigate the evolution of the island legumes and to
+establish the relationships between continental and island host plants, a molecular
+phylogeny of part of the Genisteae was generated from sequences of the nuclear region:
+ITS1-5.8S-ITS2. The legume phylogeny shows a Mediterranean origin for the Canarian
+Genisteae (Adenocarpus, Genista and Teline), and a diphyletic origin for Teline -  with two
+distinct island groups nested within Genista. The psyllid phylogeny shows that the two
+largest genera are paraphyletic, but there is some evidence that the Genisteae-feeders, as a
+whole, are monophyletic. The phylogenetic analyses for both psyllids and legumes
+highlight the problems of establishing host-parasite interactions using traditional
+morphological classifications alone. Colonization and biogeographic patterns among the
+island psyllid species implies a close correlation between the radiation of psyllids and the
+diversity of their host plants.
+Psyllid and legume phylogenies are compared in order to establish the extent of
+phylogenetic congruence between the insects and their host plants. To test assumptions of
+cospeciation, an absolute time scale is applied to both plant and insect phylogenies. A
+comparison of psyllid and legume phylogenies suggests that, whilst rare cospeciation
+events may play a significant role in promoting diversification, historical reconstructions of
+psyllid-legume interactions are complicated by systemic host switching. Psyllids appear to
+be opportunistic specialists with host switching occurring when the plant lineage fluctuates
+in geographical abundance, population structure or through dispersal. However,
+preadaptation is evident in many cases where selection of a new host may be constrained
+by plant chemistry and architecture. Successful establishment by a psyllid colonist is more
+likely when available hosts are phylogenetically and ecologically related to the original
+host. A history of parallel cladogenesis between psyllid and legume lineages is rejected in
+favour of a fluctuating lineage model of co-diversification which presents a more realistic
+interpretation of the present day pattern of host associations.

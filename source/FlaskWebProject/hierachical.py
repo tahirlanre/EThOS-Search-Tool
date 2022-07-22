@@ -77,33 +77,38 @@ word_vector_matrix = []
 
 # Adding key weighting
 def key_search(keys):
-	path = 'database/summarised'
-	current = os.path.dirname(__file__)
-	path = os.path.join(current, path)
-	#print(path)
-	files = []
-	for file in os.listdir(path):
-		if file.endswith(".txt"):
-			files.append([file,0])
-	#print(files)
-	for x in range(0, len(keys)):
-		keys[x][0] = keys[x][0].upper()
+    path = 'database/raw_text'
+    current = os.path.dirname(__file__)
+    path = os.path.join(current, path)
+    print(path)
+    files = []
+    for file in os.listdir(path):
+    	if file.endswith(".txt"):
+    		files.append([file,0])
+    print(files)
+    print(len(files) , "txt files have been found to key search on")
+    for x in range(0, len(keys)):
+    	keys[x][0] = keys[x][0].upper()
 
-	for key in keys:
-		for file in files:
-			f = open(os.path.join(path, file[0]))
-			content = f.read().replace("\n", " ")
-			f.close()
+    for key in keys:
+        for file in files:
+            #print(file)
+            f = open(os.path.join(path, file[0]))
+            content = f.read().replace("\n", " ")
+            f.close()
 
-			#print(file)
-			#print(content)
-			content = content.upper()
-			#print(key)
-			#print(content.count(key[0]))
-			#print(file[1])
-			file[1] = file[1] + content.count(key[0]) * key[1] 
-	files = sorted(files, key=lambda x: x[1], reverse=True)
-	return files
+            #print(file)
+            #print(content)
+            content = content.upper()
+            #print(key)
+            #print(content.count(key[0]))
+            #print(file[1])
+            file[1] = file[1] + content.count(key[0]) * key[1] 
+            #files = sorted(files, key=lambda x: x[1], reverse=True)
+    print(len(files))
+    files = sorted(files, key=lambda x: x[1], reverse=True)
+    print(files)
+    return files
 
 
 	# for each
@@ -148,6 +153,7 @@ def plot_dendrogram(model,name_order, **kwargs):
 
 def agglomerative_clustering(word_matrix, name_order, files):
     print("create model")
+    #print(word_matrix, name_order, files)
     plt.clf()
 
     model = AgglomerativeClustering(distance_threshold=0, n_clusters=None)
@@ -156,14 +162,16 @@ def agglomerative_clustering(word_matrix, name_order, files):
 
 
     names_order_truncated = [name[:20] for name in name_order]
-
-    linkage = plot_dendrogram(model,name_order,labels=names_order_truncated,  leaf_rotation = 90)
-
+    numbers_index = True
+    if numbers_index:
+        linkage = plot_dendrogram(model,name_order,  leaf_rotation = 90)
+    else:
+        linkage = plot_dendrogram(model,name_order,labels=names_order_truncated,  leaf_rotation = 90)
     tree = hierarchy.to_tree(linkage, rd=True)
 
     tree_root = tree[0]
 
-    plt.xlabel("Number of points in node (or index of point if no parenthesis).")
+    plt.xlabel("The Number Corresponds To Thesis ID Below")
     plt.tight_layout()
     os.remove("FlaskWebProject/static/dendograms/den.png")
     plt.savefig("FlaskWebProject/static/dendograms/den.png")
@@ -273,13 +281,15 @@ def test():
 def run_search(keys, first_run, breadth):
     print(keys)
     files = key_search(keys)
+    print('files, ' , len(files), breadth)
     files = files[:breadth]
-    print(files)
+    print('files, ' , files, breadth)
+
     matrix =[]
     names_order = []
     if(first_run == 1):
-        matrix, names_order = create_word_matrix(files,'FlaskWebProject/database/raw_text/', WORD_VECTOR_PATH)
-        print(matrix)
+        matrix, names_order = create_word_matrix(files,'FlaskWebProject/database/previews/', WORD_VECTOR_PATH)
+        #print(matrix)
         f_matrix = open('FlaskWebProject/matrix.txt', 'wb')
         f_names_order = open('FlaskWebProject/names_order.txt', 'wb')
         pickle.dump(names_order, f_names_order)
@@ -296,12 +306,13 @@ def run_search(keys, first_run, breadth):
             if whole_names_order[index] in files_bare:
                 matrix.append(whole_matrix[index])
                 names_order.append(whole_names_order[index])
+
     else:
         matrix = pickle.load(open("FlaskWebProject/matrix.txt", 'rb'))
         names_order = pickle.load(open("FlaskWebProject/names_order.txt", 'rb'))
 
 
-    print(names_order)
+    print(names_order, matrix)
 
     model, linkage, tree = agglomerative_clustering(matrix, names_order, files)
     tree_root = tree[0]

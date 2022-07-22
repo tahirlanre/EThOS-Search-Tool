@@ -1,0 +1,27 @@
+Integrated Scale Down Of The Primary 
+This thesis describes the development o f a linked 1000th scale mimic o f four
+distinct unit operations, including precipitation and centrifugation. These
+operations are utilised during the production o f an anti-snake venom Fab
+fragment. A new approach has been used to define the important engineering
+parameters that impacted on the recovery process; the effect of these was verified
+by experimental work. The mimic requires only millilitre quantities o f material to
+predict changes in the physical and biological properties o f key components, such
+as particle size and antibody activity. The potential impact o f several process
+changes on the characteristics o f the feed stream and on purification steps further
+downstream has been assessed, which is not possible without a linked system.
+Microfiltration has been examined as a possible alternative to the current
+centrifugal method o f recovering the antibody particles. A small-scale stirred cell
+device was used to carry out a number o f operations in a single piece of
+equipment; these included separation, concentration and buffer exchange. An
+overall increase in the yield o f 10% was observed. This was attributed to the
+ability o f microfiltration to reduce material losses by integrating a number o f
+operations.
+A preliminary investigation has been conducted into the possibility o f utilising
+Protein G affinity chromatography in place o f the current four-step precipitation
+and centrifugation recovery operation. A mathematical model capable o f
+predicting the size and shape o f the breakthrough curves has been developed; the
+predicted curves were tested by comparison with breakthrough curves produced
+under different experimental conditions. The initial results demonstrated the
+feasibility of utilising affinity chromatography as a one step recovery process.
+However the predicted breakthrough curves varied from the experimental curves
+suggesting that the mathematical model requires refinement.

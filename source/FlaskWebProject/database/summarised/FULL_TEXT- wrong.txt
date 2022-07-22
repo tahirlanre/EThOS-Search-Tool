@@ -1,0 +1,7 @@
+Ameasurement using the ATLAS detector has been made of the fraction of events in proton-
+proton collisions at s = 7TeV that do not contain additional jets in the rapidity region
+bounded by a di-jet system. This provided a strong test of perturbative QCD in the new
+energy regime of the Large Hadron Collider. Additional measurements have been made of
+the mean jet multiplicity in the rapidity bounded region and using a variety of different event
+selections. These observation were compared to recent next to leading order dijet predictions
+produced by POWHEG and a variety of leading order generators.

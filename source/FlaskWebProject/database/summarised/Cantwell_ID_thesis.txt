@@ -1,0 +1,6 @@
+The simply shaped fission yeast Schizosaccharomyces pombe is
+genetically tractable and undergoes a closed mitosis, making it a useful system in
+which to probe mechanisms of nuclear size control. To identify molecular components and biological processes with roles in
+nuclear size control mechanisms, a genetic screen for deletion mutants with
+aberrant nuclear size and biochemical analysis of a nuclear size mutant are carried
+out.

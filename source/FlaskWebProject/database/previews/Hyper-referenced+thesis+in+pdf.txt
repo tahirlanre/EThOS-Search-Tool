@@ -1,0 +1,28 @@
+Design of a Non-Scaling Fixed Field Alternating
+This thesis describes the design a novel type of particle accelerator for charged
+particle therapy. The accelerator is called a non-scaling, Fixed Field Alternating
+Gradient (ns-FFAG) accelerator, and will accelerate both protons and carbon ions to
+energies required for clinical use. The work is undertaken as part of the PAMELA
+project.
+An existing design for a ns-FFAG is taken as a starting point and analysed in terms
+of its ability to suit the charged particle therapy application. It is found that this
+design is particularly sensitive to alignment errors and would be unable to accelerate
+protons and carbon ions at the proposed acceleration rate due to betatron resonance
+crossing phenomena.
+To overcome this issue, a new type of non-linear ns-FFAG is developed which
+avoids resonance crossing and meets the requirements provided by clinical consid-
+erations. Two accelerating rings are required, one for protons up to 250 MeV and
+fully stripped carbon ions to 68 MeV/u, the other to accelerate the carbon ions up to
+400-430 MeV/u. Detailed studies are undertaken to show that this new type of accel-
+erator is suitable for the application. An alignment accuracy of 50m will not have
+a detrimental effect on the beam and the dynamic aperture for most lattice configu-
+rations is found to be greater than 50mm mrad normalised in both the horizontal
+and vertical plane.
+Verification of the simulation code used in the PAMELA lattice design is carried
+out using experimental results from EMMA, the worlds first ns-FFAG for 10-20 MeV
+electrons built at Daresbury Laboratory, UK.
+Finally, it is shown that the described lattice can translate into realistic designs for
+the individual components of the accelerator. The integration of these components
+into the PAMELA facility is discussed.
+This thesis is dedicated to Bill, whose life was tragically cut short by
+cancer in 2010.

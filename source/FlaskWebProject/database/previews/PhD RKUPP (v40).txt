@@ -1,0 +1,6 @@
+MOLECULAR MECHANISMS OF C11ORF95 
+L1CAM is up-regulated by C11orf95 ZF-TAD fusions in a ZF dose-
+dependent manner.
+L1CAM is up-regulated by C11orf95-YAP1 fusions in a ZF dose-
+dependent manner.
+3.12 RNA-seq profiles of YAP1 and C11orf95-YAP1 fusion mutants. 82

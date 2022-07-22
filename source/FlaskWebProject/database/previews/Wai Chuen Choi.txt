@@ -1,0 +1,26 @@
+Choi, Wai Chuen (2018) Optimisation of soaking and 
+In carnivorous fish farming industry, there are progressive increase demands for
+the finite resource of fish meal. A potential alternative to fish meal is to use
+legume meals which are free of enzyme inhibitors. In selected underutilised
+legumes the most effective processing method for eliminating trypsin (TIA),
+chymotrypsin (CIA) and -amylase (AIA) inhibitors, without affecting the crude
+protein content, was investigated. These methods included soaking (S), wet
+heating (W), autoclaving (A) and dry freezing (D). No single method was effective
+at removing all the inhibitors. In all legumes tested, the combined processing
+methods which involved A were most effective in reducing CIA and AIA (p<0.05),
+but not TIA. However, in adzuki bean both TIA and CIA were reduced by the D+A
+combined method (p<0.05), whereas AIA of soybean and adzuki bean was
+decreased by combined methods of S+A (84.7 % and 99.3 % reduction
+respectively, p<0.05) or A+D (99.1 % and 72.6 % reduction respectively, p<0.05).
+All the processing methods retained 86.5  90.5 % of crude protein. Replacement
+of 10 % (w/w) of fish meal with D+A treated legume meal (either bambara
+groundnut or adzuki bean) for 28 days showed no significant difference in growth
+performance or inflammatory effects in Danio rerio or Lates calcarifer. Compared
+to Lates calcarifer given feed containing unprocessed adzuki bean meal, those on
+feed containing processed adzuki bean meal had increased hepatic gene
+expression of alanine aminotransferase (p<0.01), indicating an enhanced ability to
+utilise amino acids. The project identified specific food processing methods which
+are effective at removing enzyme inhibitors in legumes, thereby facilitating the
+application of legumes as aquafeed ingredients. Future studies are required to
+examine what inclusion level of treated legume meal can promote growth
+performance in specific commercial fish species.

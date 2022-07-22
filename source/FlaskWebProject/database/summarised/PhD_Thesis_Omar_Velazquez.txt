@@ -1,0 +1,5 @@
+Nevertheless, the information and warning time
+provided by an EEW system could also be used by earthquake engineers as
+EEW seems to bear a powerful potential for the automatic activation of
+protection measures for infrastructure and critical systems, aiming at the
+reduction of risk due to earthquakes.

@@ -13,9 +13,10 @@ from flask import send_file
 #openai setup
 import os
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 
-
+#if using full matrix set to 0, 1 for new matrix and 2 for old matrix
+FIRST_RUN = 1
 
 @app.route('/home')
 def home():
@@ -94,7 +95,7 @@ def hierachy_search():
 
 
         #do some clustering based on results
-        tree, linkage, names_order, tree_json = hierachical.run_search(keys,2, breadth)
+        tree, linkage, names_order, tree_json = hierachical.run_search(keys,FIRST_RUN, breadth)
 
         #return a big json of all the useful shit
 
@@ -106,12 +107,12 @@ def hierachy_search():
             txt = summary.read()
             summary.close()
             summaries.append(txt)
-        print(summaries)
+        #print(summaries)
         result = [linkage.tolist(), names_order, summaries, tree_json]
 
-        #print(result)
+        print(result)
         result = jsonify(result)
-        #print(result)
+        print(result)
         return result
 
     return "NO DATA"
@@ -257,15 +258,14 @@ def create_json_from_papers(enumerable_of_papers, ticket_id):
 
 def gpt3_summary(bodies):
     print(bodies)
-
     response = openai.Completion.create(
       model="text-davinci-002",
-      prompt="Summarize these abstracts:\n\n" + bodies,
+      prompt="Summarize these abstracts: \n\n" + bodies,
       temperature=0.7,
       max_tokens=512,
       top_p=1.0,
-      frequency_penalty=0.0,
-      presence_penalty=0.0
+      frequency_penalty=0.5,
+      presence_penalty=0.5
     )
     print(response)
 
@@ -273,19 +273,23 @@ def gpt3_summary(bodies):
 
 def gpt3_keywords(bodies):
     print(bodies)
+
     response = openai.Completion.create(
       model="text-davinci-002",
       prompt="Extract keywords from this text:\n\n"  + bodies,       
       temperature=0.3,
-      max_tokens=256,
+      max_tokens=400,
       top_p=1.0,
       frequency_penalty=0.8,
-      presence_penalty=0.0
+      presence_penalty=0.5
     )
     print(response)
     return( jsonify({'keywords': response}))
 
 
+def remove_new_line(text_string):
+    text_string = text_string.replace('\n', ' ').replace('\r', '')
+    return text_string
 
 #backend.update_database(True)
 backend.load_data_into_memory()

@@ -1,0 +1,24 @@
+Time-of-flight spectrometry of the 
+The identification and characterisation of nuclear material is important for
+a number of security, safeguards and verification purposes. Nuclides
+susceptible to nuclear fission produce a characteristic energy distribution of
+fission neutrons, known as the Prompt Fission Neutron Spectrum (PFNS). The
+energy distribution of the PFNS can be indicative of the material under
+observation; the measurement of the energy spectrum of neutrons however is
+notoriously difficult, due to the stochastic manner in which they interact with
+radiation instrumentation. Time of flight (TOF) spectrometry however is one
+way of deterministically measuring the neutron energy.
+This research has used a variety of the associated particle TOF
+technique, to perform real time TOF spectrometry of fission nuclides with a
+small-scale portable set up,  triggering on the  prompt fission gamma
+emission. In order to conduct this, the low energy threshold of EJ-309 has
+been determined experimentally via monoenergetic neutron irradiations to be
+0.75 MeV, and efficiency curves have been fitted to these data to ensure self-
+consistency.
+The TOF spectrometry system has been developed and used  to measure
+the prompt neutron energy spectrum of 252Cf and 244Cm, the latter of which
+has never been explored in this way. The Maxwellian fission spectrum has
+been fitted to the PFNS of 244Cm with a parameter T= 1.33 MeV (0.7) and the
+Watt spectrum has been fitted with parameters of a=0.918 and b=1.151.  On
+the basis of these measurements it is thought that this small scale, real time
+TOF spectrometer is able to discriminate between certain nuclides.

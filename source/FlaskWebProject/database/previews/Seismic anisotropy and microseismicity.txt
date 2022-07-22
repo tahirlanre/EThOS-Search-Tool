@@ -1,0 +1,13 @@
+The plate tectonic cycle is fundamental to our dynamic Earth, encompassing the formation and
+evolution of new lithosphere at divergent, mid-ocean ridges, all the way to its eventual return to,
+and re-equilibration with, the mantle in subduction zones. I investigate the structure of the crust
+and upper mantle of the Earth in two regions that represent different endmembers in this cycle
+through the analysis of microseismicity and seismic anisotropy, seeking to learn more about the
+stresses in these environments and how they are manifest in the structure of the subsurface. In
+Iceland, new oceanic crust is accreted episodically within the volcanic rift zones that delineate the
+subaerial portion of the Mid-Atlantic Ridge, the divergent margin between the North American and
+the Eurasian plates. Northern Borneo, conversely, exhibits the tectonic signatures of not one but
+two terminated subduction zones, where oceanic lithosphere was once being actively recycled into
+the Earths mantle. As part of this work, I have helped to deploy and service two passive seismic
+experimentsthe Cambridge Volcano Seismology network in Iceland and the northern Borneo
+Orogeny Seismic Survey (nBOSS) network in Sabahfrom which I have derived my results.

@@ -1,0 +1,76 @@
+This thesis has been submitted in fulfilment of the requirements for a postgraduate degree 
+In a variety of scientific applications we require methods to construct three
+dimensional maps of properties of the interior of solid media, and in the
+geosciences the medium is usually the Earths subsurface. For each such map
+we need the corresponding map of uncertainties in those properties in order to
+assess their reliability.
+Seismic tomography is such a method which has been used widely to study
+properties of the subsurface of the Earth, for example, using surface wave
+dispersion data. Surface wave tomography is usually conducted using a two-step
+method by first estimating two-dimensional (2D) surface wave phase or group
+velocity maps at a series of frequencies and then inverting those for the 3D spatial
+velocity structure through a set of 1D inversions for structure with depth beneath
+each geographical location. Since surface wave tomography is a highly non-
+linear problem, it is usually solved using Monte Carlo (MC) sampling methods.
+However, since the 1D inversions in the second step are usually performed
+independently, lateral spatial correlations of the Earth can be lost. We therefore
+introduce a one-step MC method which inverts for a 3D velocity structure directly
+from frequency-dependent surface wave travel time measurements by using a
+fully 3D parametrization. The method was first applied to a synthetic test and
+compared with two-step linearised and two-step MC methods. The results show
+that by including lateral spatial correlations in the inversion the new method
+estimates velocity models and associated uncertainty significantly better in the
+sense that it produces more intuitively reasonable and interpretable results, and
+the computation cost is also comparable to the two-step MC method.
+We apply the 3D MC surface wave tomography method to a real dataset recorded
+using a dense passive seismic array installed on the North Sea seabed. The
+ambient noise data of each receiver pair are cross correlated to extract Scholte
+waves, in which two Scholte wave modes are observed. We separated the two
+modes using a dispersion compensation method. For each separated mode phase
+velocity maps are determined using Eikonal tomography. Those phase velocity
+maps are then used to estimate 3D shear velocities of the subsurface. To further
+understand the limitation of the approach, we conducted three different inversions:
+the usual 1D depth inversions, a 2D inversion along a 2D cross section and a fully
+3D inversion. With each inversion the shear velocity structure is extracted along
+the same cross section and compared. The results confirm that 1D inversions
+can produce errors due to independence of those inversions, whereas 2D and
+3D methods improve the results by including lateral spatial correlations in the
+inversion. The 3D results better match an existing shear velocity model obtained
+from active source seismic reflection tomography. This is probably because the 3D
+method uses frequency-dependent measurements directly, which naturally avoids
+errors introduced in the first 2D Eikonal tomography step. The results show a
+clear low velocity river channel, and exhibit another low velocity anomaly both in
+the phase velocity maps at short periods (< 1.6 s) of the fundamental mode and
+in the shear-velocity model in the near surface (< 250 m). The latter anomaly is
+correlated with the distribution of seabed pockmarks, indicating that the anomaly
+might be related to the circulation of near surface fluids.
+Apart from surface waves, seismological body wave travel times have also been
+used to study the Earths interior and to characterize earthquakes. Body waves are
+generally sensitive to structure around the sub-volume in which earthquakes occur
+and produce limited sensitivity in the near surface, whereas surface waves are more
+sensitive to the shallower structure. Thus body waves and surface waves can be
+used jointly to better constrain the subsurface structure. Since the tomographic
+problem is usually highly non-linear, we apply MC sampling methods to invert
+for source parameters and velocity models simultaneously using earthquake body
+wave travel times and ambient noise surface wave dispersion data. The method is
+applied to a mining site in the U.K. where induced seismicity is recorded using a
+small local network and ambient noise data are available from the same stations.
+The results show that by using both types of data, earthquake source parameters
+and velocity models can be better constrained than in independent inversions.
+Synthetic tests show that the independent inversion using only body wave travel
+times can cause biases in the results due to trade-offs between source parameters
+and velocity models, while this issue can be largely resolved using joint inversion,
+indicating that the ambient noise data can provide additional information.
+Although MC sampling methods have been used widely to solve seismic tomo-
+graphic problems, they are computationally expensive and remain intractable for
+large dataset problems. We therefore introduce variational inference methods to
+solve seismic tomographic problems. Variational inference solves the Bayesian
+inference problem using optimization, yet still provide probabilistic results. In
+this thesis we introduce two variational methods: automatic differential vari-
+ational inference (ADVI) and Stein variational gradient descent (SVGD), and
+apply them to 2D seismic tomographic problems using both synthetic and real
+data. We compare the results with those obtained using two different MC sam-
+pling methods, and demonstrate that variational inference methods can provide
+accurate approximations to the results of MC sampling methods at significantly
+lower computational cost, provided that the gradient of model parameters with
+respect to data can be computed efficiently.

@@ -1,0 +1,41 @@
+Analysis and design of stainless steel 
+Stainless steel reinforced concrete has seen a large increase in usage in recent years, in response to the
+ever-increasing demands for structures and infrastructure to be more durable, efficient and
+sustainable. Stainless steel has excellent corrosion resistance, as well as many other distinctive
+properties such as excellent strength and ductility, ready availability and a long, low-maintenance, life
+cycle. On the other hand, one of the fundamental challenges that dramatically limits the lifetime and
+reliability of traditional carbon steel reinforced concrete is corrosion of the reinforcement, especially
+in harsh environments such as coastal, marine or industrial settings. With the increased focus on
+environmentally conscious and reliable design, stainless steel reinforcement represents an ideal
+solution for the corrosion and deterioration problems faced by reinforced concrete structures, as well
+as the associated maintenance issues. However, it is also has a higher initial cost, and therefore needs
+to be used carefully and efficiently.
+The existing material models provided for the structural analysis of reinforced concrete members in
+current design standards, such as Eurocode 2, are not appropriate for stainless steel reinforced
+concrete and lead to inaccurate predictions of the section capacity. Generally, there is a lack of data in
+the public domain regarding the behaviour of concrete beams reinforced with stainless steel, mainly
+owing to this being a relatively new and novel topic. This is especially true for the important issue of
+bond strength and the relationship that exists between the reinforcement and the surrounding concrete.
+Currently, existing design standards advise using the same design rules for stainless steel reinforced
+concrete as traditional carbon steel reinforced concrete, owing to a lack of alternative information,
+although this is not based on test or performance data. As such, there is a real need to develop a full
+and fundamental understanding of the behaviour of stainless steel reinforced concrete, to achieve
+more sustainable and reliable design methods for reinforced concrete structures.
+In this context, this thesis provides a detailed background of the existing information on stainless steel
+reinforced concrete, as well a discussion on the potential advantages and challenges. Then, attention is
+given to analysing the behaviour of stainless steel reinforced concrete beams by developing the
+Continuous Strength Method to predict the bending moment capacity. A finite element model has
+been developed in order to further assess the performance, and this is also used to conduct a
+parametric study of the most influential properties. It is concluded that the proposed analytical models
+provide a reliable solution for predicting the capacity of concrete beams reinforced with stainless
+steel.
+In addition, this thesis investigates the bond behaviour of stainless steel reinforced concrete and
+compares the performance to traditional carbon steel reinforced concrete, through experimental
+testing and analysis. It also compares the results to existing design rules in terms of bond strength,
+anchorage length and lap length. It is shown that stainless steel rebar generally develops lower bond
+strength with the surrounding concrete compared with equivalent carbon steel reinforcement.
+Moreover, it is shown that existing design codes are extremely conservative and generally
+underestimate the actual bond strength by a significant margin. Therefore, following detailed analysis,
+it is concluded that current design rules can be safely applied for stainless steel rebar, although more
+accurate and efficient methods can be achieved. Hence, new design parameters are proposed
+reflecting the bond behaviour of stainless steel rebars, so that more efficient designs can be achieved.

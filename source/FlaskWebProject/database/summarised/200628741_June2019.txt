@@ -1,0 +1,5 @@
+2.1 HL-LHC studies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+2.1.1 The effect of fringe fields on the linear optics of the HL-LHC . . . 3
+2.1.2 Numeric estimate of the impact of the fringe fields . . . . . . . . . 4
+2.1.3 Dynamic aperture studies for the HL-LHC optics . . . . . . . . . . 4
+2.2 Benchmarking SAMM against PTC and MAD-X using LHC optics . . . .3 Generalised gradients .4 Differential algebra BlitzDA code .5 Analytic description of a fringe field .6 Frequency map analysis .

@@ -1,0 +1,7 @@
+Background: The timing of menopause can predict the duration of vasomotor
+menopausal symptoms (VMS), as well as the risk of hormone-related cancers such as
+ovarian, endometrial and breast cancer.
+Methods: Two of the largest and most complete datasets in the world were used to
+explore this topic: the UK Womens Cohort Study (UKWCS) and the International
+collaboration for a Life course Approach to reproductive health and Chronic disease
+Events (InterLACE).

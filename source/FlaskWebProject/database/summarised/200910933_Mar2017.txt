@@ -1,0 +1,3 @@
+The World Health Organisation (WHO)
+recommended preclinical tests of efficacy are the median lethal venom dose
+(LD50) and median effective antivenom dose (ED50) assays performed in mice.

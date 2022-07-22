@@ -1,0 +1,4 @@
+The ferlins are mammalian homologues of the C-elegans sperm vesicle fusion protein FER-1
+characterised by multiple C2 domains and a C-terminal anchor. The role of
+FER1L5 in muscle membrane fiision was investigated by examining the fusion index and
+membrane repair ability of C2C12 cells following PERILS inhibition.

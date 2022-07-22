@@ -1073,7 +1073,7 @@ Model is as follows:
 where 
 1ity  is the discrete dependent variable representing quantity of maize sold by farmer i in 
 natural logarithm; 2itv  is a vector of the residuals from the reduced form pooled CRE Tobit model 
-of subsidised fertilizersubfert; and all other explanatory variables are the same as in Eq.(2.2) with 
+of subsidised fertilizer subfert; and all other explanatory variables are the same as in Eq.(2.2) with 
 the exception of the ICT and crop diversification covariates. 
 The selection of this model against the pooled CRE Tobit Model for corner solution and the 
 pooled CRE OLS model is based on the test results on selecting non-nested models (Vuong, 1989). 
@@ -1117,7 +1117,7 @@ that the correlation between ic  and itX is of the form: iii aXc   and ii Xc ~ N
 ),,( 2aiX   where  is the constant, iX  are the time averages of the time-variant explanatory 
 variables, and ia  is the error term (Wooldridge, 2010).  Therefore, estimation of the CRE 
 estimators requires the inclusion of iX as an additional set of independent variables in order to 
-control for the time-invariant unobserved household heterogeneityic . Post estimation inference 
+control for the time-invariant unobserved household heterogeneity ic . Post estimation inference 
 of the APEs is performed using a panel bootstrapping of the standard errors. 
 The potential endogeneity of subsidised fertilizer in estimation of equations 2.2-2.4 has to be 
 addressed. As mentioned before, under the FISP, beneficiaries of coupons for purchasing of 
@@ -1611,7 +1611,7 @@ Household head (female) 0.152 0.408** 0.149 0.148
  (0.124) (0.189) (0.121) (0.121) 
 Household head age (years) -0.009** -0.005 -0.007* -0.006* 
  (0.004) (0.006) (0.004) (0.004) 
-Household size -0.098*** -0.05** -0.039***  -0.037*** 
+Household size -0.098*** -0.05** -0.039*** -0.037*** 
  (0.013) (0.017) (0.009) (0.010) 
 Rural location 0.35* 0.045 0.225 0.232* 
  (0.183) (0.284) (0.152) (0.141) 
@@ -3330,7 +3330,7 @@ respectively. A rational household will choose either of the two by aiming at ma
 expected utility and the observed choice signify greater utility.  Following Greene (2003), the 
 households optimisation problem is to make a decision that maximises the expected utility: 
 }),,()],,,([{ CLSXULSXUEMax MMMSSS       (4.1) 
-whereX represent a vector of household characteristics, 
+where X represent a vector of household characteristics, 
 SS and MS represent vectors of 
 quantities of subsidised fertilizer redeemed with coupons if  a household member stays on the 
 farm household and migrates, respectively, 

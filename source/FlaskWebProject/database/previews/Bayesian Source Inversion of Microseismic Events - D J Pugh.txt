@@ -1,0 +1,35 @@
+Rupture Properties from Microseismic Events
+Rapid stress release at the source of an earthquake produces seismic waves. Observations of
+the particle motions from such waves are used in source inversion to characterise the dynamic
+behaviour of the source and to help in understanding the driving processes. Earthquakes either
+occur naturally, such as in volcanic eruptions and natural geothermal fields, or are linked to
+anthropogenic activities including hydrofracture of gas and oil reservoirs, mining events and
+extraction of geothermal fluids.
+Source inversion is very sensitive to uncertainties in both themodel and the data, especially
+for low magnitude, namely microseismic, events. Many of the uncertainties can be poorly
+quantified, and are often not included in source inversion.
+This thesis proposes a Bayesian framework enabling a complete inclusion of uncertainties
+in the resultant probability distribution using Bayesian marginalisation. This approach is
+developed for polarity and amplitude ratio data, although it is possible to use any data type,
+provided the noise model can be estimated. The resultant posterior probability distributions
+are easily visualised on different plots for orientation and source-type. Several different
+algorithms can be used to search the source space, including Monte Carlo random sampling
+and Markov chain Monte Carlo sampling. Relative information between co-located events
+may be used as an extension to the framework, improving the constraint on the source.
+The double-couple source is the commonly assumed source model for many earthquakes,
+corresponding to slip on a fault plane. Two methods for estimating the posterior model
+probability of the double-couple source type are explored, one using the Bayesian evidence,
+the other using trans-dimensional Markov chain Monte Carlo sampling. Results from both
+methods are consistent with each other, producing good estimates of the probability given
+sufficient samples. These provide estimates of the probability of the source being a double-
+couple source or not, which is very useful when trying to understand the processes causing
+the earthquake.
+Uncertainty on the polarity estimation is often hard to characterise, so an alternative
+approach for determining the polarity and its associated uncertainty is proposed. This uses
+a Bayesian estimate of the polarity probability and includes both the background noise and
+the arrival time pick uncertainty, resulting in a more quantitative estimate of the polarity
+uncertainty. Moreover, this automated approach can easily be included in automatic event
+detection and location workflows.
+The inversion approach is discussed in detail and then applied to both synthetic events
+generated using a finite-difference code, and to real events acquired from a temporary seis-
+mometer network deployed around the Askja and Krafla Volcanoes, Iceland.

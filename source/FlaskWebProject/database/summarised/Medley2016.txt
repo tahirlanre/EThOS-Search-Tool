@@ -1,0 +1,6 @@
+Therefore understanding high energy perturbative quantum chromody-
+namics (QCD) at these experiments is essential not only as a test of the Standard Model,
+but also because these processes form the dominant background to many searches
+for new physics. This calculation adds to the fixed-
+order accuracy the dominant logarithms in the limit of large partonic centre-of-mass
+energy to all orders in the strong coupling s.

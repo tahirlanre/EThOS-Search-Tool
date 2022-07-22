@@ -1,0 +1,24 @@
+Exploiting the substructure of jets observed at the LHC to better understand and
+interpret the experimental data has recently been a very active area of research. In
+this thesis we study the substructure of high-pT QCD jets, which form a background
+to many new physics searches. In particular, we explore in detail the perturbative
+distributions of a certain class of observables known as non-global jet shapes. More
+specifically, we identify and present state-of-the-art calculations, both at fixed-order
+and to all-orders in the perturbative expansion, of a set of large logarithms known
+as non-global logarithms. Hitherto, these logarithms have been largely mis-treated,
+and in many cases ignored, in the literature despite being first pointed out more
+than a decade ago. Our work has triggered the interest of many groups, particularly
+Soft and Collinear Effective Theory (SCET) groups, and led to a flurry of papers
+on non-global logarithms and related issues.
+Although our primary aim is to provide analytical results for hadron-hadron
+scattering environments, it is theoretically instructive to consider the simpler case
+of e+e annihilation. We thus examine, in chapters 4, 5 and 6, the the said jet
+shapes in the latter environment and compute the full next-to-leading logarithmic
+resummation of the large logarithms present in the distribution for various jet def-
+initions. We exploit the gained experience to extend our calculations to the more
+complex hadronic environment in chapter 7. We provide state-of-the-art resumma-
+tion of the jet mass observable in vector boson + jet and dijet QCD processes at the
+LHC up to next-to-leading logarithmic accuracy. The resultant distribution of the
+former (vector boson + jet) process agrees well, after accounting for hadronisation
+corrections, with standard Monte Carlo event generators and potential comparisons
+to data from the LHC will be made soon.

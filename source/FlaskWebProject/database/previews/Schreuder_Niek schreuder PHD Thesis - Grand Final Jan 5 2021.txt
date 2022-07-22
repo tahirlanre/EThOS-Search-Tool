@@ -1,0 +1,24 @@
+Niek schreuder PHD Thesis - Ready examination April 30 2020
+External beam radiation therapy using accelerated protons has undergone significant
+development since the first patients were treated with accelerated protons in 1954.  Widespread
+adoption of proton therapy is now taking place and is fully justified based on early clinical and
+technical research and development.  Two of the main advantages of proton radiotherapy are
+improved healthy tissue sparing and increased dose conformation.  The latter has been improved
+dramatically through the clinical realization of Pencil Beam Scanning (PBS).  Other significant
+advancements in the past 30 years have also helped to establish proton radiotherapy as a major
+clinical modality in the cancer-fighting arsenal.  Proton radiotherapy technologies are constantly
+evolving, and several major breakthroughs have been accomplished which could allow for a major
+revolution in proton therapy if clinically implemented.
+In this thesis, I will present research and innovative developments that I personally initiated or
+participated in that brought proton radiotherapy to its current state as well as my ongoing
+involvement in leading research and technological developments which will aid in the mass
+adoption of proton radiotherapy.  These include beam dosimetry, patient positioning technologies,
+and creative methods that verify the Monte Carlo dose calculations which are now used in proton
+treatment planning.  I will also discuss major technological advances concerning beam delivery
+that should be implemented clinically and new paradigms towards patient positioning.  Many of
+these developments and technologies can benefit the cancer patient population worldwide and
+are now ready for mass clinical implementation.  These developments will improve proton
+radiotherapy efficiencies and further reduce the cost of proton therapy facilities.
+This thesis therefore reflects my historical and ongoing efforts to meet market costs and time
+demands so that the clinical benefit of proton radiotherapy can be realized by a more significant
+fraction of cancer patients worldwide.

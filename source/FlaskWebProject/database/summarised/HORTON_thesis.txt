@@ -1,0 +1,4 @@
+This thesis concerns the study of the neutron transport equation, which describes how neutrons
+move through a fissile medium, such as a nuclear reactor.
+We first build a class of branching processes, whose behaviour mimics that of neutrons
+undergoing fission in a nuclear reactor.

@@ -1,0 +1,23 @@
+W+charm production at LHC
+This thesis presents the measurement of the production cross section of a W bo-
+son with a single charm quark in 7 TeV proton-proton collisions using the ATLAS
+detector at the Large Hadron Collider. The data analysed correspond to an inte-
+grated luminosity of 4.6 fb1 and were collected during 2011. This is the first time
+that ATLAS data has been used for this particular measurement.
+This cross section is of particular interest as a probe of the strange quark density
+of the proton. Typically, the strange quark density is considered to be suppressed
+relative to that of the other light-quarks in the proton sea. However, some analyses
+suggest a more symmetric composition of light-quarks in the proton sea. The
+results of this study aim to improve the precision of the determination of the
+strange quark density.
+The analysis uses events where the W boson decays to a muon and a neutrino. In
+such events, the charm quark is identified by its semileptonic decay to a soft muon
+within a hadronic jet. The charge correlation between the W boson and the soft
+muon is exploited to reduce the backgrounds substantially. The analysis results
+are combined with those obtained using additional decay channels.
+The measured cross section provides further constraint for the determination of
+the strange quark density, advancing the knowledge of the fundamental structure
+of the proton. The results are compared with predictions of next-to-leading-order
+QCD calculations obtained using various parton distribution function parameter-
+isations. Additionally, the ratio of the strange-to-down sea-quark distributions is
+determined to be 0.96+0.260.30 at Q

@@ -1,0 +1,44 @@
+i Hi, U N i V . Ki> 1 i i
+Envenoming by the African saw scaled viper, Echis ocellatus causes 23,000 deaths each
+year in West Africa. Envenoming results in massive haemorrhagic and necrotic morbidity
+in the short term and often in permanent disfigurement and renal dysfunction in the long
+term. The only effective treatment is the administration o f  antivenom prepared from horses
+and sheep immunised with whole venom. Although life-saving, antivenoms contain
+numerous redundant antibodies that dilute the effectiveness o f  the toxin-specific antibodies.
+To address this deficiency, our group have initiated a project to develop a DNA
+immunisation strategy to generate a panel o f  toxin-specific antibodies to neutralise
+haemostasis-disruptive toxins in the venom o f  the most medically important vipers in
+Africa.
+The objective o f  my research project was therefore to generate, using DNA immunisation,
+antibodies specific to the major haemostasis-disruptive toxins in venom o f  E. ocellatus.
+Because cDNAs encoding these haemostasis-disruptive toxins were not present in the
+genetic databases, it was necessary for me to create an E. ocellatus venom gland cDNA
+library to isolate cDNA sequences encoding these toxins, including snake venom
+metalloproteases [SVMPs], C-type lectins [CTLs], serine proteases and phospholipase A 2
+[PLA2S]. Utilising a PCR approach to isolate cDNAs encoding such toxins was highly
+successful and resulted in a significant contribution to the literature and genetic databases
+concerning SVMPs, PLA2 CTL and serine proteases. The deduced amino acid sequences
+o f  the E. ocellatus cDNAs encoded proteins with high overall sequence similarity to the
+viper group II PLA2 protein family, the a  and p CTL subunits in venoms o f  related Asian
+and American vipers, kinin-releasing and fibrinogen-clotting serine proteases from venom
+o f  B. jararaca  and a prothrombin-activating metalloproteinase from the venom o f  the East
+African viper, respectively. Moreover, the data obtained in this study showed that the E.
+ocellatus genome contains several, nearly identical, copies o f  these genes that differ only
+by a small number o f  amino acid residues.
+The high degree o f  sequence conservation o f  these E. ocellatus toxins with analogous
+molecules from related vipers extended to the conservation o f  structural domains,
+predicted to have high immunogenic potential. Thus, my next task was to prepare DNA
+immunisation constructs from the cDNAs that encoded E. ocellatus SVMP, CTL and
+serine protease toxins. To achieve this, one o f  the cDNA sequences encoding the carboxyl-
+disintegrin cystine-rich domain [EoDC] o f  the prothrombin activator, was incorporated
+within the mammalian expression plasmid pSecTag-B. Mice immunised with the EoDC
+DNA construct responded with high titres o f  IgG. The results showed that the epidermal
+route o f  DNA delivery by Gene Gun was superior in inducing high IgG titres over
+intradermal or intramuscular injection. The cellular responses o f  the DNA immunised mice
+was not examined in this study because the ultimate intent was to generate antibodies for
+passive serotherapy and not for vaccine purposes. Furthermore, the results showed that the
+EoDC-specific antibody reacted with analogous molecules in venoms o f  a variety o f  Echis
+species. This result was predicted from analysis o f  the antigenic index profile. Thus, results
+suggest that the structural conservation o f  venom toxins from phylogenetically-distinct
+vipers can be exploited by this toxin-specific antivenom production approach to generate
+antivenoms with remarkable potential.

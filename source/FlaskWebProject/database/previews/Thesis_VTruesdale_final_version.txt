@@ -1,0 +1,7 @@
+Alpha-decay Spectroscopy and
+A detailed nuclear-decay spectroscopy and the -delayed fission of the neutron defi-
+cient isotopes 194,196At are presented in this work. An isotopic beam was produced
+using the selective Resonance Ionization Laser Ion Source (RILIS) and ISOLDE
+mass separator (CERN). The fine-structure  decay of 196At allowed the low-energy
+excited states in the daughter nucleus 192Bi to be investigated with new states being
+discovered. The -decay branch was also derived with a value of b(

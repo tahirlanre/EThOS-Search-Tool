@@ -1,0 +1,4 @@
+This thesis presents novel work on how to improve exploration in reinforcement learning using
+domain knowledge and knowledge-based approaches to reinforcement learning. Solving this type of problems is a hard task when real
+domains of realistic size are considered because the state space grows exponentially with each
+state feature added to the representation of the problem.

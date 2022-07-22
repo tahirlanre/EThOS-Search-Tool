@@ -1,0 +1,6 @@
+Proton beam writing is a direct write lithographic technique that uses finely focused MeV
+proton beams to create structures in a target material.
+This thesis is a study of the application of FEW in creating Micro Electro-Mechanical
+Systems (MEMS) in a polymer SU 8 and SU 8 polymer nano composite with silver, and
+shows experimental steps, theoiy and computer simulations involved in creating an
+electrostatic actuated micro-gripping device.

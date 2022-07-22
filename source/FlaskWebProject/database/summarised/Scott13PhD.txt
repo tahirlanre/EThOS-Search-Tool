@@ -1,0 +1,6 @@
+We present an analysis of the properties of jets in protonproton and leadlead
+collisions at the ALICE experiment at the CERN Large Hadron Collider, using the
+technique of two-particle angular correlations.
+The jet width and transverse momentum imbalance, quantified by the jet fragmen-
+tation transverse momentum jT and the net partonic transverse momentum kT re-
+spectively, were studied in minimum bias proton collisions.

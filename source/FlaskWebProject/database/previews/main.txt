@@ -1,0 +1,19 @@
+Treatment of quark masses in b-associated production at
+With the discovery of the Higgs boson at the Large Hadron Collider (LHC), and no
+signs of new physics to current date, precise theoretical predictions are of increasing
+importance. It is now essential to study in details the properties of the newly found
+boson, in particular its coupling to other particles and itself, as this unveils further
+the mechanism of symmetry breaking.
+In this thesis, we extend the currently used methods to deal with heavy quarks
+in hadron collision processes, the four-flavour and the five-flavour scheme, to con-
+sistently include mass effects as well as resummation of collinear logarithms. This
+is done using two complementary approaches. At the inclusive level, we extend a
+method used to include mass effects in parton densities evolution, known as FONLL.
+At the differential level, we devise a five-flavour scheme that includes mass effects
+consistently and systematically up to MC@NLO accuracy.
+We study the impact of such schemes on two phenomenologically relevant pro-
+cesses at the LHC: the production of a heavy boson, a Z or a Higgs, in association
+with heavy quarks. For these processes, in fact, the two standard schemes, have been
+known to largely disagree. In both new schemes, mass effects are found to have a
+few percent effect, with the bulk of the difference between a completely massless and
+a completely massive picture, residing in the resummation of collinear logarithms.

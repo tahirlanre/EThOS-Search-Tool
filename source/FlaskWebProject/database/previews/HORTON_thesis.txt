@@ -1,0 +1,15 @@
+University of Bath
+This thesis concerns the study of the neutron transport equation, which describes how neutrons
+move through a fissile medium, such as a nuclear reactor. By studying various stochastic pro-
+cesses that model the behaviour of these neutrons, we address some of the criticality problems
+associated with such systems.
+We first build a class of branching processes, whose behaviour mimics that of neutrons
+undergoing fission in a nuclear reactor. We then construct a class of weighted random walks,
+which are in some sense equivalent to the branching processes via a many-to-one formula. Anal-
+ysis of these two processes allows us to characterise the long-term behaviour of the underlying
+nuclear fission processes.
+One of the parameters associated with characterising this asymptotic behaviour quantifies
+the average growth of particle numbers. A large part of this thesis is dedicated to what is known
+as the supercritical phase, which is where the average number of particles grows exponentially.
+In this regime, we consider both a spine and skeletal decomposition of the branching process in
+order to further describe the growth of the system through a law of large numbers result.

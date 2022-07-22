@@ -1,0 +1,24 @@
+Coversheet for Thesis in Sussex Research Online
+The fascinating idea that in higher-dimensional models the fundamental scale of grav-
+ity, the Planck scale, could be as low as the electroweak scale has stimulated a substantial
+body of work in the past decade. In addition to solving the hierarchy problem, a low
+quantum gravity scale also oers the exciting prospect that collider experiments become
+sensitive to the quantum nature of gravity. Quantum gravity signatures include missing
+energy due to graviton emission, enhancement of standard model reference processes via
+virtual graviton exchange, or the production and decay of mini black holes. Dedicated
+searches for all of these are presently under way at the Large Hadron Collider.
+Previous predictions for colliders have been encumbered by the absence of a complete
+theory of quantum gravity. However, the recent years have also seen important progress
+in the understanding of gravity as an asymptotically safe quantum field theory, in which
+the high-energy behaviour is controlled by an interacting fixed point. The notorious di-
+vergences of perturbation theory are thus avoided, and the theory remains predictive at
+arbitrarily high energies.
+In this thesis, we investigate the eects of asymptotic safety upon predictions for
+graviton-mediated processes in higher-dimensions at colliders. We consider single-graviton
+mediated eects in the Born approximation as well as the multi-graviton exchanges which
+dominate the forward scattering region at transplanckian energies, as described by the
+eikonal approximation. Cross sections are derived and a detailed comparison with find-
+ings from eective theory is made. Using the PYTHIA event generator we find that for
+some regions in parameter space quantum gravity eects are enhanced over the semiclas-
+sical predictions, as well as over standard model backgrounds. The use of our results to
+constrain our theory parameters is discussed.

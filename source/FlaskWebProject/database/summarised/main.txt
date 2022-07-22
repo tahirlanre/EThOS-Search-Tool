@@ -1,0 +1,6 @@
+With the discovery of the Higgs boson at the Large Hadron Collider (LHC), and no
+signs of new physics to current date, precise theoretical predictions are of increasing
+importance.
+In this thesis, we extend the currently used methods to deal with heavy quarks
+in hadron collision processes, the four-flavour and the five-flavour scheme, to con-
+sistently include mass effects as well as resummation of collinear logarithms.

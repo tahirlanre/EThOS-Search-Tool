@@ -1,0 +1,7 @@
+Relative to tectonic earthquakes, the recorded number of induced
+earthquakes can be very small, while interventions to better record and prevent these
+earthquakes make the use of stationary models either statistically inefficient or in-
+appropriate. We investigate model
+simplifications to ensure parsimony of the baseline model and explore model extensions
+that assess the statistical evidence for additional physical characteristics that are not
+currently represented.

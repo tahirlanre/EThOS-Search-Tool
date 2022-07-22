@@ -1,0 +1,5 @@
+ATLAS is a general purpose de-
+tector designed to measure the products of such collisions, thereby allowing
+scientists to explore a new and extremely rich physics programme. It is therefore imperative for searches for new physics
+processes, and continued study of the Standard Model, to gain a comprehensive
+understanding of quantum chromodynamics (QCD).

@@ -1,0 +1,36 @@
+Search for medium effects with jet-like hadron correlations at ALICE at the LHC
+We present an analysis of the properties of jets in protonproton and leadlead
+collisions at the ALICE experiment at the CERN Large Hadron Collider, using the
+technique of two-particle angular correlations. The data sample comprises proton
+collisions at energies of
+s = 7 TeV and
+s = 2.76 TeV, and lead collisions at a
+nucleonnucleon collision energy of
+sNN = 2.76 TeV, from data taking periods in
+2010 and 2011.
+The jet width and transverse momentum imbalance, quantified by the jet fragmen-
+tation transverse momentum jT and the net partonic transverse momentum kT re-
+spectively, were studied in minimum bias proton collisions. The width was found to
+be independent of hadron transverse momentum, with a value of
+j2T  0.8 GeV.
+This is higher than measurements from earlier experiments at lower beam energies,
+consistent with theoretical expectations.
+k2T was found to increase with collision
+energy and also with the transverse momentum of the hadrons in the jet.
+The dependence of jet yield on the produced multiplicity was studied in proton
+and ion collisions, with the multiplicity providing an estimator for the ion colli-
+sion centrality. The ratio of awayside to nearside yield was studied, with a view
+to identifying suppression of jet momentum through interaction with a deconfined
+quark-gluon plasma. This suppression was identified in lead collisions as expected
+from previous results, but no suppression was observed in high multiplicity proton
+collisions.
+The jet width and transverse momentum imbalance were also studied as a function
+of multiplicity, with the width quantified by jT and the imbalance quantified by the
+correlation function awayside peak width. In proton collisions, the jet width was
+measured to be
+j2T  0.8 GeV independently of multiplicity; this was consistent
+with the measurements in minimum bias collisions. No firm evidence of medium
+effects was observed in measurements of the awayside peak width in proton or lead
+collisions, but the jet width was observed to decrease in lead collisions of increasing
+centrality. This was interpreted as a suppression of the high momentum hadrons in
+the jets.

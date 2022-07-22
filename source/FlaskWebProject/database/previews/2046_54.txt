@@ -1,0 +1,32 @@
+Characterization of FER1L5, a novel dysferlin
+The ferlins are mammalian homologues of the C-elegans sperm vesicle fusion protein FER-1
+characterised by multiple C2 domains and a C-terminal anchor. To date three human ferlin
+proteins, dysferlin, myoferlin and otoferlin have been characterized. Dysferlin and myoferhn
+have a role in muscle membrane fusion. Dysferlin mutations cause muscular dystrophy and
+are associated with defective sarcolemmal repair. Myoferlin has a role in myogenesis.
+Through bioinformatic analysis our group identified a novel ferlin, FER1L5, which by
+homology modelling and sequence analysis showed highest similarity with dysferlin and
+myoferlin. Previously, FER1L5 gene expression was shown to be elevated during C2C12
+myoblast fusion. This led to the hypothesis that PERILS may have a role in muscle membrane
+fusion. In this study this was investigated in the C2C12 cell line using a specific polyclonal
+antibody to FER1L5. FER1L5 was shown to be present in vesicles. By biochemical
+fractionation FER1L5 was detected in low density vesicles the membranes of which were
+non-resistant to non-ionic detergent. The fractionation data showed that FER1L5, dysferlin
+md myoferlin vesicles have similar properties. By immunolabelling FER1L5 was shown to be
+present in distinct vesicles in myotubes compared to dysferlin and myoferlin respectively.
+During myoblast fusion FER1L5 expression was detected at all stages and high expression
+was observed at membrane fusion sites of fusing myoblasts. FER1L5 (but also dysferlin and
+myoferlin) showed a nuclear distribution during myoblast fiision. In myotube nuclei FER1L5
+was localized to subnuclear bodies sensitive to actinomycin D. Using the C3H-ER-MyoD cell
+line, I have shown that FER1L5 is not an early marker of muscle differentiation. The role of
+FER1L5 in muscle membrane fiision was investigated by examining the fusion index and
+membrane repair ability of C2C12 cells following PERILS inhibition. PERILS was shown to
+be required for myoblast fusion and membrane repair.
+In this study, I have also shown that C2C12 myotubes are active in membrane shedding.
+Using live cell imaging and confocal analysis, MVB like structures containing ferlin vesicles
+were shown to be released extracellularly from C2C12 myotubes. EM studies confirmed these
+findings.
+Overall my data shows that PERILS has a role in muscle membrane fusion. My work
+highlights that further studies on PERILS are required for example to determine i f PERILS a
+therapeutic target in dysferlinopathy and to identify the mechanisms involved in PERILS
+mediated membrane fusion.

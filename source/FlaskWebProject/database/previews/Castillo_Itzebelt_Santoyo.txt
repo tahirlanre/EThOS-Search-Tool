@@ -1,0 +1,13 @@
+Coversheet for Thesis in Sussex Research Online
+The ATLAS experiment at the Large Hadron Collider has collected an unprecedented
+amount of data in the 3 years of data taking since its start. In this document I will dis-
+cuss the results of the analysis I performed during my PhD at the university of Sussex
+for the search of Supersymmetry in events with three leptons (electron/muon/tau) and
+missing transverse energy in the final state. The search is performed on the full dataset
+collected by the experiment in 2012, at a centre-of-mass energy of 8 TeV. These results are
+interpreted in SUSY models with chargino-neutralino pair production via decays involving
+sleptons, staus, gauge bosons and the newly discovered Higgs boson. These results presen-
+ted improve on previous searches performed at ATLAS in three lepton final states with
+only electrons and muons. Special focus will be given to the optimisation process of Su-
+persymmetry signal with respect to the SM background, and the statistical interpretation
+of the results obtained with this search.

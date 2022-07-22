@@ -1,0 +1,50 @@
+Glasgow Theses Service 
+The route of the witness through the criminal justice system, from identification to testimony,
+has always been fraught with difficulty.  There are innumerable sources of influence,
+intimidation and manipulation which can affect a witnesss performance at any point on this
+pathway.  In recent years, and in an effort to resolve several of the issues surrounding
+witness performance, the British Government have introduced a number of legislative
+measures to improve performance at identity parades and enhance the court experience of
+vulnerable witnesses and thereby improve the quality of their testimony.  While it seems that
+these measures have been generally well received, there remain some valid questions over
+their implementation and whether they are eliciting the desired effects.
+The sequential identity parade system, V.I.P.E.R. was devised primarily as a cost-cutting
+procedural change by West Yorkshire Police in 1999. However, V.I.P.E.R.s design was
+heavily influenced by the large extant literature declaring a sequential superiority effect for
+target absent parades.  Specifically, the data claim that sequential identity parades
+significantly reduce the rate of false identifications from target absent parades whilst
+preserving hit rates for target present parades.  Yet all of the studies purporting this effect
+have used a very different procedure to that employed by V.I.P.E.R.; these studies use, and
+recommend, a strict sequential procedure whilst UK legislation requires V.I.P.E.R. parades
+to be shown twice.  Thus the effects of using a V.I.P.E.R. parade upon rates of identification
+and misidentifications have yet to be empirically investigated.  The results of this study
+revealed that there was no significant effect of parade presentation mode upon rates of
+correct identifications for target present parades or the rate of mistaken identifications in
+target absent parades.
+The next step for many witnesses is the progression of their case to trial.  The incidence of
+intimidation and vulnerability of adult witnesses appears to be increasing and so a range of
+Special Measures, more commonly used with child witnesses, were extended to adult
+witnesses who meet legislative criteria.  However, there again has been no investigation into
+the effects the use of the Special Measures for adult witnesses has upon jurors perceptions
+of that witness, the defendant and, if there is a change in perceptions, whether they are
+substantive enough to alter the trial verdict.  The current experiments revealed that the use
+of a screen does not significantly alter jurors perceptions and had no effect on conviction
+rates.  The use of live CCTV links led the witness to be perceived as less credible but again
+this did not affect the verdict.  It is the use of pre-recorded video evidence which raises the
+most concern; witnesses testifying in this manner are perceived as significantly less credible
+and believable which in turn has a significant effect upon conviction rates.   However, when
+tested in a deliberating jury group situation, all the Special Measures were associated with
+the witness being perceived as more credible compared to the control condition, although
+these differences were not significant, and there was no significant effect upon the rate of
+guilty verdicts across all conditions.
+Overall, it appears that the implementation of both of these legislative steps have had
+varying degrees of success.  While the V.I.P.E.R. identity parade procedure has reduced
+running costs it appears that there are no significant differences between V.I.P.E.R. and
+simultaneous procedures for either target present or target absent identity parades.
+Conversely, it appears that the introduction of the Special Measures for vulnerable adult
+witnesses has been largely well received and tentatively successful in reducing witness
+anxiety.  The data suggest that there are no significant negative effects associated with
+using these Special Measures, certainly under the more ecologically valid condition of the
+deliberating jury group.  Nevertheless, a series of policy recommendations have been made
+for both identity parade and testimony procedures with the aim of further enhancing the
+witnesss performance and experience through the criminal justice system.

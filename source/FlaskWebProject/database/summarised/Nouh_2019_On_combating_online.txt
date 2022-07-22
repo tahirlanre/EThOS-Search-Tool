@@ -1,0 +1,5 @@
+Similarly, the nature of cybercrimes has generated multitudes of data introduced by
+the cyber aspect of these crimes, which makes the process of identifying evidence
+similar to searching for a needle in a haystack. To aid law enforcement to better
+detect, analyse, and understand the threat landscape posed by cyber-criminals,
+research into the area of cybercrime intelligence has flourished.

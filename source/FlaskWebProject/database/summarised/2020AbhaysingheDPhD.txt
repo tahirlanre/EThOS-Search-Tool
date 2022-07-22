@@ -1,0 +1,8 @@
+A search for new physics with non-resonant signals in dielectron and dimuon fi-
+nal states in mass ranges above 2 TeV is presented. The data, corresponding to
+an integrated luminosity of 139 fb1, were recorded by the ATLAS experiment
+in protonproton collisions at a centre-of-mass energy of 13 TeV during Run-2
+of the Large Hadron Collider. The
+benchmark signal model considered is the four-fermion contact-interaction,
+which results in an enhancement of the dilepton event rate at the TeV mass
+scale.

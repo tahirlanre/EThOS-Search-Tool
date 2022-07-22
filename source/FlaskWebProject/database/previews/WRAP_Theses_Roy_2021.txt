@@ -1,5 +1,30 @@
-Microsoft Word - Thesis_PR_Corrected.docx
-3.1.1. Regulation of plant immunity by the circadian clock 41
-3.1.2. The plant circadian clock could also be modified by invading
-pathogens 43
-3.1.3. Nodulation in legumes could be under circadian influence 43
+Leguminous plants (or legumes) are well-known for their symbiotic relationship 
+with nitrogen (N) fixing soil bacteria (rhizobia). Through providing a niche to rhizobia in 
+specialized root organelles called nodules and in exchange for plant sugars and nutrients, 
+leguminous plants gain access to the nitrogen fixed by the bacteria. As a result, nodulating 
+plant species can grow in N-depleted soil while most non-legume crop plants require N-
+fertilizers to reach significant yields. A family of peptides, called Nodule-specific Cysteine-
+Rich (NCR) peptides, play important roles in rhizobial differentiation and nodulation in 
+certain legumes (e.g., Medicago truncatula) belonging to the Inverted-Repeat Lacking Clade 
+(IRLC). Interestingly, a subset of these NCR gene promoters contain the Evening 
+Element (EE), a cis-regulatory motif which acts as a binding site for a number of plant 
+circadian transcription factors including LATE-ELONGATED HYPOCOTYL (LHY). 
+In order to characterize a potential LHY-NCR-nodulation mechanism, a free-running 
+time-course experiment was carried out where M. truncatula A17 nodules, roots and leaves 
+were sampled over 48 hours. Gene expression analysis through RNA sequencing revealed 
+around 5% of all M. truncatula genes were diurnally oscillating in nodules, including 45 
+NCRs genes. More than half of these NCRs were highly expressed in the evening period 
+and a significant number of them contain EE motif in their promoters. This supports the 
+hypothesis that these NCRs are negatively regulated by the morning expressed circadian 
+transcription factor, LHY. Furthermore, we have shown that the loss of LHY function 
+leads to reduced nodulation and plant growth. In line with a regulatory role for the clock 
+in nodule metabolic activity, when we clustered different rhythmically expressed plant and 
+rhizobial genes in nodules into four time-of-day groups, we found that modulation of 
+metabolism occurs in waves. This elaborated our understanding of the function of known 
+rhythmic processes (inc. photosynthesis, carbohydrate metabolism) and identified novel 
+functional links. In parallel to the LHY-NCR gene expression study, two cortex-specific 
+GFP expression vectors were prepared and analyzed that could be useful for cell-type 
+specific gene expression in future since the cortex is a site of nodule development. 
+Application of our data is likely to enable us to maximize symbiotic N-fixation and 
+potentially help us to employ such features in non-legume crop plants, bringing 
+considerable benefits.

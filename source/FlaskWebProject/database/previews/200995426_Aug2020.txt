@@ -1,0 +1,46 @@
+Detection of trapped survivors in 
+Every few years an earthquake of high magnitude occurs around the globe resulting in
+collapsed structures with people trapped inside them. The seismic research method has
+the potential to detect physical movement or signals by measuring vibration due to
+structure  borne sound using seismic sensors. The placement and positioning of these
+sensors is critical for the successful detection of the survivors and prediction models
+could be developed and used as a tool to assist in the decision making of the rescue
+teams. This thesis investigates the potential to use Statistical Energy Analysis (SEA)
+to model the vibration transmission between structural members of a collapsed
+reinforced concrete building in order to find trapped survivors.
+Experimental Modal Analysis (EMA) was carried out to validate finite element models
+of reinforced concrete beam junctions with surface-to-surface contact conditions
+which are used to investigate the normal contact stiffness between reinforced concrete
+beams. It is shown that the contact stiffness follows a lognormal distribution and that
+the mean value could be used as approximation of the contact stiffness in beam
+junctions.
+An ensemble of 30 random beam junctions was generated for Monte Carlo simulations
+with Finite Element Method (FEM) that allowed Experimental Statistical Energy
+Analysis (ESEA) to be used to determine Coupling Loss Factors (CLFs) between the
+two beams. These were compared with CLFs calculated using an analytical model
+based on a lump spring connector (LSC). It was shown that close agreement
+(difference within 5 dB) was achieved only for bending waves or torsional waves
+between FEM ESEA and the analytical model up to the frequency where half the
+bending or torsional wavelength equalled the longest side of the contact area. When
+all wave types were combined, reasonable agreement (difference within 10 dB) can be
+achieved at frequencies below 900 Hz.
+FEM, SEA path analysis and general SEA matrix solutions were used to estimate
+vibration transmission in piles of beams using both FEM ESEA CLFs and CLFs from
+an analytical model of a lump spring connector. It was shown that SEA is more
+accurate when the number of transmission paths increases and that reasonable
+agreement is achieved between SEA and FEM up to 700 Hz for the majority of the
+beams in the piles.
+Additionally, an ensemble of 30 randomly damaged beam-to-column junctions was
+generated using a Monte Carlo simulation with FEM. This allows an assessment of
+ESEA with two or three subsystems to be used to determine the CLFs between the
+beam and the column considering either only bending modes or the combination of all
+modes. It is shown that the bending modes are dominating the dynamic response of
+the junctions over the combination of all the modes and that the uncertainty of
+predicting the CLFs using FEM ESEA is sufficiently low that it should be feasible to
+estimate the coupling even when the exact angle between the beam and the column is
+unknown. In addition, the use of two instead of three subsystems for the junction
+significantly decreases the number of negative coupling loss factors in FEM ESEA
+indicating that the two-subsystem model provides a reasonable basis on which to build
+an SEA model.
+For the one who changed my perspective on life,
+for .

@@ -1,0 +1,8 @@
+Furthermore, recent advances in methods and algorithms for calculating precise
+relative locations for large numbers of small earthquakes allows for these faults and structures to be
+imaged in exquisite detail, and to gain a deeper understanding than by studying only their temporal
+occurrence.
+In Chapter 3 I outline the collection of seismic data in Iceland, the pre-processing
+procedures applied, and the application of QuakeMigrate to generate a highly complete
+and robust earthquake catalogue for the region around Askja volcano, in the Northern
+Volcanic Zone of Central Iceland.

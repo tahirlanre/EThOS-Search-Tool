@@ -1,0 +1,6 @@
+The purpose of the thesis is
+to develop an approach that will equip clinicians and managers at implementation sites
+to understand and comment critically but constructively, on the design, implementation
+and evaluation of information systems, so they can promote the successful assimilation
+of the National Programme for IT at their own place of work from a socio-technically-
+informed position.

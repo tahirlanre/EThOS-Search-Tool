@@ -1,0 +1,24 @@
+A Reinforcement Learning  Quality of Service 
+The Internet of Things (IoT) ecosystem is characterised by heterogeneous devices dynamically
+interacting with each other to perform a specific task, often without human intervention. This
+interaction typically occurs in a service-oriented manner and is facilitated by an IoT
+middleware. The service provision paradigm enables the functionalities of IoT devices to be
+provided as IoT services to perform actuation tasks in critical-safety systems such as
+autonomous, connected vehicle system and industrial control systems.
+As IoT systems are increasingly deployed into an environment characterised by continuous
+changes and uncertainties, there have been growing concerns on how to resolve the Quality of
+Service (QoS) contentions between heterogeneous devices with conflicting preferences to
+guarantee the execution of mission-critical actuation tasks. With IoT devices with different
+QoS constraints as IoT service providers spontaneously interacts with IoT service consumers
+with varied QoS requirements, it becomes essential to find the best way to establish and manage
+the QoS agreement in the middleware as a compromise in the QoS could lead to negative
+consequences.
+This thesis presents a QoS negotiation framework, IoTQoSystem, for IoT service-oriented
+middleware. The QoS framework is underpinned by a negotiation process that is modelled as
+a Markov Decision Process (MDP). A model-based Reinforcement Learning negotiation
+strategy is proposed for generating an acceptable QoS solution in a dynamic, multilateral and
+multi-parameter scenarios. A microservice-oriented  negotiation architecture  is developed that
+combines  negotiation, monitoring and forecasting  to provide a  self-managing mechanism  for
+ensuring the successful execution of actuation tasks in an IoT environment. Using a case study,
+the developed QoS negotiation framework was evaluated using real-world data sets with
+different negotiation scenarios to illustrate its scalability,  reliability and performance.

@@ -1,0 +1,5 @@
+Proton decay
+rate calculations suggest that this nuclide has a large prolate deformation,
+in agreement with the predictions of the Mller-Nix mass model and the
+experimental observations of the neighbouring odd-even lanthanide proton
+emitters 131 Eu and 141 Ho.

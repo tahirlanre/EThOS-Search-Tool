@@ -1,0 +1,34 @@
+Microsoft Word - Nick Harrop Completed PhD Thesis 20100915 latest.doc
+Written by a full-time clinician, this thesis explores an example of Big IT in
+healthcare, the National Programme for IT in the United Kingdom National Health
+Service. It is unique in exploring the interaction between people and information
+technology in the healthcare workplace, from an engaged standpoint within one of the
+National Programmes implementation sites, in order to provide a critical and a socio-
+technical appreciation.
+The National Programme (a global intervention in the NHS context) will be
+implemented locally, in every NHS institution and in each part of each institution. Its
+global aspect is essentially rational, eliminating local considerations. Its local aspects
+are occasioned and situated in a fluid, essentially social context. The tension between
+the global and the local is mirrored, every time a healthcare professional interacts with a
+patient, in the interplay between a standard intervention and a non-standard situation.
+Background and Purpose of the Thesis
+A substantial consensus is developing, that the National Programme has under-
+estimated the importance of the socio-technical dimension. The purpose of the thesis is
+to develop an approach that will equip clinicians and managers at implementation sites
+to understand and comment critically but constructively, on the design, implementation
+and evaluation of information systems, so they can promote the successful assimilation
+of the National Programme for IT at their own place of work from a socio-technically-
+informed position.
+Methodological Approach and Setting
+The body of the thesis is a set of five case studies which deploy developments of
+Checklands Soft Systems Methodology (NIMSAD : Jayaratna, 1994 ; Multiview :
+Avison & Wood-Harper, 1990) within Pawson & Tilleys (1997) Realistic Evaluation
+framework. The case studies, conducted in an ordinary NHS Trust hospital, examine the
+mechanisms and context within which the new information systems proposed by the
+National Programme might be expected to promote the Trusts five most important
+strategic goals.
+Driven by the practice of information systems implementation, itself intimately bound
+up with, and inseparable from, the evaluation, the design and the strategic purpose of
+the information system, the thesis develops an approach that brings to life the complex
+implementation context through the eyes and the concerns of operational clinicians as
+well as strategic managers.

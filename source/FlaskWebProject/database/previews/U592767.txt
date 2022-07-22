@@ -1,0 +1,27 @@
+2 8 0 9 2 8 8 6 4 3
+In the central nervous system, small conductance calcium-activated potassium
+channels (SK) are important for the generation of the afterhyperpolarisation that
+follows single or trains of action potentials. Three SK channels have been cloned
+(SKI, SK2 and SK3), which are selectively blocked by the venom toxin apamin and
+present distinct pharmacological properties. The principal aim of this work is to
+investigate the subcellular distribution of SK2 and SK3 channels in neurones. For
+this purpose, antibodies directed against specific regions of SK2 and SK3 subunits
+were raised, purified and characterised. Immunohistochemistry on rat brain sections
+showed that the SK2 protein is localised in somatic and dendritic structures in
+various brain regions. SK3 immunoreactivity is mainly associated with fibers, but
+also with neuronal somata and dendrites. Intense SK3 expression was detected in the
+substantia nigra pars compacta, the locus coeruleus and the dorsal raphe. In these
+brain regions, the distribution of the channel was analysed in relation to monoamine-
+containing neurones, at two different developmental stages. In this work, I also
+report the characterization of a new SK2 variant, SK2-860, which differs from the
+SK2 subunit by having an extended amino terminus. Heterologous expression of this
+variant in primary neurones indicates that the majority of the protein is located in
+clusters distributed throughout the cytoplasm. Western blot analysis with the SK2
+antibody and with a specific antibody for the new variant showed that SK2-860
+subunit is expressed in the rat central nervous system. The distribution pattern of the
+SK2-860 in the rat brain largely overlaps the one observed for SK2.
+Finally, in the last part of this work, the molecular determinants responsible for the
+difference in apamin sensitivity among the different members of the SK channel
+family were investigated. The study showed that the extracellular loop that connects
+transmembrane segments S3 and S4 of SK channel a  subunits significantly
+contributes to apamin sensitivity of SK2 channels.

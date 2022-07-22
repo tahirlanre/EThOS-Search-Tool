@@ -1,0 +1,24 @@
+The Estimation of Reward and Value 
+TD(? ) is a sophisticated estimator of value functions encountered as part of
+reinforcement learning. This research examines the behaviour of TD(k) as a
+statistical estimator of the value function. The relationship between the eligibility
+forms of TD(A) and the various ways that recurrent states can be used is explored.
+The reason why some forms of TD(X) diverge for some choice of a is investigated.
+A simple condition is presented that ensures that TD-like estimators converge in the
+mean for all a and this is used to propose a non-divergent form of Accumulating
+traces TD(k).
+The reason why TD(, %) shows a small sample advantage over simpler estimators is
+examined. The form of the estimator in the first few steps of estimation is shown to
+be close to a weighted reward estimator or WR(? ) estimator which does not use any
+"temporal difference" principles. By comparing the behaviour of the various forms
+of TD(k) to the behaviour of the corresponding WR(?. ) estimator in a range of
+models, it is proposed that the action of weighted rewards accounts for TD(A)'s small
+sample advantage.
+Estimates of the value function are often used to derive the optimum policy. An
+additional measure of success, the concordance coefficients is used to compare
+WR(%), TD(X) and simpler estimators for their suitability in this role. It is shown that
+the WR(? ) and TD(? ) estimators behave in a very different way to simpler estimators
+and this behaviour is largely parameter insensitive. An experiment that compares the
+estimates of optimal state values reveals that WR(%) and TD(A, ) retain their distinct
+behaviour. This proves to be an advantage when the initial estimates are optimistic
+but a disadvantage when they are pessimistic.

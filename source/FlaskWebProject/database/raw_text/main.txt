@@ -1,0 +1,3224 @@
+Durham E-Theses
+Treatment of quark masses in b-associated production at
+the LHC
+NAPOLETANO, DAVIDE
+How to cite:
+NAPOLETANO, DAVIDE (2017) Treatment of quark masses in b-associated production at the LHC,
+Durham theses, Durham University. Available at Durham E-Theses Online:
+http://etheses.dur.ac.uk/12409/
+Use policy
+The full-text may be used and/or reproduced, and given to third parties in any format or medium, without prior permission or
+charge, for personal research or study, educational, or not-for-prot purposes provided that:
+ a full bibliographic reference is made to the original source
+ a link is made to the metadata record in Durham E-Theses
+ the full-text is not changed in any way
+The full-text must not be sold in any format or medium without the formal permission of the copyright holders.
+Please consult the full Durham E-Theses policy for further details.
+http://www.dur.ac.uk
+http://etheses.dur.ac.uk/12409/
+ http://etheses.dur.ac.uk/12409/ 
+htt://etheses.dur.ac.uk/policies/
+Academic Support Oce, Durham University, University Oce, Old Elvet, Durham DH1 3HP
+e-mail: e-theses.admin@dur.ac.uk Tel: +44 0191 334 6107
+http://etheses.dur.ac.uk
+http://etheses.dur.ac.uk
+Treatment of quark masses in
+b-associated production at the LHC
+Davide Napoletano
+A Thesis presented for the degree of
+Doctor of Philosophy
+Department of Physics
+Institute for Particle Physics Phenomenology
+University of Durham
+United Kingdom
+16th August 2017
+Treatment of quark masses in b-associated
+production at the LHC
+Davide Napoletano
+Submitted for the degree of Doctor of Philosophy
+16th August 2017
+Abstract
+With the discovery of the Higgs boson at the Large Hadron Collider (LHC), and no
+signs of new physics to current date, precise theoretical predictions are of increasing
+importance. It is now essential to study in details the properties of the newly found
+boson, in particular its coupling to other particles and itself, as this unveils further
+the mechanism of symmetry breaking.
+In this thesis, we extend the currently used methods to deal with heavy quarks
+in hadron collision processes, the four-flavour and the five-flavour scheme, to con-
+sistently include mass effects as well as resummation of collinear logarithms. This
+is done using two complementary approaches. At the inclusive level, we extend a
+method used to include mass effects in parton densities evolution, known as FONLL.
+At the differential level, we devise a five-flavour scheme that includes mass effects
+consistently and systematically up to MC@NLO accuracy.
+We study the impact of such schemes on two phenomenologically relevant pro-
+cesses at the LHC: the production of a heavy boson, a Z or a Higgs, in association
+with heavy quarks. For these processes, in fact, the two standard schemes, have been
+known to largely disagree. In both new schemes, mass effects are found to have a
+few percent effect, with the bulk of the difference between a completely massless and
+a completely massive picture, residing in the resummation of collinear logarithms.
+Declaration
+This thesis is based collaborative research and the corresponding publications, preprints,
+and proceedings contributions are listed below. No part of this thesis has been sub-
+mitted elsewhere for any other degree or qualification.
+Chapter 3 is based on joint research conducted with Prof. Dr. Stefano Forte
+and Dr. Maria Ubiali. The content of this chapter appears in reference [1], refer-
+ence [2] and section IV.2.2 of reference [3].
+Chapter 4 is based on joint research conducted with Prof. Dr. Frank Krauss
+and Jun. Prof. Dr. Steffen Schumann. The content of this chapter appears in
+reference [4], section IV.2.3 of reference [3] and section IV.6 of reference [5].
+Chapter 5 is based on joint research conducted with Prof. Dr. Frank Krauss,
+Dr. Marek Schnherr and Dr. Stefan Hche. The content of this chapter is, as of
+today, in preparation for publication.
+Copyright c 2017 Davide Napoletano.
+The copyright of this thesis rests with the author. No quotations from it should be
+published without the authors prior written consent and information derived from
+it should be acknowledged.
+Acknowledgements
+I wish to thank my supervisor, Frank Krauss, for his guidance and support, and
+especially for his help in starting many successful collaborations I have been part of.
+I am also grateful for the chance he has given me to develop as a researcher, giving
+me the chance to carry on my own projects and interests, still helping me when in
+need.
+I would also like to thank Stefano Forte and Maria Ubiali, for the work done
+together.
+I am grateful to my colleagues from the SHERPA Collaboration whom have pro-
+vide invaluable help time and time again. In particular I wish to thank Marek
+Schnherr, Steffen Schumann and Stefan Hche for their hospitality in Zrich, Gt-
+tingen and SLAC, as well as for their help with many problems I have encountered.
+A very special thanks goes to the whole of the HiggsTools network, and, in
+particular the ESRs.
+This work has received financial support from the EU research networks funded
+by the Research Executive Agency (REA) of the European Union under Grant
+Agreement PITN-GA2012-316704 (HiggsTools). I also acknowledge financial sup-
+port for travels and collaborative work from the Research Executive Agency (REA)
+of the European Union under Grant Agreement PITN-GA-2012-315877 (MCnetITN)
+and the ERC Advanced Grant MC@NNLO (340983).
+Finally I would like to thank Alessia, without whom I would not probably even
+be here writing this thesis. I am really grateful for everything you have done, and
+continuously, do.
+Contents
+Abstract ii
+Declaration iii
+Acknowledgments iv
+1 Motivation and outline 1
+2 Theoretical tools 5
+2.1 Factorisation of QCD cross sections . . . . . . . . . . . . . . . . . . . 5
+2.2 Monte Carlo methods in brief . . . . . . . . . . . . . . . . . . . . . . 8
+2.3 Fixed order expansion . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+2.3.1 Catani-Seymour subtraction in brief . . . . . . . . . . . . . . . 11
+2.3.2 The dipole factorisation formula . . . . . . . . . . . . . . . . . 12
+2.3.3 Dipole terms construction . . . . . . . . . . . . . . . . . . . . 14
+2.4 Parton Shower . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+2.4.1 MC@NLO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+2.5 Merging . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+2.6 Higher order merging . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+3 Matching the 4F and the 5F schemes 20
+3.1 Need for a matched calculation . . . . . . . . . . . . . . . . . . . . . 20
+3.2 The FONLL scheme . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+3.2.1 The 4F scheme cross section . . . . . . . . . . . . . . . . . . . 23
+3.2.2 The massless limit of the massive cross section . . . . . . . . . 24
+3.3 Properties of the matched cross section . . . . . . . . . . . . . . . . . 27
+Contents vi
+3.4 The bb H FONLL cross section . . . . . . . . . . . . . . . . . . . . 28
+4 Comparing the 4F and the 5F scheme: heavy boson production 35
+4.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+4.2 Bottom-jet associated Z-boson production . . . . . . . . . . . . . . . 36
+4.2.1 Details of the simulations . . . . . . . . . . . . . . . . . . . . 37
+4.2.2 Parton shower mass corrections . . . . . . . . . . . . . . . . . 41
+4.2.3 Measurements at LHC Run I  the reference data . . . . . . . 43
+4.2.4 Comparison with LHC data . . . . . . . . . . . . . . . . . . . 43
+4.3 Bottom-jet associated Higgs-boson production . . . . . . . . . . . . . 51
+5 Towards a massive 5F scheme 59
+5.1 Massive Subtraction . . . . . . . . . . . . . . . . . . . . . . . . . . . 59
+5.1.1 Initial state splitter with initial state spectator . . . . . . . . . 60
+5.1.2 The case of initial state hadrons . . . . . . . . . . . . . . . . . 63
+5.2 Massive dipole formulae for other configurations . . . . . . . . . . . . 64
+5.3 Validation: bottom quark fusion with massive quarks . . . . . . . . . 65
+5.3.1 Factorisation of collinear singularities . . . . . . . . . . . . . . 69
+5.4 Simulations for bb H with massive quarks, fixed-order . . . . . . . 71
+5.5 Massive initial state shower . . . . . . . . . . . . . . . . . . . . . . . 76
+6 Conclusions and outlook 81
+A Mathematical Tools 84
+A.1 Colour Algebra of SU (3) . . . . . . . . . . . . . . . . . . . . . . . . . 84
+A.2 ddimensional spherical coordinates . . . . . . . . . . . . . . . . . . . 86
+A.3 Altarelli-Parisi splitting functions . . . . . . . . . . . . . . . . . . . . 86
+B Matching coefficients for massive quarks 87
+C Initial state massive subtraction 90
+C.1 Initial massive quarks kinematics . . . . . . . . . . . . . . . . . . . . 90
+C.2 Initial-Initial massive subtraction integral . . . . . . . . . . . . . . . . 90
+C.2.1 The integral in v . . . . . . . . . . . . . . . . . . . . . . . . . 91
+Contents vii
+C.2.2 The integral in x . . . . . . . . . . . . . . . . . . . . . . . . . 93
+List of Figures
+2.1 Diagrammatic representation of Eq. (2.20) for an initial state emission
+with an initial state spectator. . . . . . . . . . . . . . . . . . . . . . . 14
+3.1 Representative examples of contributions to the 5FS computation
+which are subtracted and get replaced by massive 4FS contributions.
+The diagrams circled with a dashed line become massive in FONLL-
+A, while those circled with a solid pink line are those that must be
+additionally subtracted in the FONLL-B scheme. . . . . . . . . . . . . 25
+3.2 Comparison of the FONLL matched result and its 4FS and 5FS compo-
+nents, Eq. (3.3). Results are shown as a function of the renormalisa-
+tion scale, with the factorisation scale fixed at a high value F = mH
+(top) or a low value F =
+(mH+2mb)
+(bottom). . . . . . . . . . . . . . 30
+3.3 Same as Fig. 3.2, but now with the factorisation scale varied with the
+renormalisation scale kept fixed at a high value R = mH (top) or a
+low value R =
+(mH+2mb)
+(bottom) . . . . . . . . . . . . . . . . . . . . 31
+3.4 The cross-section using the most accurate results in the 4FS (NLO),
+5FS (NNLO) and matched (FONLL-B) schemes, as a function of the
+Higgs mass, with r = F =
+(mH+2mb)
+. The bottom panel shows the
+result as a ratio to the 5FS computation. The uncertainty band is
+obtained by standard seven-point scale variation (see text). . . . . . . 33
+4.1 Pictorial representation of V + bb processes contributing to the 4F
+MC@NLO calculation. Here V = (Z,H) and by  we just mean that
+it is not a simple product, and P.S. is the parton shower contribution.
+V refers to the one-loop virtual contributions to the born. . . . . . . . 39
+List of Figures ix
+4.2 Same as Fig. 4.1 but for the 5F MEPS@LO. The  symbol represents
+the merging, i.e. a sum with the overlapping part removed. Note
+that in the five flavour scheme the bottom contribution is included in q. 40
+4.3 Comparison of total production cross section predictions with ATLAS
+data [57]. The error bars on the theoretical results are calculated
+from variations of the hard-process scales R/F and the parton-shower
+starting scale Q. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+4.4 Inclusive transverse-momentum and rapidity distribution of all b-jets
+in events with at least one b-jet. Data taken from Ref. [57]. . . . . . . 46
+4.5 Transverse-momentum distribution of the Z boson (left) and the az-
+imuthal separation between the Z boson and the b-jet (right) in events
+with at least one b-jet. For the (Z, b) measurement the additional
+constraint pT,ll > 20 GeV is imposed. Data taken from Ref. [57]. . . 47
+4.6 Difference in rapidity and R separation between tne Z boson and
+the first b-jet in events with at least one b-jet, with the additional
+constraint pT,ll > 20 GeV. Data taken from Ref. [57]. . . . . . . . . . 48
+4.7 The R separation (left) and invariant-mass distribution (right) for
+the leading two b-jets. Data taken from Ref. [57]. . . . . . . . . . . . 50
+4.8 Transverse-momentum distribution of the dilepton system for events
+with at least two b-jets. Comparison against various calculational
+schemes. Data taken from Ref. [57]. . . . . . . . . . . . . . . . . . . 51
+4.9 RBB distribution for two selections of the transverse momentum of
+the Z boson. Data taken from Ref. [58]. . . . . . . . . . . . . . . . . 52
+4.10 BB distribution for two selections of the transverse momentum of
+the Z boson. Data taken from Ref. [58]. . . . . . . . . . . . . . . . . 53
+4.11 Predictions for the transverse-momentum distribution of the Higgs
+boson (left panel) and the leading b-jet (right panel) in inclusiveH+b-
+jet production at the 13 TeV LHC. . . . . . . . . . . . . . . . . . . . . 55
+4.12 The transverse-momentum distribution of the Higgs boson in inclusive
+H + 2b-jets production at the 13 TeV LHC. . . . . . . . . . . . . . . . 56
+4.13 Predictions for the R separation of the two leading b-jets (left panel)
+and their invariant-mass distribution (right panel) in inclusive H+2b-
+jets production at the 13 TeV LHC. . . . . . . . . . . . . . . . . . . . 57
+5.1 Contributions to the born phase space of bb H. . . . . . . . . . . . 67
+5.2 Contributions to the real emission phase space of bb Hg Eq. (5.37)
+and bg  Hb. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
+5.3 The pT and  spectrum of the Higgs boson at NLO. We compare the
+vanilla 5FS, and the 5FMS matched with three different PDF sets.
+More details in the text. . . . . . . . . . . . . . . . . . . . . . . . . . 72
+5.4 The pT and  spectrum of the b-jet. We compare the vanilla 5FS,
+and the 5FMS matched with three different PDF sets. More details
+in the text. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+5.5 Inclusive transverse-momentum and rapidity distribution of all b-jets
+in events with at least one b-jet. Data taken from Ref. [57]. . . . . . . 78
+5.6 Angular and R separation between the reconstructed Z boson and
+b-jets in events with at least one b-jet. Data taken from Ref. [57]. . . 79
+List of Tables
+4.1 13 TeV total cross sections and the corresponding F/R and Q un-
+certainties for H+  1b and H+  2bs. . . . . . . . . . . . . . . . . 54
+Chapter 1
+Motivation and outline
+In order to study the fundamental laws of nature, particles are smashed together
+at a speed very marginally lower than that of light with an incredible amount of
+energy. Nowadays this happens at the Large Hadron Collider, LHC, at CERN,
+where a record energy of 6.5 TeV per beam particle is given to protons, which are
+made colliding inside the four detectors ATLAS, CMS, LHCB and ALICE. Thanks
+to these collider experiments we have discovered the Higgs boson, which was the
+most important missing piece of the Standard Model of interactions [6, 7], as its
+properties determine how particles have acquired their mass through electroweak
+symmetry breaking.
+The need for experiments, especially in the process of discovering new particles, is
+clear, but a fundamental part of information in understanding experimental results
+comes from theoretical predictions. These theory inputs are, in fact, extensively
+used in experiments for many reasons. For example they are used to predict how we
+expect a certain collection of events to look like, and are thus used to extract the
+background, that we now how to model, from what we expect to highlight, or sig-
+nal. As the precision of experimental results increases, thus theoretical predictions
+precision and accuracy must be increased accordingly. For many years the main
+way this has been achieved is through the inclusion of higher-order corrections. The
+calculation of higher orders alone, however, has not proved to be enough.
+The way the proton momentum is distributed amongst its partons, parametrised
+by parton distribution functions (PDFs), the way particles produced at the hard
+Chapter 1. Motivation and outline 2
+scale of the core process then evolve and emit other particles, as well as how they
+then combine to produce the observable hadrons, all concur to the final precision
+of the theory prediction. Monte Carlo event generators are tools that allow to
+predict this whole chain, thus giving results that can be directly compared with
+experimental measurements. It is clear that each of the previous pieces must come
+as precise and accurate as possible. For this reason, aspects of calculations that
+were always considered to be negligible are now becoming increasingly important.
+For historical and practical reasons, for example, a parton, that is a particle that
+is allowed to be found inside a proton and thus participate in a reaction, has always
+been considered to be massless. This is clearly a good a approximation for those
+quarks whose mass is so small that we are never able to resolve at hadron colliders,
+or have a mass so large that they are extremely unlikely to be found inside a proton.
+The reason behind this idea is that we are only able to define, in a universal way, the
+partonic content of the proton up to power corrections of the mass of the given quark
+over the characteristic scale of Quantum Chromodynamics, mQ/QCD. For quarks
+that have a very small mass, like the up, down or strange quarks, or an extremely
+large mass, like the top, this description is clearly enough.
+There is, however, a class of quarks, the charm and the bottom, whose masses
+are small enough to be negligible for some of the energy scales at hadron colliders,
+but still much larger than QCD. As such, the proper inclusion of mass corrections
+for these quarks can have important effects in regions of phase space, where their
+suppression is not so large. In this work, we study how to extend the standard
+massless parton description to include systematically quark masses and retain full
+mass effects.
+In the context of this thesis we focus on b-quarks, and in particular, we focus
+on the associated production of such heavy quarks with a heavy boson (a Z or a
+Higgs boson). These processes are interesting for a variety of reasons, and as such
+demand a good theoretical control. Firstly, processes like bg  Zb, which are a
+subprocesses of the ones considered here, are used to determine the bottom content
+of the proton. The precise determination of the bottom quark density, in turn, can
+be used to make precise predictions for processes like Higgs production in bottom
+Chapter 1. Motivation and outline 3
+quark fusion. This latter process is then used to precisely determine the bottom
+Yukawa coupling to the Higgs boson. The reason why the precise determination of
+this coupling is important is that it can help discriminating between various beyond
+the Standard Model scenarios. Many of these models, in fact, allow for Higgs boson
+multiplets and the mixing among these Higgs bosons can modify the coupling to
+heavy quarks with respect to that the Standard Models.
+In addition, from the experimental point of view, the difference between a scheme,
+in which b-quarks are treated as massive, decoupled particles, and one, in which
+they are treated on the same footing as the other partons, is often taken as a theory
+uncertainty inputs. It is thus necessary to understand the origin of this difference
+in order to be able to provide with reliable simulations of processes involving heavy
+flavours. This case is of particular relevance for observables like the pT spectrum
+of a Z boson in Drell-Yan, where the partonic channel bb  Z play an important
+role. This process is in fact measured with outstanding precision, and is used as
+input to measure the W boson mass. It thus require theoretical predictions at the
+sub-percent accuracy level. At this level of accuracy mass effects must be taken into
+account, in particular in the low pT region.
+Lastly, contrary to the charm quarks that has a mass close to that of the proton,
+and is in general safe to consider massless, the mass of the bottom quark lies within
+the region of interest at hadron colliders. Its inclusion is thus thought to yield
+larger effects than that of the charm quark in general, and in particular in the
+case of Higgs boson production, where the Yukawa coupling is proportional to the
+mass of the interacting particles. Furthermore, events with identified b-jets and
+a significant missing transverse momentum constitute a possible signature of Dark
+Matter production. For this signal invisibly decaying Z-bosons associated with b-jets
+pose a severe irreducible background.
+The outline of this work is the following. We start by reviewing some fundamental
+methods by which it is possible to obtain theoretical predictions. This serves to
+introduce the notation we use throughout. As this project is carried out in the
+context of the SHERPA Monte Carlo collaboration, we focus only on those methods
+that are implemented there, when discussing event generation, unless otherwise
+Chapter 1. Motivation and outline 4
+stated.
+We discuss how the two schemes generally used to obtain prediction for processes
+involving bottom quarks, the four and the five flavour scheme, can lead to substantial
+differences in predictions for the inclusive production of a Higgs boson. We then show
+how to match these two predictions to obtain a reliable estimate of the importance
+of mass effects for this process.
+Further, we study how these two different approaches describe experimental data
+for the associated production of a Z boson. We use the conclusions in this case to
+understand differential predictions for the similar case of the associated production
+of a Higgs boson.
+Lastly we introduce the ingredients that are needed to promote the standard
+five flavour scheme to a scheme in which full mass effects are systematically re-
+tained. This requires to extend some of the standard techniques presented in this
+first chapter to accommodate for the introduction of massive quarks in the initial
+state. We conclude this part by presenting an explicit example of this scheme in
+Higgs production in bottom quark fusion.
+Chapter 2
+Theoretical tools
+2.1 Factorisation of QCD cross sections
+Every Quantum Chromodynamics (QCD) calculation at the LHC is based on a
+collinear factorisation theorem which states that the low-energy (long-distance) and
+the high-energy (short-distance or partonic) part of an observable factorise. Ad-
+ditionally, the long-distance part is process independent and encodes how the lon-
+gitudinal momentum of the proton is shared among its partons and is commonly
+known as Parton Distribution Function (PDF). However, this factorisation theo-
+rem can only be exactly derived in Deeply Inelastic Scattering processes using an
+Operator Product Expansion. In this expansion, only the leading term is really be-
+lieved to be universal and thus put in the definition of PDF, while power-suppressed
+(higher-twist) terms are neglected [8, 9].
+Although a formal theorem/proof does not exist for general LHC processes, it is
+widely believed that a factorisation theorem holds for the most important produc-
+tion modes, in non-pathological observables, with higher-twist contributions being
+suppressed by powers of QCD/Q, where Q is some energy scale in the hard process,
+while QCD represents the energy at which the s(QCD)  1, QCD  0.3 GeV.
+Including such power suppressed contributions would require to calculate higher-
+twist corrections to the parton densities, which, as we said, are non-universal. For
+this reason the common practice is to consider massless, or active, all the quarks
+for which corrections of the type mq/QCD are small, while all massive quarks, for
+2.1. Factorisation of QCD cross sections 6
+which mq/QCD is not small are treated as decoupled from QCD evolution.
+This picture, however, is extremely simplistic for two reasons. First, it really
+only works if there is only one scale in the process. As soon as another energy scale,
+t, appears, ratios of mQ/t follow and the hierarchy is no longer straightforward.
+Second, when we perform a factorisation we need to define what is regarded as high-
+or low-energy. We thus need to introduce an energy reference scale for factorisation,
+commonly called factorisation scale, or F . In practice, PDFs and partonic cross-
+sections are a function of this scale. As this scales runs, collinear logarithms like
+log F/mQ appear and might dominate over power-suppressed terms.
+In formulae, the factorised differential cross section can be written as
+d(Q2) =
+a,b(q,g)
+dx2 fa(x1, 
+F ) fb(x2, 
+F )dab
+x1, x2,
+2QCD
+. (2.1)
+Here and in the following, unless differently stated, hatted letters represent the
+partonic version of that object, such that dab stands for the partonic differential
+cross section for incoming partons (a, b). At leading order, for example,
+d = dN(p1, . . . , pN)B(pa, pb; p1, . . . , pN)
+(pa, pb)
+|M(pa, pb; p1, . . . , pN)|2 (2 )4(4)(pa + pb 
+(2 )32Ei
+, (2.2)
+where we denote by B the born matrix element squared, and , the initial state flux,
+is usually included in the definition of dN unless otherwise explicitated.
+We indicate with fa(x1, 2F ) the PDF for parton a with momentum fraction x1
+at the factorisation scale F . These functions are subject to the DGLAP equations
+[1012]:
+dfa(x, 
+d log F
+b(q,g)
+Pab(z) fb
+, 2F
++O(2s) (2.3)
+The functions Pab(z) are the Altarelli-Parisi splitting function and they are reported
+in Appendix A for reference. Further the partonic cross section can be written as
+an expansion in s, with R being the renormalisation scale
+dab
+x1, x2,
+ks(R) d
+x1, x2,
+, (2.4)
+2.1. Factorisation of QCD cross sections 7
+ds(
+d log R
+= b02s  b13s +O(4s) (2.5)
+11CA  4nf TR
+; b1 =
+34C2A  20nf TR CA  12nf TR Cf
+. (2.6)
+Equations of the form of Eq. (2.3) and Eq. (2.5) are generically referred to as evolu-
+tion equations. In particular Eq. (2.3) describes how parton distribution functions
+evolve with energy. The idea is that a parton a has a given differential probability to
+split into a parton b, which is proportional to the Altarelli-Parisi splitting function
+Pab. As these splittings happen, the distributions of both parton a and b inside the
+proton, change consequently.
+Note that the introduction of scales like R,F is an artifact of the theory, and,
+as such, physical observables are independent of those scales. Although theoretical
+predictions are instead dependent on those scales at any given order, Eq. (2.3) and
+Eq. (2.5) make sure that the structure of any additional order cancel the dependence
+on those scales at each order. Thus, higher-order predictions depend less on the
+additional scales R,F , the variation of which is commonly used as an estimate of
+missing higher order contributions.
+It is important to notice at this point that both the running of the coupling
+constant, and the evolution of the parton densities, as they depend on b0, depend
+on how many flavour are active (= massless) at the a given energy scale flavour
+through nf . There are, traditionally, two approaches in deciding how many flavours
+are active. One approach, consists in taking QCD as a reference scale. In this
+way, every quark that has a mass greater than QCD, is considered a massive, or
+heavy, quark, while every other parton is considered massless and, as a consequence,
+contributes to nf . This approach is generally called Fixed Flavour Number Scheme
+(FFNS). In this case, in fact, nf remains a fixed number at all energy scales. In
+the FFNS, heavy quarks do not contribute to either the running of the coupling
+constant or the evolution of PDFs. In this way, heavy quarks can never appear as
+initial state particles in the calculation of hard scattering matrix elements, but they
+can only be produced in them. Thus the partonic cross section can retain the exact
+2.2. Monte Carlo methods in brief 8
+mass dependence.
+In an opposed approach, one could argue that some other scales, like R or
+F , is taken as the reference scale, as in practice one gets logarithms of R,F/mQ
+and not of QCD/mQ, when solving Eqs. (2.3,2.5). Then the heavy quark will start
+contributing to both the running of the coupling constant and the evolution of PDFs,
+only when R,F & mQ. This is called a Variable Flavour Number Scheme (VFNS) 1.
+In a VFNS, the mass of the heavy quark mass parametrise whether the particle is a
+heavy quark or an active parton, thus acting like a threshold. Threshold effects that
+appear through terms like log R,F/mQ are resummed to all orders by Eqs. (2.3,2.5),
+and all mass effects are consistently neglected in the calculation of hard matrix
+elements.
+2.2 Monte Carlo methods in brief
+The goal of phenomenology studies, like this one, is to ultimately compare against
+experimental data. There are a very limited set of cases in which this can be done by
+means of analytical calculations alone. The problem is that experiments have to deal
+many more particles and many more phase space constraints than we can handle
+with a simple enough description. To this end, Monte Carlo event generators, like
+PYTHIA, HERWIG, or SHERPA, play an important role in providing a theory prediction
+that is the closest possible to what experiments measure.
+To get a general idea of how such programs work, imagine an experiment has
+measured some physical observable, O. In general, we can identify an observable as
+a function of all final state particles, f , and their momenta {pi}inf ,
+O  O(f ; p1, . . . , pnf ) . (2.7)
+Having to deal with quantum mechanical processes, however, means that we cannot
+determine exactly the final state for any one specific collision. We can, however,
+1There are various ways of defining a VFNS. In particular the choice of threshold and the
+inclusion of some mass suppressed terms play a role. All different choices, however, are equal up
+to mass, power-suppressed terms.
+2.2. Monte Carlo methods in brief 9
+predict the differential probability, which in turn is proportional to the differential
+cross section for producing a specific final state configuration,
+dP(f ; p1, . . . , pnf ) 
+d(f ; p1, . . . , pnf )
+d3p1 . . . d3pnf
+. (2.8)
+Repeating the experiment over many times gives us access to the expectation value
+of O,
+O = L
+d(f ; p1, . . . , pnf )
+d3p1 . . . d3pnf
+O(f ; p1, . . . , pnf ) d
+3p1 . . . d
+3pnf . (2.9)
+The quantity L is called integrated luminosity, and is a measure of the number of
+particles expected to collide over the time of the experiment.
+There are two main complications. Firstly, the larger the number of final state
+particles, the more complicated the integrals. To deal with this issue the Monte
+Carlo integration method is used. The idea is to generate a very large number, N ,
+of randomly distributed copies of the final state momenta, we label each copy with
+superscript j. Calling the total volume of integration V , we have that
+O = lim
+d(f ; p
+1, . . . , p
+1 . . . d
+O(f ; p
+1, . . . , p
+) , (2.10)
+which follows from the fundamental theorem of calculus and the central value theo-
+rem. The main advantage of such an approach is that we can compute the differential
+cross section for a given configuration and treat that as a weight, wjf . We can then
+just store these weights and attach them to any observable we wish to compute. In
+contrast, an analytical calculation would only be valid for the specific observable we
+performed the calculation for.
+The second problem comes from the theoretical prediction of d. To make mean-
+ingful comparison to experimental data, we need to predict the differential proba-
+bility with the highest possible accuracy. The main way to achieve such accuracy
+is to calculate higher orders in the series expansion in Eq. (2.4), in what is called a
+fixed order expansion.
+2.3. Fixed order expansion 10
+2.3 Fixed order expansion
+In a fixed-order expansion, one keeps all matrix elements that contribute to a specific
+order in the expansion. As the parameter of the expansion is a coupling constant,
+s in the case of QCD, we can view calculating an extra order in the expansion
+parameter as adding an extra vertex, and thus an extra particle, in all allowed ways.
+In practice, we can classify such particle only in two ways. We can either resolve
+this particle, which case is called a real correction, or R, or this particle is virtual
+and thus is not resolved, which case is called a virtual correction, or V .
+In principle this idea can be iterated as many times as one wishes, giving rise
+to a factorial growth of matrix elements to be considered at each extra order. In
+practice there is a complication arising when one adds one extra particle. When
+considering higher order corrections to Eq. (2.2), as we said, we can either have the
+extra particle being unresolved, in which case the phase space integral is the same
+as the born cross section, and the integral over internal momenta is carried over in
+the calculation of the matrix elements, or the extra particle is resolved, thus the
+phase over which the integration is performed is different.
+Each of these two integrals can give singular contributions in the case in which
+the extra particle, resolved or not, becomes either soft, or collinear to one of the
+other particle in process. These divergences get canceled when every contribution is
+added up together [13,14]. The problem is that these contributions live in different
+phase-spaces, and Monte Carlo integrators can only deal with one phase-space at
+a time. We need then to subtract divergences at the integrand level to have finite
+integral, these methods are generally called subtraction methods.
+Subtraction methods are now completely automated in Monte Carlo generators
+for next-to-leading order calculations, that is calculations that only involve one extra
+particle in the final state with respect to the leading order. Efforts are being made to
+promote such methods for next-to-next-to-leading order corrections, although so far
+this has only been possible for selected processes and in no automatised way. The
+most widely used of such methods are the Catani-Seymour dipole formalism [15,
+16] and the Frixione-Kunszt-Signer subtraction [17]. In the context of this study
+we focus on the former method. This algorithm was first developed for massless-
+2.3. Fixed order expansion 11
+particles (including QCD partons) [15], extended to massive fermions [18] in QED,
+and to massive final state QCD partons [16].
+These methods make use of two important properties of QCD radiation. First,
+the divergent structure of QCD amplitudes factorises, in both the soft and the
+collinear limit, in a well-know universal structure. Second, the N +1 particles phase
+space factorises into a N and 1 particle phase space, when one of the particles
+becomes soft, or collinear to any other particle in the event [19, 20]. We can thus
+make use of these facts to construct subtraction terms that mimic the infrared
+and collinear behaviour of next-to-leading order QCD amplitudes to render next-to-
+leading order observables not only finite at an integral level, but also at an integrand
+level. In this way integration over the full phase-space by means of any Monte Carlo
+method can be performed. We briefly report in the following section, the main
+ingredients needed to construct Catani-Seymour subtraction.
+2.3.1 Catani-Seymour subtraction in brief
+Consider some hard scattering process involving N particles in the final state at its
+leading order. The NLO cross section is given by
+NLON =
+dN [B + V ] +
+dN+1R, (2.11)
+where B corresponds to the born contribution, V is the one-loop, or virtual contri-
+bution, and R is the real emission contribution term.
+As denoted by the N + 1, in the real emission process, one additional particle
+is emitted. As this particle can get infinitively soft or collinear to any of the other
+N final state particles, or the beam direction, R becomes divergent. The main idea
+behind the Catani-Seymour method is to make use of universal properties of QCD
+amplitudes in these limits, to construct subtraction terms S. To better define, we
+want to perform the integral of |MN+1|2  R(N+1) over the N + 1 particle phase
+space, N+1, which is both soft and collinear divergent. We thus need to construct
+2.3. Fixed order expansion 12
+a set of functions S(N  1), such that in
+dN+1R(N+1) =
+dN+1 [R(N+1) S(N  1)]
+dN 
+d1S(N  1) (2.12)
+the first term of the right hand side is finite. The functions S(N  1) depend on
+the additional property that phase space factorises in the soft and collinear limits.
+We require in particular that the subtraction terms S(N  1) respect some
+properties. First, in the limit in which a particle k, of momentum pk becomes soft, or
+collinear to a particle i of momentum pi, if we parametrise the degree of divergence
+with , by having pk, pi  pk   for  0, we have to have:
+pk, pipk0
+[R(N+1) S(N  1)] = O(0) . (2.13)
+Second, the functions S(N 1) are constructed in such a way that their integral
+over the extra emission phase space can be calculated analytically. Note that these
+integrals are soft and collinear divergent. However, their divergent part can be
+computed and extracted and used to subtract 1/2 and 1/ divergences that appear
+in the one loop contributions to the next to leading order cross section.
+If we make use of Eq. (2.12) we then get
+NLON =
+B + V +
+d1 S
+dN+1
+, (2.14)
+which is now completely free of divergences.
+2.3.2 The dipole factorisation formula
+The form of the functions S, can be extracted from matrix elements, where diver-
+gences appear as poles in the denominator of propagators of intermediate particles.
+We can thus partial fraction all denominators, which separates all contributions that
+are divergent only in a specific configuration. When doing this partial fractioning
+one realises that QCD radiation terms have the form of colour dipoles, D, that can
+be identified with an emitter particle and a spectator. It turns out that only four
+configurations are possible:
+2.3. Fixed order expansion 13
+FF : the particle going soft or collinear is emitted from a final state particle, and
+the spectator is also in the final state,
+FI : the particle going soft or collinear is emitted from a final state particle, and
+the spectator is in the final state,
+IF : the particle going soft or collinear is emitted from an initial state particle, and
+the spectator is in the final state,
+II : the particle going soft or collinear is emitted from an initial state particle, and
+the spectator is also in the initial state.
+As a consequence, we can write the real emission matrix element as a sum of all
+dipoles, plus terms that are non divergent. The former part equals the function S,
+such that:
+i=FF,FI,IF,II
+Di. (2.15)
+Further, each dipole contribution is given by the sum of all possible emitter-spectator
+pair in a given state,
+DFF =
+(i,j) 6=k
+Dij,k ; DFI =
+(i,j)6=k
+Dij,k + Daij (2.16)
+DIF =
+i 6=k
+Daik ; DII = Dak;b + Dbk;a (2.17)
+(2.18)
+In the context of this study we primarily focus on II configurations, so that in
+practice we only have
+S = Dak;b(p1, . . . , pk, . . . , pN+1; pa, pb) + Dbk;a(p1, . . . , pk, . . . , pN+1; pa, pb) . (2.19)
+The term Dak;b represents a dipole contribution where the emitter is an initial state
+particle, a and the spectator is another initial state particle b, and can be further
+express as
+Dak;b(p1, . . . , pk, . . . , pN+1; pa, pb) = 
+2xab pa  pk
+Ta Tb
+Vak,b(pa, pb, pk)
+MN (p1, . . . , pN+1; pa, pb)2 (2.20)
+2.3. Fixed order expansion 14
+2  Ta TbT2a V
+ak,b(pa, pb, pk)
+2xab pa  pk
+2
+Figure 2.1: Diagrammatic representation of Eq. (2.20) for an initial state emission
+with an initial state spectator.
+where by pi we mean a momentum pi that has been transformed such to re-establish
+momentum conservation in the projected matrix element. Note also that the symbol
+ in this context simply hides possible summation in color and helicity space. The
+functions 1
+2 pipj
+Vij,k(pi, pk, pj) are generically called splitting kernels, or dipole split-
+ting functions. The sum of all these functions is referred to as K in the remainder
+of this work2.
+2.3.3 Dipole terms construction
+The construction of the dipole subtraction terms comes from the universal structure
+of soft and collinear singularities. To see how this work in practice, take for example
+the matrix element for the production of a Higgs in bottom-quark fusion, with
+massless b. The matrix element for the emission of an additional gluon can be
+written as
+|MbbHg|2 = 8 CF s
+2 pa  pk
+2 pb  pk
+1 + x2
+1 x |MbbH |
+2 , (2.21)
+if we make the replacement in |MbbH |2 that
+s = 2pa  pb  x s = 2x pa  pb . (2.22)
+2A special case of splitting kernels is given by the Altarelli-Parisi splitting functions, Pij .
+2.3. Fixed order expansion 15
+This, in turn, can be achieved by the variable transformation
+pa = x pa ; pb = pb . (2.23)
+Making use of Eq. (2.20) we can easily isolate the splitting function,
+Vak,b = 8 CF s
+1 + x2
+1 x , (2.24)
+and the corresponding dipole term
+Dak;b = 1
+2 pa  pk
+Vak,b |MbbH |2 . (2.25)
+We can play the same exercise in the case of e+e  qq. The next-to-leading
+order real emission process in this case, can be written as
+|Me+eqqg|2 = 8 CF s
+x21 + x
+(1 x1)(1 x2)
+|Me+eqq|2 , (2.26)
+with x1,2 = 2E1,2/
+s are the energy fraction of the final state quarks. Performing
+a partial fractioning on
+x21 + x
+(1 x1)(1 x2)
+1 x2
+2 x1  x2
+ (1 + x1)
++ (x1  x2) , (2.27)
+we get
+Vij,k = 8 CF s
+2 xi  xk
+ (1 + xi)
+, (2.28)
+Dij;k =
+2 pi  pj
+Vij,k |Me+eqq|2. (2.29)
+Note that now we have employed a different phase space mapping
+pk =
+pk ; pij = Q pk , (2.30)
+where Q is the total momentum minus that of the gluon.
+The exact form for the dipole functions, as well as for the corresponding phase-
+space mappings in the general case, are reported in [15]. It is important to notice
+that, when considering massive quarks [16], mass effects appear, in the construction
+of the dipole functions, only as power suppressed modifications of Vij,k, as well as
+of the phase space mappings.
+2.4. Parton Shower 16
+2.4 Parton Shower
+Another way of increasing the accuracy of a calculation can be achieved by including
+part of the leading contributions that appear at each extra order. This can be done
+using the knowledge of the singular structure of matrix elements, in the same fashion
+as the PDF factorisation works. Each extra emission, in fact, in the soft or collinear
+limit factorises off of the born matrix element, in the way described in Eq. (2.20).
+The m-th emission gives a contribution proportional to
+s(t) log
+, (2.31)
+with K being splitting kernels. Neglecting color correlations, this series can be
+summed to all orders in s(t) log t
+. The result of this operation is called Sudakov
+form factor [2123],
+N(t0, t) = exp
+d1 KN(1)
+(2.32)
+where KN(1) represents a generalised splitting kernel that depends on the phase
+space of the extra emission,
+d1 = dt dz dJ (t, z, ) , (2.33)
+with J being the Jacobian transformation coming from the relevant phase-space
+mappings. The Sudakov form factor, N(t0, t), represents the unconditional dif-
+ferential probability that parton a has not undergone a branching between t0 and
+t. Further, the evolution of the Sudakov form factor is, in the same way of PDFs,
+determined by DGLAP equations.
+A reasonable approximation is to identify the splitting kernels with the Altarelli-
+Parisi splitting function appearing in Eq. (2.3). Another possibility, is to use instead
+Catani-Seymour dipoles, such that
+KN(1) =
+(i,j)6=k
+Dij,k
+. (2.34)
+Particles emitted from the fixed order matrix element with an initial scale Q
+undergo a backward evolution towards a lower cutoff scale t0  1 GeV. At each stage
+an extra branching occurs, or not, depending on the relative probability, or weight,
+2.4. Parton Shower 17
+of the Sudakov at that given scale. As the splitting kernels are derived in the soft
+and collinear limit of matrix elements, this procedure then retains and resum, the
+leading logarithmic term of each branching.
+At the leading order, the showered differential cross section Eq. (2.2) becomes
+dLOPS  dN BN(N)  PS
+= dN BN(N)
+N(t0, 
+t[t0,2Q]
+d1 KN(1) N(t(1), 
+. (2.35)
+An important feature of the parton shower, that comes from its probabilistic inter-
+pretation, is that it is unitary. That means that
+dLOPS =
+dLO (2.36)
+2.4.1 MC@NLO
+Having used Catani-Seymour dipole as splitting kernels, we can extend the picture
+presented to next-to-leading order matrix elements. For convenience, we define
+d1 S(N+1) = I(N) . (2.37)
+The MC@NLO matching, is most conveniently expressed in terms of a NLO-weighted
+Born cross section,
+B(N) = B(N) + V(N) + I(N) 
+d1S(N+1) (t 2Q) , (2.38)
+and a hard remainder,
+H(N+1) = RN(N+1)  S(N+1) (2Q  t) . (2.39)
+Note that the ordering variable t is defined differently for each dipole as it depends
+on the various phase space mappings. Using the same definition of the Sudakov
+form factor given in Eq. (2.34), we have that
+dMC@NLO  dN B(N)  PS + dN+1H(N+1)
+= dN B(N)
+N(t0, 
+t[t0,2Q]
+d1 KN(1) N(t(1), 
++ dN+1H(N+1) . (2.40)
+2.5. Merging 18
+As in the leading order case, it can be shown that
+dMC@NLO =
+dNLO . (2.41)
+Note that this last relation implies that a MC@NLO observable has the same fixed
+order accuracy as a NLO one.
+2.5 Merging
+Parton showers are, broadly speaking, very precise in regions of phase space where
+soft and collinear radiation dominates. On the other hand, they are not reliable
+in describing hard radiation, for which the calculation of hard matrix elements is
+needed. As described in the previous section we can match these two description.
+In doing so we retain the fixed order accuracy of the matrix element for the first N
+emission, while any additional emission has the parton shower accuracy.
+Merging techniques are used to extend the accuracy of fixed order matrix element
+to higher multiplicity, N+1 . . . , in case any of this emission is hard, and to retain the
+parton shower picture when these extra emission are soft or collinear. The method
+we will focus here is the CKKW [24], as implemented in SHERPA [25].
+To see how this works, consider one extra emission. We start by defining a
+parameter, Qcut, that separates between a regime in which a parton is hard, which
+we call jet production, and a regime in which the parton is soft and collinear, called
+jet evolution. In the former we wish to retain the matrix element description, while
+in the latter we leave the production of the extra parton to the parton shower. In
+formulae, assigning a scale QN+1 to the extra emission phase space, in the same way
+as Qcut,
+dMEPS@LO 
+dLOPSN 
+dLOPSN+1
+dN BN(N)
+N(t0, 
+t[t0,2Q]
+d1 KN(1) N(tN+1, 
+Q) (Qcut QN+1)
++ dN+1 BN+1(N+1) N(t0, 2Q) (QN+1 Qcut) . (2.42)
+This method can be extended to as high a multiplicity as desired.
+2.6. Higher order merging 19
+2.6 Higher order merging
+As well as to higher multiplicity, the method outlined above can be extend to higher
+accuracy [26]. In particular, using the same techniques, we can merge MC@NLO
+accurate calculations together, and together with leading order calculation for very
+high multiplicity where a NLO calculation becomes too expensive. This method is
+called MEPS@NLO and is developed in [27]. Schematically for one extra emission,
+dMEPS@NLO = dMC@NLON  dMC@NLON+1
+= dN BN(N)
+N(t0, 
+t[t0,2Q]
+d1 KN(1) N(tN+1, 
+Q) (Qcut QN+1)
++ dN+1HN(N+1) N(tN+1, 2Q) (Qcut QN+1)
++ dN+1 BN+1(N+1)
+BN+1(N+1)
+BN+1(N+1)
+t[tN+1,2Q]
+d1 KN(1)
+(QN+1Qcut)
+N+1(t0, tN+1) +
+t[t0,tN+1]
+d1 KN+1(1) N+1(tN+2, tN+1)
++ dN+2HN+1(N+2) N(tN+1, 2Q) N+1(tN+2, tN+1) (QN+1 Qcut) . (2.43)
+The meaning of this equation can be summarised as follows. For Qcut < QN+1
+Eq. (2.43) reduces to Eq. (5.50). The case of Qcut > QN+1, on the other hand, is
+structurally more complicated. The last three lines of Eq. (2.43) have, in fact, two
+parts. The first one, corresponds to Eq. (5.50) for a N + 1-particle process. The
+second one have to account for the second additional radiation either coming from
+showered N + 1 differential cross section or from the hard reminder, without double
+counting.
+Chapter 3
+Matching the 4F and the 5F schemes
+3.1 Need for a matched calculation
+This chapter is devoted on how to obtain predictions in a matched scheme, namely
+the FONLL [28, 29] scheme. In particular, we focus on the production of a Higgs
+boson in bottom quark fusion [1, 2].
+Higgs production in bottom fusion, like any process involving bottom quarks at
+the matrix-element level, may be computed using two different factorisation schemes.
+In the four-flavour scheme, the bottom quark is treated as a massive object, which is
+not endowed with a parton distribution (PDF). It decouples from QCD perturbative
+evolution, which is performed only including the four lightest flavours and the gluon
+in the DGLAP equations, and likewise it decouples from the running of s so that
+nf = 4 in the computation of the QCD  function. In the five-flavour scheme (5FS),
+instead, the bottom quark is treated on the same footing as other quark flavours,
+there is a b PDF, and nf = 5 in both the DGLAP and renormalisation-group
+equations.
+As the total inclusive cross section for a Drell-Yan-like process depends only on
+one hard scale, the virtuality of the produced boson Q, we can predict what the
+role of mass effects is. For high enough scales, Q2  m2b , mass effects become
+negligible, collinear logarithms related to b-quark radiation are large and must be
+resummed, and the 5FS is always more accurate. On the other hand, very close to
+the production threshold, Q2  m2b , mass effects are important while collinear logs
+3.1. Need for a matched calculation 21
+are not large, and the 4FS is more accurate. In principle, a computation performed
+at high enough perturbative order in the 4FS will reproduce the 5FS result, while
+this is not the case for a 5FS computation, in which b-mass effects are never included.
+In practice, however, for Higgs production in bottom fusion the leading-order
+production diagram, which is O(0s) (parton model) in the 5FS, is O(2s) in the
+4FS, so one must go to very high order indeed in the 5FS computation in order
+to reproduce 4FS results. In fact, in the 5FS, the cross section is known up to
+NNLO [30] and in the 4FS up to NLO [31,32]. Furthermore, the characteristic scale
+for this process is necessarily higher than the b production threshold, but perhaps
+rather lower than the Higgs mass itself [33, 34]. In a wide range the 4FS and 5FS
+computations at the highest available accuracy disagree by a sizeable amount, with
+the 5FS result being significantly larger than the 4FS one, though they can be
+brought to a better agreement with a very low factorisation scale choices, F .
+mH/4. All this suggests that a reliable computation of this process requires the use
+of a matched scheme which combines the accuracy of the 4FS and 5FS results.
+Historically, a matching scheme was devised to interpolate phenomenologically
+between these the two schemes, the so-called Santander matching [35]. In this
+scheme, the 4FS and 5FS results are interpolated using a weighted average of the
+two. The idea is to define the weight as a function of the Higgs boson mass, mH
+such that
+w = log
+ 2 ; (3.1)
+the combined cross section is then given by
+Santander-Matched(m2H) =
+(4F ) + w (5F )
+1 + w
+. (3.2)
+An extensive discussion on how this type of matched prediction compares with
+theoretically motivated ones, like the one presented in this work can be found in [3].
+In the next sections we work out the necessary formulae to construct such a matched
+scheme, focusing on the bottom quark fusion process.
+3.2. The FONLL scheme 22
+3.2 The FONLL scheme
+The basic idea of the FONLL method is to expand out the 5FS computation, in which
+logarithms of Q2/m2b are resummed to all orders, in powers of the strong coupling
+s, and replace them with their massive-scheme counterparts, up to the same order
+at which the massive-scheme result is known. The combination then retains the
+logarithmic accuracy of the 5FS result one starts from (with the b quark treated as
+massless), but now also has the fixed-order accuracy of the massive result, up to the
+order which has been included. Henceforth, we consistently use the notation NkLL
+to refer to the resummed accuracy of the 5FS computation (i.e. by LL we mean a
+computation in which
+s ln
+is treated as order one), and by NkLO to the fixed
+order at which the massive 4FS is performed. These two calculations can thus be
+matched at any preferred order, in practice however we concentrate on two possible
+orders. The FONLL-A [1] scheme which is NNLL+LO accurate, and the FONLL-B [2]
+combination which is NNLL+NLO accurate.
+The only technical complication of the FONLL method is that the two compu-
+tations, which are being combined, are performed in different renormalisation and
+factorisation schemes. This difficulty is overcome by re-expressing s and PDFs in
+the 4FS computation in terms of their 5FS counterparts, so that one single s and
+set of PDFs is used everywhere. Once this is done, the 4FS and 5FS computations
+can be simply added, with overlapping terms subtracted in order to avoid double
+counting: the result has the structure
+FONLL = (4) + (5)  (4),(0), (3.3)
+in which (4) and (5) are respectively the 4FS and 5FS results, and (4),(0) is their
+overlap. The contributions to (4),(0) can be viewed and obtained either from ex-
+pansion of the 5FS computation up to finite order or as the massless limit of the
+massive computation - with the caveat that the 4FS result in the massive limit
+acquires collinear singularities which in the 5FS are factorized in the PDFs.
+We must now work out the necessary ingredients to construct Eq. (3.3). In the
+following we make extensive use of Eqs. (2.1),(2.3),(2.5). We name objects by adding
+a (nf ) whenever neccessary to avoid confusion.
+3.2. The FONLL scheme 23
+3.2.1 The 4F scheme cross section
+In order to compute a total cross section in the four flavour scheme we need to use
+Eq. (2.1) with 4F scheme ingredients. Namely,
+(4) =
+ij=q,g
+i (x,Q
+y, (4)s (Q
+, (3.4)
+y, (4)s (Q
+. (3.5)
+Note that here and in the following discussion on the 4FS, (p)ij refer to the partonic
+cross sections computed in the 4FS, as highlighted by their explicit dependence on
+the ratio Q2/m2b .
+In practice, we can transform Eq. (3.4) by expressing PDFs and s in the 4F
+scheme to those calculated in the 5F scheme. In this way, we obtain
+(4) =
+ij=q,g
+i (x,Q
+y, (5)s (Q
+, (3.6)
+where f (5)i and 
+s are 5FS PDFs and s, and the coefficients
+y, (5)s (Q
+(5)s (Q
+(3.7)
+are such that if f (5)i and 
+s are re-expressed in terms of f
+i and 
+s , then the
+expression of (4) in the 4FS, Eq. (3.4), is recovered.
+In order to obtain the coefficients Bij, we thus need to match Eq. (3.6) onto
+Eq. (3.4) at the order in s we wish to perform the matching at. The coupling
+constant and the PDFs are related in the two schemes by equations of the form
+(5)s (Q
+2) = (4)s (Q
+(4)s (m
+, (3.8)
+i (x,Q
+y, log
+, (4)s (Q
+, (3.9)
+where the sum runs over the eight lightest flavours, antiflavours, and the gluon,
+while the index i takes value over all ten quarks and antiquarks and the gluon.
+The coefficients ci(L) are polynomials in L  log Q
+, and the functions Kij can be
+3.2. The FONLL scheme 24
+expressed as an expansion in powers of s, with coefficients that are polynomials in
+The first nine equations, Eq. (3.9), relate the eight lightest quarks and the gluon
+in the two schemes and can be inverted to express the four-flavour-scheme PDFs in
+terms of the five-flavour-scheme ones. The last two equations, assuming that the
+bottom quark is generated by radiation from the gluon (i.e. no intrinsic [36] bottom
+component) express the bottom and anti-bottom PDFs in terms of the other ones.
+In particular, this assumption implies that the b quark and antiquark PDFs are
+equal to each other, f (5)b = f
++ O(2s). Inverting Eqs. (3.8-3.9) and substituting
+in Eq. (3.4) one can obtain an expression of (4) in terms of Bij and 5FS objects.
+The solution of Eq. (3.8) are explicitly reported in Appendix B up to order 2s.
+Making use of Eqs. (3.8),(3.9) expression we get the non-vanishing B(k)ij coefficients
+at O(2s)
+B(2)gg
+= (2)gg
+, (3.10)
+; (3.11)
+while at O(3s) we get:
+B(3)gg
+= (3)gg
+ 2TR
+(2)gg
+, (3.12)
+ 2TR
+, (3.13)
+B(3)gq
+= (3)gq
+, (3.14)
+B(3)qg
+= (3)qg
+. (3.15)
+Note that we suppress the obvious R,F dependence in 
+3.2.2 The massless limit of the massive cross section
+As we said, the overlap term corresponds to the massless limit of the massive cross
+section. This contribution is equivalent to a 4FS calculation where all logarithms and
+constant terms retained, and all terms suppressed by powers of mb/Q are dropped.
+3.2. The FONLL scheme 25
+This can be written as
+(4F ),(0)
+2), L
+ij=q,g
+fi(x,Q
+y, L, s(Q
+(3.16)
+where
+y, L, s(Q
+(0),(p)
+ij (y, L) , (3.17)
+and the coefficients B(0),(p)ij satisfy
+B(0),(p)ij
+= 0 . (3.18)
+Extracting the coefficients B(0),(p)ij from the massive limit can only be done in cases
+bb
+O(0s) O(1s) O(2s)
+Figure 3.1: Representative examples of contributions to the 5FS computation which
+are subtracted and get replaced by massive 4FS contributions. The diagrams circled
+with a dashed line become massive in FONLL-A, while those circled with a solid pink
+line are those that must be additionally subtracted in the FONLL-B scheme.
+in which there exist a simple closed-form expression for the massive coefficients
+3.2. The FONLL scheme 26
+ij . In most cases, however, this is not doable. All B
+(0),(p)
+ij terms in Eq. (3.16) may
+be equivalently viewed as contributions to the 5FS computation, as schematically
+summarized in Fig. 3.1 (for real emission terms). This must clearly be true as they
+account for double counting contributions. To obtain these terms from the 5FS
+expression we need to express the b-PDF in terms of light quarks and gluon PDFs,
+Eq. (3.9). At order 2s, the result has the following structure:
+b (x,Q
+2) = (5)s (Q
+A(1)gb (z, L) f (5)g
++ s(Q
+A(2)gb (z, L) f (5)g
++A(2)b (z, L) f
+, (3.19)
+where f (5)b , f
+ and f
+g are respectively the 5FS b quark, singlet, and gluon PDFs,
+A(1)gb = a
+(1,1)
+gb (z)L,
+A(2)gb = a
+(2,2)
+gb (z)L
+2 + a
+(2,1)
+gb (z)L+ a
+(2,0)
+gb (z), (3.20)
+A(2)b = a
+(2,2)
+b (z)L
+2 + a
+(2,1)
+b (z)L+ a
+(2,0)
+b (z)
+Note that, as well known, toO(2s) the expression of the 5FS f
+b in terms of the light
+quarks and gluon receives constant (i.e. non-logarithmic) contributions a(2,0)gb (z) and
+(2,0)
+b (z), and thus it is discontinuous at threshold Q
+2 = m2b in the massless scheme,
+as a consequence of it being continuous in the fully massive calculation. The explicit
+expressions of the coefficients Eq. (3.20) are given in Appendix B for completeness.
+We can now collect all contributions to (4),(0). The O(2s) terms, already given
+in Ref. [1], are
+B(0)(2)gg (y, L) = y
+2A(1)gb (z, L)A
+(z) + 4A(1)gb
+gb (z)
++ (2)gg (y), (3.21)
+(0)(2)
+qq (y, L) = 
+qq (y); (3.22)
+3.3. Properties of the matched cross section 27
+while the O(3s) are [2]
+B(0)(3)gg (y, L) = y
+4A(2)gb (z, L)A
++ 2A(1)gb (z, L)A
+(z) + 4A(2)gb
+gb (z) + 4A
+gb (z)
+(3.23)
+B(0)(3)gq (y, L) = y
+2A(2)b (z, L)A
+(z) + 2A(2)b
+gb (z)
++2A(1)gb
+qb (z)
+, (3.24)
+which completes our result. Note that in Eqs. (3.21)-(3.24) (p)ij (x) denotes the
+partonic cross-section in the 5FS, as indicated by the fact that it only depends on
+the momentum fraction and does not have any dependence on mb1.
+3.3 Properties of the matched cross section
+Using Eqs. (3.19,3.20) we can express the five flavour scheme cross section in terms
+of only light quarks and gluons. If we do, we see that the five flavour scheme cross
+section can be written as
+(5) =
+ij=q,g
+i (x,Q
+(p,k)
+ij (y) (s L)
+(3.25)
+In the same spirit, the massless limit of the massive cross section, Eq. (3.16) is given
+(4F ),(0) =
+ij=q,g
+i (x,Q
+(pk,k)
+ij (y)L
+(3.26)
+Let us now define (d), called difference term,
+(d) = (5)  (4F ),(0) , (3.27)
+1unlike the 4FS partonic cross sections (p)ij
+of Eq. (3.5)
+3.4. The bb H FONLL cross section 28
+such that
+FONLL = (4) + (d) . (3.28)
+This term is then expressed as:
+(d) =
+ij=q,g
+i (x,Q
+(p,k)
+ij (y) (s L)
+(pk,k)
+ij (y)L
+. (3.29)
+In the region in which mb  Q, we have that L  0. In this limit, mass effects
+dominates over resummation effects and we thus expect the FONLL prediction to
+match the four flavour one. As a confirmation we see the the two terms in the
+second line of Eq. (3.29) have the same asymptotic behaviour in this limit, making
+(d) vanish.
+On the other hand, in the limit in which mb  Q2, by definition of the massless
+limit of the massive calculation, we have that the four flavour scheme calculation
+and the massless limit cancel. This leaves the FONLL prediction equal to the five
+flavour one in this limit, as expected. In any intermediate regime, the first p terms
+present in the second line of Eq. (3.29) coming from the massless limit, cancel the
+first p terms coming from the massless calculation, leaving the remaining   p
+tower of logs resummed in the five flavour scheme. The first p terms, on the other
+hand are then added back in the four flavour scheme, and thus include mass effects
+exactly up the p-th order.
+3.4 The bb H FONLL cross section
+We now have all the ingredients to construct the matched result. As everything in
+Eq. (3.3) is now expressed in terms of the same perturbative objects we can perform
+an s expansion on the final result,
+FONLL = 2s(Q
+2)(2) + 3s(Q
+2)(3) + O(4s) . (3.30)
+In the rest of this work, following the notation set in [29], we identify with FONLL-A
+the order 2s [1] term of Eq. (3.30), while we call FONLL-B the contribution to order
+3.4. The bb H FONLL cross section 29
+3s [2]. The accuracy of these two schemes is given by the two matched calculations.
+In the FONLL-A matching, the 5F NNLL cross section (which is order 2s) to the
+4FS LO (O(2s)) cross section thus having NNLL+LO accuracy. In the FONLL-B
+matching, mass effects are included up to NLO (O(3s)) which then corresponds to
+a NNLL+NLO matched scheme.
+We have implemented our final FONLL-B expression by combining, according to
+Eq. (3.3) 4FS predictions up to NLO obtained using MG5_aMC@NLO [37,38], 5FS
+computations up to NNLL obtained using the bbh@nnlo code [30], and our own
+implementation of the subtraction term Eq. (3.16).
+In Figs. 3.2-3.4 we compare the 4FS, 5FS and matched FONLL results. Specif-
+ically, in Figs. 3.2-3.3 we show for the physical Higgs mass value mH = 125 GeV,
+varying the renormalisation and factorisation scale both the LO and NLO 4FS pre-
+dictions, and the FONLL-A and FONLL-B matched results in which they are respec-
+tively combined with the NNLL 5FS result, also shown. In Fig. 3.4 we show the most
+accurate results obtained in the 4FS (NLO), 5FS (NNLO) and matched (FONLL-B)
+schemes, as a function of the Higgs mass, with R = F =
+mH+4mB
+, and the uncer-
+tainty band obtained by taking the envelope of the variations of the renormalisation
+and factorisation scales by a factor two about the central value with the two outer
+points R = 4F and F = 4R omitted. Note that for the lowest (unphysical)
+Higgs mass values this uncertainty blows up because the lower edge of the scale
+variation range extends in the nonperturbative region.
+The 4FS results shown are those which enter the FONLL combination, namely,
+the form Eq. (3.6) of the 4FS result is used, in which this is expressed in terms of 5FS
+PDFs and s. All results are computed using a PDF set presented and discussed
+in [39]. This PDF set is based on the PDF4LHC15 combined sets [4046], with
+which it is taken to coincide below the b mass, but from which it is then evolved
+up in the 5FS from Q = mb, with the results below and above threshold matched
+exactly as in Eq. (3.19). This is not quite the same as the original PDF4LHC15
+combination, which is obtained by combining sets which adopt different values ofmb,
+and also incorporate subleading differences in the way the 4FS and 5FS are matched
+at threshold: it thus has the advantage of being fully consistent. We use pole-mass
+3.4. The bb H FONLL cross section 30
+0.5 1.0 1.5 2.0
+R/mH
+F = mH
+R = mH
+FONLLB
+FONLLA
+5FNNLO
+4FNLO
+4FLO
+0.1 0.2 0.3 0.4 0.5
+R/mH
+F = (mH + 2mb)/4
+R = (mH + 2mb)/4
+FONLLB
+FONLLA
+5FNNLO
+4FNLO
+4FLO
+Figure 3.2: Comparison of the FONLL matched result and its 4FS and 5FS com-
+ponents, Eq. (3.3). Results are shown as a function of the renormalisation scale,
+with the factorisation scale fixed at a high value F = mH (top) or a low value
+(mH+2mb)
+(bottom).
+3.4. The bb H FONLL cross section 31
+0.5 1.0 1.5 2.0
+F /mH
+R = mH
+F = mH
+FONLLB
+FONLLA
+5FNNLO
+4FNLO
+4FLO
+0.1 0.2 0.3 0.4 0.5
+F /mH
+R = (mH + 2mb)/4
+F = (mH + 2mb)/4
+FONLLB
+FONLLA
+5FNNLO
+4FNLO
+4FLO
+Figure 3.3: Same as Fig. 3.2, but now with the factorisation scale varied with the
+renormalisation scale kept fixed at a high value R = mH (top) or a low value
+(mH+2mb)
+(bottom) .
+3.4. The bb H FONLL cross section 32
+expressions and take a b pole-mass value mb = 4.58 GeV; the strong coupling is
+s(mZ) = 0.118.
+From Fig. 3.2 we see that the strong renormalisation scale dependence of the
+LO 4FS result is reduced at NLO, and also, that at NLO the big gap between
+the 4FS and 5FS results gets compensated for by the inclusion of higher order
+terms in the 4FS. This, together with the fact that the 5FS shows very little scale
+dependence, and that differences are significantly smaller for smaller values of F ,
+strongly suggests that the bulk of the difference between the 4FS and the 5FS is due
+to large logs of 2F/m
+b which are resummed into the PDF in the latter case. This is
+in agreement with the conclusion of [34], in which it was shown that resummation
+increases the cross section in most cases by up to 30% at the LHC, leading to a
+better precision. On the other hand, the 4FS predictions at NLO also displays a
+consistent perturbative behaviour only when evaluated at a suitably low scale.
+The massive corrections which the 4FS result contains turn out to be much
+smaller, though not entirely negligible. Indeed, whereas the FONLL-A result essen-
+tially coincides with the 5FS, the FONLL-B, which only differs from it because of
+the inclusion of massive terms at one extra perturbative order, departs somewhat
+from it. The factorisation scheme dependence shown in Fig. 3.3 is very mild in all
+schemes when R is high, but for low R, where the perturbative expansion of the
+4FS result is more reliable, both the 5FS and the FONLL-A results show a contained
+scale dependence, comparable in size to the mass effects, which is reduced in the
+FONLL-B result.
+These results suggest that the main difference between the FONLL-A and the
+FONLL-B schemes is the inclusion of a higher order contribution from the 4FS com-
+putation which reduces the the scale dependence of the FONLL-A result; because
+the latter is essentially the same as that of the 5FS computation this contribution is
+likely to be dominated by a constant, i.e., mass-independent term. This conclusion
+is supported by Fig. 3.4, in which results are shown as a function of the Higgs mass:
+the difference between the FONLL-B and 5FS results decreases slightly as the mass
+grows until mH  200 GeV, but then remains constant up to the highest values of
+the Higgs mass.
+3.4. The bb H FONLL cross section 33
+5FNNLO
+FONLLB
+4FNLO
+200 400 600 800 1000
+mH [GeV]
+Figure 3.4: The cross-section using the most accurate results in the 4FS (NLO),
+5FS (NNLO) and matched (FONLL-B) schemes, as a function of the Higgs mass,
+with r = F =
+(mH+2mb)
+. The bottom panel shows the result as a ratio to the
+5FS computation. The uncertainty band is obtained by standard seven-point scale
+variation (see text).
+3.4. The bb H FONLL cross section 34
+We conclude that the FONLL-B result is the most reliable, and a low choice of
+renormalisation and factorisation scheme seems to lead to a more reliable perturba-
+tive expansion. All in all mass corrections are very moderate, so the usage of the
+5FS result at all scales would be adequate in most cases. This rather disfavours phe-
+nomenological combinations such as the so-called Santander matching [35] in which
+the 4FS and 5FS results are combined through an interpolation that gives each of
+them comparable weight. The difference between the FONLL-B and 5FS is almost
+entirely due to a constant O(3s) mass-independent contribution which appears in
+the 4FS at NLO but would only enter the 5FS at N3LO; the FONLL-B computation,
+which includes it, is accordingly more accurate, even for very high vales of the Higgs
+mass.
+In conclusion, we find that mass corrections are very small while collinear logs
+are substantial, so that in practice the fully matched result is very close to the 5FS
+one. The fully matched result receives a small correction from mass effects and it
+is very stable upon renormalisation and factorisation scheme variation, suggesting
+that it is adequate for precision phenomenology at the LHC.
+Chapter 4
+Comparing the 4F and the 5F
+scheme: heavy boson production
+4.1 Introduction
+Processes involving heavy flavours at the LHC, like the production of a heavy boson
+(V = W,Z,H) in association with bottom (b) quarks present an interesting study
+case of heavy flavour modeling and have recently attracted renewed interest for a
+number of old and new reasons [33,34,38,4749]. Firstly, the associated production
+of a vector boson with b-tagged jets points to born level processes like gb  V b
+which is sensitive to the b-quark Parton Distribution Function (PDF), the precise
+determination of which is fundamental for phenomenologically relevant processes like
+the production of a Higgs boson in bottom-quark fusion [1,2,39,50]. This sensitivity
+also helps disentangle the relative effects of resummation to fixed order mass effects.
+Secondly, and complementary to this purely Standard-Model reasoning, many
+models for physics beyond the Standard Model come with extended Higgs sectors,
+quite often in the form of a second Higgs doublet. The mixing among the Higgs
+doublets often amplifies the couplings of the Higgs bosons to the b-quarks. As a
+consequence, bH and bbH production provide important search grounds for new
+physics. Furthermore, events with identified b-jets and a significant missing trans-
+verse momentum constitute a possible signature of Dark Matter [5153] production.
+For this signal invisibly decaying Z-bosons associated with b-jets pose a severe irre-
+4.2. Bottom-jet associated Z-boson production 36
+ducible background.
+In general, these processes have always been approached in either of two schemes,
+commonly known as the four or five-flavour scheme (4FS and 5FS). In the 4FS, bot-
+tom quarks are completely decoupled from both the running of the strong coupling
+constant (s) and the evolution of PDFs. In addition all mass effects are retained
+everywhere in the calculation. In the 5FS, on the other hand, mass effects are
+completely neglected, and b-quarks are treated on the same footing as any other
+light-quark. In particular, they contribute to both s and PDFs evolution. A more
+detailed description of these two approaches is carried on in Sec. (2.1).
+We can make use of a simple argument to see where problems can arise. From
+dimensional analysis in fact, we now that mass effects must appear as ratio of scales,
+namely the mass of the heavy quarks (mQ in general, mb in particular) and some
+other scale (Q) in the process. When looking at inclusive observables, we typically
+have to deal with only one scale, like the invariant mass of the final state. In such
+cases, it is easy to argue if mass effects will play an important role or not.
+However, experimental analyses often consider differential distributions, like the
+transverse-momentum (pT ) or the invariant mass of a subset of particles in the final
+state. This introduces additional scales that are not a fixed number, but vary event
+by event, making the ratio mb/Q a number that can be both small and large in the
+same observable.
+In the rest of this chapter, we study differences between the 4FS and the 5FS.
+In particular we compare the two schemes in the context of the production of heavy
+quarks in association with a Z boson, where we further compare with LHC data.
+We then use the comparison with data to extend our discussion to the case of H
+associated production.
+4.2 Bottom-jet associated Z-boson production
+The production of a Z boson in association with QCD jets provides the ideal test bed
+for the theoretical approaches outlined above. Through the decay of the Z boson
+to leptons these processes yield a rather simple and clean signature with sizeable
+4.2. Bottom-jet associated Z-boson production 37
+rates even for higher jet counts. Precise measurements of the production rates and
+differential distributions of both the Z-boson decay products and the accompanying
+jets offer discriminating power for miscellaneous theoretical approaches. In fact,
+measurements of Z+jets production served as key inputs for the validation of matrix-
+element parton-shower simulation techniques, cf. [5456], and impressively underpin
+the enormous success of these calculational methods.
+Here we focus on the production of Z bosons accompanied by identified b-jets.
+Comparison with data from both the ATLAS and CMS collaborations at 7 TeV [57,
+58] provides the benchmark for the accuracy and quality of four and fiveflavour
+simulations with SHERPA. Similar measurements at 8 and 13 TeV LHC collision
+energies are under way [59].
+4.2.1 Details of the simulations
+Efficient routines for the required QCD matrix-element calculations and a well un-
+derstood QCD parton-shower are the key ingredients to all matching and merging
+calculations. Within SHERPA LO matrix elements are provided by the built-in gener-
+ators AMEGIC++ [60] and COMIX [61]. While virtual matrix elements contributing to
+QCD NLO corrections can be invoked through interfaces to a number of specialised
+tools, e.g. BLACKHAT [62], GOSAM [63], NJET [64], OPENLOOPS [65] or through the
+BLHA interface [66], we employ in this study the OPENLOOPS generator [67] in con-
+junction with the COLLIER library [68, 69]. Infrared divergences are treated by the
+CataniSeymour dipole method [15, 16] which has been automated in SHERPA [70].
+In this implementation mass effects are included for final-state splitter and spectator
+partons but massless initial-state particles are assumed throughout. SHERPAs de-
+fault parton-shower model [71,72] is based on CataniSeymour factorisation [73]. In
+order to arrive at meaningful fragmentation functions for heavy quarks, all modern
+parton showers take full account of their finite masses in the final state, although in
+algorithmically different ways. In SHERPA, the transition from massless to massive
+kinematics is achieved by rescaling four-momenta at the beginning of the parton
+shower. In the initial-state parton shower in SHERPA, the g  bb and b  bg
+splitting functions do not contain b-quark mass effects in their functional form and
+4.2. Bottom-jet associated Z-boson production 38
+account for mass effects in the kinematics only.
+In the following we briefly define the methods available in SHERPA for simulating
+b-associated production processes, that will then be validated and applied for LHC
+predictions:
+4F NLO (4F MC@NLO): In the fourflavour scheme, b-quarks are consistently
+treated as massive particles, only appearing in the final state. As a conse-
+quence, b-associated Z- and H-boson production proceeds through the parton-
+level processes gg  Z/H + bb, and qq  Z/H + bb at Born level. MC@NLO
+matching is obtained by consistently combining fully differential NLO QCD
+calculations with the parton shower, cf. [74,75]. Due to the finite b-quark mass
+these processes do not exhibit infrared divergences and the corresponding in-
+clusive cross sections can thus be evaluated without any cuts on the b-partons.
+5F LO (5F MEPS@LO): In the fiveflavour scheme b-quarks are massless parti-
+cles in the hard matrix element, while they are treated as massive particles in
+both the initial- and final-state parton shower.
+In the MEPS@LO [25] samples we merge pp  H/Z plus up to three jets at
+leading order; this includes, for instance, the partonlevel processes bb Z/H,
+gb  Z/Hb, gg  Z/Hbb, . . . . To separate the various matrix-element
+multiplicities, independent of the jet flavour, a jet cut of Qcut = 10 GeV is
+used in the Z case while Qcut = 20 GeV is employed in H-boson production.
+5F NLO (5F MEPS@NLO): In the 5FS MEPS@NLO scheme [27,76], we account
+for quark masses in complete analogy to the LO case: the quarks are treated as
+massless in the hard matrix elements, but as massive in the initial- and final-
+state parton showering. Again, partonic processes of different multiplicity are
+merged similarly to the MEPS@LO albeit retaining their next-to-leading-order
+accuracy. In particular, we consider the merging of the processes pp  H/Z
+plus up to two jets each calculated with MC@NLO accuracy further merged
+with pp H/Z + 3j calculated at MEPS@LO.
+4.2. Bottom-jet associated Z-boson production 39
+d4F MC@NLO = d3
+ + V
+2  PS
++ d4
+2  PS
+Figure 4.1: Pictorial representation of V + bb processes contributing to the 4F
+MC@NLO calculation. Here V = (Z,H) and by  we just mean that it is not a
+simple product, and P.S. is the parton shower contribution. V refers to the one-loop
+virtual contributions to the born.
+4.2. Bottom-jet associated Z-boson production 40
+d5F MEPS@LO = d1
+2 PS  d2
+2 PS
+ d3
+2  PS  d4
+2  PS
+Figure 4.2: Same as Fig. 4.1 but for the 5F MEPS@LO. The  symbol represents
+the merging, i.e. a sum with the overlapping part removed. Note that in the five
+flavour scheme the bottom contribution is included in q.
+4.2. Bottom-jet associated Z-boson production 41
+We consistently use fourflavour PDFs in the 4F scheme, i.e. the dedicated four
+flavour NNPDF3.0 set [41] with the strong coupling given by s(mZ) = 0.118 and
+running at NLO. For the simulations in the fiveflavour schemes the fiveflavour
+NNLO PDFs from NNPDF3.0 are used, with s(mZ) = 0.118 and running at
+NNLO. We assume all quarks apart from the b to be massless, with a pole mass of
+mb = 4.92 GeV which enters the hard matrix-element calculation, where appropri-
+ate, and the parton shower.
+Results in the 4F and 5F schemes have been obtained with the default scale-
+setting prescription for parton-shower matched calculations in SHERPA [25,77]. They
+are calculated using a backward-clustering algorithm, and for each emission from the
+shower, couplings are evaluated at either the kT of the corresponding emitted par-
+ticle (in the case of gluon emission), or at the invariant mass of the emitted pair
+(in the case of gluon splitting into quarks). The clustering stops at a core 2  2
+process, with all scales set to F = R = Q = mT (V )/2, where mT (V ) corresponds
+to the transverse mass of the boson. This scale is thus used to evaluate couplings in
+the hard matrix element and PDFs. The corresponding central values are supple-
+mented with uncertainty bands reflecting the dependence on the unphysical scales.
+Renormalisation and factorisation scales are varied around their central value by a
+factor of two up and down, with a standard 7-point variation. The scale variations
+use the SHERPA internal reweighting procedure [78] and result in envelopes around
+the central value. Furthermore, we consider explicit variations of the parton-shower
+starting scale, i.e. Q, by a factor of two up and down.
+4.2.2 Parton shower mass corrections
+When producing predictions involving heavy quarks there are a number of subleading
+effects that can be turned on or off. This happens in particular in the parton shower
+part. As we discuss in Section 2.4, in fact, the Shower evolution is determined by
+the exact definition of the Sudakov form factor,
+N(t0, t) = exp
+d1 KN(1)
+(4.1)
+4.2. Bottom-jet associated Z-boson production 42
+with KN(1) some splitting kernels. As we are using a dipole shower, in the con-
+text of this study, we can identify KN(1) with Catani-Seymour dipoles splitting
+functions. As long as the correct limits are recovered by the splitting functions,
+and one knows all the phase-space mappings needed to define the projected phase
+space, one can use any splitting function. This imply that any non-divergent, mass
+proportional, addition to the splitting kernels is subleading. In the simulations we
+present here we do not include any additional mass effects, other than the ones that
+are already present and described in [71].
+Another subtlety stems when looking at the definition of KN(1),
+KN(1) =
+(i,j) 6=k
+Dij,k
+. (4.2)
+The point at which s should be evaluated in this formula, is the evolution variable.
+In dipole based shower, like the one we discuss here, this parameter is calculated
+as the transverse momentum of the splitting kT . Imagine now the splitting of a
+gluon into a bb pair. As the b quarks, in the shower, are always treated as massive
+particles, it is unlikely that they are produced very collinear. On the other hand
+kT can, in principle, be very small. Now s is a decreasing function of kT . This
+means that lower kT splitting have a higher weight, and thus a larger probability.
+This issue can be fixed by evaluating s in the context of g  bb splittings at the
+invariant mass of the splitted pair, mbb. This setting is the default setting we use in
+this study.
+As a last comment, let us underline how, however, the setup used here, and
+presented in the previous section, makes most of these effects less important, at
+least in the two five falvour scheme samples. The idea is that we exploit the merging
+scale, Qcut, to reduce the influence of the parton shower in many regions of phase
+space. To do that we choose Qcut such that
+mb < Qcut < p
+T , (4.3)
+where pcutT is the cut on pT applied to jets in the analysis. This low value makes then
+sure that most of the samples are populated by matrix elements, with the parton
+shower dominating only in the regions of very soft jets.
+4.2. Bottom-jet associated Z-boson production 43
+4.2.3 Measurements at LHC Run I  the reference data
+Based on a data set of 4.6 fb1 integrated luminosity the ATLAS collaboration
+studied the production of b-jets associated with Z/ that decay to electrons or
+muons [57]. The dilepton invariant mass ranges between 76 GeV < m`` < 106 GeV.
+Jets are reconstructed using the anti-kt algorithm [79] with a radius parameter
+of R = 0.4, a minimal transverse momentum of pT,j > 20 GeV and a rapidity of
+|yj| < 2.4. Furthermore, each jet candidate needs to be separated from the leptons by
+Rj` > 0.5. Jets containing b-hadrons are identified using a multi-variate technique.
+To match the outcome of the experimental analysis, simulated jets are identified as
+b-jets, when there is one or more weakly decaying b-hadron with pT > 5 GeV within
+a cone of R = 0.3 around the jet axis. The sample of selected events is further
+subdivided into a class containing events with at least one b-jet (1-tag) and a class
+with at least two b-jets (2-tag).
+A similar analysis was performed by CMS [58]. There, electrons and muons
+are required to have a transverse momentum of pT,` > 20 GeV, a pseudorapidity
+|`| < 2.4, and a dilepton invariant mass within 81 GeV < m`` < 101 GeV. Only
+events with exactly two additional b-hadrons were selected. The analysis focuses on
+the measurement of angular correlations amongst the b-hadrons and with respect
+to the Z boson. This includes in particular variables sensitive to rather collinear
+b-hadron pairs. In addition, the total production cross section as a function of the
+vector bosons transverse momentum was measured.
+Both analyses are implemented and publicly available in the RIVET analysis
+software [80] that, together with the FASTJET package [81], is employed for all
+particle, i.e. hadron, level analyses.
+4.2.4 Comparison with LHC data
+In this section the theoretical predictions from SHERPA are compared to the experi-
+mental measurements from LHC Run I. We begin the discussion with the comparison
+with the measurements presented by the ATLAS collaboration in Ref. [57]. The to-
+tal cross sections for Z+  1 and Z+  2 b jets are collected in Fig. 4.3. Already
+4.2. Bottom-jet associated Z-boson production 44
+there we see a pattern emerging that will further establish itself in the differential
+cross sections: While the 5F MEPS@NLO results agree very well with data, the cen-
+tral values of the 5F MEPS@LO cross sections tend to be around 10-20% lower than
+the central values of data, but with theory uncertainties clearly overlapping them.
+For all the runs the uncertainty estimates include both, 7-point variations of the
+perturbative scales R/F , as well as Q variations by a factor of two up and down.
+In contrast to the 5F case, the 4F MC@NLO cross sections tend to be significantly
+below the experimental values for the Z+  1 b-jets cross section, without over-
+lap of uncertainties. In the Z+  2 b-jets cross section the agreement between 4F
+MC@NLO results and data is better, with the theoretical uncertainties including the
+central value of the measured cross section.
+In Fig. 4.4 the differential cross sections with respect to the transverse momen-
+tum and rapidity of the b-jets, normalised to the number of b-jets, are presented
+for events with at least one b-tagged jet. The shapes of both distributions are well
+modelled both by the 4F and the two 5F calculations. However, clear differences
+in the predicted production cross sections are observed. While the 5F NLO results
+are in excellent agreement with data - both in shape and normalisation - the cen-
+tral values of the 5F LO cross sections tend to be around 10% below data, at the
+lower edge of the data uncertainty bands, and the 4F results are consistently out-
+side data, about 25% too low. In the lower panels of Fig. 4.4 and all the following
+plots in this section we show the uncertainty bands of the theoretical predictions,
+corresponding to the above described R/F and Q variations. For the 5FS calcu-
+lations the scale uncertainties clearly dominate, while for the 4F MC@NLO scheme
+the shower-resummation uncertainty dominates.
+This pattern is repeated in Fig. 4.5, where we show the differential (Zb) cross
+section with respect to the dilepton transverse momentum and, rescaled to 1/Nbjets,
+as a function of the azimuthal separation between the reconstructed Z boson and
+the b-jets. Again, both distributions are very well modelled by both 5F calculations.
+The 4F MC@NLO prediction again underestimates data by a largely flat 20-25%.
+Lastly for the one b-jet inclusive sample, we look at the rapidity and R sepa-
+ration between the Z boson and the leading b-jet, Fig. 4.6. In these two plots the
+4.2. Bottom-jet associated Z-boson production 45
+0 1 2 3 4 5 6
+ [pb]
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+(Zb), Z+  1 bjets
+ATLAS
+s = 7 TeV 4.6 fb1 (stat.)
+ATLAS
+s = 7 TeV 4.6 fb1 (stat.  syst.)
+0.0 0.1 0.2 0.3 0.4 0.5 0.6
+ [pb]
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+(Zbb), Z+  2 bjets
+ATLAS
+s = 7 TeV 4.6 fb1 (stat.)
+ATLAS
+s = 7 TeV 4.6 fb1 (stat.  syst.)
+Figure 4.3: Comparison of total production cross section predictions with ATLAS
+data [57]. The error bars on the theoretical results are calculated from variations of
+the hard-process scales R/F and the parton-shower starting scale Q.
+additional constraint that pT,ll > 20 GeV is imposed. This case too highlight how
+the three schemes differ from one another by a constant factor. In particular the
+4.2. Bottom-jet associated Z-boson production 46
+pT(b), Z+  1b-jets
+pT(b) [GeV]
+ATLAS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+b-jet |y|, Z+  1b-jets
+0.0 0.5 1.0 1.5 2.0
+b-jet |y|
+ATLAS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+Figure 4.4: Inclusive transverse-momentum and rapidity distribution of all b-jets in
+events with at least one b-jet. Data taken from Ref. [57].
+MEPS@NLO 5FS provide once again with the most accurate prediction, while the
+4F MC@NLO undeshoot data by a roughly 20% factor. Somehow more interesting
+is the R separation between the Z boson and the leading b-jet. In this case in
+4.2. Bottom-jet associated Z-boson production 47
+pT(Z), Z+  1b-jets
+0 100 200 300 400 500
+pT(Z) [GeV]
+ATLAS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+(Z, b), Z+  1b-jets, pT(``) > 20 GeV
+0.0 0.5 1.0 1.5 2.0 2.5 3.0
+(Z, b)
+ATLAS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+Figure 4.5: Transverse-momentum distribution of the Z boson (left) and the az-
+imuthal separation between the Z boson and the b-jet (right) in events with at least
+one b-jet. For the (Z, b) measurement the additional constraint pT,ll > 20 GeV is
+imposed. Data taken from Ref. [57].
+4.2. Bottom-jet associated Z-boson production 48
+y(Z, b), Z+  1b-jets, pT(Z) > 20 GeV
+ATLAS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+0 1 2 3 4 5
+y(Z, b)
+R(Z, b), Z+  1b-jets, pT(Z) > 20 GeV
+ATLAS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+0 1 2 3 4 5 6
+R(Z, b)
+Figure 4.6: Difference in rapidity and R separation between tne Z boson and the
+first b-jet in events with at least one b-jet, with the additional constraint pT,ll >
+20 GeV. Data taken from Ref. [57].
+fact we notice some shape distortion in the R  4 region. In this region the two
+5FS predictions somehow depart from being a constant factor with respect to the
+4.2. Bottom-jet associated Z-boson production 49
+4FS MC@NLO. This is due to the low merging scale that has been used in this case,
+which moves the transition region to lower R values, thus affecting this plot.
+Moving on to final states exhibiting at least two identified b-jets, the role of
+the 5F LO and 4F NLO predictions are somewhat reversed: As can be inferred
+from Fig. 4.3, the 4F and 5F NLO samples provide good estimates for the inclusive
+Zbb cross section, while the 5F LO calculation undershoots data by about 20%. In
+Fig. 4.7 the R separation of the two highest transverse-momentum b-jets along with
+their invariant-mass distribution is presented. Both the 4F and the 5F approaches
+yield a good description of the shape of the distributions. It is worth stressing that
+this includes the regions of low invariant mass and low R, corresponding to a
+pair of rather collinear b-jets. This is a region that is usually riddled by potentially
+large logarithms, where the parton shower starts taking effect. Note that in the
+comparison presented in [57] this region showed some disagreement between data
+and other theoretical predictions based on NLO QCD (dressed with parton showers).
+In Fig. 4.8 the resulting transverse-momentum distribution of the dilepton system
+when selecting for events with at least two associated b-jets is shown. The shape of
+the data is very well reproduced by the 4F MC@NLO and 5F MEPS@NLO samples.
+Also the 5F MEPS@LO prediction describes the data well despite of the overall rate
+being 20% lower than observed in data.
+The measurements presented by the CMS collaboration in Ref. [58] focus on
+angular correlations between b-hadrons rather than b-jets. Two selections with re-
+spect to the dilepton transverse momentum have been considered, a sample requiring
+pT (Z) > 50 GeV and an inclusive one considering the whole range of pT (Z). The
+R and  separation of the b-hadrons obviously prove to be most sensitive to the
+theoretical modelling of the b-hadron production mechanism and the interplay of
+the fixed-order components and the parton showers. They are presented in Figs. 4.9
+and 4.10. In general, a good agreement in the shapes of simulation results and data
+is found, with the same pattern of total cross sections as before: the 5F MEPS@NLO
+sample describes data very well, while the 4F MC@NLO results tend to be a little bit,
+about 10%, below data, with data and theory uncertainty bands well overlapping,
+while the central values of the 5F MEPS@LO results undershoot data by typically
+4.2. Bottom-jet associated Z-boson production 50
+R(b, b), Z+  2b-jets
+1 2 3 4 5
+R(b, b)
+ATLAS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+m(b, b), Z+  2b-jets
+50 100 150 200 250 300 350
+m(b, b) [GeV]
+ATLAS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+Figure 4.7: The R separation (left) and invariant-mass distribution (right) for the
+leading two b-jets. Data taken from Ref. [57].
+20-25%.
+Overall it can be concluded that the 5F MEPS@NLO calculation yields the best
+description of the existing measurements, regarding both the production rates and
+4.3. Bottom-jet associated Higgs-boson production 51
+pT(Z), Z+  2b-jets
+0 50 100 150 200 250
+pT(Z) [GeV]
+ATLAS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+Figure 4.8: Transverse-momentum distribution of the dilepton system for events
+with at least two b-jets. Comparison against various calculational schemes. Data
+taken from Ref. [57].
+shapes. The 4F MC@NLO and 5F MEPS@LO schemes succesfully model the shape
+of the differential distributions but consistently underestimate the production rates.
+4.3 Bottom-jet associated Higgs-boson production
+In this section we present predictions for b-jet(s) associated production of the Standard-
+Model Higgs boson in pp collisions at the 13 TeV LHC obtained in the four and
+fiveflavour schemes. As standard when dealing with this process, we do not in-
+clude contributions from the gluon-fusion channel. However, in the 4F MC@NLO
+we do include terms proportional to the top-quark Yukawa coupling, contributing
+to order ybyt as an interference effect at NLO QCD [3, 31, 32]. Although associated
+Z+ b-jet(s) production serves as a good proxy for the Higgs-boson case, there are
+important differences between both processes, mainly due to the different impact of
+initial-state light quarks, which couple to Z bosons but not to the Higgs boson.
+4.3. Bottom-jet associated Higgs-boson production 52
+R(B, B), Z+  2B-Hadrons
+0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0
+R(B, B)
+CMS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+R(B, B), Z+  2B-Hadrons,pT(Z) > 50 GeV
+0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0
+R(B, B)
+CMS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+Figure 4.9: RBB distribution for two selections of the transverse momentum of the
+Z boson. Data taken from Ref. [58].
+As before, QCD jets are defined through the anti-kt algorithm using a radius
+parameter of R = 0.4, a minimal transverse momentum pT,j > 25 GeV, and a
+rapidity cut of |yj| < 2.5. In this case, we consider results that are at the parton
+4.3. Bottom-jet associated Higgs-boson production 53
+(B, B), Z+  2B-Hadrons
+0.0 0.5 1.0 1.5 2.0 2.5 3.0
+(B, B)
+CMS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+(B, B), Z+  2B-Hadrons,pT(Z) > 50 GeV
+0.0 0.5 1.0 1.5 2.0 2.5 3.0
+(B, B)
+CMS 7 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+Figure 4.10: BB distribution for two selections of the transverse momentum of
+the Z boson. Data taken from Ref. [58].
+level only, disregarding hadronisation and underlying-event effects, which may blur
+the picture. We consider single b-tagged jets only, thus excluding jets with intra-jet
+g  bb splittings from the parton shower which would be the same for all flavour
+4.3. Bottom-jet associated Higgs-boson production 54
+schemes we investigate. As for Z-boson production, we separate the event samples
+into categories with at least one b-jet, i.e. H+  1b-jet events, and at least two
+tagged b-jets, i.e. H+  2b-jets events.
+LHC 13 TeV H+  1b-jets [fb] H+  2b-jets [fb]
+4FMC@NLO 45.2
++15.5%
+18.4% 4.5
++25.1%
+26.3%
+5FMEPS@LO 79.3
++34.0%
+25.4% 3.8
++34.3%
+30.3%
+5FMEPS@NLO 110.5
++14.2%
+16.0% 6.9
++27.3%
+27.1%
+Table 4.1: 13 TeV total cross sections and the corresponding F/R and Q uncer-
+tainties for H+  1b and H+  2bs.
+In Tab. 4.1 cross sections for the three calculations are reported. Historically,
+inclusive results have largely disagreed between the 4F and the 5F scheme. This
+feature is observed for the case at hand, too, and especially so for the case of one
+tagged b-jet. There the 4F MC@NLO prediction is smaller than the 5F results by
+factors of about 1.75 (5F LO) and of 2.44 (5F NLO). The relative differences are
+reduced when a second tagged b-jet is demanded. In this case we find that the 4F
+result lies between the two 5F results, about 20% higher than the LO predictions, and
+a factor of about 1.5 lower than the 5F NLO predictions. In both cases, inclusive
+H + b and H + bb production, the uncertainty bands of the two 5F predictions,
+corresponding to 7-point R/F variations and Q variations by a factor of two up
+and down, do overlap. While for the two b-jet final states this includes the 4F result,
+for the one b-jet case the 4F result is not compatible with the 5F predictions, taking
+into account the considered scale uncertainties. It is worth noting that a milder
+form of this relative scaling of the cross sections was already observed in the Z case.
+In the case of the total inclusive cross section, this very large difference can
+be mitigated by including higher-order corrections, on the one hand, and a better
+assessment of which choice of the unphysical scales yields the better agreement [3,
+34, 38, 49]. However, only a recent effort to match the two schemes [1, 2, 39, 50] has
+clearly assessed the relative importance of mass corrections (appearing in the 4F
+scheme) and large log resummation (as achieved in a 5F scheme). In particular it
+has been found that the difference between these two schemes is mostly given by
+4.3. Bottom-jet associated Higgs-boson production 55
+pT(H), H+  1b-jets
+0 50 100 150 200 250 300 350 400
+pT(H) [GeV]
+LHC @ 13 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+pT(b), H+  1b-jets
+pT(b) [GeV]
+LHC @ 13 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+Figure 4.11: Predictions for the transverse-momentum distribution of the Higgs
+boson (left panel) and the leading b-jet (right panel) in inclusive H+b-jet production
+at the 13 TeV LHC.
+the resummation of large logarithms, thus suggesting that for an inclusive enough
+calculation either a 5F scheme or a matched scheme should be employed. This is
+4.3. Bottom-jet associated Higgs-boson production 56
+pT(H), H+  2b-jets
+0 50 100 150 200 250 300 350 400
+pT(H) [GeV]
+LHC @ 13 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+Figure 4.12: The transverse-momentum distribution of the Higgs boson in inclusive
+H + 2b-jets production at the 13 TeV LHC.
+the same situation that one faces, albeit milder, in the Z case, where, in terms of
+normalisation the 5F scheme performed better in all cases and especially in inclusive
+calculations. We therefore recommend that in terms of overall normalisation, the
+5F MEPS@NLO scheme should be used to obtain reliable predictions.
+Let us now turn to the discussion of the relative differences in the shapes of
+characteristic and important distributions. To better appreciate shape differences,
+all differential distribution are normalised to the respective cross section, i.e. the
+inclusive rates (Hb) and (Hbb). In all cases we obtain agreement at the 15%-
+level or better between the 5F MEPS@NLO and 4F MC@NLO samples, the only
+exception, not surprisingly, being the region of phase space where the two bs come
+close to each other and resummation effects start playing a role. Typically, the
+5F MEPS@LO predictions are also in fair agreement with the other two results,
+however, they exhibit a tendency for harder tails in the pT distributions, mainly in
+the inclusive Higgs-boson pT and in the transverse momentum of the second b jet.
+Starting with Fig. 4.11, the transverse-momentum distributions of the Higgs
+4.3. Bottom-jet associated Higgs-boson production 57
+R(b, b), H+  2b-jets
+0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0
+R(b, b)
+LHC @ 13 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+m(b, b), H+  2b-jets
+100 200 300 400 500 600 700 800
+m(b, b) [GeV]
+LHC @ 13 TeV
+SHERPA 4F MC@NLO
+SHERPA 5F MEPS@LO
+SHERPA 5F MEPS@NLO
+Figure 4.13: Predictions for the R separation of the two leading b-jets (left panel)
+and their invariant-mass distribution (right panel) in inclusiveH+2b-jets production
+at the 13 TeV LHC.
+boson and the leading b-jet in the case of at least one b-jet tagged is displayed.
+Similarly to the Z example, this is the region where one would expect the 5F scheme
+4.3. Bottom-jet associated Higgs-boson production 58
+to perform better. However, again similarly to the Z case, the three schemes largely
+agree in terms of shapes, being well within scale uncertainties. Notably, this turns
+out to be particularly true for the low ( 20100 GeV) pT region where one could
+have expected deviations to be the largest.
+In Figs. 4.12 and 4.13 we present differential distributions for the selection of
+events with at least two tagged b-jets. While Fig. 4.12 shows the resulting Higgs-
+boson transverse-momentum distribution, Fig. 4.13 compiles results for the R
+separation of the two leading b-jets and their invariant-mass distribution. For such
+two b-jets observables the 4F scheme is expected to work best, especially when
+the two b are well separated to suppress potentially large logarithms. However,
+in agreement with the Z-boson case, no significant differences between the various
+scheme arise when taking into account R/F and Q scale-variation uncertainties.
+Once again the region of low pT in Fig. 4.12 and the region of lowm(b, b) in Fig. (4.13)
+show excellent agreement amongst the various descriptions. As anticipated, larger
+differences can be seen between the two 5FS and the 4F MC@NLO calculations, in
+the very low R(b, b) and m(b, b) regions, Fig. (4.13), where the two b-jets become
+collinear. This feature is however most likely due to the fact that we are dealing
+with partonic b-jets as opposed to hadronic ones. Taking as a reference the Z-boson
+case once again, in fact, where this difference is not present at all, suggests that a
+realistic simulation, that accounts for hadronisation effects, should largely suppress
+this difference.
+Chapter 5
+Towards a massive 5F scheme
+5.1 Massive Subtraction
+In previous chapters we saw how different choices in the treatment of mass effects
+in processes involving heavy flavours can affect theoretical predictions. While for
+totally inclusive predictions we can obtain matched result, for differential results
+we need to resort to some other methods to discriminate. In the example of a Z
+boson produced in association with heavy quarks, we showed how we can make use
+of data for this purpose. However in general this is not always possible, and to
+extend matching method in the context of Monte Carlo event generators is not a
+straightforward task.
+We can start from the observation made in the two examples we studied, Z/H
+associated production, where we showed that the five flavour scheme generally per-
+forms better. There are, however, regions in which this might not hold true and we
+still need to include mass effects to properly account for those. The most natural
+thing to do, is to extend the 5FS to allow for massive quarks in both the initial and
+final state. The idea then is that this 5F Massive Scheme (5FMS), will have massive
+b-quarks that contribute both to the running of the coupling constant and to the
+evolution of PDFs.
+To extend the 5F scheme to account for massive bs in the final state is concep-
+tually easy, although practically difficult, as we would end up having two different
+type of b quarks, which might lead to inconsistencies. Therefore we need to extend
+5.1. Massive Subtraction 60
+the methods and techniques developed for the massless five flavour scheme to allow
+for massive initial state particles. Further we wish to retain the current fixed order
+accuracy of the 5F scheme in Monte Carlo, namely the next to leading order.
+In order to extend Catani-Seymour formalism to massive initial state particle,
+it is necessary to work out the correspondent form of Vak,b(pa, pb, pk) in the case
+particles a, b are both massive. This has been performed in [18] in the context of
+fermions in QED in four dimensions, so we can make use of results reported there
+and promote them to QCD and d = 4  2 dimensions, by performing a simple
+replacement:
+e2Qa aQb b  4 S 2Ta Tb . (5.1)
+We further have to define the phase space mapping that defines pi in Eq. (2.20), and
+which is further needed to compute the one particle phase space, 1.
+5.1.1 Initial state splitter with initial state spectator
+We start by reporting some useful definitions that are used throughout,
+s = (pa + pb)
+2; sab = s  m2a  m2b ; (5.2)
+Q2 = (pa + pb  pk)2 = s  2 (pa + pb)  pk ; (5.3)
+xab = 1 2
+(pa + pb)  pk
+; (5.4)
+ya = 2
+pa  pk
+; (5.5)
+ab = (s,m
+b) ; (a, b, c) = a
+2 + b2 + c2  2 (ab+ bc) 2 ac . (5.6)
+We define the contribution to the subtraction term, Vak,b(pa, pb, pk):
+Vqagk,b(pa, pb, pk) = 8 
+2sCF
+1 xab
+ (1 + xab) (1  xab)
+pa  pk
+(5.7)
+in the case where the splitting is b  gb. In any other case we do not have any
+singular contribution, so we do not need any subtraction term1. The necessary
+1Although strictly speaking this is true, these additional contributions will still be proportional
+to logm2b/Q
+2, where Q is some scale. For the example we discuss in this chapter, we checked that
+this contribution are stable under variations of the parameter mb.
+5.1. Massive Subtraction 61
+phase space mappings have to preserve the mass shell, and it is customary to keep
+the momentum pb fixed. As a result all other momenta pj are shifted as well as the
+total momentum Q =
+j pj. The transformations are given by,
+pa =
+ (Q2,m2a,m
+pa 
+Q2 m2a m2b
+b ; Q
+ = pa + p
+b . (5.8)
+It is straightforward to check that these relations fulfill the mass-shell conditions,
+such that p2a = m
+a and Q
+2 = Q2, and that they possess the right infra-red and
+collinear asymptotic limits. All other momenta, including those of non coloured
+particles, transform as pi = 
+i where
+ = g
+(Q+ Q)(Q+ Q)
+Q2 +Q  Q
+2 QQ
+(5.9)
+We further need to calculate the extra-emission phase space. In particular, we
+have
+dN+1(pk, Q; pa + pb) =
+dN(Q(x); pa(x) + pb)
+dd1pk(s, x, ya)
+(5.10)
+where x dependent momenta can be obtained from pa and Q upon replacing Q2 
+sab x+m
+The explicit calculation of
+dd1pk(s, x, ya)
+can be found in Appendix C. the
+final result yields [
+dd1pk(s, x, ya)
+16 2
+(4)
+(1 )
+)12
+(1 x)12 sab s v1
+dv[(v1  v) (v  v2)] , (5.11)
+where we performed a change of variable ya = v (1 x), and
+v1,2 =
+sab + 2m
+a  ab
+. (5.12)
+We can thus define the integral of the splitting function Vak,b, which defines the
+x-distribution Va,b. We start by expressing Eq. (5.7) in terms of the new variable v
+and the splitting variable x,
+Va,b(x; ) =
+dd1pk(s, x, ya)
+2pa  pk
+Vak,b . (5.13)
+5.1. Massive Subtraction 62
+where, collecting an overall factor of (1  x)2 from Vak,b, and putting everything
+together with Eq. (C.10), we get
+Va,b(x; ) = 1
+(1 )
+)12
+(1 x)12 v1
+[(v1  v) (v  v2)]
+1 + x2   (1 x)2  2xm
+sab v
+. (5.14)
+The distribution (1 x)12 is divergent in the double limit x,   0. To make it
+regular at this end-point, we introduce the plus prescription, such that:
+(1 x)12 = (1 x)
+(1 x)+
++O() . (5.15)
+As a consequence, we can re-express Va,b(x; ) as
+Va,b(x; ) = (1 x)Va,b() +
+Ka,b(x)
+. (5.16)
+The function Ka,b(x) corresponds to the v integral, finite part, of the  expansion
+of Eq. (5.14), and is given by
+Ka,b(x) =  sab
+1 + x2
+log 0  2x ; (5.17)
+while the end-point contribution
+Va,b() =
+1 + sab
+log 0
++ log
+2 ab
+log 0 + 2 Li2(0) +
+log2 0 
+(5.18)
+where
+sab + 2m
+a  ab
+sab + 2m2a + ab
+. (5.19)
+The contribution to the partonic differential cross section is thus given by
+d1 S =
+Va,b() dN(sab)
+dxKa,b(x)
+(x sab)
+x(sab)
+dN BN(x sab) dN BN(sab)
+, (5.20)
+where we make explicit the dependence on the is the initial state flux, .
+5.1. Massive Subtraction 63
+5.1.2 The case of initial state hadrons
+So far we have only dealt with partonic observables, we now investigate the case of
+initial state hadrons. Firstly, in the hadronic centre of mass, the hadrons momenta
+are parametrised as
+P1,2 =
+(1, 0, 0, 1) , (5.21)
+where
+S is the hadronic centre of mass energy. While the partons momenta in
+this frame are given by
+pa,b = 1,2 P1,2 +
+m2a,b
+1,2 S
+P2,1 ; (5.22)
+where
+1,2 
+1 4m
+1 4m
+(5.23)
+The partonic centre of mass energy can be written as
+s = (pa + pb)
+2 = sab +m
+b ; sab = 2 1 2 S +
+1 2 S
+, (5.24)
+and the initial state flux
+(sab) = 4
+(s,m2a,m
+b) . (5.25)
+We can thus write the hadronic correspondent of Eq. (5.20),
+I = sCF
+d1 d2 fa(1) fb(2)
+Va,b() dN(sab)
+dxKa,b(x)
+(x sab)
+x(sab)
+dN BN(x sab) dN BN(sab)
+. (5.26)
+The problem with this formula, as it is, is that it requires to evaluate the partonic
+cross section with many different momenta configuration, for each value of x, as well
+as at x = 1. This is not only inconvenient but inefficient, too, and can be solved by
+means of a change of variable.
+Consider the integral
+d1 d2 fa(1) fb(2)
+dxKa,b(x)
+(x sab)
+x(sab)
+dN BN(x sab) , (5.27)
+5.2. Massive dipole formulae for other configurations 64
+we start by defining a change of variable such that:
+x sab(1, 2) = sab(
+1(x), 
+2), (5.28)
+2 = 2 . (5.29)
+This transformation defines a Jacobian, J (1(x), 2), such that
+d1d2dx = d
+1d2dxJ (1(x), 2) . (5.30)
+More details on this transformation are resported in Appendix C. After reversing
+the integration order, and performing the change of variable, Eq. (5.27) becomes
+d1 d2 fa(
+1) fb(2)dN BN(sab)
+dxKa,b(x)
+J (1, 2)
+(sab)
+x(sab(1))
+fa(1)
+(5.31)
+where 1 = 1(1, x), is the old variable expressed in terms of the new ones. Note
+also the sab is now expressed in terms of the new variables, where not explicitly
+stated. We can now re-name 1  1 in Eq. (5.31) and combine it with Eq. (5.26),
+I = sCF
+d1 d2 fa(1) fb(2) dN BN(sab)
+Va,b()
+dxKa,b(x)
+J (1, 2)
+(sab)
+x(sab(
+fa(1)
+dxKa,b(x)
+, (5.32)
+which is our final formula2. The main advantage of having performed this transfor-
+mation is that now the whole curly bracket in Eq. (5.32) acts as a local K-factor on
+top of the partonic cross section, which is now evaluated only once per phase-space
+point.
+5.2 Massive dipole formulae for other configurations
+The steps presented in the previous sections can be straightforwardly applied to the
+case of initial-final configuration. Any other case is already covered by the original
+extension to massive particles of the Catani-Seymour method [16]. The idea is to
+2In the term
+dxKa,b(x) we use a shorthand notation. The upper integration bound, in
+fact, is not exactly 1, although that is its massless limits. The correct value is that obtained by
+inverting Eq. (C.25) with respect to 1 and evaluating it for 1 = 0.
+5.3. Validation: bottom quark fusion with massive quarks 65
+take the relevant formulae from [18] and to transform them in the same way as it is
+shown for initial-initial case. As all the relevant equations are presented there, and
+we do not use these cases in the examples presented in this work, we do not repeat
+them here.
+We conclude this part presenting the modifications to [18] that are needed in
+order to perform the extension. As we already mentioned, the first, overall, replace-
+ment is given by
+e2Qa aQb b  4 S 2Ta Tb . (5.33)
+The only other necessary modification to obtain the corresponding version of Eq. (5.18),
+is replacing, in Eq.(4.34) of [18], the mass of the photon, m, with
+logm2 =
++ log 2R +O() . (5.34)
+With these modifications and the method described in the previous section, we
+obtain the relevant IF contributions in the case of massive initial state quarks.
+5.3 Validation: bottom quark fusion with massive
+quarks
+To see how the 5F massive scheme (or 5FSM) works we now present an explicit
+example: the production of a Higgs boson through bottom quark fusion. There are
+two important features about this example. Firstly, as we discuss in Chapter 3, we
+know how to include exact mass effects up to order 3s through matching. From
+that calculation we get that mass corrections to the total inclusive cross section are
+quite small. Consequently we expect the 5FSM too to yield a marginally different
+total cross section. Secondly, this example has a easy enough structure that most
+formulae can be reported in closed analytic form.
+We start by showing how the massive subtraction removes all divergences at the
+integrand level, and we compare results obtained in the vanilla 5FS against the fully
+massive 5FSM. The leading order colour summed, helicity averaged and squared
+matrix element for Higgs production in bottom fusion is given by
+|MbbH |2 =
+m2H  4m2b
+, (5.35)
+5.3. Validation: bottom quark fusion with massive quarks 66
+where ghbb is the bottom Yukawa coupling, such that
+ghbb =
+, (5.36)
+and v is the electroweak vacuum expectation value.
+The matrix element corresponding to the emission of an extra gluon from the
+initial state b has the form
+R = |MbbHg|2 =
+sCF 8  g
+m2H  4m2b
+) [ 2(s 2m2b)
+(m2b  t)(m2b  u)
+(m2b  t)2
+(m2b  u)2
++ (sm2h)
+m2b  t
+m2b  u
+. (5.37)
+We firstly show that indeed |MbbHg|2  Dak,b  Dak,b gives a finite number.
+Putting everything together and expressing R in Eq. (5.37) in terms of splitting
+kinematics variables x, y and Q2 we get
+RDak,b Dak,b = 8 
+sCF g
+x y (1 x y) , (5.38)
+where we make use of
+m2h  2m2b(1 x)
+t =  m
+h(1  x  y)  2m2b(2  x  2 y)
+u =  y m
+h  2m2b(x + 2 y)
+. (5.39)
+The soft limit is approached for x 1, and it is straight forward to check that,
+in this limit, Eq. (5.38) is not only finite, but exactly zero.
+Although the collinear limit, strictly speaking, does not exist if the mass of the
+parton remains non zero, we can check that the quasi-collinear is finite. To phrase
+this slightly differently we need to check that when pa  pk (or y) approaches zero as
+mb, Eq. (5.38) remains finite. Again this is quite straightforward to see, and in this
+limit we get exactly zero.
+We now turn to the one loop contribution. At order s, we have that
+V = 2 Re(g) |MbbH |2 (5.40)
+5.3. Validation: bottom quark fusion with massive quarks 67
+B + V =
+ +
+2 =
+2 
+1 + 2 Re(g)
+Figure 5.1: Contributions to the born phase space of bb H.
+5.3. Validation: bottom quark fusion with massive quarks 68
+ 
+2
+2
+Figure 5.2: Contributions to the real emission phase space of bb  Hg Eq. (5.37)
+and bg  Hb.
+5.3. Validation: bottom quark fusion with massive quarks 69
+where
+Re(g) = 
+1 + sab
+log 0
++ 1 + log
+1 2
+log 0
+ sab
+ log 
+log 0  2 Li2 (1 0)
+log2 0 + 
+, (5.41)
+1  4m
+; 0 =
+1 + 
+. (5.42)
+Using Eq. (5.20) it is straightforward to see that indeed
+d1 S = O(0) , (5.43)
+which in turn, combined with Eq. (5.38), yields that Eq. (2.14) is completely free of
+singularities.
+5.3.1 Factorisation of collinear singularities
+We now turn to how the inclusion of mass effects affects the collinear limit, and,
+therefore, the definition of PDFs. Our goal here is not a precise and consistent
+discussion about the factorisation of collinear singularities in the presence of massive
+initial state quarks, as this is beyond the scope of this work. Nevertheless it is
+interesting to highlight the structure of mass correction, especially in the presence
+of parton densities that have been obtained in a matched scheme.
+In the standard case of massless initial state partons, Eq. (5.38) would be exactly
+zero. This is due to the fact the only term appearing in the real emission matrix
+element is also the leading log that gets factorised into the b-pdf and resummed
+through Altarelli-Parisi equations, Eq. (2.3). The reason is that, in the massless
+case, this process has only two scales mH and some dimensional regulator that
+introduces a scale F that separates the divergent and finite part. This means that
+we can symbolically write
+d2R(mb = 0)  A log
+. (5.44)
+In the case of massive initial state particle we have an additional physical scale,
+mb. This scale now regulates collinear divergences, we no longer need to introduce a
+5.3. Validation: bottom quark fusion with massive quarks 70
+collinear regulator related to the scale F . However we can in practice still introduce
+the scale F , such that
+d2R(mb 6= 0)  A
+(5.45)
+where we define A and B, such that
+= A , (5.46)
+= 0 , (5.47)
+and by O
+, we mean terms that are only given by powers of the two ratios.
+In this way we separate terms that appears also in the massless case, and get modified
+by power suppressed terms in the massive case, and new terms that arise only when
+the massive case is considered.
+As in the massless case the function A is proportional to the Altarelli-Parisi
+splitting function Pqq, by extension we can define the massive A function to be
+proportional to the massive Pqq, which in turn is proportional to Vqg,q of Eq. (5.7).
+This means that this term corresponds to the term that would be absorbed into the
+parton densities in the massive case at leading twist. However, PDFs are generally
+given in schemes that account for some mass effects at fixed-order by means of some
+matching method, like FONLL [29], ACOT [82], or TR [83,84]. Mass effects included
+in these schemes coincide up to higher order effects and it is easy to see that the
+order considered in this work they have the same functional form of the function A.
+The B function appearing in Eq. (5.45) is just made up of terms that are pro-
+portional to m2b . These terms are clearly non divergent, and in principle it is not
+necessary to absorb them into an initial state radiation term. However, some of
+these terms might be universal and could definitely be accounted for by higher twist
+contributions to the QCD factorisation formulae as well as with the introduction
+of an intrinsic (or static) bottom-quark component in the proton. Although these
+terms might in principle spoil factorisation, we can make sure that they are indeed
+suppressed, as we expect from Eq. (2.1).
+5.4. Simulations for bb H with massive quarks, fixed-order 71
+Subtracting the A part of Eq. (5.45), corresponds to Eq. (5.38)
+R(mb 6= 0) S
+, (5.48)
+which we know from the previous section being exactly zero in the soft and collinear
+limit. Further, when it is not zero, it is proportional to m2b/sab  1  103 which
+makes it very suppressed 3. We conclude that we can safely make use of standard
+PDF sets that have been matched to include mass effects to obtain reliable predic-
+tions at the NLO in the five flavour massive scheme.
+5.4 Simulations for bb  H with massive quarks,
+fixed-order
+We now show results obtained for bb  H in the five-flavour massive scheme at
+next-to-leading fixed-order accuracy. Predictions with massive initial state quarks
+are obtained by implementing the massive subtraction as presented in Section 5.1
+within the SHERPA event generator [85].
+Leading order matrix elements, including those of real radiation processes, are
+calculated using the AMEGIC++ [60] matrix element generator. The differential sub-
+traction follows closely that presented in [70] with the ingredients reported in Sec-
+tion 5.1. Integrated subtraction terms are implemented in SHERPA using Eq. (5.26),
+and this implementation will be made public in a future SHERPA release. Virtual
+corrections are obtained from the OPENLOOPS generator [67].
+While no cuts at the generation level are applied, in the following results we
+define b-jet any jet with pT  25 GeV that has at least one b-flavoured parton in
+it. We further require any particle in the final state to have ||  2.5. We generate
+only fixed-order events at this stage, i.e. no parton shower effects are accounted.
+In order to study the impact of the inclusion of mass effects, we compare the
+five flavour massive scheme (5FMS) with the vanilla five flavour scheme, where b are
+massless,
+3Numerically we see that at the level of total cross section, Eq. (5.38) corresponds to roughly
+0.001% of the Born cross section, which is comparable with the error from Monte Carlo integration.
+5.4. Simulations for bb H with massive quarks, fixed-order 72
+0.00000
+0.00025
+0.00050
+0.00075
+0.00100
+0.00125
+0.00150
+0.00175
+] 5FMS, NNPDF30_NNLO
+5FMS, Massive Pqq
+5FMS, NNPDF30_NNLO Zero-Mass
+5FS, mb = 0
+100 200 300 400 500
+pT(H) [GeV]
+0.000
+0.002
+0.004
+0.006
+0.008
+0.010
+0.012
+0.014
+0.016
+5FMS, NNPDF30_NNLO
+5FMS, Massive Pqq
+5FMS, NNPDF30_NNLO Zero-Mass
+5FS, mb = 0
+2 1 0 1 2
+Figure 5.3: The pT and  spectrum of the Higgs boson at NLO. We compare the
+vanilla 5FS, and the 5FMS matched with three different PDF sets. More details in
+the text.
+5.4. Simulations for bb H with massive quarks, fixed-order 73
+0.00000
+0.00025
+0.00050
+0.00075
+0.00100
+0.00125
+0.00150
+0.00175
+] 5FMS, NNPDF30_NNLO
+5FMS, Massive Pqq
+5FMS, NNPDF30_NNLO Zero-Mass
+5FS, mb = 0
+20 40 60 80 100 120 140 160 180 200
+pT(b) [GeV]
+0.008
+0.010
+0.012
+0.014
+0.016
+5FMS, NNPDF30_NNLO
+5FMS, Massive Pqq
+5FMS, NNPDF30_NNLO Zero-Mass
+5FS, mb = 0
+2 1 0 1 2
+Figure 5.4: The pT and  spectrum of the b-jet. We compare the vanilla 5FS, and
+the 5FMS matched with three different PDF sets. More details in the text.
+5.4. Simulations for bb H with massive quarks, fixed-order 74
+We further consider matching the 5FMS partonic cross section to three different
+PDF sets. The first choice is, as we discuss in the previous section, to use a standard
+GM-VFNS evolved PDF set. As these sets include mass effects at a fixed order
+accuracy, higher than the one considered in this example, we claim that they provide
+a consistent result, up to a negligible effect. In particular, we choose the default
+PDF set in SHERPA, namely the NNPDF30 set evolved at NNLO with s(mZ) =
+0.118 [41]. Mass corrections in this PDF set are obtained through FONLL-C [29]
+matching and are included up to O(2s). To show the importance of such mass
+effects in PDFs, we compare against the same PDF set re-evolved at NNLO, but in
+a ZM-VFNS. This means that no mass effects are accounted other than threshold
+effects, and massless splitting kernels are used to determine the evolution operator.
+The last set we compare against, is a PDF set where the evolution of the b PDF
+is obtained solving Eq. (2.3) at leading order, and replacing the standard Altarelli-
+Parisi splitting function, Pqq, with the splitting kernel of Eq. (5.7),
+Massive Pqq
+b (x,Q
+1 + z
+1 z 
+2 z m2b
+Q2 (1 z)
++ P (0)qg (z) fg
++ O(2s) . (5.49)
+These PDF sets are obtained using the APFEL [86] evolution library.
+We report results in Figs. 5.3, 5.4 for the pT and  spectra of the Higgs boson
+and the b-jet respectively.
+By definition, and by the conclusions laid out in the previous chapters, we expect
+mass effects to play a marginal, order  1  5%, effects at the level of total cross
+sections. Further, as they are power suppressed, we expect them to be less important
+at large pT , while having the largest impact in the lower bins of the distribution.
+This is due to the fact that the difference in the mass treatment between the two
+scheme is only in the hard matrix elements. Consequently, as pictured in Fig. 5.3,
+for example, we see that the 5FMS obtained with the standard PDF set, blue solid
+line, somehow starts a few percent off of the massless 5FS, black dashed line, while
+they consistently overlap for pT (H, b) & 50 GeV.
+We now turn to the comparison with the PDF set evolved in the zero mass
+variable flavour number scheme (ZM-VFNS). The difference between the 5FMS in
+5.4. Simulations for bb H with massive quarks, fixed-order 75
+this set up, green solid line, and the massless 5FS, is that in the former mass effects
+are included in the hard matrix elements, while some are included in the PDF in
+the latter. Therefore, on top of the power suppressed terms there are other terms
+coming from the matching. These terms include constant terms, i.e. independent of
+mb, as it can be seen in Figs. 5.3, 5.4, where the difference between the ZM-VFNS
+and the standard 5FMS result in a constant shift of a few percent.
+Our final reference is a five flavour massive scheme obtained with a PDF set
+evolved with a massive splitting function at the leading order, red solid line. We
+firstly notice that a direct comparison with a standard parton density set is somehow
+bugged by the fact the mass effects are included at different orders in the two
+PDF sets. In addition the evolution operator is used at two different orders. As
+a consequence the size of mass effects is not necessarily truthful. However it is
+interesting to see that this scheme behaves with respect to the ZM-VFNS 5FMS, in
+roughly the same way as the 5FMS with standard PDFs behaves with respect to the
+vanilla 5FS. The only difference is that we see an overall constant factor of about
+10-15%, which is due to the different evolution and mass effects accuracy.
+We now briefly discuss the pseudo rapidity spectrum. In this case all schemes
+differ by one another by a somehow constant amount. This follows from the fact
+that pseudo rapidity is a dimensionless variable, and as such does not introduce any
+scale to make mass effects less or more important in any region. We thus naturally
+expect mass effects to be roughly of the same order as that seen in the case of the
+total cross section. This fact can be seen explicitly in Figs. 5.3, 5.4.
+We conclude that fixed order mass effects for this process are generally quite
+small, both at the inclusive and differential level. We find that when they are
+important they generally do not exceed a few percent. On the other hand, this
+might not hold true for all processes involving heavy quarks. As such, the five
+flavour massive scheme provides a useful and consistent scheme to produce fully
+differential results including mass effects.
+5.5. Massive initial state shower 76
+5.5 Massive initial state shower
+In this last section we provide the necessary ingredients to promote the five flavour
+massive scheme we presented in previous sections to MC@NLO accuracy.
+The MC@NLO matching combines the fixed order accuracy given by matrix ele-
+ments, in this case the next to leading order, with the resummation performed by
+the parton shower. The main formula for a MC@NLO matched observable is given
+dMC@NLO = dN B(N)
+N(t0, 
+t[t0,2Q]
+d1 KN(1) N(t(1), 
++ dN+1H(N+1) . (5.50)
+The only modifications needed in the case of the 5FMS, compared to what is
+described in section 2.4, are in which splitting kernels are taken in the Sudakov form
+factor, the extra emission phase space, and the relevant phase space mappings. All of
+these ingredients can be read off from section ??, with the additional semplification
+that in this case we only need the d  4 limit of the expressions presented there.
+We start by taking the phase-space formula for one extra emission, [
+d3pk(s, x, ya)
+s2ab
+)  y1(x)
+y2(x)
+dy , (5.51)
+where
+y1,2(x) = (1 x)
+sab + 2m
+a  ab
+. (5.52)
+This would in principle be enough, however the actual variable the shower al-
+gorithm generates is the k of the emission. We thus need to perform a change of
+variable,
+k2 =
+2 y (1 x y) pa  pb  (1 x y)2m2a  y2m2b
+1  m
+(papb)2
+(5.53)
+which yields the jacobian
+1 x 2 y + (1 x y) m
+papb
+ y m
+papb
+1 x y  (1xy)2
+papb
+papb
+. (5.54)
+The Sudakov form factor is then given by
+II(k
+,max,k
+,0) = exp
+b6=ak
+Nspec
+ k,max
+k2,0
+dxJ (x, y; k2)Vak,b(pa, pb, pk)
+(5.55)
+5.5. Massive initial state shower 77
+where
+J (x, y; k2) =
+1 x y  (1xy)
+papb
+papb
+1 x 2 y + (1 x y) m2a
+papb
+ y m
+papb
+fa(/x)
+fa()
+, (5.56)
+Vak,b(pa, pb, pk) =
+1 xab
+ (1 + xab)
+pa  pk
+. (5.57)
+The last things needed to perform the extension are the phase-space mappings
+and their inverted form. This is because we need to keep track of both the trans-
+formed phase-space, as well as the original one. The forward transformations can
+be read off from Eq. C.25 and read
+pa =
+ (Q2,m2a,m
+pa 
+Q2 m2a m2b
+b ; Q
+ = pa+p
+b . (5.58)
+The inverted transformations are easilly obtained then,
+pa =
+(2 pa  pb)2  4m2am2b x2
+ ((pa + pb)2,m2a,m
+pa 
+pa  pb
+pa  pb
+ , (5.59)
+b = p
+b , (5.60)
+1 x y  y m2b
+1  m
+(papb)2
+pa +
+y  (1 x y) m
+papb
+1  m
+(papb)2
+b + k
+ . (5.61)
+With all the necessary formulae, we can now test this scheme on a simple exam-
+ple. We chose here to replicate the set-up of section 4.2 and check with data taken
+from ATLAS. Matrix elements are generated in SHERPA with the built-in generators
+AMEGIC++ [60] and COMIX [61]. While virtual matrix elements contributing to QCD
+NLO corrections are taken from OPENLOOPS [65].
+In this case we chose only to compare against the 1 b-jet selection, this is because
+we can test both the matrix element corrections presented in the previous section
+as well as the shower. For more particles the accuracy would only be that of the
+shower, i.e. leading-log.
+In Figs. 5.5,5.6 we show a multijet merged prediction based on pp  Z+ up
+tp 3 jets. where the zero jet component of this sample is evaluated with MC@NLO
+accuracy, while the rest of the samples are leading order. We thus have the same
+fixed-order accuracy on the 5F MEPS@LO of section 4.2. Indeed this set-up, as
+5.5. Massive initial state shower 78
+Datab
+zbb mcatnlo
+Z+  1 b-jet
+b-jet pT
+Datab
+zbb mcatnlo
+Z+  1 b-jet
+0 0.5 1 1.5 2
+b-jet |y|
+Figure 5.5: Inclusive transverse-momentum and rapidity distribution of all b-jets in
+events with at least one b-jet. Data taken from Ref. [57].
+5.5. Massive initial state shower 79
+Datab
+zbb mcatnlo
+Z+  1 b-jet, pT(Z) > 20 GeV
+0 0.5 1 1.5 2 2.5 3
+(Z, b)
+Datab
+zbb mcatnlo
+Z+  1 b-jet, pT(Z) > 20 GeV
+0 1 2 3 4 5 6
+R(Z, b)
+Figure 5.6: Angular and R separation between the reconstructed Z boson and
+b-jets in events with at least one b-jet. Data taken from Ref. [57].
+5.5. Massive initial state shower 80
+well as the ones presented in section 4.2 show good agreement with data points for
+all curves, which is reassuring of the implementation. A more detailed study of
+processes for which this scheme is of interest is currently on going.
+Chapter 6
+Conclusions and outlook
+In this work we present theoretically consistent methods to estimate, and include,
+quark mass effects in theoretical predictions in a systematic way. We show, in par-
+ticular, what is the interplay, using the FONLL matching technique together with
+comparison with LHC data, between the resummation of collinear logarithms and
+power suppressed mass corrections, for the production of a heavy boson in associa-
+tion with bottom quarks.
+As the dominant contribution stems from the resummation of collinear loga-
+rithms, that are consistently included in a completely massless picture, or five-flavour
+scheme, we provide a method to extend such scheme to accommodate for the inclu-
+sion of mass effects. This is done in the context of the SHERPA Monte Carlo event
+generator, at MC@NLO accuracy.
+In Chapter 2, we show how to consistently match a completely massless picture
+for handling bottom quarks, or five-flavour scheme, with a completely massive one,
+or four-flavour scheme. This matched prediction, then includes the resummation
+of collinear logarithms, to the accuracy of the five-flavour scheme, and mass effects
+at the fixed order accuracy of the four-flavour scheme. We perform this matching
+in the context of the production of a Higgs boson in association with heavy quarks
+at the LHC at the NNLL+NLO accuracy. We find that mass corrections account
+for a  5% effects on top of the five-flavour scheme. These contributions, however,
+are non negligible, as we find they are roughly of the same size of scale variations,
+and therefore are a non negligible source of uncertainty. An implementation for the
+Chapter 6. Conclusions and outlook 82
+production of a Higgs boson in bottom quark fusion in the FONLL scheme, has been
+made publicly available and can be found in [87] .
+In Chapter 3, we compare Monte Carlo predictions for the five-flavour and the
+four-flavour scheme with LHC data, gathered at the centre of mass energy of 7 TeV,
+for the production of a Z boson in association with at least one or at least to
+bottom quark jets. We find that the MEPS@LO five-flavour scheme prediction and
+the MC@NLO four-flavour one, disagree with data by a largely flat factor of about
+10-20%. In particular the former agrees better for the one b jet inclusive sample with
+the latter undershooting, while their role is essentially reversed for the two b jets
+inclusive sample. On top of these two predictions a MEPS@NLO five-flavour scheme
+calculation is also provided. This sample agrees well with data for all observables
+provided. We find, in addition, that the three sample agree among themselves up to
+a, roughly constant, normalisation factor. We then test this argument in the case of
+Higgs boson production, where we confirm our finding in the case of the Z boson.
+In Chapter 4, we start from a standard five-flavour scheme to construct five-
+flavour massive scheme that can be used in Monte Carlo predictions, at the next-
+to-leading order accuracy. Firstly we extend the currently used subtraction method
+in SHERPA, the Catani-Seymour dipole method, to include massive quarks in the
+initial state. We focus in particular on the initial-initial configuration as it is the
+most relevant for the examples considered in this work. We describe how to obtain
+the initial-final configuration from results present in the literature. In this chap-
+ter we show how to construct efficient subtraction terms in the presence of massive
+initial state quarks, in hadron-hadron collisions. These contribution have been im-
+plemented in SHERPA and will be made public in a future release. We then show
+how the inclusion of mass effects impact the fixed-order prediction for the produc-
+tion of a Higgs boson in bottom quark fusion, in this scheme. In addition we show
+how including, or not, mass effects in the parton densities evolution can affect the
+consistency of this massive scheme. We find, as expected, that mass effects play a
+few percent role in the low pT region of the Higgs boson spectrum while reconciling
+with the standard five-flavour scheme for high pT .
+It is important to underline how the studies performed in the context of this work
+Chapter 6. Conclusions and outlook 83
+help having reliable predictions for processes involving heavy quarks at the LHC,
+and, as such, heavily reducing their theoretical uncertainties. When feeding theory
+predictions in experimental analysis, in fact, the difference between the four- and the
+five-flavour scheme is usually taken as input of additional theory uncertainties. In
+addition, as these two schemes largely disagree for most processes, this extra source
+of uncertainty is generally quite large and definitely non negligible. This work, on
+the other hand, aims at showing consistent methods of including both aspects of
+these schemes consistently, at all energies. This eliminates the need of having the
+additional theory uncertainty coming from the difference between the two schemes.
+There are a couple of interesting points that are worth expanding in a continua-
+tion of this work. Firstly, once the validation of the MC@NLO method is completed
+we plan to produce a comparison between a five-flavour massive scheme next-to-
+leading order, merged sample with the FONLL matched cross section in the cases
+where this is possible. Secondly, it is interesting to investigate to what extent higher
+twist corrections are suppressed as expected. In particular we are in the process of
+testing our newly developed scheme for more complicated processes where we can
+test our hypothesis. Lastly we are in the process of extending the FONLL method
+for other phenomenologically relevant processes, like the production of a Z boson
+in bottom quark fusion, single top production and the next-to-next-to-leading log
+resummed pT spectrum in Drell-Yan.
+Appendix A
+Mathematical Tools
+A.1 Colour Algebra of SU (3)
+Here we report some useful relations for the colour algebra of SU (3).
+For the case with two partons, using colour conservation, we have:
+T1 T2 |1, 2 >= T1 T1 |1, 2 >= T21 |1, 2 >= T22 |1, 2 > , (A.1)
+so that all the charge operators {T21,T22, T1 T2} are factorizable in terms of the
+(scalar) Casimir operator C1 = C2.
+Using colour conservation for the three-parton case we have:
+|1, 2, 3 >
+T21 + T
+2 + T
+3 + 2T1 T2 + 2T1 T3 + 2T2 T3
+|1, 2, 3 > , (A.2)
+(T1 T2 + T1 T3) |1, 2, 3 >= T21 |1, 2, 3 > . (A.3)
+Combining these two equations we get:
+2T2 T3 |1, 2, 3 >=
+T21 T22 T23
+|1, 2, 3 > (A.4)
+and similarly for T1  T3 and T1  T2. Therefore, all the charge operators are
+factorizable in terms of linear combinations of the Casimir invariants C1, C2, C3
+of the three partons.
+A.1. Colour Algebra of SU (3) 85
+When the total number n of partons is n  4 the colour algebra does not factorize
+any longer. For instance, if n = 4 we have four trivial relations, namely
+T2i |1, 2, 3, 4 >= Ci|1, 2, 3, 4 > , i = 1, ..., 4 . (A.5)
+As for the remaining six charge operators Ti  Tj(i 6= j), we can use the following
+four identities (due to charge conservation)
+Tj|1, 2, 3, 4 >= 0 , i = 1, ..., 4 , (A.6)
+in order to single out two independent charge operators. For instance we can write:
+T3 T4|1, 2, 3, 4 > =
+(C1 + C2  C3  C4) + T1 T2
+|1, 2, 3, 4 > ,
+T2 T4|1, 2, 3, 4 > =
+(C1 + C3  C2  C4) + T1 T3
+|1, 2, 3, 4 > ,
+T2 T3|1, 2, 3, 4 > =
+(C4  C1  C2  C3)T1 T2 T1 T3
+|1, 2, 3, 4 > ,
+T1 T4|1, 2, 3, 4 > =  (C1 + T1 T2 + T1 T3) |1, 2, 3, 4 > , (A.7)
+and express all the charge operators in terms of Casimir invariants andT1T2,T1T3.
+A.2. ddimensional spherical coordinates 86
+A.2 ddimensional spherical coordinates
+Leaving out the 0th component, we have d  1 euclidean dimensions that we can
+parametrise by means of one length, , and d 2 angles. Let us further split them
+in d 3 angles, i  [0, ] and   [0, 2].
+
+p1 =  cos 1
+p2 =  sin 1 cos 2
+p3 =  sin 1 sin 2 cos 3
+p4 =  sin 1 sin 2 sin 3 cos 4
+. . .
+. . .
+pd2 =  sin 1 sin 2 sin 3 . . . cos
+pd1 =  sin 1 sin 2 sin 3 . . . sin
+
+(A.8)
+The d 1 dimensional phasespace can thus be written as
+dd1p = d d2d1 sin
+d3 1d2 sin
+d4 2 . . . dd3 sin d3d . (A.9)
+A.3 Altarelli-Parisi splitting functions
+Here we report the unpolarised A-P splitting functions for reference.
+Pqq(x) = CF
+1 + x2
+(1  x)+
+(1  x)
+, (A.10)
+Pqg(x) = TR
+x2 + (1  x)2
+, (A.11)
+Pgq(x) = CF
+1 + (1  x)2
+, (A.12)
+Pgg(x) = CA
+(1  x)+
+1  x
++ x (1  x)
++ 0(1  x), (A.13)
+Appendix B
+Matching coefficients for massive
+quarks
+We give for completeness the expressions of the coefficients Eq. (3.20). These were
+computed in Ref. [88]. There are a few differences compared to what is presented
+there. Firstly we separate contributions from b and b. Secondly our expansion is
+done in powers of s rather than in powers of s4 . Lastly we have re-expressed the
+gluon and singlet PDFs in the 4FS in terms of those computed in the 5FS.
+A(2)b (z, L) =
+8(1 + z) ln z  16
+ 4 + 4z + 16
+8(1 + z) ln2 z 
+8 + 40z +
+ln z  160
++ 16 48z + 448
++ (1 + z)
+32S1,2(1 z) + 16 ln zLi2(1 z) 16(2) ln z 
+ln3 z
++ 8 8z  32
+Li2(1 z) +
+ 8 + 8z + 32
+2+10z+
+ln2 z
+ln z 448
+ 124
+(B.1)
+A(1)gb (z, L) =
+(z2 + (1 z)2)L
+, (B.2)
+Chapter B. Matching coefficients for massive quarks 88
+A(2)bg (z, L) =
+CFTf [(816z+16z2) ln(1z)(48z+16z2) ln z(28z)]
++ CATf
+(8 16z + 16z2) ln(1 z) (8 + 32z) ln z  16
+ 4 32z + 124
++ T 2f
+(z2 + (1 z)2)
+(z2 + (1 z)2)
+(8 16z + 16z2)[2 ln z ln(1 z) ln2(1 z) + 2(2)]
+(48z+16z2) ln2 z32z(1z) ln(1z)(1216z+32z2) ln z56+116z80z2
++ CATf
+(16 + 32z + 32z2)[Li2(z) + ln z ln(1 + z)] + (8 16z + 16z2) ln2(1 z)
++ (8 + 16z) ln2 z + 32z(2) + 32z(1 z) ln(1 z)
+8 + 64z +
+ 160
++ 16 200z + 1744
++ CFTf
+(1 2z + 2z2)[8(3) + 4
+ln3(1 z) 8 ln(1 z)Li2(1 z) + 8(2) ln z
+ 4 ln z ln2(1 z) + 2
+ln3 z  8 ln zLi2(1 z) + 8Li3(1 z) 24S1,2(1 z)]
+16(2) ln z + 4
+ln3 z + 16 ln zLi2(1 z) + 32S1,2(1 z)
+ (4 + 96z  64z2)Li2(1 z) (4 48z + 40z2)(2)
+ (8 + 48z  24z2) ln z ln(1 z) + (4 + 8z  12z2) ln2(1 z)
+(1+12z20z2) ln2 z(52z48z2) ln(1z)(16+18z+48z2) ln z+2682z+80z2
++CATf
+(12z+2z2)[4
+ln3(1z)+8 ln(1z)Li2(1z)8Li3(1z)]+(1+2z+2z2)
+ [8(2) ln(1 + z) 16 ln(1 + z)Li2(z) 8 ln z ln2(1 + z)
++ 4 ln2 z ln(1 + z) + 8 ln zLi2(z) 8Li3(z) 16S1,2(z)]
++ (16 + 64z)[2S1,2(1 z) + ln zLi2(1 z)]
+ln3 z
++ (8 32z + 16z2)(3) (16 + 64z)(2) ln z + (16 + 16z2)
+Chapter B. Matching coefficients for massive quarks 89
+ [Li2(z) + ln z ln(1 + z)] +
++ 12 + 64z  272
+Li2(1 z)
+12 + 48z  260
+(2) 4z2 ln z ln(1 z)
+ (2 + 8z  10z2) ln2(1 z) +
+2 + 8z +
+ln2 z
++ (4 + 16z  16z2) ln(1 z)
+ 448
+ 628
+. (B.3)
+Appendix C
+Initial state massive subtraction
+C.1 Initial massive quarks kinematics
+Initial quarks momenta are parametrised, in the partonic centre of mass frame as
+m2a m2b
+, (C.1)
+s, 0, 0,
+(s,m2a,m
+, (C.2)
+(1 x)
+s, 0, 0,
+(s,m2a,m
+. (C.3)
+In the hadronic centre of mass we get instead
+pa,b = 1,2 P1,2 +
+m2a,b
+1,2 S
+P2,1 ; 1,2  (0, 1] , (C.4)
+where P1,2 are the hadronic momenta and are given by
+P1,2 =
+(1, 0, 0, 1) . (C.5)
+C.2 Initial-Initial massive subtraction integral
+In this appendix we present the explicit ingredients used to derive the massive
+subtraction integrated terms.
+The integrated subtraction term, I, is given by the d-dimensional phase space
+integral of the unpolarised splitting function Eq.(5.7). The phase space can be
+C.2. Initial-Initial massive subtraction integral 91
+obtained from
+dN+1(pk, Q; pa + pb) =
+dN(Q(x); pa(x) + pb)
+dd1pk(s, x, ya)
+(C.6)
+expanding both sides,
+((1 x) sab)d3
+(2 )d2 2d1 s
+d d3  (x ) =
+(x xab) [d k(s, x, yab)]) , (C.7)
+d d3 = 
+41
+(1 )
+ab (1 x)
+(sin )
+ [(y1  yab) (yab  y2)] d yab ,
+(C.8)
+y1,2(x) =
+(1 x)
+sab + 2m
+. (C.9)
+Finally we get
+dd1pk(s, x, ya)
+16 2
+(4)
+(1 )
+)12
+(1 x)12 sab s v1
+dv[(v1  v) (v  v2)] , (C.10)
+where, to further simplify the expression, we perform the change of variable yab 
+vab (1 x),
+C.2.1 The integral in v
+We start by re-writing the dipole function in terms of the splitting variables x, v, s,
+Vqagk,b(x, v; s) =
+sab (1 x) v x
+1 x  1 x  (1 x)
+2xm2a
+sab v (1 x)
+(C.11)
+In order to simplify the following expressions we take for any function f :
+f(x, ) =
+if (i)(x); (C.12)
+further, we write
+Vqagk,b(x, v; s) =
+x sab
+h1(x, )
+h2(x; s)
+(C.13)
+C.2. Initial-Initial massive subtraction integral 92
+h1(x, ) =
+1 + x2
+(1 x)2  , h2(x; s) = 
+2xm2a
+sab (1 x)2
+(C.14)
+further, calling h = h1 + h2 we have:
+h(0)(x; s) =
+1 + x2  2xm
+(1 x)2
+; and h(1) = 1. (C.15)
+The result of the first integral can be written as follows
+V(x) = x sab
+d vab [(v1  vab) (vab  v2)] Vqagk,b(x, v; s) =
+(1 x)2
+(a+  b) (1 + x2) 2xm
+(c+  d)
+. (C.16)
+When plugging in the full phase space we get a term like
+(1 x)12 V(x) = (1 x)12
+(a+  b) (1 + x2) 2xm
+(c+  d)
+, (C.17)
+which diverges in the limit x 1 when  0. To solve this problem we introduce
+a plus distribution
+Va,b(x; ) = (1 x)Va,b(;) +
+Ka,b(x)
+. (C.18)
+with[ 1
+dxKa,b(x)
+2 cm2a
+3 a+ 2 b
+(2 c+ d)
++O() . (C.19)
+The term Va,b(;) is then given by
+Va,b(;) =
+dxKa,b(x)(1 ) ()
+dxKa,b(x) (C.20)
+which yield
+Va,b(;) =
+1 + sab
+log 0
++ log
+2 ab
+log 0 + 2 Li2(0) +
+log2 0 
+log 0
++  + 2 log (1 )
+ 2 ( + log (1 )) , (C.21)
+which corresponds to Eq. (5.18) for  = 0.
+C.2. Initial-Initial massive subtraction integral 93
+C.2.2 The integral in x
+In order to compute the integrated subtraction term for hadron-hadron collisions
+we need to convolve the K functions with partonic matrix elements. As we dis-
+cuss in the chapter, this is far from being efficient and it is customary perform a
+change of variable that allows to evaluate matrix elements only for one momentum
+configuration per event. We start from Eq. (5.26)
+I = sCF
+d1 d2 fa(1) fb(2)
+Va,b() dN(sab)
+dxKa,b(x)
+(x sab)
+x(sab)
+dN(x sab) dN(sab)
+. (C.22)
+The idea is, then, to find a variable transformation such that
+x sab(1, 2) = sab(
+1(x), 
+2), (C.23)
+2 = 2 . (C.24)
+We find that this is achieved by defining
+(x, 2; 
+S2 2
++ 1
+1 4m2a m2bS2 2 12x2(
+m2a m
+S2 2
+)2 + 1
+2 1x
+, (C.25)
+which yields the Jacobian
+J (1, 2, x) =
+2  m
+S2 2
+S2 2
+) 1 4m2a m2bS2 2 12x2(
+m2a m
+S2 2
+(x, 2; 
+1) . (C.26)
+With this definitions and Eq. (5.31) the integral in Eq. (5.32) is completely defined.
+Bibliography
+[1] Stefano Forte, Davide Napoletano, and Maria Ubiali. Higgs production in
+bottom-quark fusion in a matched scheme. Phys. Lett., B751:331337, 2015.
+[2] Stefano Forte, Davide Napoletano, and Maria Ubiali. Higgs production in
+bottom-quark fusion: matching beyond leading order. Phys. Lett., B763:190
+196, 2016.
+[3] D. de Florian et al. Handbook of LHC Higgs Cross Sections: 4. Deciphering
+the Nature of the Higgs Sector. 2016.
+[4] Frank Krauss, Davide Napoletano, and Steffen Schumann. Simulating b-
+associated production of Z and Higgs bosons with the SHERPA event gen-
+erator. Phys. Rev., D95(3):036012, 2017.
+[5] J. R. Andersen et al. Les Houches 2015: Physics at TeV Colliders Standard
+Model Working Group Report. In 9th Les Houches Workshop on Physics at
+TeV Colliders (PhysTeV 2015) Les Houches, France, June 1-19, 2015, 2016.
+[6] Georges Aad et al. Observation of a new particle in the search for the Standard
+Model Higgs boson with the ATLAS detector at the LHC. Phys.Lett., B716:1
+29, 2012.
+[7] Serguei Chatrchyan et al. Observation of a new boson at a mass of 125 GeV
+with the CMS experiment at the LHC. Phys.Lett., B716:3061, 2012.
+[8] John C. Collins, Davison E. Soper, and George F. Sterman. Factorization for
+shortdistance hadronhadron scattering. Nucl.Phys., B261:104, 1985.
+Bibliography 95
+[9] John C. Collins, Davison E. Soper, and George Sterman. Factorization of hard
+processes in QCD. Adv. Ser. Direct. High Energy Phys., 5:191, 1988.
+[10] Guido Altarelli and G. Parisi. Asymptotic freedom in parton language. Nucl.
+Phys., B126:298318, 1977.
+[11] V. N. Gribov and L. N. Lipatov. Deepinelastic e-p scattering in perturbation
+theory. Sov. J. Nucl. Phys., 15:438450, 1972.
+[12] Y. L. Dokshitzer. Calculation of the structure functions for deepinelastic scat-
+tering and e+e annihilation by perturbation theory in quantum chromody-
+namics. Sov. Phys. JETP, 46:641653, 1977.
+[13] T. Kinoshita. Mass singularities of Feynman amplitudes. J.Math.Phys., 3:650
+677, 1962.
+[14] T.D. Lee and M. Nauenberg. Degenerate systems and mass singularities.
+Phys.Rev., 133:B1549B1562, 1964.
+[15] S. Catani and M. H. Seymour. A general algorithm for calculating jet cross
+sections in NLO QCD. Nucl. Phys., B485:291419, 1997.
+[16] Stefano Catani, Stefan Dittmaier, Michael H. Seymour, and Zoltan Trocsanyi.
+The dipole formalism for nexttoleading order QCD calculations with massive
+partons. Nucl. Phys., B627:189265, 2002.
+[17] S. Frixione, Z. Kunszt, and A. Signer. Three-jet cross-sections to nextto
+leading order. Nucl. Phys., B467:399442, 1996.
+[18] Stefan Dittmaier. A general approach to photon radiation off fermions. Nucl.
+Phys., B565:69122, 2000.
+[19] W. T. Giele and E. W. Nigel Glover. Higher-order corrections to jet cross
+sections in e+e annihilation. Phys. Rev., D46:19802010, 1992.
+[20] W.T. Giele, E.W. Nigel Glover, and David A. Kosower. Higher order corrections
+to jet cross-sections in hadron colliders. Nucl.Phys., B403:633670, 1993.
+Bibliography 96
+[21] S. Catani, B. R. Webber, and G. Marchesini. QCD coherent branching and
+semiinclusive processes at large x. Nucl. Phys., B349:635654, 1991.
+[22] R. Keith Ellis, Howard Georgi, Marie Machacek, H. David Politzer, and Gra-
+ham G. Ross. Factorization and the Parton Model in QCD. Phys.Lett., B78:281,
+1978.
+[23] D. Amati, R. Petronzio, and G. Veneziano. Relating hard QCD processes
+through universality of mass singularities. 2. Nucl. Phys., B146:2949, 1978.
+[24] Stefano Catani, Frank Krauss, Ralf Kuhn, and Brian R. Webber. QCD matrix
+elements + parton showers. JHEP, 11:063, 2001.
+[25] Stefan Hche, Frank Krauss, Steffen Schumann, and Frank Siegert. QCDmatrix
+elements and truncated showers. JHEP, 05:053, 2009.
+[26] Stefan Hche, Frank Krauss, Marek Schnherr, and Frank Siegert. NLO matrix
+elements and truncated showers. JHEP, 1108:123, 2011.
+[27] Thomas Gehrmann, Stefan Hche, Frank Krauss, Marek Schnherr, and Frank
+Siegert. NLO QCD matrix elements + parton showers in e+e  hadrons.
+2012.
+[28] Matteo Cacciari, Mario Greco, and Paolo Nason. The P(T) spectrum in heavy
+flavor hadroproduction. JHEP, 9805:007, 1998.
+[29] Stefano Forte, Eric Laenen, Paolo Nason, and Juan Rojo. Heavy quarks in
+deep-inelastic scattering. Nucl.Phys., B834:116162, 2010.
+[30] Robert V. Harlander andWilliam B. Kilgore. Higgs boson production in bottom
+quark fusion at next-to-next-to leading order. Phys. Rev., D68:013001, 2003.
+[31] Stefan Dittmaier, Michael Kramer, 1, and Michael Spira. Higgs radiation off
+bottom quarks at the Tevatron and the CERN LHC. Phys. Rev., D70:074010,
+2004.
+Bibliography 97
+[32] S. Dawson, C. B. Jackson, L. Reina, and D. Wackeroth. Exclusive Higgs boson
+production with bottom quarks at hadron colliders. Phys. Rev., D69:074027,
+2004.
+[33] Fabio Maltoni, Giovanni Ridolfi, and Maria Ubiali. b-initiated processes at the
+LHC: a reappraisal. JHEP, 07:022, 2012. [Erratum: JHEP04,095(2013)].
+[34] Matthew Lim, Fabio Maltoni, Giovanni Ridolfi, and Maria Ubiali. Anatomy of
+double heavy-quark initiated processes. JHEP, 09:132, 2016.
+[35] Robert Harlander, Michael Krmer, and Markus Schumacher. Bottom-quark
+associated Higgs-boson production: reconciling the four- and five-flavour
+scheme approach. 2011.
+[36] S. J. Brodsky, P. Hoyer, C. Peterson, and N. Sakai. The Intrinsic Charm of the
+Proton. Phys. Lett., 93B:451455, 1980.
+[37] J. Alwall, R. Frederix, S. Frixione, V. Hirschi, F. Maltoni, O. Mattelaer, H.-S.
+Shao, T. Stelzer, P. Torrielli, and M. Zaro. The automated computation of tree-
+level and next-to-leading order differential cross sections, and their matching
+to parton shower simulations. JHEP, 1407:079, 2014.
+[38] M. Wiesemann, R. Frederix, S. Frixione, V. Hirschi, F. Maltoni, and P. Torrielli.
+Higgs production in association with bottom quarks. JHEP, 02:132, 2015.
+[39] Marco Bonvini, Andrew S. Papanastasiou, and Frank J. Tackmann. Matched
+predictions for the bbH cross section at the 13 TeV LHC. JHEP, 10:053, 2016.
+[40] Jon Butterworth et al. PDF4LHC recommendations for LHC Run II. J. Phys.,
+G43:023001, 2016.
+[41] Richard D. Ball et al. Parton distributions for the LHC Run II. 2014.
+[42] L.A. Harland-Lang, A.D. Martin, P. Motylinski, and R.S. Thorne. Parton
+distributions in the LHC era: MMHT 2014 PDFs. 2014.
+[43] Sayipjamal Dulat, Tie Jiun Hou, Jun Gao, Marco Guzzi, Joey Huston, et al.
+The CT14 Global Analysis of Quantum Chromodynamics. 2015.
+Bibliography 98
+[44] Stefano Carrazza, Stefano Forte, Zahari Kassabov, Jose Ignacio Latorre, and
+Juan Rojo. An Unbiased Hessian Representation for Monte Carlo PDFs. 2015.
+[45] Jun Gao and Pavel Nadolsky. A meta-analysis of parton distribution functions.
+JHEP, 07:035, 2014.
+[46] G. Watt and R. S. Thorne. Study of Monte Carlo approach to experimental
+uncertainty propagation with MSTW 2008 PDFs. JHEP, 08:052, 2012.
+[47] F. Febres Cordero, L. Reina, and D. Wackeroth. NLO QCD corrections to W
+boson production with a massive b-quark jet pair at the Tevatron pp collider.
+Phys.Rev., D74:034007, 2006.
+[48] Fernando Febres Cordero, L. Reina, and D. Wackeroth. W - and Z-boson pro-
+duction with a massive bottom-quark pair at the Large Hadron Collider. Phys.
+Rev., D80:034015, 2009.
+[49] Rikkert Frederix, Stefano Frixione, Valentin Hirschi, Fabio Maltoni, Roberto
+Pittau, and Paolo Torrielli. W and Z/ boson production in association with
+a bottom-antibottom pair. JHEP, 09:061, 2011.
+[50] Marco Bonvini, Andrew S. Papanastasiou, and Frank J. Tackmann. Resumma-
+tion and matching of b-quark mass effects in bbH production. JHEP, 11:196,
+2015.
+[51] Tongyan Lin, Edward W. Kolb, and Lian-Tao Wang. Probing dark matter
+couplings to top and bottom quarks at the LHC. Phys. Rev., D88(6):063510,
+2013.
+[52] Georges Aad et al. Search for dark matter in events with heavy quarks and
+missing transverse momentum in pp collisions with the ATLAS detector. Eur.
+Phys. J., C75(2):92, 2015.
+[53] Ning Chen, Zhaofeng Kang, and Jinmian Li. Missing particle associated with
+two bottom quarks at the LHC: Mono-b versus 2b with razor variables. 2016.
+Bibliography 99
+[54] Georges Aad et al. Measurement of the production cross section of jets in
+association with a Z boson in pp collisions at
+s = 7 TeV with the ATLAS
+detector. JHEP, 1307:032, 2013.
+[55] V. Khachatryan et al. Measurements of jet multiplicity and differential pro-
+duction cross sections of Z+ jets events in proton-proton collisions at
+s = 7
+TeV. Phys. Rev., D91(5):052008, 2015.
+[56] Vardan Khachatryan et al. Measurements of the differential production cross
+sections for a Z boson in association with jets in pp collisions at sqrt(s) = 8
+TeV. 2016.
+[57] Georges Aad et al. Measurement of differential production cross-sections for a
+Z boson in association with b-jets in 7 TeV proton-proton collisions with the
+ATLAS detector. JHEP, 1410:141, 2014.
+[58] Serguei Chatrchyan et al. Measurement of the cross section and angular corre-
+lations for associated production of a Z boson with b hadrons in pp collisions
+s = 7 TeV. JHEP, 1312:039, 2013.
+[59] Vardan Khachatryan et al. Measurements of the associated production of a Z
+boson and b jets in pp collisions at sqrt(s) = 8 TeV. 2016.
+[60] Frank Krauss, Ralf Kuhn, and Gerhard Soff. AMEGIC++ 1.0: A Matrix
+Element Generator In C++. JHEP, 02:044, 2002.
+[61] Tanju Gleisberg and Stefan Hche. Comix, a new matrix element generator.
+JHEP, 12:039, 2008.
+[62] C. F. Berger et al. Automated implementation of on-shell methods for one-loop
+amplitudes. Phys.Rev., D78:036003, 2008.
+[63] Gavin Cullen et al. GOSAM -2.0: a tool for automated one-loop calculations
+within the Standard Model and beyond. Eur. Phys. J., C74(8):3001, 2014.
+Bibliography 100
+[64] Simon Badger, Benedikt Biedermann, Peter Uwer, and Valery Yundin. Numer-
+ical evaluation of virtual corrections to multi-jet production in massless QCD.
+2012.
+[65] Fabio Cascioli, Philipp Maierhfer, and Stefano Pozzorini. Scattering Ampli-
+tudes with Open Loops. Phys.Rev.Lett., 108:111601, 2012.
+[66] T. Binoth et al. A proposal for a standard interface between Monte Carlo tools
+and one-loop programs. Comput. Phys. Commun., 181:16121622, 2010.
+[67] The OpenLoops one-loop generator by F. Cascioli, J. Lindert, P. Maierhfer
+and S. Pozzorini is publicly available at http://openloops.hepforge.org.
+[68] Ansgar Denner, Stefan Dittmaier, and Lars Hofer. Collier: a fortran-based
+Complex One-Loop LIbrary in Extended Regularizations. 2016.
+[69] Ansgar Denner, Stefan Dittmaier, and Lars Hofer. COLLIER - A fortran-library
+for one-loop integrals. PoS, LL2014:071, 2014.
+[70] Tanju Gleisberg and Frank Krauss. Automating dipole subtraction for QCD
+NLO calculations. Eur. Phys. J., C53:501523, 2008.
+[71] Steffen Schumann and Frank Krauss. A parton shower algorithm based on
+Catani-Seymour dipole factorisation. JHEP, 03:038, 2008.
+[72] Stefan Hche, Steffen Schumann, and Frank Siegert. Hard photon production
+and matrix-element parton-shower merging. Phys. Rev., D81:034026, 2010.
+[73] Zoltan Nagy and Davison E. Soper. A new parton shower algorithm: Shower
+evolution, matching at leading and nexttoleading order level.
+[74] Stefano Frixione and Bryan R. Webber. Matching NLO QCD computations
+and parton shower simulations. JHEP, 06:029, 2002.
+[75] Stefan Hche, Frank Krauss, Marek Schnherr, and Frank Siegert. A critical
+appraisal of NLO+PS matching methods. JHEP, 09:049, 2012.
+Bibliography 101
+[76] Stefan Hche, Frank Krauss, Marek Schnherr, and Frank Siegert. QCD matrix
+elements + parton showers: The NLO case. JHEP, 1304:027, 2013.
+[77] Stefan Hche, Frank Krauss, Marek Schnherr, and Frank Siegert. Next-to-
+leading order matrix elements and truncated showers. 2010.
+[78] Enrico Bothmann, Marek Schnherr, and Steffen Schumann. Reweighting QCD
+matrix-element and parton-shower calculations. Eur. Phys. J., C76:590, 2016.
+[79] Matteo Cacciari, Gavin P. Salam, and Gregory Soyez. The Anti-k(t) jet clus-
+tering algorithm. JHEP, 0804:063, 2008.
+[80] Andy Buckley, Jonathan Butterworth, Leif Lnnblad, David Grellscheid, Hen-
+drik Hoeth, James Monk, Holger Schulz, and Frank Siegert. Rivet user manual.
+Comput. Phys. Commun., 184:28032819, 2013.
+[81] Matteo Cacciari, Gavin P. Salam, and Gregory Soyez. FastJet user manual.
+Eur.Phys.J., C72:1896, 2012.
+[82] M. A. G. Aivazis, John C. Collins, Fredrick I. Olness, and Wu-Ki Tung. Lep-
+toproduction of heavy quarks. II. A unified QCD formulation of charged and
+neutral current processes from fixed-target to collider energies. Phys. Rev.,
+D50:31023118, 1994.
+[83] R.S. Thorne and R.G. Roberts. An Ordered analysis of heavy flavor production
+in deep inelastic scattering. Phys.Rev., D57:68716898, 1998.
+[84] R.S. Thorne and R.G. Roberts. A Practical procedure for evolving heavy flavor
+structure functions. Phys.Lett., B421:303311, 1998.
+[85] T. Gleisberg, S. Hche, F. Krauss, M. Schnherr, S. Schumann, F Siegert, and
+J. Winter. Event generation with SHERPA 1.1. JHEP, 02:007, 2009.
+[86] Valerio Bertone, Stefano Carrazza, and Juan Rojo. APFEL: A PDF Evolution
+Library with QED corrections. Comput. Phys. Commun., 185:16471668, 2014.
+[87] The bbHFONLL code by S. Forte, D. Napoletano and M. Ubiali is publicly
+available at http://bbhfonll.hepforge.org.
+Bibliography 102
+[88] M. Buza, Y. Matiounine, J. Smith, and W. L. van Neerven. Charm elec-
+troproduction viewed in the variable flavor number scheme versus fixed order
+perturbation theory. Eur. Phys. J., C1:301320, 1998.

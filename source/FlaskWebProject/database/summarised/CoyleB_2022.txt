@@ -1,0 +1,6 @@
+We focus our attention towards heuristic algorithms of a variational
+(meaning hybrid quantum-classical) nature, using parameterised quantum circuits
+as the underlying quantum machine learning model.
+Firstly, we study a variational quantum classifier in supervised machine learning,
+and focus on how (classical) data, feature vectors, may be encoded in such models
+in a way that is robust to the inherent noise on NISQ computers.

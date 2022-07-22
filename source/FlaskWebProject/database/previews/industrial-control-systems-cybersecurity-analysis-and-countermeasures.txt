@@ -1,0 +1,36 @@
+Industrial Control Systems Cybersecurity 
+Andres Santiago Robles Durazno  2021  Page 18
+component in the Supervisory Control and Data Acquisition (SCADA), which is the
+system responsible for monitoring, collecting and processing input and output data
+from field devices such as motors, valves, sensors, and pumps. Before the PLC, the
+machinery could be controlled only with the use of relays (Ghaleb et al., 2018).
+Relays operate by means of a coil that creates a magnetic force to switch from one
+state (ON) to another (OFF) when they are energized. For instance, a motor can be
+controlled by attaching a relay between the power source and the motor. The state
+ON/OFF of the motor changes when the relay is energized/de-energized. The
+control logic for such systems is defined on how these relays are wired. Depending
+on the complexity of the control system, the number relays required can quickly
+become problematic, thus troubleshooting might require hours in cabinets that
+contain hundreds of relays.
+In 1969 the first PLC is launched to the market and it represented a massive
+step forward in versatility since it allowed to focus on the operation of the control
+system in a single point. Currently, PLCs are not new technology, but their
+functionalities have evolved to include networking, advanced data-handling
+capabilities and web server. This has allowed to execute tasks of a high level of
+complexity (Unitronics, 2017). For example, the Siemens PLCs models 1200 and
+1500 have a web server embedded that can host a simple web page or a complex
+HTML5 application. In spite of this, cyber-security concerns remain in many
+professional spaces because early PLCs were not designed with security in mind, as
+they were isolated devices. As for now, they can be found directly connected to the
+internet, which poses a high risk and an imminent threat for the control process
+connected to it.
+In the PLC market, the main end-user segment includes industries such as
+automotive, chemical and petrol-chemical, paper, packaging and printing, food and
+beverages, mining and metallurgy, water and waste-water treatment as well as oil,
+gas and nuclear power plants (Thirumurugan, 2018). Many manufacturers have
+registered the PLC as their trademarks. This includes worldwide leading automation
+vendors such as Siemens, ABB, Emerson, Schneider (Modicon), Rockwell (Allen-
+Bradley), Mitsubishi, Fortive (Danaher), Yokogawa, GE, Honeywell and Omron
+(Arizton, 2018). The main PLC sellers in the global market are Schneider, Rockwell,
+Siemens, Mitsubishi, and Omron. According to online resources (Community, 2016),
+Industrial Control Systems Cybersecurity Analysis and Countermeasures

@@ -1,0 +1,4 @@
+The main material studied in this project is silicon oxide phosphate, often referred to
+in the literature as Si5O(PO4)6.
+This works main focus is on understanding the interplay between structure and
+properties in order to enhance protonic conductivity for a fuel cell electrolyte.

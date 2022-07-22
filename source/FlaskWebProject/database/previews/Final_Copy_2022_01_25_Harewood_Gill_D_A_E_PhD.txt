@@ -1,0 +1,43 @@
+This electronic thesis or dissertation has been
+Since its commercialisation in 1995, the Internet has grown exponentially. Cisco estimates that the
+number of Internet users will increase to 5.3 billion in 2023 from 3.9 billion as of 2018. To confront
+the issue of increased Internet usage, new, smarter, and more versatile networking solutions are
+required.
+Software Defined Networking (SDN) is a relatively new paradigm that introduces a centralised
+approach where the intelligence of each network device is stored in a central SDN controller. SDN
+offers several advantages over distributed networking including, faster adaptation to network
+topology changes, easier integration of network applications, simultaneous control of many network
+devices, etc. However, despite these advantages, SDN traditionally uses heuristic algorithms such as
+single metric shortest path which may not be suitable for Quality of Service (QoS) based routing.
+The aim of the research was to create, implement and test a routing algorithm as an alternative to
+existing heuristic algorithms. Q-Routing was selected as the basis of a new routing algorithm as
+literature shows that Q-Learning holds several advantages over other reinforcement learning
+algorithms while being faster at pathfinding than shortest path in distributed networks. The Q-Routing
+based algorithm had to meet several criteria: i) Use the advantages presented by SDN. ii) Employ
+multiple network metrics for QoS based routing. iii) Perform as well as K-Shortest Path. iv) Find paths
+faster than K-Shortest Path. v) Adapt to dynamic network environments. vi) Work efficiently in
+network topologies of different sizes and densities.
+Research was split into three phases, initially looking at SDN based single metric Q-Routing leading to
+the final algorithm, Dual Metric, Multi-Estimate, Pareto, Q-Routing which successfully met all stated
+goals. Emulated results show that the algorithm in terms of the percentage of flows blocked
+performed as well as K-Shortest Path while being faster at pathfinding in both static and dynamic
+network environments.
+Dedication and Acknowledgements
+During the course of this PhD, I have been supported by many people who without their support, this
+research would not have been possible. In that vein, I would first like to thank my academic
+supervisors, Professor Trevor Martin and Professor Reza Nejabati for their guidance, knowledge and
+feedback throughout the PhD.
+Next, I would like to thank my colleagues and the academic staff within the Centre for Doctoral
+Training (CDT) for Communications, High Performance Networking (HPN) and the University of Bristol
+in general for their continuous support and advice with specific thanks going to Anderson Bravalheri
+from HPN, visiting Associate Professor Magnos Martinello from the Universidade Federal do Esprito
+Santo and Professor Celio Trois from the Universidade Federal de Santa Maria.
+Special thanks go to Suzanne Binding, CDT Manager and the administrative staff of the School of
+Computer Science, Electrical and Electronic Engineering and Engineering Maths, and Barb Lowden,
+HPN Administrator for fielding endless questions during the course of my research.
+I would also like to thank CDT program, the University of Bristol, and the Gilchrist Educational Trust
+for their financial support during the course of the PhD and my industrial supervisors from Roke Manor
+for their valued feedback.
+Finally, I want to give special thanks to my late friend and colleague, Giovanni Ciurleo who offered
+unflinching support after the passing of my father and to my late father, who gave me the courage to
+embark on this journey.

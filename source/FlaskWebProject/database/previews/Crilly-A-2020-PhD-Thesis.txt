@@ -1,0 +1,28 @@
+Simulation of Nuclear Observables in
+The neutrons and gamma rays created in nuclear reactions provide a way to measure
+conditions in Inertial Confinement Fusion (ICF) experiments. Interpretation of nuclear
+measurements requires detailed theoretical models and numerical simulations. This
+thesis presents a computational study of the nuclear observables based on radiation
+hydrodynamics simulations of ICF experiments. Current measurement techniques are
+replicated to highlight their strengths and shortcomings. Novel analyses are developed
+to measure conditions in experiments which are currently unmeasured.
+Novel features of the scattered and high energy neutron spectrum are investigated.
+The neutron backscatter edge spectral shape is shown to be determined by the scattering
+rate weighted ion velocity distribution. A spectrum model is developed, tested and
+shown to infer currently unmeasured values for fluid velocity and temperature in the
+dense DT fuel. For magnetised spherical implosions, secondary DT neutrons exhibit
+yield increases and spectral anisotropy. The alpha knock-on component of the tertiary
+neutron spectrum shows sensitivity to hotspot transparency.
+Images of the DT primary and scattered neutrons are calculated for several radiation
+hydrodynamics simulations. The primary neutron image shape analysis is shown to
+be robust against differential attenuation effects. The use of multiple energy gates
+to measure areal density within different angular ranges is demonstrated. Activation
+diagnostics are shown to have finite angular resolution due to the extended nature of
+the hotspot.
+The time history of fusion gamma rays is found to be correlated to the rate of me-
+chanical work performed on the hotspot. The length of peak delays between fusion and
+carbon gamma rays indicate the degree of burn truncation. Images of carbon gamma
+rays can be used to measure large scale asymmetries in the remaining ablator.
+Combining and expanding on nuclear measurements allows a more complete picture
+of hydrodynamic conditions. This will aid in understanding and improving ICF exper-
+iments.

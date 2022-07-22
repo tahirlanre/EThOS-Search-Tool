@@ -100,10 +100,10 @@ my dear daughter Vivien Georgie for the encouragement she has given to me over t
 last year, probably without knowing it. 
 Thanks to all of you 
 A lot of the research presented in this thesis was funded by: 
-  The European Union Information Technologies Programme, Esprit Project 26900. 
-  Disappearing Computer Initiative, Information Society Technologies, European Union. 
-  EQUATOR. Interdisciplinary Research Collaboration (IRC) supported by EPSRC. 
-  SAP Corporate Research, Karlsruhe, Germany. 
+ The European Union Information Technologies Programme, Esprit Project 26900. 
+ Disappearing Computer Initiative, Information Society Technologies, European Union. 
+ EQUATOR. Interdisciplinary Research Collaboration (IRC) supported by EPSRC. 
+ SAP Corporate Research, Karlsruhe, Germany. 
 Dedication 
 To my parents, for teaching me what is important in life. 
 Contents 

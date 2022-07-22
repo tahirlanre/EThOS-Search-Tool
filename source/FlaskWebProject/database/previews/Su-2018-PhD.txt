@@ -1,0 +1,35 @@
+Reinforcement Learning and Reward Estimation
+Modelling dialogue management as a reinforcement learning task enables a system
+to learn to act optimally by maximising a reward function. This reward function is
+designed to induce the system behaviour required for goal-oriented applications,
+which usually means fulfilling the users goal as efficiently as possible. However,
+in real-world spoken dialogue systems, the reward is hard to measure, because the
+goal of the conversation is often known only to the user. Certainly, the system can
+ask the user if the goal has been satisfied, but this can be intrusive. Furthermore, in
+practice, the reliability of the users response has been found to be highly variable.
+In addition, due to the sparsity of the reward signal and the large search space,
+reinforcement learning-based dialogue policy optimisation is often slow. This thesis
+presents several approaches to address these problems.
+To better evaluate a dialogue for policy optimisation, two methods are proposed.
+First, a recurrent neural network-based predictor pre-trained from off-line data
+is proposed to estimate task success during subsequent on-line dialogue policy
+learning to avoid noisy user ratings and problems related to not knowing the users
+goal. Second, an on-line learning framework is described where a dialogue policy
+is jointly trained alongside a reward function modelled as a Gaussian process with
+active learning. This mitigates the noisiness of user ratings and minimises user
+intrusion. It is shown that both off-line and on-line methods achieve practical policy
+learning in real-world applications, while the latter provides a more general joint
+learning system directly from users.
+To enhance the policy learning speed, the use of reward shaping is explored and
+shown to be effective and complementary to the core policy learning algorithm.
+Furthermore, as deep reinforcement learning methods have the potential to scale to
+very large tasks, this thesis also investigates the application to dialogue systems.
+Two sample-efficient algorithms, trust region actor-critic with experience replay
+(TRACER) and episodic natural actor critic with experience replay (eNACER),
+are introduced. In addition, a corpus of demonstration data is utilised to pre-
+train the models prior to on-line reinforcement learning to handle the cold start
+problem. Combining these two methods, a practical approach is demonstrated
+to effectively learn deep reinforcement learning-based dialogue policies in a task-
+oriented information seeking domain.
+Overall, this thesis provides solutions which allow truly on-line and continuous
+policy learning in spoken dialogue systems.

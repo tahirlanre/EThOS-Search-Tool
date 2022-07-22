@@ -1,0 +1,5 @@
+Surface wave tomography is usually conducted using a two-step
+method by first estimating two-dimensional (2D) surface wave phase or group
+velocity maps at a series of frequencies and then inverting those for the 3D spatial
+velocity structure through a set of 1D inversions for structure with depth beneath
+each geographical location.

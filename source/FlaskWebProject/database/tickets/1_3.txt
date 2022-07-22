@@ -1,0 +1,1 @@
+{"py/object": "FlaskWebProject.ticket_manager.Ticket", "ID": 3, "search": "cancer", "papers_and_ids": {}, "completed": false, "group_tags": {}, "papers_in_each_group": {}, "thumbnail_urls": {}, "priority": 1, "number_of_groups": 6, "cluster_size": 300, "status": "Waiting to begin", "progress": 0}

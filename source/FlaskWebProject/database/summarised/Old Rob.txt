@@ -1,0 +1,5 @@
+In addition to solving the hierarchy problem, a low
+quantum gravity scale also oers the exciting prospect that collider experiments become
+sensitive to the quantum nature of gravity. Quantum gravity signatures include missing
+energy due to graviton emission, enhancement of standard model reference processes via
+virtual graviton exchange, or the production and decay of mini black holes.

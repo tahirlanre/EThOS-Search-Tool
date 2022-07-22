@@ -1,0 +1,30 @@
+Intrusion Detection Systems using
+The increased reliance on networked technologies has led to a digital transformation
+of general- and special-purpose networks that further interlace technologies and
+heterogeneous systems. The ever-evolving technological landscape of interconnected
+devices constantly expands the network attack surface, which has contributed to the
+number and complexity of cyber attacks in recent years. The analysis of network traffic
+through Intrusion Detection Systems (IDS) has become an essential element of the
+networking security toolset. To cope with the increased rate and complexity of cyber
+attacks, researchers have utilised Machine Learning (ML) and Deep Learning (DL)
+techniques to develop IDS to cope with new and zero-day attacks. However, the lack
+of large, realistic, and up-to-date datasets hinders the IDS development process.
+This thesis proposes an empirical investigation of ML and DL algorithms to detect
+known and unknown attacks in general- and special-purpose networks. The thesis
+further investigates how ML and DL algorithms can learn from a limited amount of
+data while retaining high accuracy. To this effect, a special-purpose IoT dataset is
+generated and evaluated against six ML techniques. The challenges and limitations
+of identifying anomalies in special-purpose networks are identified and discussed.
+In an attempt to reduce the need for large training datasets, this thesis investigates
+the utilisation of Few-Shot learning paradigm to train IDS using a limited amount of
+data. For this purpose, Siamese networks are used and evaluated in three scenarios.
+This thesis further investigates the use of autoencoders to detect zero-day attacks.
+The zero-day attack detection experiments highlight the problem of discriminating
+benign-mimicking attacks. To overcome this challenge, an additional layer of feature
+abstraction is proposed; to improve accuracy through the cumulative aggregation of
+network traffic.
+The results of this research demonstrate the effectiveness of the proposed
+approaches for IDS development. Siamese networks demonstrate their ability to
+learn from limited data. The proposed autoencoder models exhibit their potential
+to detect zero-day attacks. Finally, the significance of flow aggregation features in
+discriminating benign-mimicking attacks is demonstrated.

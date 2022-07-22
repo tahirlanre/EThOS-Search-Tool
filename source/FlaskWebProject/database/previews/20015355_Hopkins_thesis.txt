@@ -1,0 +1,14 @@
+Development of Selective Ligands for the 
+In order to increase the public approval of nuclear power as an alternative to fossil fuels,
+developments in waste management of high-level liquid waste must be made. Fission
+products, such as 137Cs and 90Sr, are highly radiotoxic and principal heat generators in high-
+level liquid waste. Removal of these fission products would reduce the radiotoxicity, the long-
+term heat generation and the volume of high-level liquid waste enabling the simplification of
+storage design for nuclear waste. 127Cs and 90Sr are also environmental contaminants caused
+by past nuclear disasters. Removal of these contaminants from the environment would reduce
+the risk of health complications in both animals and humans. This thesis outlines the synthesis
+and extraction capabilities of caesium and strontium selective ligands on solid-supported
+extractants including magnetic nanoparticles and macroscopic silica gel for the selective
+separation of caesium and strontium from other group I and II elements. Recovery of
+fission/corrosion products using N-donor extractants is also reported.
+Abbreviations and Acronyms

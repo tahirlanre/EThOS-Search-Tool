@@ -1,0 +1,4 @@
+Abiotic stress poses a threat to food security through adverse effects on crop
+health and function, resulting in reduced yield or crop failure.  Plants possess a
+myriad of physiological and biochemical properties by which abiotic stress
+protection can be conferred, varying between species and to genotype level.

@@ -1,0 +1,5 @@
+Using a
+stress test network model calibrated to the banks balance sheet data, we document risk-
+shifting effects in the form of risk transformation from counterparty to liquidity risk and a
+reduction of systemic risk at the expense of increased propensity for contagion from the
+CCP to its members.

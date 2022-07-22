@@ -1,0 +1,8 @@
+Atomic Number and Gamma-ray Measurements from Neutron-induced Fission at the ILL and n_ToF
+2.1 Liquid Drop Model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+2.2 The Shell Correction Method . . . . . . . . . . . . . . . . . . . . . . . . . 29
+2.3 Fission Cross-section . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+2.4 Fission Products . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+2.4.1 Fission fragments . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+2.4.2 Neutrons . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+2.4.3 Gamma rays . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37

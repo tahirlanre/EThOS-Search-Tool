@@ -1,0 +1,3 @@
+Smart Homes (SHs), as subsets of the Internet of Things (IoT), make use of Machine
+Learning and Artificial Intelligence tools to provide technology-enabled solutions which
+assist their occupants and users with their Activities of Daily Living (ADL).

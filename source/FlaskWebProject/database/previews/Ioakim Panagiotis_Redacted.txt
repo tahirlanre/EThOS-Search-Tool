@@ -1,0 +1,45 @@
+City, University of London Institutional Repository
+Over 800,000 people worldwide lost their lives to earthquakes in the last decade and
+on average 171 people die every day due to earthquake related damage to structures
+and buildings. Precisely understanding the effects ground motion has on manmade
+structures is crucial to making them earthquake resistant. This can only be achieved
+by the precise measurement, recording, and analysis of ground displacement trends
+during a seismic event.
+Although there is a vast amount of recorded seismological data available, current
+technology and processing methods fail to represent accurate ground displacement
+over time as the considerable technological challenges have yet to be overcome.
+Raw seismic data has so far been primarily acquired with instruments utilising
+geophone or accelerometer based sensors. These instruments produce prominent
+time domain displacement errors due to the various system and sensor inaccuracies,
+and due to non-linear response. Since accelerometers provide acceleration over time
+data: whilst geophones are velocimeters, and therefore provide velocity over time
+data; in order to derive true ground displacement over time, a double, or single
+numerical integration is required respectively. During this essential numerical
+integration processes of data from such sensors, even small in magnitude errors
+accumulate to yield rather large displacement trend offsets over a typical event
+recording period of 60 to 120 seconds.  In addition, the numerical integration
+process itself poses considerable challenges due to the theoretically infinite number
+of samples and the accurate determination of initial conditions required for an exact
+mathematical result to be obtained. The latter, is currently performed by averaging
+an up to 60 second pre-event data trend stored on the instrument.
+Most post-integration data from current instruments appears to contain low
+frequency drifts amongst other noise artefacts, and generally requires baseline
+correction algorithms in an attempt to correct for these effects. Such corrections,
+although helpful, only aid to minimise the perceived effects of an assumed and
+collective source of error, and hence are largely unable to tackle the individual error
+contribution of each element within the system. Since individual element
+contribution is of a dynamic nature, the validity of these algorithms is limited by the
+~ 4 ~
+accuracy of the initial assumptions made about a specific set of data. Faced with
+such a multivariable and uncertain dynamic behaviour, where even mathematical
+system modelling is of inadequate long term accuracy, a solution that aims to
+directly minimise these errors at source, rather than attempt to correct them post-
+acquisition, is of immense importance when it comes to the recording, analysis, and
+understanding of earthquakes.
+This thesis describes the design, implementation, and evaluation of a High Precision
+Active Gyro Stabilised (HPAGS) sensor unit of exceptional performance for the
+provision of highly accurate ground displacement data. Experimental results
+demonstrated that the device described herein, was able to diminish the inherent
+non-linear and environment-dependant effects of current sensors, and thus was able
+to provide highly improved time domain displacement data.
+~ 5 ~

@@ -1,0 +1,4 @@
+Before describing in detail the multi-jets search for new matter, which uses 36
+fb1 of ATLAS data in signal regions where at least 7 hadronic jets are required
+in the final state, the latest developments in hadronic jet physics at ATLAS shall
+be motivated and studied.

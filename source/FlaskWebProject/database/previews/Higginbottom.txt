@@ -1,0 +1,28 @@
+University of Southampton Research Repository
+by Nicholas Higginbottom
+Outflows are ubiquitous in active galactic nuclei (AGN). They can take the form of
+either dramatic radio jets, which extend vast distances into the inter-galactic medium,
+or of much smaller scale winds - whose existence can be inferred only indirectly via their
+influence on the observed spectra.
+There is good evidence to show that winds are likely to arise from the accretion disks
+thought to form the central engine of all AGN; they should therefore be observable in
+all such systems. The clearest observational signature comes in the form of the broad,
+blue-shifted absorption features seen in the spectra of broad absorption line quasars
+(BALQSOs) and the aim of this work is to investigate how the geometry and physical
+parameters of disk winds affect their absorption spectra.
+We first discuss the changes made to an existing Monte Carlo radiative transfer code,
+python, in order to extend its capabilities to include modelling of AGN. These changes
+include the implementation of an approximate ionization scheme which takes account of
+arbitrary illuminating spectral energy distributions (SEDs), and the inclusion of heating
+and cooling effects likely to be important in the presence of high energy photons.
+Next, we describe the second stage of the project which was to gain insight into the
+general properties of a wind exhibiting broad absorption line (BAL) features. We did
+this by performing radiative transfer and ionization calculations on a simple kinematic
+wind representation using python. We show that BAL features can be produced for
+plausible AGN parameters.
+Finally, we present calculations carried out on a more complex wind geometry, generated
+from a hydrodynamic simulation of a line driven disk wind. This calculation does not
+produce BAL features at all, and in fact the wind is too highly ionised to permit efficient
+line driving. This result is significant because it illustrates the importance of detailed
+radiative transfer in hydrodynamic modelling, and suggests future work.
+mailto:nick_higginbottom@fastmail.fm

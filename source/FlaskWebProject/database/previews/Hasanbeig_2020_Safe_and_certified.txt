@@ -1,0 +1,35 @@
+Safe and Certified Reinforcement Learning
+Reinforcement Learning (RL) is a widely employed machine learning
+architecture that has been applied to a variety of decision-making
+problems, from resource management to robot locomotion, from rec-
+ommendation systems to systems biology, and from traffic control to
+superhuman performance in video games. However, RL has experienced
+limited success beyond rigidly controlled or constrained applications,
+and successful employment of RL in safety-critical scenarios is yet to
+be achieved. A principal reason for this limitation is the lack of a sys-
+tematic formal approach to specify requirements as tasks (or learning
+constraints), and to provide guarantees with respect to these require-
+ments and constraints, during and after learning. This work addresses
+these issues by proposing a general method that leverages the success
+of RL in learning high-performance controllers, while developing the
+required assumptions and theories for the satisfaction of formal re-
+quirements and guiding the learning process within safe configurations.
+Given the expressive power of Linear Temporal Logic (LTL) in formu-
+lating control specifications, we propose the first model-free RL scheme
+to synthesise policies for unknown black-box Markov Decision Processes
+(MDPs), where the reward function is formally shaped by an LTL
+specification. We convert the given property into a Limit Deterministic
+Buchi Automaton (LDBA), namely a finite-state machine expressing
+the property. Further, by exploiting the structure of the LDBA, we
+shape a synchronous reward function on-the-fly, and we discuss the
+assumptions under which RL is guaranteed to synthesise control policies
+whose traces satisfy the LTL specification with maximum probability
+possible. This probability (certificate) can also be calculated in parallel
+with policy learning when the state space of the MDP is finite: as such,
+the RL algorithm produces a policy that is certified with respect to
+the property. We also show that our method produces best available
+control policies when the logical property cannot be satisfied. The
+performance of the proposed method is evaluated via a set of numerical
+examples and benchmarks, where we observe an improvement of one
+order of magnitude in the number of iterations required for the policy
+synthesis, compared to existing approaches whenever available.

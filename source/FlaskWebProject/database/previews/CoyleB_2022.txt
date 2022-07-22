@@ -1,0 +1,37 @@
+This thesis has been submitted in fulfilment of the requirements for a postgraduate degree 
+Quantum machine learning (QML) has proven to be a fruitful area in which to
+search for applications of quantum computers. This is particularly true for those
+available in the near term, so called noisy intermediate-scale quantum (NISQ)
+devices. In this Thesis, we develop and study QML algorithms in three applica-
+tion areas. We focus our attention towards heuristic algorithms of a variational
+(meaning hybrid quantum-classical) nature, using parameterised quantum circuits
+as the underlying quantum machine learning model. The variational nature of
+these models makes them especially suited for NISQ computers. We order these
+applications in terms of the increasing complexity of the data presented to them.
+Firstly, we study a variational quantum classifier in supervised machine learning,
+and focus on how (classical) data, feature vectors, may be encoded in such models
+in a way that is robust to the inherent noise on NISQ computers. We provide
+a framework for studying the robustness of these classification models, prove
+theoretical results relative to some common noise channels, and demonstrate
+extensive numerical results reinforcing these findings.
+Secondly, we move to a variational generative model called the Born machine,
+where the data becomes a (classical or quantum) probability distribution. Now, the
+problem falls into the category of unsupervised machine learning. Here, we develop
+new training methods for the Born machine which outperform the previous state
+of the art, discuss the possibility of quantum advantage in generative modelling,
+and perform a systematic comparison of the Born machine relative to a classical
+competitor, the restricted Boltzmann machine. We also demonstrate the largest
+scale implementation (28 qubits) of such a model on real quantum hardware to
+date, using the Rigetti superconducting platform.
+Finally, for our third QML application, the data becomes purely quantum in
+nature. We focus on the problem of approximately cloning quantum states, an
+important primitive in the foundations of quantum mechanics. For this, we develop
+a variational quantum algorithm which can learn to clone such states, and show
+how this algorithm can be used to improve quantum cloning fidelities on NISQ
+hardware. Interestingly, this application can be viewed as either supervised or
+unsupervised in nature. Furthermore, we demonstrate how this can algorithm
+can be used to discover novel implementable attacks on quantum cryptographic
+protocols, focusing on quantum coin flipping and key distribution as examples. For
+the algorithm, we derive differentiable cost functions, prove theoretical guarantees
+such as faithfulness, and incorporate state of the art methods such as quantum
+architecture search.

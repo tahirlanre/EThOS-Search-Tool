@@ -1,0 +1,26 @@
+On uncertainty in fusion neutronics
+This work explores the nature of several sources of uncertainty in the neutronics of nuclear
+fusion devices. Background information, radiation-matter interactions and their descriptions
+as nuclear data are discussed before an introduction to several useful methods in nuclear
+analyses. After a discussion of the consequences of certain uncertainties in nuclear fusion
+systems, there is analysis which quantifies aspects of uncertainty in tritium breeding. This
+analysis uses Total Monte Carlo sampling of nuclear parameters to determine the spread in
+Tritium Breeding Ratio (TBR) values for the proposed DEMO reactor, due to uncertainty in
+our knowledge of neutron interactions with the lead nucleus. The TBR is found to have a
+standard deviation (1  ) of 1.2% of the mean value. The higher-order distribution moments
+are also determined, highlighting a low-value tail. Subsequently, modelling approximations
+are investigated, specifically the practice of spatial homogenisation of radiation transport
+geometries. The effects of spatial homogenisation in radiation shielding for the ITER
+experiment are quantified for on-load and shut-down dose rates. These are found to contribute
+a relatively modest (22% maximum deviation) change on the most likely value. More
+general conclusions about the applicability of spatial homogenisation as a technique are
+drawn. The thesis then explores how the energy domain is discretised in current analyses
+and whether an improved method, delivering greater accuracy in activation calculations,
+might be created. By first exploring self-shielding theory and distributions of nuclear
+resonances, a series of functions for assembling an optimum bin density are devised. A
+nuclear data processing workflow is developed to produce data on an arbitrary energy group
+structure and employed to create nuclear data libraries in an optimised group structure.
+These optimised discretisations are tested against and outperform current standard group
+structures in an example of relevance to the JET experiment. Recommendations for future
+work on improving the optimisation algorithm are given. Lastly, conclusions comparing the
+investigated contributions to analysis uncertainty are drawn.

@@ -1,0 +1,13 @@
+A search for the electroweak production of charginos and neutralinos decaying into
+final states involving three electrons or muons is presented. The analysis is based on
+36.1 fb 1 of s=13TeV protonproton collisions recorded by the ATLAS detector
+at the Large Hadron Collider. Scenarios considered are based on simplified models
+with the associated production of the next-to-lightest neutralino and the lightest
+chargino, followed by their decays into final states with leptons and the lightest
+neutralino via either sleptons or Standard Model gauge bosons. No significant
+deviations from Standard Model expectations are observed and stringent limits at
+95% confidence level are placed on the masses of relevant supersymmetric particles.
+For a massless lightest neutralino, masses up to 1.13TeV are excluded for the
+associated production of the next-to-lightest neutralino and the lightest chargino,
+assuming slepton mediated decays, whereas for gauge-boson-mediated decays, masses
+up to 380GeV are excluded.

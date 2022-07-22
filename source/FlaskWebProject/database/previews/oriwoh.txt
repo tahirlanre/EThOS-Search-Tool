@@ -1,0 +1,27 @@
+Title :      A smart home anomaly detection framework 
+Smart Homes (SHs), as subsets of the Internet of Things (IoT), make use of Machine
+Learning and Artificial Intelligence tools to provide technology-enabled solutions which
+assist their occupants and users with their Activities of Daily Living (ADL). Some SH
+provide always-present, health management support and care services. Having these
+services provided at home enables SH occupants such as the elderly and disabled to
+continue to live in their own homes and localities thus aiding Ageing In Place goals and
+eliminating the need for them to be relocated in order to be able to continue receiving
+the same support and services.
+Introducing and interconnecting smart, autonomous systems in homes to enable
+these service provisions and Assistance Technologies (AT) requires that certain inter-
+faces in, and connections to, SH are exposed to the Internet, among other public-facing
+networks. This introduces the potential for cyber-physical attacks to be perpetrated
+through, from and against SH. Apart from the actual threats posed by these attacks
+to SH occupants and their homes, the potential that these attacks might occur can
+adversely affect the adoption or uptake of SH solutions.
+This thesis identifies key attributes of the different elements (things or nodes and
+rooms or zones) in SHs and the relationships that exist between these elements. These
+relationships can be used to build SH security baselines for SHs such that any deviations
+from this baseline is described as anomalous. The thesis demonstrates the application of
+these relationships to Anomaly Detection (AD) through the analysis of several hypothet-
+ical scenarios and the decisions reached about whether they are normal or anomalous.
+This thesis also proposes an Internet of Things Digital Forensics Framework (IDFF),
+a Forensics Edge Management System (FEMS), a FEMS Decision-Making Algorithm
+(FDMA) and an IoT Incident Response plan. These tools can be combined to provide
+proactive (autonomous and human-led) Digital Forensics services within cyber-physical
+environments like the Smart Home.

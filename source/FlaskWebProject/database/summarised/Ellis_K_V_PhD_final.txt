@@ -1,0 +1,4 @@
+There is strong motivation to study standard model physics using the highest-
+energy data provided by the Large Hadron Collider. This thesis introduces a novel algorithm which aims to
+reconstruct partons outgoing from hard interactions, prior to any splitting,
+by concentrating solely on the highest momentum transfer scale.

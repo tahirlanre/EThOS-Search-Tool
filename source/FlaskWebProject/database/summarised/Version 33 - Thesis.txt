@@ -1,0 +1,5 @@
+The samples of recent lethal malware; WannaCry, Petya [4], [5] or Mirai [6]
+caught in the wild, are not only capable of damaging giant organization or
+causing financial damage to banks, they have the capability of bringing down
+the entire infrastructure of World Wide Web that could possibly trigger a
+catastrophic event [7] .

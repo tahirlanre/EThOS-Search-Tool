@@ -1,0 +1,3033 @@
+Searches for proton 
+radioactivity from 
+highly-deformed nuclei 
+Peter Munro MSci (Hons.) 
+Thesis submitted for the degree of Doctor of Philosophy in the 
+College of Science and Engineering 
+II \W/ iRA 
+INAI \ 
+School of Physics 
+University of Edinburgh 
+Abstract 
+Proton radioactivity from the highly neutron-deficient nuclide ' 35Tb 
+has been identified using a new double-sided silicon strip detector (DSSD) 
+system at the Fragment Mass Analyser at Argonne National Laboratory. 
+The decay occurs with an energy of E = 1179(7)keV and a half-life t 1 ,, 2  = 
+94Otjts. ' 35Tb was produced via the bombardment of a 92Mo target with 
+a 315MeV 50Cr beam, and is the first isotope to be detected from a (p6n) 
+evaporation channel in heavy ion fusion-evaporation reactions. Proton decay 
+rate calculations suggest that this nuclide has a large prolate deformation, 
+in agreement with the predictions of the Mller-Nix mass model and the 
+experimental observations of the neighbouring odd-even lanthanide proton 
+emitters 131 Eu and 141 Ho. 
+An unsuccessful search for the predicted proton emitters 125,126  Pm, 
+using the (p6n) and (p5n) evaporation channels respectively, is also reported. 
+The non-observation of 126Pm is consistent with mass model Q predictions, 
+but the non-observation of proton emission from 125Pm suggests a Q value 
+which differs significantly from predictions, or places an upper limit on the 
+production cross-section of this nucleus. 
+The Q predictions of the Mller-Nix and Liran-Zeldes mass models are 
+compared with the currently available data set of experimentally-derived Q 
+values for proton-unbound nuclei in the region of observed proton radioac-
+tivity. Both models are found to perform reasonably well and provide useful 
+predictions in this extremely neutron-deficient region. 
+Declaration 
+This thesis has been composed by myself. 
+The experimental work described in this thesis was performed by my-
+self and fellow collaborators; the data analysis is my own work. 
+No portion of the work referred to in this thesis has been submitted 
+in support of an application for another degree qualification of this or any 
+other university or other institute of learning. 
+Acknowledgements 
+Thanks to the following colleagues and collaborators: Gary Davids, 
+Tom Davinson, Nick Harrington, Zhong Liu, Hassan Mahmud, the late Tad 
+Pennington, Andrew Robinson, Ewan Roche, Dariusz Seweryniak and my 
+supervisor Professor Phil Woods. 
+Funding for this PhD research was provided by the Engineering and 
+Physical Sciences Research Council (EPSRC). 
+Thanks to Emily and my parents. 
+Contents 
+Abstract 	 ii 
+Declaration  
+Acknowledgements 	 iv 
+List of Figures 	 viii 
+List of Tables 	 xii 
+1 Introduction 	 1 
+2 Theory 	 16 
+CONTENTS 	 vi 
+2.2.2 Semi-classical interpretation of proton decay rates 20 
+3 Experimental Method 47 
+3.7.2 	Decay Events 	. 	 . 	 . 	 . 	 . 	 ... 	. 	 . 	 . 	 . 	 . 	 . 	 . 	 . 	 . 	 . . 	 . 	 . 	 . 	 . 	 71 
+CONTENTS 
+4 Results and Discussion 76 
+4.2.1 	Previous search experiments for proton emission from 
+4.3.1 	Previous search experiments for proton emission from 
+5 Conclusions 	 116 
+Bibliography 	 124 
+List of Figures 
+1.1 Plot of atomic number Z against neutron number N for the 
+known nuclides, illustrating the stable nuclides (as black squares), 
+the proton and neutron drip-lines, and the various possible 
+decay modes (red for 3+/electron  capture, blue for 0 de-
+cay, yellow for a decay, gold for proton decay and green for 
+2.1 The energy level scheme obtained by using a Woods-Saxon 
+potential and Woods-Saxon potential with a spin-orbit term. 
+The magic number shell closures are shown . . . . . . . . . . 21 
+2.3 Nilsson level diagram for protons (50<Z<82) as a function 
+of deformation parameter E2,  with 4 = /6, calculated as 
+described by Bengtsson and Ragnarsson [Ben85] . . . . . . . 32 
+2.4 Mller-Nix mass model deformation predictions (squares are 
+stable nuclei, circles are known proton emitters beyond the 
+predicted proton drip line) . . . . . . . . . . . . . . . . . . . . 45 
+3.1 The Argonne Fragment Mass Analyser . . . . . . . . . . . . . 	52 
+LIST OF FIGURES 
+3.3 Schematic of the detection system chamber from the focal 
+plane onward . . . . . . . . . . . . . . . . . . . . . . . . . . . 	55 
+3.4 a) Two-dimensional PPAC hit pattern and b) projection onto 
+the x-axis for the reaction 92 Mo(58Ni,p2n)'47Tm, with the 
+FMA set to transmit A=147, Q=27 recoils . . . . . . . . . . 	57 
+3.5 Schematic of the DSSD . . . . . . . . . . . . . . . . . . . . . 	60 
+3.6 The DSSD mounted on the vacuum chamber flange, showing 
+the cable feedthroughs on each side, coolant tubes (top) and 
+a penny for size comparison (bottom left) . . . . . . . . . . . 	61 
+3.7 Schematic of the trigger logic for the DSSD system . . . . . . 67 
+4.1 Decay energy spectrum from 1 47 T commissioning run. . . . 77 
+4.2 Front decay energy vs. rear decay energy in the DSSD with 
+single multiplicity conditions. The red boxes indicate events 
+where a portion of the charge on the rear facestrip has been 
+shared with an adjacent strip . . . . . . . . . . . . . . . . . . . 79 
+4.3 Front decay energy vs. rear decay energy in the DSSD with 
+single front multiplicity and double rear multiplicity. The 
+red boxes indicate the lack of double rear multiplicity charge 
+sharing events where the amount of charge shared is less than 
+the detector threshold . . . . . . . . . . . . . . . . . . . . . . 81 
+4.4 PPAC x position spectrum for the '35Th experiment. . . . . 86 
+4.5 DSSD decay events associated with A=135 recoils from the 
+LIST OF FIGURES 
+4.6 DSSD decay events associated with A=135 recoils from the 
+reaction 50  C + 92 Mo (blue indicates one count per bin, green 
+indicates five or more counts per bin) .. . . . . . . . . . . . . 88 
+4.7 Plot of proton decay half-life against quadrupole deformation 
+/32 for ' 35Tb. The horizontal band represents the experimen-
+tally measured value (including errors), while the lines show 
+the theoretical calculations for the three likely proton config-
+4.8 Various possible permutations of the proton-emitting 7/2 
+4.9 PPAC x position spectrum for the "'Pm experiment. . . 	98 
+4.10 DSSD decay events associated with A=126 recoils from the 
+4.11 DSSD decay events associated with A=126 recoils from the 
+4.12 Gamma-ray energy spectra from the Ge detector mounted 
+behind the focal plane, for the A=125 (top) and A=126 (bot- 
+tom) runs . . . . . . . . . . . . . . . . . ... . . . . . . . . . . 	102 
+4.13 PPAC x position spectrum for the 121  Pm experiment. 	103 
+4.14 DSSD decay events associated with A==125 recoils from the 
+4.15 DSSD decay events associated with A=125 recoils from the 
+LIST OF FIGURES 	 xi 
+4.16 Proton separation energy predictions of the Mller-Nix mass 
+model compared to experimentally-measured proton decay Q- 
+ values (black circles) and proton separation energies derived 
+from indirect experimental mass measurements (red circles, 
+with error bars shown where they exceed the size of the data 
+point) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111 
+4.17 Proton separation energy predictions of the Liran-Zeldes mass 
+model compared to experimentally-measured proton decay Q-
+values (black circles) and proton separation energies derived 
+from indirect experimental mass measurements (red circles, 
+with error bars shown where they exceed the size of the data 
+point) . . . . . . . . . . ... . . . . . . . . . . . . . . . . . . . 112 
+List of Tables 
+4.1 Comparison of spin-parity predictions of the Mller-Nix model 
+for deformed lanthanide proton emitters with values derived 
+from the theoretical analysis of the experimentally-measured 
+half-lives (assuming deformations close to those predicted by 
+Mller-Nix). It should be noted that the spin-parity assign-
+ment for ' 31 Eu has been confirmed independently by analysis 
+Chapter 1 
+Introduction 
+1.1 Exotic Nuclei 
+The ultimate limits of nuclear stability for exotic neutron-deficient or neutron-
+rich nuclides are defined by the proton and neutron drip-lines: the points 
+at which it becomes energetically possible for a nucleus to spontaneously 
+emit a nucleon from its ground state, with the Q-value of this decay mode 
+given by the proton or neutron separation energy. All isotopes beyond the 
+drip-lines are therefore unbound, but some isotopes which are close to the 
+proton drip-line may still exist for a long enough time for their properties to 
+be investigated experimentally, due to the hindrance effect of the Coulomb 
+barrier on the emission of a charged particle. The study of such exotic nu-
+clei is more challenging than the study of nuclei close to stability because 
+the nuclear half-life reduces rapidly as one moves further from the valley 
+of stability. Figure 1.1 shows the chart of nuclides, a plot of atomic num-
+ber Z against neutron number N, with the stable isotopes represented as 
+Chapter 1. Introduction 	 2 
+black squares and the various possible decay modes represented by colours. 
+For stable nuclei of low mass A, the ratio of neutrons to protons is ''-'1, 
+but increases significantly with increasing mass due to the mutual Coulomb 
+repulsion between the protons in the nucleus, so that the heaviest known 
+stable nuclei have a neutron-to-proton ratio of >1.5. The Coulomb force 
+also causes the proton drip-line to be much closer to the valley of stability 
+than its neutron counterpart. 
+On each side of the valley of stability are regions where nuclei decay via 
+-the weak interaction by emission of a)3 particle (an electron for the neutron-
+rich side or a positron for the neutron-deficient side) and a neutrino, which 
+converts a proton to a neutron or vice versa. Proton-rich nuclei may also 
+capture an atomic electron to convert a proton to a neutron. 3 decay has the 
+effect of moving the nucleus towards the valley of stability without changing 
+its number of nucleons: the energy available for the decay process comes 
+from the difference between the binding energies of the parent and daughter 
+nuclei. The available decay energy increases further from stability, meaning 
+that the decay process occurs on a faster timescale (i.e. the decay half-life 
+decreases). Other decay modes become possible fax from stability, such as /3-
+delayed nucleon emission, where the ,/3 decay of a precursor nucleus populates 
+an excited state in the daughter so high in energy that it is unbound to the 
+emission of one or more particles. 3-delayed emission of protons, neutrons 
+and a particles, which occurs on a similarly fast timescale to the 'y decay of 
+the excited states, has been studied extensively [Poe89]. For most medium 
+to heavy nuclei, the density of excited states in the unbound region is so 
+high that it is virtually impossible to identify individual states from peaks 
+in the particle energy spectra with the available experimental resolution. 
+Chapter 1. Introduction 
+ILI 00 
+'\ 	JLTh 
+- 	.i.. 
+- --I 
+-i1_1:1  I 	'J 
+I 	 .. n 
+Figure 1.1: Plot of atomic number Z against neutron number N for the known 
+nuclides, illustrating the stable nuclides (as black squares), the proton and neutron 
+drip-lines, and the various possible decay modes (red for f3/electron capture, blue 
+for decay, yellow for a decay, gold for proton decay and green for spontaneous 
+fission). 
+Chapter 1. Introduction 	 4 
+The Coulomb energy is proportional to Z 2 , while the nuclear binding 
+energy increases approximately with the mass number A, meaning that the 
+Coulomb repulsion bedomes proportionally more important for heavier nu-
+clei, particularly on the neutron-deficient side of stability. This repulsion can 
+result in the spontaneous emission of a tightly-bound a particle becoming 
+competitive (in terms of decay rate) with the /3-decay process. a decay is ex-
+tremely sensitive to the available decay energy, much more so than @ decay, 
+and becomes the dominant decay mode for proton-rich isotopes above the 
+Z=82 shell closure, a decay has not been observed in the particular mass 
+region studied in this work (125 < A < 135), but several heavier proton 
+emitters have a significant a-decay branch. Similarly, spontaneous nuclear 
+fission may be a competitive decay mode for heavy proton emitters, but is 
+not an issue for the medium mass region investigated in this work. 
+It is possible for nuclei beyond the proton drip-line to decay by emis-
+sion of a proton from their ground state, although this is not seen immedi-
+ately beyond the drip-line for nuclei with Z> 50 because the available decay 
+energy is not large enough for the mode to become competitive with /3 or a 
+decay. Proton emission does not usually become the dominant decay mode 
+until the drip-line is crossed by several isotopes, when the proton partial 
+half-life has dropped below those of the competing modes. Proton decay is 
+a similar process to a decay in that a particle has to tunnel through a poten-
+tial barrier to escape the nucleus, but the former requires no preformation 
+of a cluster of nucleons within the nucleus, so is easier to model theoreti-
+cally. The potential barrier has a Coulomb component, which is relatively 
+less important for protons than for alphas because of their lower charge, and 
+a centrifugal component related to the angular momentum carried away by 
+Chapter 1. Introduction 	 5 
+the particle which is more important for protons because of their lower mass 
+than alphas. The hindrance effect of the Coulomb barrier is sufficient for 
+heavier nuclei (Z>50) to slow the proton decay rate to an experimentally 
+detectable timescale (> 1is). 
+The study of proton emission is in fact a very useful tool for studying 
+the structure of these exotic drip-line nuclides. The proton decay rate is 
+extremely sensitive to the orbital angular momentum of the unbound pro-
+ton, so that an accurate measurement of the half-life can often identify the 
+particular single-particle orbital of the odd proton by comparison with a 
+theoretical calculation and thus shed light on the level orderings of these 
+extremely neutron-deficient nuclei. Proton emission also turns out to be 
+sensitive to the nuclear shape: several proton emitters have been found in 
+regions far from the 'magic numbers' of shell closures and are predicted 
+to have significant quadrupole deformations (prolate, like a rugby ball, or 
+oblate like a discus). The measurement of the energy of the emitted proton 
+also yields the one-proton separation energy of the parent, which in turn 
+directly relates to its binding energy and mass, providing very useful data 
+to allow comparisons with the predictions of mass models. This new data 
+can be incorporated into these models to improve them further. In this very 
+neutron-deficient region of nuclides, proton decay studies are often the only 
+way of gaining this kind of information. 
+All the ground state proton emitters discovered so fax are odd-Z nu-
+clides; this is not surprising, given that the natural pairing of nucleons makes 
+the emission of a single proton from an even-Z nucleus very unlikely ener-
+getically. However, examples of simultaneous emission of two protons have 
+recently been observed experimentally and will be discussed later. 
+Chapter 1. Introduction 	 6 
+The region around the proton drip-line up to around Z=50 is also of 
+interest in nuclear astrophysics studies, particularly the nucleosynthesis of 
+the heavier elements in explosive stellar environments such as X-ray bursters. 
+Many of the properties of the rapid proton, or 'rp', capture process which 
+occurs in stars can also be investigated in nuclear physics experiments on 
+Earth. The rates at which these reactions occur (which again relate to the 
+tunneling of a particle through a nuclear Coulomb barrier) are intrinsically 
+linked with the elemental abundances of the universe. It is unlikely that 
+the rp process proceeds as fax as the particular mass region investigated in 
+this work, due to the small region of a-emitting isotopes close to the proton 
+drip-line above Z=50. 
+The study of nuclei at the neutron drip-line is extremely difficult for all 
+but the lowest-Z isotopes. The absence of Coulomb repulsion ensures that 
+the neutron drip-line is much further from stability than the proton drip-
+line, and is therefore often more difficult to access in terms of experimental 
+production of the isotopes. Also, because neutrons have no charge, they 
+experience no Coulomb component in the potential barrier they must tunnel 
+through, and therefore can tunnel at rates too fast for detection with current 
+experimental techniques. Even if the decay occurs on a suitable timescale, 
+the difficulty of detecting the uncharged neutron (compared with the ease 
+of detecting the charged proton in convenient solid state detectors) makes 
+it very difficult to measure meaningful physical quantities. The neutron 
+drip-line has been mapped only as far as Z=9 thus far, compared with the 
+virtually complete mapping of the proton drip-line for odd-Z nuclei up to 
+Z=50. Interesting phenomena in the highly neutron-rich region include the 
+'halo' nucleus "Li [Tan85], where two very loosely bound valence neutrons 
+Chapter 1. Introduction 	 7 
+cause the nucleus to have an extremely wide matter radius. Similar halo 
+effects in proton-rich nuclei are suppressed by the Coulomb barrier, but 
+have recently been observed in nuclei such as 1 7 N [Kan05]. 
+1.2 Production of Proton Drip-line Isotopes 
+The key issues for experimenters searching for new proton emitters are pro-
+ducing the desired exotic isotope in sufficient quantities and being able to 
+detect its subsequent decay, which may occur on a very fast timescale (per-
+haps on the order of microseconds). These extremely neutron-deficient nuclei 
+obviously do not occur in nature, and must be produced in experiments at 
+accelerator facilities. 
+Several different types of nuclear reaction have been used to gener-
+ate nuclei at or beyond the proton drip-line. Transfer reactions, such as 
+(4 He,8He), can be useful for producing light exotic nuclei, due to the close 
+proximity of the proton drip-line to stability at low Z, but are of little use 
+in the mass region of ground-state proton emitters. Proton-induced target 
+spallation has been used at CERN-ISOLDE to study proton-rich nuclei, but 
+the value of this method is limited by the long ion release times (hundreds of 
+milliseconds) relative to the half-lives of drip-line nuclei (usually on the order 
+of milliseconds or less). Projectile fragmentation reactions have been used 
+successfully, for example at the GANIL facility, to map most of the proton 
+drip-line up to A=100. In these experiments, a high energy (>100MeV/u) 
+neutron-deficient beam is fragmented on a target and the resulting fragment 
+ions can be identified by time-of-flight and energy loss techniques. Fragmen-
+tation was recently used to detect the first ever example of simultaneous 
+Chapter 1. Introduction 	 8 
+two-proton emission (see next section), and it is thought that it could be 
+useful for accessing predicted heavy proton emitters for which spontaneous 
+nuclear fission is a competitive decay branch. 
+All the presently known examples of ground-state one-proton emission, 
+occuring in the medium-heavy mass region of 100 <A< 190, have been de-
+tected using heavy ion fusion-evaporation reactions. In this case, a neutron-
+deficient beam, with energy on the order of 5-10MeV/u, is projected at a thin 
+neutron-deficient target. The beam and target nuclei fuse together to cre-
+ate a highly-excited compound nucleus, which reduces its energy by quickly 
+'evaporating' off nucleons. These recoiling fusion-evaporation residues pass 
+out of the target and can be analysed by mass separation techniques and 
+then implanted into a solid state detector to measure their subsequent de-
+cays. Fusion-evaporation reactions preferentially populate high spin excited 
+states in the recoils, which has aided in the discovery of proton-emitting 
+isomeric states as well as ground states. A significant problem for these re-
+actions is that protons evaporate preferentially over neutrons in this region, 
+pushing the residues further from the drip-line, so the beam energy must be 
+carefully controlled to excite the compound nucleus with just the right energy 
+to optimise the necessary evaporation channel for production of the desired 
+nuclide. Even so, this nuclide is likely to be produced with a much lower 
+cross-section than many of the other possible evaporation residues. Most of 
+these other recoils, and many unreacted primary beam particles which have 
+passed straight through the target, can be removed at the mass separation 
+stage, thus reducing the potentially crippling background. The separation 
+stage must also unambiguously identify the recoil so that its subsequently 
+detected decay can be clearly correlated to its parent. 
+Chapter 1. Introduction 
+Tih1 1.1: R'iwf.iomc irodurino vroton-emittino isotones. 
+Reaction Production cross-section Year discovered 
+92Mo(5 Ni, p2n) 147Tm ' 	 30tb 1982 
+96Ru(58Ni, p2n) 151 Lu 50.tb 1982 
+96Ru(58Ni, p3n) 150Lu 5pb 1993 
+92 Mo(58 Ni, p3n) 146Tm '..' lpb 1993 
+92 Mo(58 Ni, p4n) 145Tm r..i500nb 1997 
+92 Mo(54Fe, p4n) 141 Ho 's'250nb 1997 
+64Zn(58 Ni, p4n) 117La r...,240nb 2001 
+96Ru(40Ca, p4n)'31 Eu '90nb 1997 
+92 Mo(54Fe, p5n) 140 Ho '-'13nb 1999 
+58 Ni( 78 Kr, p5n) 130Eu r.10nb 2001 
+All the known proton emitters have been discovered by T(B,pxn) re-
+actions, where T is the target isotope, B is the beam species and 'pxn' rep-
+resents one proton and a certain number of neutrons being evaporated from 
+the compound nucleus. A table comparing the production cross-sections of 
+various proton emitters from these reactions is shown below. 
+1.3 Proton Radioactivity Search Experiments 
+1.3.1 Early experiments 
+It was initially expected in the 1960s that prompt (i.e. not /3-delayed) proton 
+emission would be quite common from isomeric states of isotopes which 
+were proton-bound in their ground state. Such nuclides would be closer 
+to the valley of stability and therefore easier to produce, but competition 
+from 'y  decay and high centrifugal barriers complicated these first search 
+experiments. The only example of direct proton emission below A=100 was 
+detected as a surprising result of a,3-delayed proton experiment. A 1.5MeV 
+Chapter 1. Introduction 	 10 
+proton was observed from a high-spin isomer 53m  Co [Jac70, Cer70], which 
+until very recently was the only example of isomeric direct proton emission 
+from a ground state proton-bound nucleus. These early experiments were 
+hampered by the limited species and currents of the available beams. 
+A decade passed before the discovery of the first ground-state proton 
+emitters at the GSI facility. Improvements in ion source and accelerator 
+technology meant that heavy ion beams could now be used effectively, and 
+Hofmann et at [Hof82a] detected the proton decay of 151 Lu using the reaction 
+96Ru(58Ni,p2n) and the velocity filter SHIP [Mun79]. The in-flight separa-
+tion of the recoils from the primary beam occurs on a timescale of about a 
+microsecond, after which the recoils are implanted into an array of position-
+sensitive silicon detectors. Implant-decay correlations were recorded by not-
+ing decays occuring within a certain time window at the same position as 
+a preceding. implant. The sensitivity of the system to short half-lives was 
+improved by cycling the beam (5ms on, 15ms off), and longer half-lives could 
+be investigated by completely blocking the residues from the detectors for 
+periods of about 300ms. A clear peak was observed in the decay energy 
+spectrum at an energy of "-'1.2MeV, too low for an alpha decay process, 
+with a half-life on the order of 80ms. The decay was assigned to the h 11 12  
+orbital of ' 51 Lu on the basis of measured production cross-sections and ex-
+citation functions: there was no explicit mass identification of the recoils in 
+this experiment, and an attempted measurement at the neighbouring on-
+line mass separator (using the ISOL technique) was found to be impeded by 
+background from the c decay of 151  Ho. 
+The GSI on-line mass separator was also used to detect the second 
+ground state proton emitter, 147Tm, which was discovered by .Klepper et al 
+Chapter 1. Introduction 	 11 
+[K1e82] using the reaction 92 Mo(58Ni,p2n). The indirect separation method 
+of ISOL (implantation of the residues into a catcher foil in an ion source 
+which then releases the residues into the separator) limits this experimental 
+set-up to searching for nuclei with half-lives on the order of lOOms or above, 
+but it does provide unambiguous mass identification of the ions. ' 47Tm was 
+found to decay by proton emission with energy 1.05MeV and half-life '-'0.5s. 
+A team at the Technical University of Munich used a fast catcher 
+detection system initially developed for 'y-ray spectroscopy with an annu-
+lar gas-filled detector built for o-particle measurement to search for proton 
+emitters produced by reactions between "Ni beams and 1 8 N and 54  Fe tar-
+gets. Faestermann et al reported the discovery of the lightest-known ground 
+state proton emitters 109J  [Fae84] and also "'Cs [Gi187]. This experimental 
+set-up, although fast enough to detect decays down to iOns, was inefficient 
+compared to the GSI techniques and the lack of separation created an in-
+evitable background which hindered the search for proton emitters with 
+lower production cross-sections. 
+1.3.2 Experiments at Daresbury and Argonne 
+The major technological breakthrough in experimental searches for proton 
+emitters was the combination of a double-sided silicon strip detector (DSSD) 
+with an in-flight mass separator. A DSSD and its accompanying electronics 
+were developed by the Edinburgh group [Se192a1 and installed at the Recoil 
+Mass Separator (RMS) at Daresbury, where the system was successfully used 
+to study many neutron-deficient isotopes in the early 1990s. Previous experi-
+ments using a position-sensitive silicon surface barrier detector [Woo89] were 
+Chapter 1. Introduction 
+not entirely successful due to the slow overload recovery of the system after 
+an implantation event (about 200zs). The excellent energy and position res-
+olution of the DSSD, combined with the ability of the system to restore its 
+sensitivity to decays a short time after recoil implantation (<lOps) made the 
+system extremely useful for such studies. The virtual transparency of the 
+DSSD to 6 decay helped to produce very clean decay energy spectra from 
+which a great amount of useful nuclear structure information was found. 
+The Daresbury RMS consisted of two Wien filters, which provided ve-
+locity selection of the recoils and rejected the primary beam, followed by 
+a magnetic dipole which dispersed the residues according to their mass-to-
+charge (A/Q) ratios, so that the position of the recoil when it reached the 
+focal plane (where the DSSD was positioned) was directly indicative of its 
+A/Q. A carbon foil detector upstream of the focal plane was used to differ-
+entiate between implantation and decay events. The first use of this DSSD 
+system was the remeasurement of the decay of 1091  [Se193], which was directly 
+shown to be a A=109 decay (the Munich team had no explicit mass iden-
+tification) and was also correlated with the c decay of its daughter nuclide 
+'8Te. Other experiments were carried out to search for proton emission from 
+isotopes such as 128  Pm, 132 Eu, 138Tb, 142  Ho, 146Tm, 156Ta, 160Re and 112CS, 
+with the latter four successfully identified [Pag92, Liv93a, Liv93b, Pag94]. 
+In addition, a proton transition which had been previously observed at GSI 
+with no clear mass assignment was unambiguously identified as the decay of 
+150 Lu [Se193]. 
+The closure of the Nuclear Structure Facility at Daresbury in 1993 
+brought a temporary halt to this set of experiments, but soon after the Ed- 
+inburgh group started collaborating with Argonne National Laboratory on 
+Chapter 1. Introduction 	 13 
+more DSSD-based proton radioactivity searches. The experimental set-up 
+of the Argonne Fragment Mass Analyser (FMA) combined with the DSSD 
+will be described fully in Chapter 3. This ongoing experimental programme 
+has been extremely successful at discovering new proton-emitting states, 
+including the proton decay of four isotopes of Iridium [Dav97, Mah02b], 
+the first example of proton emission above the Z=82 shell closure in 185mBj 
+[Dav96], and the proton decay of the rare earth isotopes ' 31 Eu and 141 Ho. 
+These latter two are predicted by mass models [Mo197] to have large pro-
+late deformation, and their anomalous decay rates (which do not agree with 
+the theory for spherical nuclei) bear out that prediction. Other evidence 
+for their deformation includes the observation of rotational bands in their 
+proton-decay-tagged 7-ray spectra [SewOla, SewOib] and the observation of 
+fine structure [Son99]. This latter phenomenon describes the proton decay 
+branching to the first excited state of the daughter as well as the ground 
+state, producing two peaks in the decay energy spectrum, and is character-
+istic of significant deformation in the daughter nucleus. It should be noted 
+that experimental evidence for high deformations in neutron-deficient lan-
+thanide isotopes was first discovered as far back as 1961 [She6l], in the form 
+of anomalous excitation energies in even-even nuclei. 
+More recent developments at Argonne include a focus on odd-odd pro-  - 
+ton emitters, where the decay process is influenced by the residual interaction 
+between the outgoing proton and the odd neutron. Proton emission from 
+isotopes such as 130Eu [Dav04], 146 T [Rob05b], ' 50Lu [Rob03] and "'Au 
+[Mah02b] have been studied in detail to better understand the effect of this 
+interaction on the proton decay rate. As mentioned previously, decay-tagged 
+7-ray spectroscopy [Pau95] is possible when the Gammasphere detector is 
+Chapter 1. Introduction 	 14 
+installed around the target chamber, and such experiments have been per-
+formed on several proton emitters (e.g. 1 47 T [Sew97]), including the rare 
+earths already discussed. 
+Experiments performed at the Argonne FMA facility in 2001 and 2002 
+form the core of this thesis, and will be discussed later. 
+1.3.3 Other experiments 
+In recent years, other research groups have performed successful search ex-
+periments for new proton emitters, most notably at Oak Ridge National 
+Laboratory (ORNL) who first observed, the fast proton decays of 'Ho and 
+145 T [Ryk99, Bat98]. Using a familiar mass spectrometer/DSSD combi-
+nation, the ORNL team have developed digital pulse analysis techniques, 
+originally intended for 'y-ray spectroscopy, which allows them to record the 
+shape of the overloading recoil implantation energy pulse and identify fast 
+proton decay events lying on the tail of the pulse while the electronics are 
+still recovering from saturation. In the last few years the ORNL team have 
+shown evidence for fine structure in 145Tm and 146 T [Kar03, Gin03]. 
+In 1999, a team based in Legnaro again used the mass spectrome-
+ter/DSSD technique to detect proton emission from the isotope "'La [SorOl], 
+a result which was soon confirmed by an experiment at Argonne. The Leg-
+naro team have continued to search for candidate proton emitters such as 
+126Pm [SorO3]. A team at the gas-filled separator RITU at Jyvskyl recently 
+reported the observation of the new proton-emitting state 164fr  [KetOl]. 
+RITU has a very high transmission efficiency compared to facilities such as 
+the FMA due to its high charge state acceptance, and so is particularly use- 
+Chapter 1. Introduction 	 15 
+ful for investigating nuclei with low production cross-sections (for example, 
+in the case of heavy nuclei where the compound nucleus produced by a fu-
+sion reaction has a high probability of spontaneous fission). However, RITU 
+suffers from inferior mass separation characteristics compared to the FMA, 
+which can hinder the mass identification of decays at the focal plane. 
+One of the most exciting recent developments in the field of proton-rich 
+nuclei was the discovery of two-proton emission from the isotope 45Fe via 
+fragmentation reactions at the GANIL and GSI facilities [Gio02, Pfu02]. It 
+has been hypothesised that a similar experimental approach could be used to 
+detect heavy single proton emitters beyond Bismuth with the fragmentation 
+of a 238U beam, and a preliminary experiment exploring this method has 
+been performed [Liu04]. 
+Before the experiments described in this work took place, at least one 
+example of a proton emitting isotope had been detected for every odd-Z 
+element in the region 51 <Z< 83, with the exception of Praseodymium, 
+Prometheum and Terbium (Z=59, 61 and 65 respectively), although there 
+remains some doubt as to the existence of a small (<1%) proton emission 
+branch in the decay of ' 5 Sb observed by Tigh et al [Tig94], because several 
+subsequent experiments have been unable to reproduce this result (including 
+a DSSD-based experiment at the GSI on-line mass separator [Liu05]). 
+Chapter 2 
+Theory 
+Proton emission is a very pure example of quantum tunneling; unlike 
+a decay, there is no need to consider the preformation of a compound par-
+ticle within the nucleus. The unbound proton tunnels through the nuclear 
+potential barrier, with a rate determined by its energy relative to the barrier 
+height and other factors such as its angular momentum and nuclear defor-
+mation, leaving a daughter nucleus which will decay towards stability by 
+decay (or sometimes a decay). For proton decay'to occur, a nucleus must be 
+sufficiently proton-unbound for the decay to be competitive; this is why one 
+must often go several isotopes beyond the proton drip-line to reach a proton 
+emitter, as a small proton decay Q-value can give a proton tunneling rate 
+many orders of magnitude slower than 3 decay. If the decay energy is too 
+large however, then the decay may occur on a timescale too fast for experi-
+mental measurement, which is currently limited to times greater than r'.1ts 
+(by recoil separator flight time for fusion-evaporation reactions, and by the 
+implantation recovery time of the detector for fragmentation reactions). 
+Chapter 2. Theory 	 17 
+2.1 Energetics 
+Proton decay can occur when the emission of a proton results in the nucleus 
+increasing its binding energy. The binding energy of a nucleus is the energy 
+required to break it up into its constituent protons and neutrons; therefore 
+increasing the binding energy means the nucleus is more stable. In terms of 
+a decay Q-value, this can be expressed as: 
+Qp = (Mzi - M - mH)c > 0 	 (2.1) 
+where Mz+i and Mz  are the atomic masses of the parent and daughter 
+nuclei and mH is the atomic mass of hydrogen. Expressing the Q-value in 
+terms of binding energy rather than mass gives: 
+Qp  = B - B +1 > 0 	 (2.2) 
+where the binding energy is given by Bz  = (ZMH + NM - MZ,N)C 2 . The 
+principle of conservation of momentum means that the kinetic energy of the 
+decay is not given solely to the emitted proton but must be shared with the 
+recoiling daughter nucleus. Although the much smaller mass of the proton 
+compared to the nucleus means that the vast majority of the decay energy 
+is carried away by the proton, the recoil is not insignificant and 'must be 
+corrected for when calculating a Q-value from a measured proton energy. 
+E = M 
+(2.3) 
+z + m 
+Another correction which must be considered is the energy loss of the 
+emitted proton when passing through the cloud of electrons surrounding the 
+Chapter 2. Theory 	 18 
+daughter nucleus. This energy, on the order of about lOkeV, is equivalent to 
+the difference in atomic binding energies of the parent and daughter atoms, 
+and can be obtained from the work of Huang and Mark [Hua76]. Taking into 
+account this electron screening correction E3  gives the following formula for 
+the proton decay Q-value needed for barrier penetration calculations: 
+E(M + m) E
+8 	 (2.4) Q + E8 = M 
+2.2 Spherical Proton Emitters 
+There have been many different approaches to the theoretical treatment of 
+proton emission over the last two decades. At a fundamental level, proton 
+emission can be treated in a similar way to the a-decay process, but with the 
+inclusion of a spin-orbit term since the smaller particle has non-zero spin. 
+The most basic theoretical explanations begin with the assumption that the 
+proton occupies a single-particle orbit defined by the spherical shell model. 
+2.2.1 Spherical shell model 
+The nuclear shell model, based oi a similar theory for atomic electron shells, 
+was successfully used to explain the existence of apparent 'magic numbers' in 
+nuclei. Experimental evidence such as nucleon separation energies demon-
+strated that nuclei with specific numbers of proton or neutrons (such as 
+2, 8, 20, 50 and 82) had special properties. Such apparent discontinuities 
+in quantities related to atomic electrons had been explained by considering 
+the particles as building up in shells filled according to the Pauli Exclu-
+sion Principle, with 'magic' numbers of particles explained by large energy 
+Chapter 2. Theory 	 19 
+gaps between shells, and so a similar technique was applied to the nuclear 
+problem. 
+In the shell model, one assumes that each nucleon moves in a spher-
+ically symmetric potential which is generated by the interactions of all the 
+other nucleons with each other. Once defined, this average potential can then 
+be used to find the nucleon energy levels by solving the time-independent 
+Schrdinger equation: 
+_2 + V(r)) b(r) = e(r) (2.5) 
+It is still an open problem to derive the nuclear mean field from a 
+microscopic approach, starting from the bare interaction between nucleons, 
+so phenomenological shapes have to be adopted. The potential can be sim-
+ulated in a variety of ways: for example, the Hartree-Fock method produces 
+an average potential by summing two-body interactions, but is very com-
+plex. A simpler but still effective technique is to use a one-body potential 
+estimated from basic nuclear properties, such as the Woods-Saxon potential 
+[Woo54] which imitates the mass distribution in the nucleus: 
+Vws(r) = vo [i + 
+exp (r _Ro)] 
+(2.6) 
+where I?o  is the mean nuclear radius (often given by R0  = RNA"', with 
+RN a constant of roughly 1.2fm) and a determines the surface diffuseness. 
+The Woods-Saxon potential is considered to be a good approximation to the 
+real nuclear potential, certainly much better than other simplistic potentials 
+such as the finite square well and harmonic oscillator. A nucleon close to 
+the nuclear centre experiences no force, while a nucleon at the surface expe- 
+Chapter 2. Theory 	 20 
+riences a strong attractive force, and beyond the surface the potential drops 
+quickly to zero, which agrees with the well-known short range nature of the 
+nuclear force. 
+The energy levels calculated using the Woods-Saxon potential are 
+shown on the left-hand side of Figure 2.1. Only the first three magic numbers 
+are successfully simulated by this simplistic method. However, the addition 
+of a spin-orbit term to the interaction breaks the orbital angular momentum 
+degeneracies of the states, splitting each 1 level into two separate levels de-
+fined by j =1  1/2 (for 1 > 0), each with degeneracy 2j + 1. As shown on 
+the right-hand side of Figure 2.1, the addition of the spin-orbit term to the 
+Woods-Saxon potential successfully reproduces the observed magic numbers 
+and therefore shell closures [May49, Hax49]. The Fermi level for a shell 
+model nucleus can be calculated simply by filling the single-particle states 
+of increasing energy in accordance with the Pauli Exclusion Principle. For a 
+nucleus with an odd number of protons and an even number of neutrons, the 
+angular momentum of the whole nucleus is given by that of the outermost 
+unpaired proton. 
+The spherical shell model is quite successful for predicting the prop-
+erties of nuclei near shell closures, but nuclides fax from shell closures can 
+have significant quadrupole deformation and the spherical shell model is 
+insufficient to describe these more exotic creatures (see section 2.3.1). 
+2.2.2 Semi-classical interpretation of proton decay rates 
+As mentioned previously, proton decay can be treated in a similar way to 
+a decay, with a particle tunneling through a potential barrier composed of 
+Chapter 2. Theory 	 21 
+lh 9/2 
+92 . . 
+1h1112  
+3s _________________ 3c 
+5/2 58 
+2d  ig 1 	________________________ . . . . . .. 7/2 
+2P2 1f5/2  
+28 3/2 
+Id 3/2 
+2s . . . .  2 1/2 
+Id ______________ id 
+'p _______________ 
+:11 	11.. ip 
+2 3/2 
+is 151/2 
+WoodsSaxon WoodsSaxon plus 
+spinorbit coupling 
+Figure 2.1: The energy level scheme obtained by using a Woods-Saxon poten- 
+tial and Woods-Saxon potential with a spin-orbit term. The magic number shell 
+closures are shown. 
+Chapter 2. Theory 	 22 
+the sum of a central nuclear potential V, a Coulomb term VC which is 
+proportional to the charge of the particle, and a centrifugal term V which is 
+proportional to 1(1 + 1)/rn. Since the proton is both lighter and has a lower 
+Z than an a particle, it experiences a larger centrifugal barrier and a smaller 
+Coulomb barrier than the a particle. The combined Coulomb and centrifugal 
+potentials give rise to barriers as large as '-'-'15MeV, compared to the 1MeV 
+proton energy. The proton is also a fermion with a spin of 1/2, and so a spin-
+orbit potential term V0 must also be included (this is not necessary for the 
+a particle, which has zero spin). A commonly used approximation for 
+is the real part of the optical Becchetti-Greenlees potential [Bec69], which 
+was constructed from proton elastic scattering data. The total potential is 
+therefore given by: 
+V(r) = V... (r) + Vc(r) + V, (r)+ Vso(r) 	 (2.7) 
+The first attempts to describe proton decay rates used the one di-
+mensional semi-classical WKB barrier approximation, based on the early 
+a-decay theory of Gamow [Gam28], with a decay constant A given by the 
+product of a factor describing the frequency of tunneling 'attempts' and a 
+transmission coefficient T, with A of course equivalent to 1n2/t 1 12 . Hofmann 
+[Hof89] gives the following expression for the frequency factor: 
+= u3I2R(zZe2/Rc - Q)1/2 	
+(2.8) 
+where M is the reduced mass of the system, RC is the Coulomb radius (RC  = 
+1.21A' 13  in fm), z is the charge of the proton (i.e. 1) and Z is the charge of 
+the daughter nucleus. 
+Chapter 2. Theory 	 23 
+-45MeV 
+Q -1MeV 
+Figure 2.2: The proton-nucleus potential. 
+The WKB (Wentzel, Kramers, Brillouin) approximation, which is based 
+on the assumption that the potential varies slowly relative to the proton 
+wavefunction, is then used to define the transmission coefficient T as e_2Gii, 
+where the Gamow factor G,1 is proportional to the integral of the potential 
+over the classically forbidden region: 
+= /f V(V(,r) - 	 (2.9) 
+where r1  and r2 are the classical turning points as shown in Figure -2.2. 
+The transmission factor T therefore has an exponential dependence on 
+the proton decay Q-value Q (leading to the half-life being proportional to 
+e'lv'QP with a a constant), meaning that the decay rate can vary over many 
+orders of magnitude with just a very small change in Q. The centrifugal part 
+Chapter 2. Theory 	 24 
+of the potential barrier varies significantly depending on the orbital angular 
+momentum l carried away by the proton, and this variation also affects 
+the transmission factor. The proton partial half-life is therefore extremely 
+sensitive to both the decay energy Q and the orbital angular momentum 
+of the proton ip.  and this angular momentum dependence can often be used 
+to identify the spin of the proton state by comparing the experimentally 
+measured half-life with the half-lives calculated for the various possible I 
+orbitals the proton could occupy using the observed decay energy. The 
+proton decay branch will compete with /3 decay (or even a decay), so that the 
+experimentally measured half-life is a combination of the partial half-lives 
+for the different branches; ideally, the branching fraction can be quantified 
+by observing the competing decay modes, but in reality it is usually more 
+practical to estimate the partial half-life for 3/EC decay from calculations. 
+The 3 partial half-life is usually on the order of hundreds of milliseconds, so 
+that if the proton decay occurs on a timescale of a millisecond or less one 
+can consider the state to decay by proton emission 100% of the time. Given 
+the calculation of proton partial half-life as a function of Q, one can define 
+a Q-value window representing the range of energies for which the proton 
+decay has an experimentally observable half-life. Decays faster than 1s 
+are impossible to detect with current mass separation methods, and decays 
+slower than about is are unlikely to compete effectively with /3 decay. This 
+time window of 1s-1s results in a small observable Q-value window around 
+1MeV. 
+The semi-classical method was used to analyse the results of proton 
+decay experiments for many years, and was sufficient in most cases to make 
+an unambiguous qualitative assignment of the proton orbital angular mo- 
+Chapter 2. Theory 	S 	 25 
+menturn and therefore the parent state. Indeed, for some spherical proton 
+emitters, it has been shown [Abe97} that the WKB approach gives half-lives 
+within 10% of the more sophisticated methods described in the next section. 
+2.2.3 Modern proton decay theory 
+The flourishing of the experimental study of proton emission over the last 
+two decades has led to a concerted effort to produce quantitative theoretical 
+explanations for the process of proton decay, which can then be compared 
+with. nuclear structure models. The simple semi-classical method, utilising 
+the SWKB approximation, is not sufficient to describe the subtleties of pro-
+ton emission and several new theories have been developed in recent years. 
+All these theories consider proton emitters as extremely narrow resonances 
+which can be thought of as quasi-stationary states. The resonance width F 
+relates to the proton partial half-life by ti/2, = h/['1ri2. The theoretical de-
+scription of these states is a challenging task due to the dramatically different 
+energy scales for the resonance energy (r-'lMeV) and width (from ,10_ 16  
+to i.i10 22 MeV). The two main theoretical approaches are the direct' and 
+'distorted wave' methods. 
+In both approaches, one considers the parent nucleus as the unbound 
+proton moving in the potential of the daughter and solves the Schrdinger 
+equation accordingly to find the proton single-particle wave function, with 
+the nuclear potential depth adjusted to reproduce the experimental proton 
+decay Q-value. In reality, the process of proton emission is more compli-
+cated since the perfect separation of the nuclear many-body wave function 
+into that of the proton and daughter cannot truly be made. However, this 
+Chapter 2. Theory 	 26 
+approximation has proved sufficient to describe the properties of these res-
+onances, as we shall see. In the 'direct' approach of Maglione and Ferreira 
+[Mag98], the single particle wave function is defined to be a Coulomb wave 
+at large distances from the nucleus, beyond the range of the nuclear force. 
+The radial part of the wave function, 1 (r) = u1(r)/r, is matched to this 
+outgoing wave L1t(r),  thus imposing the decay on the quasistationary state. 
+ul3(r) = re/47t(r) = Nj"'[G1 (kr) + iFi (kr)]  
+where F1  and G1 are the regular and irregular Coulomb functions, k is the 
+wave number /ZE/h and N.11  is a normalisation constant, or matching 
+amplitude. The decay width is found directly from the matching amplitudes 
+by calculating the radial probability flux F13  through a sphere. 
+27r 	2ir 
+F13 = L 	ui (r)I 2ur2 sinOdOdb 	 (2.11) 
+d.  urn uzj (r)1 2  = N1 ' 2 	 (2.12)3 1
+where v is hk/, the particle velocity (p being the reduced mass of the 
+system). This flux is equivalent to the inverse of the mean lifetime. The 
+matching amplitude N can then be determined at a specific radius R inside 
+the classical external turning point, because the wave function decreases 
+very rapidly outside the nucleus (typically by 10 orders of magnitude). A 
+matching radius of -'25fm is thought to be adequate for the known spherical 
+proton emitters [DavOOa], whereas the classical external turning point is 
+usually in the region 80-100fm. The 'direct' method decay width is therefore 
+given by: 
+Chapter 2. Theory 	 27 
+112 k 	u13(R) 	2 r7(R) = ,iGj(R)+iF1(R) 	 (2.13) 
+which is effectively independent of R for distances beyond the range of the 
+nuclear potential. Because the imaginary part of the resonance energy (i.e. 
+the decay width) is so much smaller than the real part, it is usual to neglect 
+the imaginary term in the denominator. 
+The 'distorted wave' approach, first formulated by Bugrov et al [Bug85], 
+is based on the Gell-Mann-Goldberger transformation and makes useof the 
+Coulomb wave functions determined by the pointlike Coulomb interaction. 
+We consider the resonance width as: 
+2RITA+1,z+1:A,zI
+	 (2.14) 
+where the transition amplitude TA+1,Z+1:A,Z, the overlap of the parent and 
+daughter states, is calculated using the distorted-wave Born approximation 
+(DWBA): 
+TA+1,Z+1:A,Z = < ApApIVApTA+1> 	 (2.15) 
+where ?/'Ap is the outgoing spherical wave representing the relative motion of 
+the proton with respect to the daughter, WAp  is the product of the intrinsic 
+wavefunctions of the proton and daughter, 11JA+1 is the metastable state of 
+the parent nucleus (i.e. the initial state) and VAp  is the interaction between 
+proton and daughter. As before, VAp  should strictly be the sum of two-body 
+interactions between the emitted proton and each of the other nucleons in 
+the daughter, but it can be approximated by a sum of a simple optical 
+Chapter 2. Theory 	 28 
+nuclear potential and the Coulomb potential. The daughter nucleus is again 
+treated as an inert core. 
+The Gell-Mann Goldberger transformation [Fes92] can be used to 
+rewrite the transition amplitude term as: 
+TA+1,Z+1:A,Z =< WAp'b p IV - V  IWA+l> 	 (2.16) 
+where OC is the scattering wavefunction associated with the point charge 
+Coulomb potential Vc9.  The key point in this formalism is the difference 
+between the Coulomb potential from the finite charge distribution VC and 
+that of the point charge V,  which leads to the distortion of the outgoing 
+wave. The radial component of Ap is: 
+V-2"F1(kr)= irh2k r 	 (2.17) 
+where k is the wave number and F1  is the regular Coulomb function. The 
+initial state wave function "A+1  can be expressed as the product of the 
+daughter nucleus wave function and the proton wave function. The radial 
+wavefunction u13  (r) of the quasibound proton can be found by matching 
+it smoothly to an irregular Coulomb function G1 (kr) that asymptotically 
+describes the proton at large distances from the nucleus, in a similar manner 
+to the 'direct' approach. This method ultimately provides the following 
+expression for the resonance width: 
+4p 	 2 
+ Fl(kr)[VN(r) - Vc (r)]ujj(r)dr. 	(2.18) 
+The nuclear interaction VN contains the spin-orbit term. It has been 
+Chapter 2. Theory 	 29 
+shown [DavOOb] that the 'direct' and 'distorted wave' methods are effectively 
+equivalent for spherical proton emitters. 
+2.3 Deformed Proton Emitters 
+Nuclei far from closed shells often have large quadrupole deformations, giving 
+them prolate or oblate spheroidal shapes. For such nuclei a spherical poten-
+tial cannot be used to calculate their properties; and different approaches 
+must be pursued. Many measured proton emitters are predicted by mass 
+models (see section 2.5 and [Mo195]) to have significant prolate deformations 
+(02 "-' 0.3), and the failure of spherical proton emission theory to explain 
+their decay rates is clear evidence of that deformation. 
+2.3.1 Nilsson model 
+In the early 1950s, it was observed that some nuclei far from closed shells 
+exhibited quadrupole moments many times larger than could be accounted 
+for by a single particle. Rainwater [Rai50] suggested that the single parti-
+cle deforms the whole nucleus, and that the observed quadrupole moment 
+results from the collective deformation of many orbits. This concept was de-
+veloped mathematically by Bohr and Mottelson into the 'collective' model of 
+the nucleus. A microscopic approach to deformed nuclei was formulated by 
+Nilsson [Ni155], who used the shell model with a deformed harmonic oscil-
+lator potential approximating the nuclear shape (although a Woods-Saxon 
+potential can also be used). The energy levels are given by eigenvalues of 
+the following Hamiltonian: 
+Chapter 2. Theory 	 30 
+H = _V2  + mwgr2 - / inwo2 r2 y2o + CL. + D12 	(2.19) 
+where Loo  is the oscillator frequency (with hw0  = 41A 1/3), C and D are 
+Clebsh-Gordan and D-matrix coefficients and Y20  is the spherical harmonic 
+oscillator. 5 is the deformation parameter AR/R,,, where Rrms  is the 
+root mean square nuclear radius and AR is the difference between the semi-
+major and semi-minor axes of the ellipsoid. This quantity relates to other 
+deformation parameters, including the commonly-used /32,  as follows: 
+12 	5,3 	37,4 
+E2 	6 
+The deformed potential breaks the 2j + 1 degeneracy of the spherical 
+shell model orbitals, creating j + 1/2 sub-shells with a degeneracy of two. 
+For these states, 1 and j cease to be good quantum numbers, and they can 
+instead be defined by Q, the projection of j on the ellipsoid symmetry axis, 
+and of course the parity. With the approximation of an infinite deformation, 
+the nucleon wavefunction can also be identified by three asymptotic quantum 
+numbers: the total oscillator shell number N, the number of nodes in the 
+z direction n and the projection of 1 on the symmetry axis A. A Nilsson 
+level is therefore usually described in the form [NnA]. The Nilsson shell 
+model (see figure 2.3) fills up in the same manner as its spherical counterpart, 
+starting from the lowest energy and building up to find the likely states of 
+the Fermi level nucleons, and the ground state nuclear deformation can be 
+found by minimising the sum of the single particle energies with respect 
+to the deformation. The energy levels can be thought of as depending on 
+Chapter 2. Theory 	 31 
+the spatial orientation of the single particle orbital relative to the deformed 
+core i.e. the component of j along the symmetry axis. For nuclei with 
+prolate deformation, orbits with smaller Q interact more strongly with the 
+core, are more tightly bound and therefore lower in energy than orbits with 
+relatively higher Q, and vice versa for nuclei with oblate deformation (where 
+orbits with large Q involve motion localised near the equatorial plane). The 
+Nilsson wavefunctions do not possess a fixed angular momentum J - rather, 
+it can be projected onto rotational states of many different angular momenta 
+R. Therefore a particle with j in a Nilsson orbit gives rise to a rotational 
+band rather than a single state, with J = j + R (j precessing around the 
+symmetry axis). 
+2.3.2 Proton emission from deformed nuclei 
+Deformed proton emitters, as in the case of their spherical equivalents, can 
+be treated as narrow resonances of the odd proton moving in a single-particle 
+Nilsson level of a deformed potential, with 'direct' and 'distorted wave' treat-
+ments to calculate the resonance widths and thus the decay rates. 
+The single-particle Nilsson wave function of the unbound proton can 
+be expanded into spherical components, where the coefficients of this ex-
+pansion can be understood as the amounts of the various spherical single-
+particle states present in the wave function. It is assumed that the daughter 
+deformation is identical to that of the parent nucleus. For the decay to 
+the ground state of an even-even daughter, angular momentum conservation 
+implies that the outgoing proton has j, = J2  = K, the projection of the 
+quasibound proton's angular momentum on the core symmetry axis. 
+Chapter 2. Theory 	 32 
+1,2 I770 1 
+-ts'4soj 
+-. 	 -- 	 ..-, 
+.-.. r 2 / ? 
+112411 	- 	- 	.11241l 
+------------ 
+-4k:. ------- 	 ---------- 
+2dJ CL 
+411 12(4111 
+- 	1/2 4311 	- ..-- 	 3/2411 w
+- .  ---:--. --- 	512413  
+-- 	- 	- 	 - 
+9)2-' 	
+-. 	 '.. 
+12(651] 
+--. 	 ----i - 
+- 	-- 	--- 	 - 	-- 
+- - 	- 	-- 	 - 	-- 	
+- 	- 1213031 
+- - (50) 	 ----- 	
+-.-. 	 -- - 
+': -- 
+/2(5321 
+30431 	
+- c-- 	.---. 
+13 0J 20:30 	0.5 	0.6 
+Figure 2.3: Nilsson level diagram for protons (50<Z<82) as a function of de- 
+formation parameter E2,  2 with E4 = e/6, calculated as described by Bengtsson and 
+Ragnarsson [Ben85]. 
+Chapter 2. Theory 	 33 
+The range of the Coulomb quadrupole interaction is large, which com-
+plicates the direct method, which relies on the Coulomb potential being 
+spherically symmetric. It has been shown [DavOOa] that the half-life results 
+of the direct and distorted wave methods for deformed proton emitters in 
+the adiabatic limit only agree to within 20%, whereas they gave identical 
+results for spherical emitters. These methods which had been successful for 
+spherical proton emitters proved somewhat innacurate in deformed cases, 
+so more advanced models were developed. The coupled channels Green's 
+function method was used to calculate proton decay rates in this work. 
+In the coupled channels approach [EsbOOJ, we consider an unbound 
+proton interacting with the axially symmetric, quadrupole deformed core 
+(the daughter nucleus) which may have non-zero excitation energy (the so-
+called 'particle-rotor' model). The coupled equations are solved for real 
+energies using the Green's function method [Bug89], and it has been shown 
+[EsbOO] that the decay rate results produced by this method compare favoura-
+bly with those obtained by the 'direct' method [Mag98]. 
+In the laboratory frame, for a total spin I of the decaying state, the 
+decay channels are labelled by the quantum numbers (ljR) where 1 and 
+j specify the single particle orbits and R is the angular momentum of the 
+rotating core. We consider only the ground state rotational band of the rotor, 
+with energy ER = (h2 12J0)R(R + 1) where J0  is the moment of inertia and 
+R=0,2,4.. etc. 
+The total wavefunction is: 
+TIM (r,w) = E PLI1(jR)IM) 	 (2.20) 
+Chapter 2. Theory 
+where 
+Il(iR)IM) = E (jmRM R IIM)IRM R )Iljm) 	(2.21) 
+is the channel-spin wavefunction, obtained by coupling the single parti-
+cle wavefunction him)  to that of the rotor IRMR ), where M is the projection 
+of the total spin I on the laboratory axis. 
+The Hamiltonian of the proton-core system is: 
+H = T + V(, w) + l/18 (r) + HR 	 (2.22) 
+where T is the kinetic energy of the proton relative to the core, V(, w) 
+is the Coulomb plus nuclear interaction (a function of proton position r and 
+the rotor orientation w), V13 (r) is the spin-orbit interaction and HR is the 
+Hamiltonian of the rotor. 
+The Coulomb plus nuclear interaction is expanded in multipoles: 
+V(r,w) = 	VA(r)PA [cos (9')] 	 (2.23) 
+where 9' is the orientation of the proton with respect to the symme-
+try axis of the rotor. Using the wavefunction from equation 2.20 in the 
+Schrdinger equation results in the set of coupled differential equations for 
+the radial wavefunctions: 
+(h13  + ER - E)'IMR(r) = - I 	(1(jR)IMP[cos(9')] 
+l'j'R' .Xo 	 (2.24) 
+x h1'(j'R')IM)V A (r)'qF (r) 
+Chapter 2. Theory 
+where hij  includes the monopole terms of the interaction: 
+h2 ( & 	l(l+1)\ 
+h13  = - 	
++Vo(r)+V13 (r) 	(2.25) 
+2p 	dr2  
+The deformed spin-orbit interaction can be written as [She69]: 
+V13 (r,O) = 4Vso([Vf(r, 9)] x p). 	 (2.26) 
+where 0 is the angle between r and the symmetry axis of the rotor, 
+p is the momentum and f(r, 9) is the Fermi function. Using the multipole 
+expansion f(r, 9) = EAfA(r)PA [cos (9)],  we can derive the expression: 
+V1 3 (r, 9) 4 V50 	(PA1. - 
+f-\.[i S, PA] d  
+A rdr 	r 	dr 
+(2.27) 
+fA dPA  
+- r2d cos (9) r 12 ) 
+Further details on these potentials can be found in [EsbOO]. 
+Using the solutions to the coupled equations, the decay width can 
+then be calculated using the 'direct' and distorted wave methods described 
+previously. In this work, the solutions are matched to Coulomb waves at 
+a relatively small distance (roughly 15-20fm) which is outside the range of 
+nuclear couplings, and real energies (i.e. stationary states) are used. The 
+decay properties of the standing wave are extracted by applying the outgoing 
+distorted wave Green's function method (see [EsbOO] for full details), which 
+includes the effect of long-range Coulomb couplings (out to a radius of about 
+lOOfm, near the outer classical turning point) in the calculation. 
+Chapter 2. Theory 	 36 
+The calculations in this work were performed in the adiabatic limit (i.e. 
+assuming the rotor has infinite moment of inertia and therefore collapsing 
+the rotational band to zero energy, making the reference frame of the rotor 
+equivalent to the laboratory frame) and used the K representation rather 
+than the R representation described above. We consider the system in the 
+body-fixed frame of the rotor rather than the laboratory frame, with the 
+available decay channels labelled (ljK) where K is the projection of the 
+total spin I on the symmetry axis. Transformation can be made between 
+the R and K bases as follows [EsbOO]: 
+ii 	 -iR01iR(r) and 	R(r)=>AbfJ<(r) 	(2.28) 
+R 	 K).O 
+where 
+1K 	/2R+1 
+A3R = V 
+21+1 (jKROIIK)/1 + (_i)R 	(2.29) 
+assuming even R, which is valid for the ground state rotational band. 
+The coupled equations (c.f. equation 2.24) are obtained in the K represen- 
+tation by using the above relations and summing over R: 
+(h13  - E)'b/'<(r) + 	W' fJ"(r) = KK' 
+K'>(J 
+- 	ljKI13jlhjIK)oV(r)4I44t(r) 
+vi' A>O 
+(2.30) 
+where 
+Chapter 2. Theory. 	 37 
+Wj, = 	A1ERA ' 	 (2.31) 
+This coupling matrix contains off-diagonal terms due to Coriolis mix-
+ing between neighbouring K values (i.e. K' = K + 1). The adiabatic limit 
+in the K representation eliminates these off-diagonal terms and therefore 
+simplifies the calculation by reducing the number of coupled channels (the 
+number being equal to the number of single particle orbits that one includes, 
+with the restriction j > K). The adiaMtic limit is equivalent to assuming 
+that the Coriolis and centrifugal perturbations to the structure are negligi-
+Calculations using the distorted wave Green's function method in the 
+adiabatic limit are expected to give a more realistic estimate of the decay 
+width than the full coupled channel approach for states with relatively high 
+spin (such as the 7/2 -  ground state of "Ho) due to the greater Coriolis 
+mixing effects involved (compared to lower spin states). 
+2.3.3 Fine structure in proton decay 
+A predicted consequence of large prolate deformation in an even-even nu-
+cleus is the lowering of the energy of the first excited 2+  rotational state. 
+In terms of proton emission, this can result in a significant branching of the 
+proton decay of an odd-even nucleus to the first excited state of the daughter 
+by increasing the decay energy available to this branch. This effect is known 
+as fine structure, and has been observed in the proton decay of the deformed 
+odd-even nuclides 131 Eu [Son99] and 145Tm [Kar03]. Other predicted lan-
+thanide proton emitters such as 135Tb and 125Pm were also considered likely 
+Chapter 2. Theory 	 38 
+to exhibit this phenomenon. Fine structure has also been observed in the 
+proton decay of odd-odd ' 46Tm [Gin03], although this example is compli-
+cated by the even-odd nature of the daughter which leads to a complex decay 
+scheme with at least five separate transitions. After the proton decay to the 
+excited state of the daughter, this state quickly decays to the ground state 
+by -y decay or internal conversion. The internal conversion coefficient (the 
+probability of electron emission relative to 'y emission) is roughly indepen-
+dent of nuclear structure details, and is found to increase as Z 3 , decrease 
+rapidly with transition energy E, increase rapidly with multipole order L, 
+and decrease as 1/n3  where n is the atomic electron shell number, which 
+causes the internal conversion process to be dominated by K-shell emission. 
+The electrons in the K shell are much more tightly bound than their coun-
+terparts in the higher shells, which means that their measured energy will 
+be reduced significantly from the energy of the daughter excited state by 
+an amount equal to the K-shell binding energy. Detailed computations of 
+internal conversion coefficients, using the proper atomic wave functions, are 
+tabulated in various works (for example, in the Table of Isotopes [Fir95]). 
+In deformed nuclei, the wave function of the decaying state is a mix-
+ture of several spherical j components. In the adiabatic limit, only the 
+angular momentum projection on the symmetry axis is a good quantum 
+number (along with parity). Only the spherical single particle component 
+with the lowest angular momentum (bearing in mind conservation of angular 
+momentum and parity) effectively contributes to the decay, and it is usually 
+a relatively small component of the total wavefunction. The decay width is 
+proportional to the square of the amplitude of this component in the initial 
+wavefunction. 
+Chapter 2. Theory 	 39 
+The Coriolis coupling can admix states with smaller l values, and 
+therefore lower centrifugal barriers, into the proton wave function. Low-1 
+components, however small, can substantially affect the lifetime. Coupling 
+to the 2 state allows proton single-particle states with lower i p  to contribute 
+to the decay, which compensates for the lower decay energy by lowering the 
+effective centrifugal barrier. 
+The energy of the excited state of the daughter is included directly 
+in the adiabatic limit by the distorted wave Green's function method de-
+scribed previously, by using the correct 'asymptotic momentum' hkR in 
+the distorted Coulomb wavefunctions and matching amplitude, where kR = 
+/2ii(Eres ER)  (Eres  being the proton resonance energy and ER the rota-
+tional energy of the excited core). 
+2.4 Spectroscopic Factors 
+The simplistic view of the proton emitter as an inert core coupled to a proton 
+in a well-defined single-particle orbital with a particular angular momentum 
+is not satisfactory for a complete description of the proton decay process. 
+This model may be sufficient for an order-of-magnitude calculation, which 
+may be enough to determine the proton orbital, but for a more accurate and 
+sophisticated picture, nuclear structure effects must be taken into account. 
+The proton decay can be significantly hindered, and therefore the half-life 
+increased, by the incomplete overlap of the parent and daughter nuclear 
+wavefunctions; for example if a hole in an orbital in the parent nucleus is 
+filled in the daughter. This overlap hindrance effect is described by the 
+spectroscopic factor S. 
+Chapter 2. Theo 
+The experimental spectroscopic factor is defined as the ratio of the 
+theoretically estimated half-life to the actual measured half-life: 
+(2.32') 
+Incomplete wavefunction overlap will lead to the experimental half-life 
+being longer than the theoretical prediction, and therefore the spectroscopic 
+factor will be less than one. 
+The theoretical spectroscopic factor is a measure of the likelihood that 
+one nucleon (or hole) position will differ from the initial (parent) to the final 
+(daughter) nuclear state: 
+> 1 2 	(2.33) 
+where ?J5j2  and 'j1  are the initial and final states and 	is the creation 
+operator relating to the single particle orbital (nlj), defining the angular 
+momentum carried away by the proton. This is analogous to the calculation 
+used to describe the hindrance in proton pick-up reactions [Boh69]. 
+The theoretical spectroscopic factor can be calculated in several dif-
+ferent ways. Davids et al [Dav97] estimated the spectroscopic factors of 
+the proton emitters in the region 65 < Z < 82 using a low-seniority shell 
+model calculation, which characterises the configurations of ri particles in 
+i orbitals by the number of particles combined in O pairs. The seniority 
+quantum number denotes the number of unpaired particles in the model 
+space. This model considered 18 particles in the 81/2,  d3/2 and h 11 12  spheri-
+cal proton orbitals above the Z=64 sub-shell closure, with neutrons assumed 
+to be spectators (so that their configuration is not altered by the proton de- 
+Chapter 2. Theory 	 41 
+cay process). A proton pairing interaction was used, and the three orbitals 
+were assumed to have the same energy. The final result, after considering 
+the overlap between parent and daughter wavefunctions and evaluating the 
+reduced matrix element for the case of a full set of particles, was shown to 
+St(p) = 	 (2.34) 
+where p is the number of proton hole pairs counting down from Z=82 
+in the daughter nucleus. This simple expression was found to model the 
+decreasing spectroscopic factors of the string of known proton emitters from 
+Z=69 to Z=81 with reasonable accuracy, apart from the cases of proton 
+decay from the d31 2  orbital. 
+A more intricate approach, using the independent quasi-particle ap-
+proximation of BCS theory, is described by Aberg, Semmes and Nazarewicz 
+[Abe97]. This method considers the proton emitter as an inert core with 
+an odd proton represented by a single quasi-particle state, with the spectro-
+scopic factor given by: 
+(2.35) 
+where 	is the probability that the spherical orbital represented by 
+j is empty in the daughter nucleus (where 1 means completely empty on 
+average and 0 means completely full on average). This quantity is equal to 
+1 - v where v3  is the occupation probability: 
+v(1 
+[( - )2 + &]1/2) 	
+(2.36) 
+Chapter 2. Theory 	 42 
+where \ is the Fermi level energy, L is the proton pairing gap en-
+ergy,  is the relevant single-particle level energy (calculated by solving 
+Schrdinger's equation with a suitable potential), and G, is the proton pair-
+ing strength, which is given by: 
+G = [19.9 + 0.176(N - Z)] 	 (2.37) 
+Only a few levels below and above the Fermi energy (within a range 
+of L) contribute to the configuration mixing caused by pairing correlations. 
+This method can be used for deformed as well as spherical proton 
+emitters, as long as the single-particle level energies are known accurately, 
+particularly those near the Fermi surface. 
+2.5 Mass Models 
+As shown in section 2.2, the decay rate of a proton-emitting nucleus is ex-
+tremely sensitive to the proton decay Q-value, so in order to tell whether 
+a search experiment for a particular proton decay candidate is feasible it 
+is advantageous to have a rough approximation of these values. One can 
+estimate the one-proton separation energies of extremely neutron-deficient 
+nuclei, and therefore their proton decay Q-values, by utilising the various 
+nuclear mass models which have been formulated over the last few decades. 
+These models, although differing in their approaches, all use sets of ad-
+justable parameters which are modified by fitting to experimental data to 
+explain nuclear structure effects which cannot be interpreted satisfactorily 
+by the simple shell model theory. It is often found that more complex models 
+with a larger number of parameters provide a better fit to data than models 
+Chapter 2. Theory 	 43 
+with a smaller parameter set, although this higher level of complexity may 
+not necessarily reflect the accuracy of the model's predictions beyond the 
+known data set. Indeed, models with fewer parameters are thought to give 
+better predictions beyond their known data sets. As well as predicting mass-
+related properties like the one-proton and one-neutron separation energies, 
+such models also can provide estimates for properties such as deformation 
+and the position of the Fermi level. 
+2.5.1 Mller-Nix mass model 
+The macroscopic-microscopic model of Mller et al [Mo195, Mo197] is com-
+monly used to estimate and compare the properties of proton emitters. In 
+this model, the nuclear binding energy and therefore the mass is found by 
+considering the combination of a macroscopic semi-empirical term (which 
+covers familiar mass concepts such as volume and surface energy, Coulomb 
+repulsion of the protons and pairing energy) and a microscopic term which 
+deals with single-particle shell model corrections and pairing energy. 
+E(Z, N, ) = Emacro(Z, N, ) + Ernicro(Z, N, ) 	(2.38) 
+where e is a deformation parameter, showing the shape-dependence 
+of the model. The macroscopic term is based on the finite range droplet 
+model, a development of the droplet model described by Myers [Mye77], 
+with an extra term to account for the short range of the nuclear force. 
+The microscopic term is found by comparing the single-particle levels of the 
+Nilsson model with those calculated by Strutinsky's method [Str67, Str68] 
+to find the shell correction, and then evaluating the pairing term using the 
+Chapter 2. Theory 	 44 
+Lipkin-Nogami version of BCS theory [Pra73]. 
+The ground state nuclear masses are evaluated by minimising the total 
+energy with respect to the deformation parameter, and one-proton separa-
+tion energies can then be calculated from these values. The model also 
+provides predictions for ground state nuclear deformations, as shown in Fig-
+ure 2.4 for the region around the proton drip-line from Z=50 to Z=85. These 
+predictions show the expected pattern of significant quadrupole deformation 
+away from shell closures, and this model's estimates of the deformations of 
+proton emitters have been shown to agree well with experimental data. The 
+Mller-Nix model also provides estimates of the spin and parity of odd nu-
+cleons, which can be useful in identifying the likely state of the unbound 
+proton in a proton-emitting nucleus, and other useful quantities such as the 
+partial half-life for 0 decay. 
+The Mller-Nix model uses 38 parameters, only 16 of which are eval-
+uated by least-squares fitting to measured mass data of 1654 nuclides. The 
+RMS error for the model's mass predictions is estimated to be around 
+700keV. 
+2.5.2 LiranZe1des mass model 
+The mass model of Liran and Zeldes [Lir76] has also proven to be quite 
+useful for proton decay studies. This model uses a shell model method with 
+a strong pairing interaction which is complicated by one- and two-nucleon 
+excitations within sub-shells and shells connected to nuclear deformation 
+and core excitation. The nuclear ground state energy can be expressed as: 
+Chapter 2. Theory 	 45 
+\NL P 22 1TJ 
+BETA - DEFORMATION 
+D - 	Above 0.25 
+0.15-025 00 
+0.05-0.15 
+-0.05- -0.05 
+5 - 	-0.15--0.05 
+025--0.15 
+- Below-025  
+UU UU 
+50 	60 	70 	80 	90 	100 	110 
+NEUTRON NUMBER 
+Figure 2.4: MIler-Nix mass model deformation predie.tiomc (squares are stable 
+nuclei, circles are known proton emitters beyond the predicted proton drip line). 
+Chapter 2 Theory 	 46 
+E(Z, N) = Epair(Z, N) + Eclef(Z, N) + Ec01(Z, N) 	(2.39) 
+where Ejr  is the pairing energy, E1 is the deformation energy asso-
+ciated with configuraton mixing and E is the Coulomb energy. The Epajr 
+and E1 terms are treated differently for regions where the valence nucleons 
+occupy the same major shell and regions where they occupy different shells. 
+The Liran-Zeldes model has 178 independent parameters which are deter-
+mined by least-squares fitting from the data of 1818 known nuclides, with 
+the requirement that the mass surface must be continuous at the boundaries 
+between the different shell regions. The RMS error in the mass predictions 
+for this model is estimated to be around 500keV. 
+Chapter 3 
+Experimental Method 
+3.1 Introduction 
+There are many difficulties involved in experiments searching for proton ra-
+dioactivity; the production of exotic drip-line nuclei in sufficient quantities, 
+the detection of the emitted proton (if the decay mode exists) and the un-
+ambiguous identification of the parent nucleus. The first proton-emitting 
+isotopes were identified in the early 1980s using methods as diverse as ave-
+locity filter [Hof82a], on-line mass separation [K1e82] and a catcher foil com-
+bined with an ionisation chamber [Fae84]. However, the most productive 
+technique has proved to be the use of a recoil mass spectrometer combined 
+with a double-sided silicon strip detector (DSSD) [Sel92a]. This chapter 
+will describe the apparatus and procedures used to search for new proton-
+emitting nuclides at Argonne National Laboratory, including the installation 
+of a new DSSD system. 
+The Argonne Tandem Linear Accelerator System (ATLAS) supplies 
+Chapter 3. Experimental Method 	 48 
+a heavy ion beam which impinges on a thin target, producing exotic nu-
+clei by fusion-evaporation reactions, which are then dispersed according to 
+their mass-to-charge (A/Q) ratio by the Fragment Mass Analyser (FMA). 
+At the focal plane of the FMA, a multi-wire proportional counter provides 
+position data, enabling the masses of the recoils to be identified,. and en-
+ergy loss data which allows the recoils to be differentiated from scattered 
+beam particles. The recoils then defocus and implant into a DSSD, illumi-
+nating it approximately uniformly. The DSSD described in this thesis is an 
+entirely new design, consisting of 80 orthogonal strips on each side, giving 
+6400 'quasi-pixels' over an area of 1024mm 2 . This area is large enough to 
+cover the full FMA image, as did a previous detector with only 40 strips per 
+face and thus a factor of six fewer quasi-pixels per unit area. The new DSSD 
+retains the fine granularity necessary for accurate correlations possessed by 
+another previous detector, which had 48 strips per face and an area four 
+times smaller. 
+3.2 Selection of Heavy Ion Beam and Target 
+The Argonne Tandem Linear Accelerator System [Aro86] was the world's 
+first superconducting linear accelerator for ions when brought on-line in 
+1985. As the name implies, it initially used a 9MV tandem Van de Graaff 
+ion source to inject the beam into two 20MV linacs, but the facility was 
+upgraded in 1987 to allow the use of an electron cyclotron resonance (ECR) 
+ion source, linked to a 12MV injector linac (the Positive Ion Injector, or P11) 
+[Bo193]. The ions from the ECR+PII system are then injected into the main 
+20MV linac system, which can accelerate the particles to energies of up to 
+Chapter 3. Experimental Method 	 49 
+17MeV/u. The ECR source, which produces positive ions by heating the 
+electrons of a plasma in a magnetic field with a specific microwave frequency, 
+is superior to the electrostatic tandem because it allows a wider variety of 
+beam species (up to uranium, and including noble gases which cannot be 
+produced efficiently as negative ions for a tandem accelerator) and a higher 
+beam current (up to 100 particle-nanoamperes, or pnA, for a "Ni beam). 
+A second ECR source was completed in 1997, and the original source was 
+upgraded in 2000, which increased the available beam intensity by an order 
+of magnitude. In 2001-2002, the ECR source system underwent another 
+upgrade [Moe02] which increased the available beam intensity by a further 
+factor of two. 
+All the observed direct proton-emitting nuclides have been produced 
+using fusion-evaporation reactions (with beam energies on the order of 5MeV/u). 
+If proton-rich (but necessarily stable) isotopes are used for the beam and 
+target, then it becomes possible to access the proton drip-line region. The 
+residues from such reactions, where the beam and target nuclei fuse to create 
+a highly-excited compound nucleus which then 'evaporates' off particles to 
+reduce its energy, tend to be less proton-rich than the compound nucleus due 
+to the preferential evaporation of protons caused by the high density of states 
+for protons in this region and high neutron separation energy. This prefer-
+ence towards the compound nucleus moving away from the proton drip-line 
+and towards stability means that a search for proton radioactivity involves 
+probing relatively low cross-section reactions where more neutrons than pro-
+tons are evaporated. The final choices of the beam and target isotopes are 
+dependent on several factors apart from the desired reaction product, such 
+as the isotopic abundances of the materials and their physical properties. 
+Chapter 3. Experimental Method 	 50 
+For example, the nuclide 96Ru is extremely proton-rich but makes up only 
+'-.'5% of the isotopic abundance of Ruthenium; this may make it desirable to 
+use a specially isotopically-enriched sample rather than a sample with the 
+natural isotopic abundances, although this can often prove very costly. The 
+physical properties of materials come into play with target selection; for ex-
+ample, a 40Ca target must be handled with care as it oxidises easily and may 
+not be able to withstand the heat deposited by an intense incident beam, 
+unlike a 92 Mo target which has a much higher melting point. One must also 
+consider the use of inverse kinematics (i.e. where the beam species is heavier 
+than the target), which increases the proportion of residues ejected from the 
+target in the forward direction, and thus increasing the transmission through 
+the FMA, at the cost of increasing the amount of scattered beam particles 
+passing through the FMA. 
+Once the beam and target nuclides are selected, the beam energy (and 
+intensity) and the target thickness must be decided. These are, of course, 
+correlated parameters; the beam energy is chosen to maximise the desired 
+evaporation channel by selecting a particular compound nucleus excitation 
+energy for nuclei in the centre of the target; the thicker the target, the greater 
+the energy loss of the ion beam up to the centre of target. The optimum 
+excitation energy of the compound nucleus can be estimated with reasonable 
+accuracy using the HIVAP computer programme [Rei85] developed at GSI, 
+a statistical calculation code which models the fusion-evaporation process 
+for an excited compound nucleus. If this optimum energy is achieved at the 
+centre of the target then a range of energies ('-.'5MeV) at either side will also 
+be included. The target thickness is chosen by balancing the demand for a 
+high yield of reaction products (which requires a relatively thick target) with 
+Chapter 3. Experimental Method 	 51 
+the need to ensure that the energy spreading of the recoils due to multiple 
+scattering is not greater than the acceptance of the FMA (which limits the 
+useful target thickness if the separation process is to remain efficient). In 
+practice, the target thickness is nearly always on the order of 0.5-1 mg/cm 2 . 
+A selection of targets were mounted on a 'ladder', which could be easily 
+raised or lowered to change target type. In order to disperse the heat de-
+posited by the beam over a large area of the target rather than one small spot 
+(which can easily destroy the target when high beam currents are used), the 
+target can be rotated and the beam 'wobbled' (oscillated vertically). Both 
+of these methods were employed in the experiments described in Chapter 4. 
+A 20ig/cm2  carbon reset foil is placed a few centimetres downstream 
+of the target to equilibrate the charge state of recoils before they enter the 
+3.3 The Fragment Mass Analyser 
+The FMA [Dav89, Dav92] is an 8m long recoil mass spectrometer used for 
+separating nuclear reaction products (see figures 3.1 and 3.2). Its main com-
+ponents are two electric dipoles (with maximum fields of 50kV/cm) symmet-
+rically placed before and after a 40 magnetic dipole (with maximum field 
+1.1T). The FMA separates the reaction products from the primary beam 
+and then disperses them achromatically according to their mass-to-charge 
+ratio (A/Q) at the focal plane; This design results in a high acceptance in 
+energy (20% ), A/Q (7% ) and solid angle (r.'  8msr), with a consequent 
+transmission efficiency of typically 10-20% , depending on the particular re-
+action. In the original FMA design, the unreacted primary beam normally 
+Chapter 3. Experimental Method 	 52 
+;l fi ll
+Figure 3.1: The Argonne Fragment Mass Analyser. 
+Chapter 3. Experimental Method 	 53 
+stopped on the anode of the first electric dipole, although multiple scatter-
+ing resulted in a small fraction of beam passing through the separator and 
+reaching the focal plane (beam rejection 10-12),  which was sufficient to 
+approach the maximum rates at which the focal plane detectors could be 
+run (particularly when utilising inverse kinematics). Between the 135Tb ex-
+periment and the ' 25"26Pm search, the anode of the first dipole was replaced 
+with a 'split' anode, which allows the primary beam to pass through a small 
+slit and be stopped on a tantalum plate inside the anode. This upgrade fur-
+ther reduced the scattered beam problem by a factor of eight (as measured 
+using the reaction "Ni + 92Mo to produce the proton emitter '47Tm via 
+the (p2n) evaporation channel [Dav021). Quadrupole doublets at either end 
+of the FMA assist in geometric focusing and solid-angle enhancement; the 
+aperture diameter of the exit quadrupole is larger than that for the entrance 
+in order to accommodate the dispersed masses. The FMA can be rotated 
+about the target position, in reaction mechanism studies for example, but in 
+this experiment was used in the 00  orientation. The resolution achieved by 
+the FMA is on the order of d(A/Q)/(A/Q) 1/350. The (A/Q) dispersion 
+at the focal plane is typically 10mm per percentage mass difference, e.g. 
+10mm between adjacent masses at A100, which can be easily resolved by 
+position-sensitive detectors. 
+All the power supplies for the ion-optical elements of the FMA are con-
+trolled and monitored by a custom application programme [Dav94] running 
+on a dedicated computer, a Macintosh IIcx. In addition, the programme 
+monitors vacuum conditions, conditions the electric dipoles and controls the 
+magnetic fields in a feedback loop with field sensors. The FMA is prepared 
+for the transmission of a particular recoil by entering the energy, mass and 
+Chapter 3. Experimental Method 	 54 
+Focal Plane 
+Target 	Focusing 	/ 	 / 	 \ 	Focusing 
+Chamber 	Quadrupolcu / 	Electric Dipole I \ 	 / 	Electric Dipole 2 \ Quadrupolcu 
+Magnetic 
+Dipole 
+PPAC 	DSSD 
+Figure 3.2: Schematic of the Argonne Fragment Mass Analyser. 
+charge state of the particle into the programme, which then calculates and 
+implements the required fields. A web-based code [Blu96] can be used to 
+calculate the energy and optimum charge state of the desired recoil, given 
+the beam and target parameters. In fact, the FMA can transmit up to three 
+charge states of the central mass, although the yield of the non-central states 
+can be significantly reduced. During experiments, it is often profitable to 
+change the FMA charge state setting (to a half-integer charge state, for ex-
+ample), or indeed the mass setting, in order to improve the yield by having 
+two near-central charge states of the desired mass (rather than one central 
+and two reduced 'edge' states). Alteration of the A/Q setting can also be 
+useful in reducing scattered beam flux at the focal plane, which can occur if 
+a particular beam charge state gives a very similar A/Q ratio to that of the 
+desired recoil. 
+3.4 Detection System 
+The arrangement of the detection system at and beyond the focal plane of 
+the FMA is shown in figure 3.3. The PPAC is situated at the focal plane, 
+Retractable 
+degrader foil 
+DSSD Reaction 	- 
+products 
+dispersed by FMA 	
+Chapter 3. Experimental Method 	 55 
+711-1 
+Vacuum fecdthroughs 
+to preamplifiers (mounted 
+wiside chamber) 
+Retractable slits 
+Figure 3.3: Schematic of the detection system chamber from the focal plane 
+onward. 
+and measures the position (i.e. A/Q, as shown in figure 3.4) and energy loss 
+of the recoils moving through it. The recoils then pass through a degrader 
+foil, which reduces their energy (see later), and are finally implanted into 
+the DSSD. The time taken for the particles to traverse the 40cm distance 
+between PPAC and DSSD is recorded by a time-to-digital convertor (usually 
+a few tens of nanoseconds). Each event in the DSSD, either the implantation 
+or the subsequent decay of a recoil, is recorded and time-stamped by a lOOns 
+clock. Implantation events are identified by a PPAC-DSSD coincidence, and 
+decay events by PPAC-DSSD anti-coincidences. The energy with which a 
+recoil enters the DSSD is crucial; if the energy is too high, the system will be 
+'blind' to decays for a period of up to 7s due to amplifier overload (see 
+section 3.5), whereas if the energy is too low the recoils will implant too close 
+to the surface, so that a large fraction of any subsequently emitted particles 
+will escape out of the upstream (front) side of the detector without depositing 
+their full energy. Degrader foils, usually - 1mg/cm 2  of aluminium, are used 
+Chapter 3. Experimental Method 	 56 
+to reduce the recoil energy to a suitable level (which can be found with a 
+simple energy loss calculation given the usual desired implantation depth of 
+1O-12jtm). 
+Implant-decay correlations within individual 'pixels' on the DSSD are 
+then used to identify known proton or alpha decays and to assign accurate 
+masses to new decays. In the past, decay-decay correlations have also been 
+used to clearly identify daughter and even grand-daughter decays [Dav97]. 
+The rate of implantation of recoils into the DSSD, and therefore fundamen-
+tally the beam current, is limited in practice since implant-decay correlations 
+become extremely uncertain when the time between implantation events in 
+a pixel is comparable to the half-life of the implanted nucleus. Assuming the 
+recoils are defocused to uniformly illuminate a 6400-pixel DSSD, a 6kHz 
+implantation rate will give an average time of is between implantations 
+in a single pixel, which is usually satisfactory since a typical proton decay 
+half-life is r-'  lOms. However, the condition of the PPAC and the dead-time 
+of the data acquisition system can also act as a limit at rates of 5kHz. 
+The implantation rate can be reduced, while still transmitting the mass of 
+interest, by blocking unwanted masses at the focal plane using mobile 'slits' 
+positioned just before the PPAC. This is usually done by altering the FMA 
+A/Q setting to produce two near-central charge states of the desired mass, 
+then lowering an obstruction between these points to cut out unwanted re-
+coils and finally moving obstructions in from both sides to block everything 
+except the two A/Q states of interest. 
+There is also a standard triple alpha source in the detection system 
+chamber which can be positioned in front of the DSSD for calibration and 
+gain-matching purposes, and can be used to check for strips which have 
+Chapter 3. Experimental Method 
+PPAC x position 
+148 	 147 
+Fi. 148 
+PPAC x position 
+Figure 3.4: a) Two-dimensional PPAC hit pattern and b) projection onto the x-
+axis for the reaction 92 Mo(Ni,p2n) 147 Tm, with the FMA set to transmit A=1j7, 
+Q=27 recoils. 
+Chapter 3. Experimental Method 	 58 
+shifted in gain during the course of the experiment. 
+3.4.1 PPAC 
+The PPAC (parallel plane avalanche counter) is a multi-wire proportional 
+counter situated at the focal plane of the FMA. In its original design, it 
+consists of a series of parallel plane wire grids (cathode, x-position, anode, 
+y-position) between thin (< 1jm) mylar entrance and exit windows, and is 
+filled with isobutane at a pressure of 3 torr. The voltages typically used are 
+-200V for the cathode and 350-400V for the anode. Data on the position of 
+a recoil passing through the PPAC is produced by delay-line readouts from 
+both ends of the two orthogonal position grids. Energy loss information 
+is taken from the cathode, and the anode signal is used to start the time-
+to-digital convertor (TDC) which records the PPAC-DSSD time-of-flight. 
+This time-of-flight is useful later in differentiating between true recoils and 
+scattered beam. 
+This PPAC design has a maximum event rate of 5kHz, which can 
+often be the limiting factor in the overall experimental event rate. This 
+limit led to- the installation of a new PPAC after the ' 35Tb experiment but 
+before the 125"26Pm attempt. The new PPAC [PenOl] has cathode and anode 
+planes consisting of mylar foils metallised with gold on each side (instead 
+of wire planes), and has a second cathode between the y-position grid and 
+the exit window. This new design has been shown to run at event rates of 
+up to 20kHz, thus potentially allowing the use of larger beam currents than 
+previously feasible. 
+Chapter 3. Experimental Method 	 59 
+3.4.2 DSSD 
+The key piece of equipment in the whole detection system is the double-sided 
+silicon strip detector (DSSD), which lies 40cm beyond the focal plane of the 
+Fragment Mass Analyser. Until the ' 35Tb experiment, the experimentalist 
+had a choice of two DSSDs to utilise; one consisting of 40 orthogonal strips 
+on each side, with a strip pitch of 1mm, and the other with 48 strips on 
+each side and a strip pitch of 335izm. The former detector can capture more 
+recoils than the latter due to its larger area, but its inferior 'granularity' 
+(number of strips/pixels per unit area) limits the useful implantation rate 
+for which recoil-decay correlations can be reliably established. Clearly, a 
+new DSSD which could combine the large area of the 40 x 40 design and the 
+excellent granularity of the 48 x 48 version would be ideal for improving the 
+system to detect proton emitters with very low production cross-sections. 
+However, there is always a compromise between the reduction of the strip 
+width (and so pixel size) and the corresponding increase in both the dead 
+area on the detector (due to inter-strip separation) and the required instru-
+mentation (amplifiers and ADC channels). A new DSSD with 80 orthogonal 
+strips on each side, with a strip pitch of 400jm (giving only a slightly infe-
+rior granularity to the 48x48, and an area large enough to accept the full 
+FMA image) was designed by the Edinburgh group, manufactured by Mi-
+cron Semiconductors Ltd. and installed at the FMA immediately before the 
+' 35Tb experiment. 
+Chapter 3. Experimental Method 	 60 
+p  side 
+Figure 3.5: Schematic of the DSSD. 
+3.4.3 Design 
+The detector consists of a slightly n-type substrate with 80 p implanted 
+strips on the front face crossed with 80 implanted strips on the rear face 
+(see figure 3.5). Each strip has a length of 32mm and an active width of 
+350,am, which, combined with an inter-strip region of 50tm, gives a total 
+strip pitch of 400/Lm. The orthogonal strips effectively produce 6400 indi-
+vidual pixels, each identified by the x and y coordinates given by a certain 
+front and back strip number. Signals from adjacent strips are read out from 
+alternate sides of the detector (see figure 3.6). The DSSD has a surface area 
+of 1024mm2  and a thickness of 70pm. The detector operates as a reverse-
+biased p-n junction diode, with a negative bias of about -50V applied to the 
+P side through the preamplifiers. The depletion voltage for a detector of 
+this thickness is only about -20V; the DSSD is overbiased to reduce the effect 
+of leakage current fluctuations and to maximise charge collection (a larger 
+Chapter 3. Experimental Method 
+mmmiiii wrru 
+Dj23-S-L 
+---- _J- 
+Figure 3.6: The DSSD mounted on the vacuum chamber flange, showing the cable 
+feedthroughs on each side, coolant tubes (top) and a penny for size comparison 
+(bottom left). 
+field will sweep the charge carriers out of the depletion region more quickly 
+and reduce the possibility of recombination). Each strip has an aluminium 
+contact layer to act as an electrode, which is connected to the surrounding 
+wafer by an ultrasonically-bonded fine wire. Each implanting particle must 
+pass through a dead layer of 0.8im (comprising the Al contact and the p 
+layer) before reaching the active volume of the DSSD. The detector surface 
+is passivated by an oxide layer to reduce surface-related leakage currents. 
+The DSSD is specifically designed to be sensitive to proton and al- 
+pha decays but virtually transparent to beta decay. A 1MeV proton has a 
+Chapter 3. Experimental Method 	 62 
+range of ".'15m in silicon, and a typical 5MeV alpha particle has a range of 
+'251im. Such decays would almost certainly be localised within one pixel, 
+whereas a 1MeV /3 particle with a range of ri1mm would pass through many 
+pixels or more likely escape the detector very quickly and deposit very lit-
+tle energy, probably far below the DSSD amplifier threshold of 300-450keV. 
+This effective 3 transparency greatly reduces the background seen in this 
+type of experiment compared to the use of a single-segment silicon detector; 
+each pixel effectively operates as an individual, independent detector. 
+The DSSD is cooled to -25C during experiments in order to minimise 
+the thermal generation of charge carriers and so optimise the energy resolu-
+tion, which was expected to be about 20-25keV for alpha particles and about 
+15keV for protons given the performance of previous detectors (although the 
+resolution inevitably deteriorates as the detector suffers radiation damage 
+from implanted ions over the course of several experiments, as described in 
+Chapter 4). 
+3.4.4 Other detectors 
+A thick (300tm), large area silicon detector was positioned immediately 
+behind the DSSD. Its purpose is to detect positrons and 0-delayed protons 
+produced by decays within the DSSD, and therefore coincidences between 
+back detector signals and DSSD signals are used to veto DSSD events. This 
+helps to reduce the background around the expected energy range for direct 
+proton emission ( 1MeV). As well as this method for vetoing particles 
+escaping from the DSSD in the forward direction, a similar technique has 
+previously been used to detect particles escaping in the backwards direction 
+Chapter 3. Experimental Method 	 63 
+(i.e. through the front face of the DSSD). The so-called 'Box' detector, not 
+used in these experiments, consists of four silicon strip detectors forming the 
+four sides of an open-ended box upstream of the DSSD and covers '-p75% of 
+the solid angle in this direction. For the ' 25"26Pm experiment, a Germanium 
+detector was placed outside the vacuum chamber, immediately behind the 
+flange, in order to identify gamma decays taking place within the DSSD and 
+hopefully confirm the PPAC mass assignments (as described in Chapter 4). 
+3.5 Electronics 
+Over the years, the Edinburgh group has designed a dedicated suite of elec-
+tronics to instrument double-sided strip detectors. The signals from the 
+DSSD pass out of the vacuum chamber through cable feedthroughs and into 
+the charge-sensitive preamplifiers mounted on the rear plate of the chamber. 
+It is necessary to locate the pre.amps as close as possible to the detector to 
+minimise the capacitance (and therefore the noise) related to the length of 
+the cables from the detector. Each strip is instrumented individually, and 
+each side of the DSSD requires a different form of preamp because the signals 
+are of opposite polarity. The preamplifiers have a sensitivity of 20mV/MeV 
+and a dynamic range of 0-200MeV. 
+The signals are then fed via ribbon cables into the shaping amplifier 
+stage. This section consists of two sets of 160 Edinburgh/RAL shaping am-
+plifiers, one with a dynamic range of 0-200MeV (over an output range of 0-
+1OV, gain=5), to measure the high energy implantation events in both sides 
+of the DSSD, and another set with higher gain (=50, giving 0-20MeV dy-
+namic range) to measure the decays. These shaping amplifiers are mounted 
+Chapter 3. Experimental Method 	 64 
+in sets of eight on Eurocard motherboards and produce output signals suit-
+able for analogue-to-digital convertors (ADCs), with a rise time of roughly 
+1s and a tail lasting for 4-5s. Each amplifier also has a leading-edge dis-
+criminator which produces logic pulses (ECL) for triggering. DC offset and 
+pole-zero can be adjusted with potentiometers on each amplifier, but there is 
+only one potentiometer for each motherboard to set a common discriminator 
+threshold level for all eight amps (which is usually set as low as electronic 
+noise allows). The amplifiers are designed to have a reasonably quick over-
+load recovery, because the high-gain decay amps are also exposed to the 
+high energy implantation signals which have the effect of saturating them. 
+If the implantation has an energy of more than four times the full decay 
+amplifier range (i.e. ' s.' 80MeV), this produces a DC pedestal effect which 
+can leave the amp insensitive to decays for hundreds of microseconds. This 
+is the reasoning for introducing a degrader foil in front of the DSSD to limit 
+the implantation energy of recoils from the FMA. In order to instrument the 
+80 x 80 DSSD, a new set of 64 preamps, recoil amps and decay amps had to 
+be tested and installed, necessitating a total reorganisation of the electronics 
+arrangement. 
+Overload recovery of the shaping amplifiers is a key issue for detecting 
+short-lived proton radioactivities. There are several proton emitters (for 
+example 113  Cs and 171 Au) with half-lives on the order of a few microseconds, 
+whose detection is impaired when using the shaping amplifiers described 
+above. For example, even if the decay amp is no longer overloaded after an 
+implantation, a decay signal 10-15ts later may be riding on the tail of the 
+recoil pulse and so may appear to have a significantly higher energy than 
+in reality i.e. the measured energy is time-dependent for very fast times. 
+Chapter 3. Experimental Method 	 65 
+To increase the sensitivity of the detection system to fast proton emitters, a 
+new set of delay-line shaping amplifiers was designed and built at Argonne 
+between the ' 35Tb experiment and the 125"26Pm search which could recover 
+to baseline within 11-is after an implantation. This time is very close to the 
+actual flight time of a recoil from target to DSSD, which imposes the physical 
+lower limit on decay time observability. This new delay-line system runs in 
+parallel with the Edinburgh/RAL electronics, and was used successfully in 
+the 125,126  Pm attempt and other experiments [Rob03]. 
+The analogue signals from the decay amps are fed into a bank of ten 
+Philips peak-sensing ADCs in a CAMAC crate, and the signals from the 
+recoil amps are digitised using the more cost-effective method of pulse-to-
+charge (PTQs) followed by charge-to-digital convertors (QDCs) in another 
+CAMAC crate. The latter method offers inferior resolution to a single stage 
+ADC, but the energy resolution of the recoils has to be known only approx-
+imately (for the purposes of vetoing scattered beam) and this latter method 
+is satisfactory. 
+Logic signals for decay triggering were taken first from the Edin-
+burgh/RAL shaping amplifier discriminators and then later from the Ar-
+gonne delay-line amplifiers (when they became available). Logic signals for 
+recoil triggering come from the PPAC rather than the DSSD system. The 
+ECL signals from the decay amps are fed into modules which produce an 
+OR of input signals 1-16, 17-32, 33-48, 49-64 and 65-80 for both the front 
+and back sides of the detector, and these outputs produce an ADC hit pat-
+tern. Total OR signals for each side of the detector are also produced, DF 
+and DB, and a coincidence between these two produces a valid DSSD event 
+(i.e. at least one front and one back strip fires). The PPAC anode signal is 
+Chapter 3. Experimental Method 	 66 
+used to generate coincidences and anti-coincidences between the PPAC and 
+DSSD; the former signifying a recoil event (event type 1), the latter a decay 
+(event type 2). These signals are used to set the relevant bit in the event 
+type word, gate the ADCs, strobe the ADC hit pattern register, latch the 
+clock and trigger the acquisition system. When the event has been read out, 
+a signal is produced to clear the ADCs and QDCs, and the system is ready 
+for a new event. Figure 3.7 illustrates the logic system. 
+The data acquisition system used was the MSU/NSCL system. The 
+front end is a VME-based system in which a master programme packs the 
+events into buffers and send them across an ethernet link to the back-end 
+Alpha computer which routes the data to tape, on-line analysis or scaler 
+as necessary. When a trigger is accepted, a slave programme on the VME 
+system reads the data from the required ADCs or QDCs in the CAMAC 
+crates, and also reads the clock to time-stamp the event. The slave pro-
+gramme is written in C, and was relatively simple to modify to cope with 
+the new DSSD and associated electronics. The readout time is typically a 
+few hundred microseconds, which means that decays with an implant-decay 
+correlation time shorter than this cannot be treated as an individual event.. 
+Instead, the decay busy signal is vetoed (to allow new decay data to be read) 
+after the electronics common to both implantations and decays is read out, 
+then the implant-only electronics is read out, and then the slave checks to 
+see if a new decay has occured during this period. If there is a new decay, a 
+'1' bit is placed in the event stream to indicate a 'fast decay' and the decay 
+data is added to the end of the implantation event. This method reduces 
+the effective implant-decay dead time to less than lOps, compared to the 
+implant-implant dead time of up to '--'500ps, which is just about acceptable 
+DSSD discriminator 
+outputs 
+LcCroy 
+Front 564 
+17-32 
+33-48 [I 
+49-64 [J 
+65-80 Ii 
+ADC hit pattern 
+bit#1 
+bit#2 
+bit#3 
+Recoil QDC gate 
+scaler 
+Event type bit #2 
+ADC hit pattern strobe 
+Master gate 
+Clock latch 
+scaler 
+ Event type bit #1 
+ To decay busy / end-of-event logic 
+Decay ADC gate 
+I Back 1-16 17-32 33-48 49-64 65-80 
+Chapter 3. Experimental Method 	 68 
+given a typical DSSD implant rate of 2-5kHz. 
+3.6 Setup and calibration of detector system 
+As mentioned earlier, a web-based setup code [B1u96] is used to calculate 
+values for the energy and charge state of a desired recoil given input variables 
+such as beam energy and species, target material and thickness, and the mass 
+and Z of the recoil. The resulting values are then fed into the FMA control 
+computer which sets the electric and magnetic dipole fields accordingly. The 
+thickness of the degrader foil upstream of the DSSD can also be selected 
+with the setup code to limit the implantation energy of recoils and prevent 
+amplifier overload. 
+The beam is initially set to a much lower current than its full exper-
+imental state, in order to ensure that the FMA is functioning properly and 
+that no detectors can be damaged by a high flux of beam particles or recoils. 
+For example, it is possible that the beam could be impinging on the target 
+frame rather than the target itself, scattering a large proportion of beam 
+particles. The DSSD is usually masked when beginning setup by closing a 
+valve immediately downstream of the PPAC. The on-line spectra produced 
+by the PPAC are used to check whether the FMA has the optimum settings 
+for detecting the recoil of interest. For example, the FMA usually transmits 
+three different charge states of a particular mass, but the transmission of 
+the two states towards the edges may be significantly weakened. It is there-
+fore common to alter the FMA settings to transmit two near-central charge 
+states instead, and in this way the slits immediately upstream of the PPAC 
+(as shown in figure 3.3) can be used to cut out all other A/Q states. There 
+Chapter 3. Experimental Method 	 69 
+can be problems if the mass-to-charge ratio of scattered beam particles is 
+close to that of the recoil of interest, so it may be necessary to move to a 
+neighbouring recoil charge state to avoid swamping the detectors with scat-
+tered beam. Scattered beam is an issue in terms of radiation damage of the 
+DSSD, false implant-decay correlations and also the rate limit of the PPAC 
+(although this latter problem has been alleviated by the installation of the 
+new high-rate PPAC). The scattered beam problem is exacerbated when us-
+ing inverse reaction kinematics, but this was not the case in the experiments 
+discussed here. 
+After the experimentalist is satisfied with the FMA settings, the DSSD 
+can be exposed to recoils and the system checked to make sure it is oper-
+ating within acceptable parameters. In particular, the pole-zero settings of 
+the decay amplifiers must be checked to ensure that there is no significant 
+long-lived baseline undershoot after the implantation signals which would 
+effectively reduce the amplitude of subsequent decay signals and ruin the 
+energy resolution. The overload recovery response must also be checked for 
+the pedestal effect mentioned previously, and a thicker degrader foil can be 
+inserted at this point if necessary. The 160 strips of the DSSD can be roughly 
+gain-matched (i.e. each strip calibrated with its own gain and offset value) 
+using a triple alpha source ( 241Am, 240Pu, 211  Ca) which can be positioned 
+in front of the detector in the vacuum chamber. This calibration must take 
+into account variable dead layer effects; the source is positioned close to the 
+centre of the DSSD, so that alphas implanting into strips near the detector 
+edges must pass through a thicker dead layer and thus lose more energy than 
+alphas implanting into the centre. 
+Event rates in the detectors (for example PPAC, DF, DB, DF AND 
+Chapter 3. Experimental Method 	 70 
+DB, all typically around 3k-5k per second in this work) are displayed as 
+scalers, indicating the onset of any problems such as the failure of the target 
+(sudden increase in implantation rate) or electronic noise problems on one 
+side of the DSSD (a sudden increase in DF without a concomitant increase 
+in DB, for example). 
+3.7 Data Analysis 
+The analysis utilises correlations in position (i.e. in a single DSSD quasi-
+pixel) and time between implantation events and subsequent decay events 
+to provide a parent nucleus mass assignment for peaks in the decay energy 
+spectrum. Implantation and decay events are treated entirely separately in 
+the sorting code, in terms of having different vetos and conditions placed 
+on them. 'Fast decay' events, where decay data is appended on to an im-
+plantation event, are processed by both the implant and decay sections of 
+the sorting code. The only hardware condition applied to DSSD events is 
+that the events should have multiplicity > 1 on each side i.e. at least one 
+strip on each side of the detector should fire for a valid event. However, 
+some multiplicity = zero events, false triggers caused by electronic noise, are 
+inadvertently recorded. 
+3.7.1 Implantation Events 
+The implantation strips were not gain-matched because the energy resolu- 
+tion for implantation events does not need to be particularly accurate for 
+the purposes of this analysis. For each event, the multiplicity condition is 
+checked (> 1 on each side) and the strip with the highest energy signal on 
+Chapter 3. Eerimental Method 	 71 
+each side is used to reference a particular pixel. Data from the PPAC (two-
+dimensional position of the transmitted particle, energy loss of the particle) 
+is recorded in the event, along with the PPAC-to-DSSD time-of-flight, and 
+this data is analysed and used to investigate whether the particle in question 
+is a true fusion-evaporation recoil or a scattered beam ion. This is usually 
+achieved by one of two methods. In the first, a two-dimensional spectrum 
+of DSSD implantation energy against PPAC-DSSD time-of-flight is plotted, 
+and two distinct groups can be discerned due to the significant difference in 
+masses between beam and recoils (the energy is roughly proportional to the 
+particle mass and inversely proportional to the square of the time-of-flight). 
+The second method is to produce a two-dimensional plot of PPAC horizontal 
+position against PPAC energy loss, which shows the familiar A/Q groups 
+over a background with lower energy loss (the beam particles). This agrees 
+with the expectation that a scattered beam particle will lose significantly 
+less energy than a recoil in the PPAC due to the former's higher speed and 
+likely lower charge state. When the sort code identifies a valid recoil event, 
+it stores the PPAC horizontal position and implantation time in an array, 
+referenced by its associated front and back strip numbers. This information 
+can then be correlated with the next decay event to occur in the same pixel. 
+3.7.2 Decay Events 
+The sorting code first double-checks that the decay event is definitely not 
+an implantation event, by checking for a PPAC cathode (energy loss) sig-
+nal. Although the hardware should differentiate between implantations and 
+decays using PPAC-DSSD coincidence and anti-coincidence respectively, oc- 
+Chapter 3. Experimental Method 	 72 
+casionally the PPAC anode may not fire and a recoil may be recorded as 
+ decay event. The PPAC cathode data is included in the decay event as 
+ final check, although this. stage is rarely needed in practice since a stow-
+away implantation event is unlikely to have an energy as low as the typical 
+0-6MeV range of decay processes. As with the implantation events, the 
+sorting code applies a multiplicity check to the decay events. Only events 
+with multiplicity one on each side are wanted; a larger multiplicity on one or 
+both sides of the detector implies that the charge produced by the event has 
+been shared between multiple adjacent strips, and thus no accurate energy 
+measurement can be made. The single multiplicity condition is also impor-
+tant for vetoing 0-decay events. Given the performance of past detector 
+systems, it was expected that 90 % of decay events would pass the sin-
+gle multiplicity condition. The decay ADC output is then calibrated using 
+that strip's unique gain-match parameters (gain and offset) determined by 
+a calibration reaction run immediately before the main experiment. In the 
+case of these experiments, the calibration reaction used was 58  N + 92 Mo 
+150yj* - '47Trn + p2n, producing the proton emitter with the highest 
+production cross-section. To have an accurate calibration it is important to 
+have as many statistics as possible in all the strips (particularly the edge 
+strips which receive less of the FMA image than the central strips), and 
+because the time to run the calibration reaction is strictly limited, it is best 
+to use the most readily-produced proton emitter. 147Tm is also advanta-
+geous because it has two proton-emitting states, the ground state and an 
+isomer, although the isomer is usually not produced in sufficient quantities 
+to use as a calibration point for individual strips (but can still be used as an 
+overall gain-matching check). It is important to use a proton for calibration 
+Chapter 3. Experimental Method 	 73 
+rather than rely only on alpha decays because it is vital to have at least one 
+data point in the likely proton energy region ("-'1MeV) to ensure the relia-
+bility of the calibration. Two alpha decays are also used in the calibration; 
+these are among the well known alpha lines which appear in the calibration 
+from recoils produced by reactions with isotopic target contaminants (such 
+as 94Mo). Care must be taken when combining proton and alpha lines in a 
+calibration, because the two particles have a slightly different pulse height 
+response in a silicon detector. The cause of this effect is not entirely clear, 
+but the difference in response has been accurately quantified with the ratio 
+EP/E = 0.986(2) ([Len86]), i.e. a proton with energy 1MeV produces a 
+pulse height 'p1.4% lower than an alpha particle with energy 1MeV. The 
+recoil energy of the daughter nucleus of these decays is also partially de-
+tected by the DSSD and must be accounted for; most of its energy is lost in 
+elastic non-ionising collisions with the atomic lattice ([Hof82b]). As opposed 
+to the on-line calibration with the external triple alpha source, these decays 
+occur inside the detector and thus no surface dead layer effects have to be 
+considered. Several other conditions are applied to decay events, including 
+an 'equal energy' condition where events are rejected unless the energy val-
+ues measured on both sides of the DSSD are within 20keV. As mentioned 
+previously, events are vetoed if they are coincident with an event in the back 
+Si detector, indicating that a particle has escaped from the DSSD into the 
+other detector and therefore the energy measured in the DSSD is not the 
+total energy. 
+Chapter 3. Experimental Method 	 74 
+3.7.3 Mass Assignment of Decays 
+In order to reliably correlate decays with their preceding implantation events, 
+the average rate of implantations in a pixel has to be significantly longer than 
+the expected decay half-life. This condition is satisfied by ensuring that the 
+total DSSD implantation rate is on the order of 5kHz, giving roughly 1 im-
+plantation per pixel per second (assuming uniform irradiation over the 6400 
+pixels), compared to typical alpha and proton decay half-lives on the order 
+of 10-100ms. The sort programme accesses the implantation array and re-
+trieves the PPAC horizontal position and time of the last valid recoil event 
+occuring in the same pixel as the decay event being analysed. The mass of 
+the decaying nucleus can then be derived from the PPAC x data, for example 
+in a two-dimensional plot of DSSD decay energy against PPAC x position. 
+A short piece of code at Argonne calculates the expected PPAC x position 
+of the various possible A/Q states in the reaction, once the 'centre' of the 
+PPAC has been defined in the calibration reaction, allowing an unambigu-
+ous mass identification of the peaks in PPAC x spectra. The time of the 
+last implant event in the pixel can then be subtracted from the decay event 
+time to give the implant-decay correlation time, which can then be used to 
+apply time gates to the decay data. For examp1e, one can look at fast or 
+slow events to preferentially search for short-lived or long-lived decays re-
+spectively. Once a decay line is located, the correlation time data is finally 
+used to calculate the decay half-life. With heavier nuclei, decay-decay corre-
+lations are often possible too i.e. when the proton or alpha decay daughter 
+also has an identifiable alpha decay branch. However, there are no alpha 
+emitters in the mass region under investigation in these experiments and so 
+Chapter 3. Experimental Method 	 75 
+this technique could not be used. 
+Chapter 4 
+Results and Discussion 
+The results presented in this thesis are taken from experiments carried 
+out in 2001 and 2002 at Argonne National Laboratory, and the analysis was 
+performed by myself. The discovery of a proton-emitting state in 135 T was 
+first reported in [Sew03], and is published in full in [Woo04]. The unsuccess-
+ful searches for proton emission from 121  Pm and 121  Pm are presented here 
+for the first time. 
+4.1 Commissioning of new DSSD 
+The first experiment using the new 80x80 double-sided silicon strip detec-
+tor, the search for proton radioactivity from ' 35Tb, was carried out in July 
+2001 at the Argonne Fragment Mass Analyser. Immediately before this 
+experiment, a brief commissioning and calibration run was performed us-
+ing a 270MeV 58  N beam on a 0.775mg/cm2 92Mo target to produce the 
+well-known proton emitter ' 47Tm [K1e82] via the (p2n) evaporation channel, 
+which has a relatively large cross-section of ' 30tb. 
+Chapter 4. Results and Discussion 	 77 
+0 100 
+500 	1000 	1500 	3500 	4000 	4500 	5000 	5500 
+Decay energy (keV) 
+Figure 4.1: Decay energy spectrum from 147 Tm  commissioning run. 
+Chapter 4 . Results and Discussion 	 78 
+In this reaction, a number of alpha emitters are produced in addition 
+to the proton emitter 1 47 T due to the presence of isotopic target contami-
+nants (i.e. the presence of less neutron-deficient molybdenum isotopes in the 
+target, despite efforts to make it isotopically pure). These are shown in Fig-
+ure 4. 1. M'47  Tm  proton line from the ground state 
+decay and the smaller 1.119MeV from proton decay of the 147Tm isomer. 
+Note that these events are sitting on the tail of a distribution produced by 
+escaping alpha particles. It was found that the energy resolution of the pro-
+ton peaks was around 15keV FWHM, and around 20-25keV FWHM for the 
+alpha peaks - this is consistent with the performance of DSSDs previously 
+used by the Edinburgh group [Sel92a]. It was found that the front face of 
+the DSSD had marginally better energy resolution than the rear side, which 
+agrees with the generally superior properties of the front face (as explained 
+below). 
+Usually a single strip multiplicity condition is required for each face 
+of the DSSD when running experiments, so that any event which triggers 
+more than one strip on either side is discarded. Proton radioactivity typically 
+involves energies of '-.'lMeV, which means the protons have a range of ' --'l5itm 
+in silicon. Given a strip pitch of 400m, the vast majority of proton events 
+should be single multiplicity as the particle does not usually have sufficient 
+energy to reach an adjacent strip. Figure 4.2 shows a plot of front side decay 
+energy against rear side decay energy with single multiplicity conditions 
+on each side, with the ' 47Tm proton line and alpha lines indicated. As 
+expected, the vast majority of events are concentrated on the 'equal energy' 
+diagonal. However, events can be seen in horizontal strips to the left of the 
+peaks (highlighted in red boxes for the proton line and the four main alpha 
+Chapter 4. Results and Discussion 
+5 - 	4 	 - 
+Alpha lines  
+.,. 	.- 
+Z scale counts 
+Tn proton 50-500 
+1.05MeV 5-50 
+1 	 2 	3 	4 	5 
+Back (n) energy (MeV) 
+Figure 4.2: Front decay energy vs. rear decay energy in the DSSD with single 
+multiplicity conditions. The red boxes indicate events where a portion of the charge 
+on the rear face strip has been shared with an adjacent strip. 
+Chapter 4. Results and Discussion 	 80 
+lines) which indicate that some charge sharing occurs on the rear face of 
+the DSSD. This is demonstrated by the fact that although 98% of the 
+events have single multiplicity on the front face, only ' 90% of the events 
+have single multiplicity on the rear face, with 9% having a multiplicity 
+of two, indicating the sharing of charge between two adjacent rear strips. 
+Figure 4.3 is a similar plot to the previous figure, but with the conditions 
+of single front face multiplicity and double rear face multiplicity (with the 
+rear energy plotted being the higher of the two). One can see in this plot 
+the continuation of the horizontal strips of events from the previous plot; 
+the strips of charge-sharing events are split between the two plots due to 
+the '..i400keV energy threshold of the detector system, which means that at 
+least this amount of energy must be deposited in a strip for an event to 
+be triggered. Thus the charge-sharing events in the first figure extend to 
+'400keV below the peaks, with events where >400keV is shared appearing 
+in the second figure. Note also that the charge-sharing events halt at the 
+point where front energy equals twice the rear energy (the red dashed line 
+in the figure) - this is due to the fact that only the higher of the two rear 
+energies is plotted. 
+A noticeable feature of Figure 4.2 is the presence of the diagonal lines 
+dropping down from the main peaks, at an angle of 25 to the main 
+diagonal. These lines represent events with a reduced energy in both the 
+rear and front face signals, which are rejected by the equal energy condition 
+in the software. Yorkston et al [Yor87] propose a charge trapping mechanism 
+which causes reduced charge collection for those particles depositing energy 
+close to the surface inter-strip region. These events could be explained if 
+the resulting deficit in the charge collected at the front face is half of that 
+Chapter 4. Results and Discussion 
+ / _,  . . -. 	.. ..-. ... .-. .1 
+/Alpha lines 
+Z scale counts 
+ 	 proton 50-500 
+1.05MeV 5-50 
+2 	 3 	 4 	 5 
+Back (n) energy (MeV) 
+Figure 4.3: Front decay energy vs. rear decay energy in the DSSD with single 
+front multiplicity and double rear multiplicity. The red boxes indicate the lack of 
+double rear multiplicity charge shang events where the amount of charge shared 
+is less than the detector threshold. 
+Chapter 4 . Results and Discussion 	 82 
+in the charge collected at the rear face. This undesirable property has been 
+observed previously in DSSDs [Se192b]. This effect is due to the construction 
+of the detector - the rear strips are created by implanting strips onto 
+the n-type substrate with thin p isolating lines between them to provide 
+interstrip resistance to disconnect the strips. There does not seem to be 
+any correlation between the charge-sharing and signal loss events and any 
+particular strips on the detector (e.g. the edge strips, which often display 
+increased electronic noise) - the effects occur uniformly over all rear strips. 
+As seen in previous DSSD systems, the recoil multiplicity character-
+istics of the detector were noticeably inferior to the decay branch, with, 
+in this case, '-'80% of implantation events having single front multiplicity 
+and only '-'60% having single rear face multiplicity. The recoil signals are 
+handled by different shaping amplifiers to the decay signals, and this effect 
+has previously been attributed to pick-up in this recoil branch aided by the 
+much larger pulses (a typical implantation event has energy of 30-50MeV, 
+compared to the typical 1 45MeV range of decay events). 
+There was no noticeable degradation in the energy resolution of the 
+detector due to radiation damage during the course of the 135Tb experi- 
+ment. However, prior to the experiments searching for proton emission from 
+125"26Pm it was noted that the resolution had degraded significantly (from 
+'--'15keV to '-'50keV FWHM). It was estimated that the level of degradation 
+and the amount of implantations the detector had been exposed to in the 
+intervening period was roughly consistent with the effects observed by Liv- 
+ingston et al [Liv96] in a previous study of heavy ion radiation damage in 
+DSSDs. In that work it was estimated that a dose of 6 x 106  fragments 
+for illumination on the p+  detector face would produce a similar en- 
+Chapter 4. Results and Discussion 	 83 
+ergy resolution degradation to that observed in the current DSSD, which was 
+estimated to have suffered a dose of 2 x 10 7  fragments nun 2  (assuming 
+near-uniform illumination). The two dosage figures perhaps should not be 
+directly compared since the detector tested in the previous work had failed 
+to meet the quality assurance criteria for commercial use. A new DSSD, 
+identical in design and with very similar performance characteristics, was 
+installed at the FMA prior to the ' 25"26Pm searches to ensure that the ex-
+perimental energy resolution was optimal. The radiation-damaged DSSD 
+could still be used in experiments where the energy resolution was not crit-
+ical, for example the investigation of ' 50Lu [Rob03] where the key issue was 
+the measurement of the half-lives of the two known proton-decaying states. 
+4.2 Proton radioactivity of 135Tb 
+4.2.1 Previous search experiments for proton emission 
+from Tb isotopes 
+Soon after the discovery of ground state proton radioactivity from the lan-
+thanide nuclides 7Tm and 'Lu at SHIP and the on-line mass separator 
+at GSI in 1982, a series of experiments were carried out at that labora-
+tory searching for further examples of proton decay from isotopes of the 
+odd-Z lanthanide elements Prometheum, Europium, Terbium and Holmium 
+(Z=61, 63, 65 and 67 respectively) [Lar83]. The experiments searching for 
+proton emission from 136"37"38Tb used 200-240MeV beams of 41  Ca from the 
+UNILAC accelerator impinging on a 1.07mg/cm2 102  Pd target to produce 
+the desired nuclides by heavy ion fusion-evaporation (pxn) reactions. The 
+Chapter 4. Results and Discussion 	 84 
+specific evaporation channels from the compound nucleus l42Dy* are x=3, 
+4 and 5 for 138Tb, 137 T and 136 T respectively, with the associated pro-
+duction cross-sections calculated by HIVAP [Rei85] to be 120b, 1.9tb and 
+180nb. The evaporation residues were stopped in a thermal ion source, then 
+separated according to their mass and finally implanted into a thin carbon 
+foil placed in front of LE-E telescopes. The system was designed so that 
+"-'1MeV protons would be stopped in the thin LE detector, but positrons 
+and higher energy /3-delayed protons would pass through to the E detector, 
+so that directly-emitted protons could be picked out in the energy spectra 
+of the LE detector in anticoincidence with the E detector. These exper-
+iments showed no evidence for proton emission from any of the Terbium 
+isotopes, although the nature of mass separator experiments, due to the de-
+lay between creation of the evaporation residue and its subsequent release 
+from the ion source, means that nuclides with half-lives below ims are 
+usually not detectable. A similar experiment was undertaken [Nit83] at the 
+OASIS on-line isotope separator at Berkeley, utilising a 480MeV 92 Mo beam 
+and a 1-2mg/cm2 50Cr target to search for 137Tb via the (p4n) evaporation 
+channel. Again, no evidence for proton emission was found. 
+More recently, an experimental search for proton radioactivity from 
+136"37Tb was undertaken at the Oak Ridge recoil mass separator in tan-
+dem with a DSSD-based detection system [Ryk99]. A 15pnA, 290MeV 50Cr 
+beam from the Holified Radioactive Ion Beam Facility (HRIBF) was used 
+to bombard a 0.91mg/cm 2 92 Mo target for 35 hours, but no proton decays 
+were observed. The Oak Ridge team point out that the proton separation 
+energy of '36Tb may well be less than, or only slightly greater than, that of 
+its odd-even neighbour 137Tb, an effect demonstrated in the proton-emitting 
+Chapter 4. Results and Discussion 	 85 
+isotopes of the odd-Z neighbour Holmium, 'Ho and ''Ho (E=1086keV 
+and 1 l69keV respectively). Mller et al [Mo197] predict Q for 136"37Tb to 
+be 540keV and 510keV respectively, which would not lead to proton emission 
+fast enough to compete with 3 decay, and therefore is consistent with the 
+experimental non-observation of proton radioactivity from these nuclides. 
+The Liran-Zeldes model predicts slightly larger Q values for 136"37Tb of 
+1MeV and 0.79MeV respectively, in which case a proton decay branch in 
+136 T could potentially exist. 
+4.2.2 Experimental details and results 
+The search for proton emission from 135Tb at the Argonne FMA was under-
+taken immediately after the commissioning of the new 80 x 80 DSSD. A beam 
+of "Cr ions with energy 315MeV and average current 10pnA from the AT-
+LAS accelerator was used to bombard a rotating 0.775mg/cm 2 92Mo target 
+for approximately 96 hours. The beam energy was selected to produce the 
+optimum centre-of-target excitation energy for the compound nucleus 142 Dy* 
+to maximise the (p6n) evaporation channel (roughly 113MeV, as estimated 
+with HIVAP [Rei85]). The FMA transmission settings were; recoil energy 
+E=87.9MeV, mass A==135 and charge state Q=25.5, with the focal plane 
+slits positioned to allow transmission of the two near-central charge states 
+25 and 26k, as shown in Figure 4.4. A 0.825mg/cm 2  Aluminium degrader 
+foil was positioned in. front of the DSSD to reduce the implantation energy 
+and depth of the recoils and so avoid overloading the amplifiers. The DSSD 
+was instrumented with the semi-Gaussian shaping amplifiers, and the back 
+silicon veto detector was installed immediately downstream. The 147Tm data 
+Chapter 4 . Results and Discussion 	 86 
+8.Oxl 06 
+6.00 0'  
+4.0x106  
+2.00 0' 
+PPAC x position 
+Figure 4.4: PPAC x position spectrum for the 135  Tb experiment. 
+from the commissioning run was used to gainmatch and calibrate the DSSD 
+for this experiment. 
+The energy spectrum of decay events in the DSSD following the im-
+plantations of A=135 recoils is shown in Figure 4.5, and a two-dimensional 
+plot of recoil-decay time against decay energy is shown in Figure 4.6. The 
+wide peak around '-'.' 500keV seen in Figure 4.5 is caused by background from 
+/3-decay and escaping 3-delayed protons, while the approximately flat back-
+ground at higher energies is also associated with /3-delayed protons. In the 
+bottom part of Figure 4.5, which shows decay events occurring within 6ms 
+of an A=135 implantation event, an obvious peak can be seen at an energy 
+just below 1.2MeV, with negligible background above 700keV. This energy 
+is almost certainly too low to originate from an of-decay event, and is typical 
+of direct proton emission. The A=135 isobars 135 G and 135 E are pre-
+dicted by mass models [Mo197] to be proton-bound, while the even-Z 135Dy, 
+ter 4. Results and Discussion 
+0.5 	 1.0 	 15 	 2.0 	 2.5 
+Energy (MeV) 
+Figure 4.5: DSSD decay events associated with A=135 recoils from the reaction 
+50 Cr + 92 Mo. 
+Chapter 4. Results and Discussion 
+Decay energy (keV) 
+Figure 4.6: DSSD decay events associated with A=135  recoils from the reaction 
+50 C + 92 Mo (blue indicates one count per bin, green indicates five or more counts 
+per bin). 
+although predicted to be slightly proton-unbound, would be produced by 
+the extremely low cross-section (7n) evaporation channel, making it a very 
+improbable candidate for the origin of the proton line. Therefore the most 
+likely assignment for the peak is the proton decay of 1 Tb, produced by the 
+(p6n) evaporation channel. 
+After calibration, the energy of the peak was measured to be 1179(7)keV, 
+which gives a Q-value for the proton decay of 1 188(7)keV after correction for 
+electron screening, daughter recoil and pulse height deficit. The one-proton 
+separation energy calculations of the macroscopic-microscopic mass model of 
+Mller et al [Mo197] predict that the Q-value for the proton decay of ' 35Tb is 
+Chapter 4. Results and Discussion 
+1.15MeV. This particular model also successfully predicts the onset of proton 
+emission for the isotopes of both Europium and Holmium, and demonstrates 
+its usefulness again in this case. The Liran-Zeldes model [Lir76] predicts the 
+one-proton separation energy of ' 35Tb to be 1.47MeV. The half-life of the 
+peak was calculated to be 940+330  ms using the maximum likelihood method -220 
+[Mey75], because there were insufficient counts in the peak to fit an accurate 
+exponential decay curve. The production cross-section for 135Tb from the 
+(p6n) evaporation channel was found to be .-.'1.5nb, assuming a combined 
+FMA and DSSD efficiency of 8%. This experiment demonstrates the first 
+successful measurement of a (p6n) evaporation reaction product at the pro-
+ton drip-line. The two examples of proton emitters created using the (p5n) 
+evaporation channel ( 130Eu [Dav04] and 140Ho [Ryk99]) were produced with 
+cross-sections on the order of lOnb, suggesting a (p6n) cross-section of 1nb 
+if we consider the approximation of the cross-section decreasing by roughly 
+an order of magnitude with each extra neutron evaporated (as demonstrated 
+in Table 1.1), in agreement with the experimental value. Mller et al [Mo197] 
+predict the 13-decay half-life of ' 35Tb to be 193ms, so it is reasonable to as-
+sume a 100% proton decay branch for this nuclide. 
+It is possible that the distribution of counts visible around '500keV in 
+the lower part of Figure 4.5 contains several events related to protons from 
+the decay of 135 T escaping through the front of the DSSD and depositing 
+only part of their energy. The recoils are implanted to a depth of r.10-12,am, 
+while the range of a 1MeV proton in silicon is slightly greater than this 
+('-15-20m). However, from solid angle considerations it is unlikely that 
+>35% of protons would escape through the front of the detector, so this 
+concept cannot explain all of the events in this region (although it probably 
+Chapter 4. Results and Discussion 	 90 
+accounts for the majority). This explanation is also likely to apply to the 
+two events occuring '-'180keV below the main peak, which would imply that 
+the majority of the proton energy was deposited in the detector. A half-
+life on the order of milliseconds would be quite short for 3-decay, making 
+that effect unlikely to be the source of the other low energy counts, so the 
+most likely explanation for these remaining few events is simply the effect of 
+electronic noise (particularly for the two events in this region occurring only 
+a few microseconds after an implantation, an unfeasibly short recoil-decay 
+time). 
+4.2.3 Discussion of results 
+If we assume that '35Tb has a spherical shape and perform WKB calcu-
+lations using the Bechetti-Greenlees optical potential [Bec69] based on the 
+odd proton occupying the s 1 12 , d31 2  or h1112  orbitals, then the resulting the-
+oretical proton partial half-lives are 240ns, 2.4jts and 9.5ms respectively, 
+none of which agree with the experimental value. Mller et al [Mol95] pre-
+dict that 135Tb has a significant prolate deformation of 32 0.325, so it is 
+not surprising that the half-life cannot be explained by the simple spherical 
+model. The odd proton is predicted to occupy the 3/2[411] Nilsson level 
+based on the 2d512  spherical sub-shell, although the 5/2k [413] and 7/2 -  [523] 
+levels (based on the 19 71 2  and 1h11 12  spherical sub-shells respectively) are 
+predicted to be very close to the Fermi surface for the expected deformation. 
+The proton decay rate of ' 35Tb as a function of the deformation parame-
+ter 32 was therefore calculated using the coupled channels Green's function 
+method of Esbensen and Davids in the adiabatic limit [EsbOO] for the likely 
+Chapter 4. Results and Discussion 	 91 
+proton levels 3/2k, 5/2k and 7/2 - . The results of these calculations are 
+shown in Figure 4.7 and compared with the experimental half-life with error 
+bars (displayed as a horizontal band). The theoretical half-lives have been 
+divided by the spectroscopic factor of u2  = 0.57, which was estimated by a 
+BCS calculation using single-particle level energies similar to that shown for 
+' 31 Eu in [EsbOO]. A value for the proton pairing energy of L=0.85MeV was 
+used in the calculation, which was obtained from the odd-even mass differ-
+ences calculated by Mller et al [Mo195]. Figure 4.7 clearly shows that the 
+calculated half-life for the 7/2 -  orbital agrees very nicely with the experi-
+mental value at the predicted deformation, whereas the half-lives of the 5/2k 
+and 3/2k orbitals are far too fast (by factors of "3 and .'15 respectively). 
+On this basis, the proton line can be confidently assigned to the 7/2 -  orbital 
+in this highly deformed nucleus, which means that the state decays by 1=3 
+proton emission to the 0+  ground state of 134Gd. For the purposes of these 
+calculations, an axially symmetric shape was assumed for 135Tb, in contrast 
+to the postulated slightly triaxial shape of the neighbouring proton emitter 
+"'Ho [SewOla]. 
+The 7/2-  orbital may not be the ground state of ' 35Tb, as it is in the 
+neighbouring "'Ho. It is possible that this state is an isomer, although if this 
+is the case then the ground state is unlikely to be the 5/2k configuration. In 
+this situation, there would be a fast (i.e. picosecond) El gamma transition 
+from 7/2 -  to the ground state, which would make any proton decay branch 
+trivially small, unless the excitation energy of the 7/2 -  state was less than 
+50eV (predicted by Weisskopf estimates), which would be an unusually small 
+energy difference between low-lying states in medium mass nuclei (but this 
+cannot be completely ruled out). The configuration of 3/2k ground state 
+Chapter 4. Results and Discussion 	 92 
+Half-life for 135Tb, S1=0.5 
+0 	 0.1 	 0.2 	 0.3 	 0.4 
+Figure 4.7: Plot of proton decay half-life against quadrupole deformation /32  for 
+' 35 Th. The horizontal band represents the experimentally measured value (includ-
+ing errors), while the lines show the theoretical calculations for the three likely 
+proton configurations. 
+Chapter 4. Results and Discussion 	 93 
+with 7/2-  proton-emitting isomer is more likely; the M2 gamma transition 
+could occur on a similar or longer timescale to the proton decay branch 
+with a reasonable 7/2 -  excitation energy (Weisskopf estimate >2.5ms for 
+excitation energies <50keV) and so would not prevent the observation of 
+proton emission. There are no events in the energy spectrum which would 
+obviously correspond to proton decays from a 3/2+  ground state of 135Tb, 
+which would probably have a half-life below 100us - there are two events 
+which occur '--'115keV below the main proton peak, but if this were indeed 
+the excitation energy of the 7/2 -  state then its gamma transition rate would 
+be an order of magnitude faster than its proton decay rate and so it would 
+be difficult to understand the observation of a 7/2 -  proton-decaying state. 
+The 3/2k state is in fact the predicted [Mo197] and experimentally measured 
+ground state [Son99] of the neighbouring proton emitter 131 Eu. The 7/2 
+state is the proton-emitting ground state of the nearby 141 Ho [Dav98]. The 
+three possible configurations of the proton-emitting 7/2 -  state are shown in 
+Figure 4.8. 
+The phenomenon of fine structure has been observed in both 131 Eu and 
+141 Ho, and was anticipated as a possibility for 135Tb also. Assuming that 
+the even-even proton daughter nucleus 134Gd has a similar deformation to 
+the parent (02  '.'0.33), the Grodzins formula [Gro62] predicts the excitation 
+energy of the first excited 2 state to be '-'120keV. Coupled channels calcula-
+tions (in the method of [EsbOO]) predict a branching ratio of '8% to a state 
+at this energy. In the bottom part of Figure 4.5, there are two events which 
+correspond to this energy, lying 115keV below the main proton peak. It is 
+estimated [Fir95] that this state will decay by internal conversion 60% of the 
+time, with half of these electrons being emitted from the K shell (with bind- 
+Chapter 4. Results and Discussion 	 94 
+ing energy "-30keV) and half from the higher shells (with negligible binding 
+energy). The internal conversion electrons will be detected simultaneously 
+with the proton by the DSSD and their energies summed - therefore we 
+would expect to see roughly 40% of the proton decays to the excited state 
+appearing in a fine structure line '-'120keV below the main peak (gamma 
+decay), roughly 30% appearing '-..'30keV below the main peak (K-shell in-
+ternal conversion) and another 30% being added back into the main proton 
+peak (higher shell internal conversion), although one must also take into 
+account the fact that the electrons have a much longer range in silicon than 
+the protons and may well escape from the detector, depositing only part of 
+their energy and producing a continuum of events between the main proton 
+peak and the fine structure peak. The statistics gathered in this experiment 
+are simply not sufficient to be able to make a definitive statement regarding 
+the existence of fine structure in 135Tb, although it is likely that the fine 
+structure branching ratio is no greater than about 25% (if one considers the 
+two events lying '-.'115keV below the main peak as representing 40% of the 
+decays to the excited state), if indeed it exists. To settle the issue, the exper-
+iment should be run again (with the higher beam currents now achievable 
+at ATLAS/FMA) to gain better statistics, and the results compared with 
+a Monte Carlo simulation of the fine structure decay process, as performed 
+by Sonzogni et al to conclusively establish the presence of fine structure in 
+131 Eu [Son99]. 
+Chapter 4. Results and Discussion 	 95 
+Isomer 	 7/2-  
+Eex <50eV 
+Ground 	_____________ 
+7/2- 	 5/2+ state 
+Eex  <5OkeV 
+Figure 4.8: Various possible permutations of the proton-emitting 7/2-  state in 
+'35m. 
+4.3 Search for proton radioactivity of "'Pm 
+4.3.1 Previous search experiments for proton emission 
+from Pm isotopes 
+Shortly after the initial discovery of ground state proton radioactivity from 
+147Tm and 151 Lu in 1982, a series of experiments were carried out at the GSI 
+on-line mass separator to search for proton emission from neutron-deficient 
+Prometheum isotopes [Lar83]. Beams of 40Ca from the UNILAC accelerator, 
+with energies 200-240MeV, were used with a 2.1mg/cm 2 92 Mo target to pro-
+duce the nuclides 126"27' 128Pm using the (p5n), (p4n) and (p3n) evaporation 
+channels respectively, with production cross-sections estimated with HIVAP 
+to be 24nb, 910nb and 27ib. The experimental set-up was identical to that 
+described for the 136"37"38Tb search mentioned in the previous section. No 
+evidence for proton-decaying states was found for any of the nuclides, al-
+though the predicted proton partial half-life of 126Pm (< Ims) would be too 
+fast for a mass separator facility to detect. A similar experiment was under-
+taken [Nit83] at the OASIS on-line isotope separator at Berkeley, utilising 
+a 213MeV 40Ca beam and a 1-2mg/cm2 92Mo target to search for 127Pm 
+Chapter 4. Results and Discussion 	 96 
+via the (p4n) evaporation channel: again, no evidence for proton emission 
+was found. A decade later, the Edinburgh group performed an unsuccessful 
+search for proton emission from 118  Pm at the Daresbury recoil mass spec-
+trometer using a DSSD-based setup [Liv93a]. 
+Two more recent experimental searches for proton emission from 126  Pm 
+have been reported. In the first experiment at the Argonne FMA [Mah02a], 
+a 432MeV, 3.5pnA, "Kr beam from ATLAS was used with a 751tg/cm 2  
+54 Fe target to produce the desired nuclide. No decays faster than 300js 
+with an energy lower than 2MeV were observed in the DSSD, and a cross-
+section limit for the production of 126Pm was estimated at lOnb or less. 
+There were concerns that the beam energy was significantly above the opti-
+mum value (predicted by HIVAP) for the (p5n) evaporation channel. In the 
+second reported search using a very similar DSSD-based setup at the Recoil 
+Mass Spectrometer at Legnaro [Sor03], a 330MeV 58  N beam from the ALPI 
+tandem-linac accelerator system was used with an isotopically enriched 745e 
+target in an initial attempt, but problems with the stability of the target led 
+to another attempt using the inverse kinematic reaction (a 425MeV 0.5pnA 
+'Se beam on a 18 N target). This experiment produced no clear proton 
+decay events, and suggested a production cross-section lower than lOnb. 
+4.3.2 Experimental details and results 
+After the '35Tb experiment in 2001, the ATLAS-FMA system underwent a 
+series of upgrades, including a new ECR ion source, a new FMA split anode 
+and a new high-rate PPAC at the FMA focal plane, which enabled proton 
+decay experiments to be run at significantly higher beam currents (and there- 
+Chapter 4. Results and Discussion 	 97 
+fore event rates) than were previously available - see the previous chapter for 
+more information. A search for proton emission from ' 26  Pm was undertaken 
+in 2002 using a 238MeV 24pnA (average) "Ca beam on a 0.775mg/cm 2 92 Mo 
+target for approximately 42 hours. This beam energy produced a centre-of-
+target excitation energy for the compound nucleus 132Sm*  of 96MeV, the 
+optimum value predicted by HIVAP for the (p5n) evaporation channel. The 
+FMA transmission settings were E=57MeV, Q=23.5 and M=126.5, and the 
+focal plane slits were positioned to transmit the charge states 23 and 24k, as 
+shown in Figure 4.9. For this experiment and the 125Pm search, a new 80x80 
+DSSD, identical to the first, was installed beyond the focal plane, as the first 
+detector had undergone significant radiation damage since its commission-
+ing. The DSSD was instrumented with both the traditional semi-Gaussian 
+shaping amplifiers and the fast delay-line amplifiers in parallel (see Experi-
+mental Method chapter). The back silicon veto detector was installed behind 
+the DSSD as usual, and a Germanium detector was positioned immediately 
+behind the detector mounting to pick up gamma rays associated with decays 
+in the DSSD. Before the main experiment, a calibration reaction producing 
+147Tm was performed. 
+The decays that occurred in the DSSD during the ' 26  Pm run with an 
+energy below 2MeV are shown in Figure 4.10 for various recoil-decay time 
+limits. A two-dimensional plot of recoil-decay time against decay energy is 
+shown in Figure 4.11. These spectra were obtained via the shaping ampli-
+fiers, as the delay-line amplifiers were found to have an inferior energy reso-
+lution (FWHM greater by a factor of 2). Although there are two fast events 
+at an energy of about 1.2MeV shown in the bottom part of Figure 4.10, 
+the spectrum is not completely clean (due to background from 3-delayed 
+Chapter 4. Results and Discussion 	 98 
+ 6x106  
+5x106  
+4x10  
+3xi06  
+lxi 0
+PPAC X position 
+Figure 4.9: PPAC x position spectrum for the 126  Pm experiment. 
+protons) and there is no evidence that these events relate to proton radioac-
+tivity. A cross-section limit of r-i450pb can be placed on 126Pm for proton 
+decay with t 1 1 2  <50ms, which represents a search of great sensitivity. This 
+cross-section is based on the level of counts seen in the spectrum around 
+the typical proton energy of 1MeV, the thickness of the target used, the 
+integrated beam current on target of '-.' 2.3 x 1016  particles and a combined 
+FMA-DSSD efficiency of around 8%. It was assumed that experimental 
+dead time was not an issue in terms of efficiency due to the relatively low 
+implantation rate. 
+126Pm is predicted by Mller et al [Mo197] to have a S, of 0.58MeV, 
+which is relatively low compared to nearby proton emitters and would be 
+unlikely to produce a proton decay fast enough to compete with the predicted 
+/3-decay partial half-life of 175ms. The Liran-Zeldes model [Lir76] predicts 
+S=0.92MeV, which is on a par with the observed S, values of nearby proton 
+emitters, but this model has been shown to overestimate the S i,, values of 
+Chapter 4. Results and Discussion 	 99 
+200 400 600 800 1000 1200 1400 1600 1800 2000 
+T <lOOms 
+200 400 600 800 1000 1200 1400 1600 1800 2000 
+T < lOms 
+200 400 600 800 1000 1200 1400 1800 1800 2000 
+T < ims 
+200 400 600 800 1000 1200 1400 1600 1800 2000 
+Energy (keV)' 
+Figure 4.10: DSSD decay events associated with A =126 recoils from the reaction 
+40 Ca+92 Mo 
+Chapter 4. Results and Discussion 
+500 	 1000 	 1500 	 2000 
+Decay energy (keV) 
+Figure 4.11: DSSD decay events associated with A-126 recoils from  the reaction 
+50 c + 92 Mo. 
+Chapter 4. Results and Discussion 	 101 
+proton emitters below Z=69 by typically 200keV (see section 4.5). Thus the 
+non-observation of proton radioactivity from 126Pm is consistent with mass 
+model predictions. 
+The experiment utilised a 8Ca beam from ATLAS, which has previ-
+ously seen to be contaminated with atmospheric VAr. As well as requesting 
+the beam operators to regularly check the purity of the beam, the Ger-
+manium detector mounted behind the DSSD provided some comfort that 
+nuclides in the expected region (i.e. from the compound nucleus 132S m* 
+rather than 132Nd*)  were being produced. The lower half of Figure 4.12 
+shows the energy spectrum produced by the Germanium detector during 
+the A=126 run, with tentative assignments for the gamma lines. Although 
+this spectrum is not as simple to interpret as its A=125 counterpart, the 
+389keV line characteristic of 126Cs (which is not present in the A=125 spec-
+trum) can clearly be seen, along with lines which agree to the /3-decay chain 
+ancestors 126Ba, 126 La, 121 C and potentially 121  Pr. This last nuclide should 
+produce 125La via 0-delayed proton emission, and we do indeed see some 
+lines which agree to the A=125 /3-decay chain shown in the top half of Fig -
+ure 4.12 (although notably not 1 21 C or any of its A=124 /3-delayed proton 
+descendants). These observations suggest the presence of (o2p) or (cpn) 
+evaporation residues from the 132Sm*  compound nucleus produced by the 
+40 Ca beam, rather than the much lower cross-section (p5n) or (a2n) residues 
+from a 132Nd*  compound nucleus produced by a 40Ar beam. 
+<N 	 I <N 
+I 	<N 	 Ji g' 
+50000 
+A = 125 
+550 600 
+A = 126 
+o '-f 
+4) )Q 
+bo I- 
+100 150 200 250 300 350 400 450 50 
+(0 	 0 	 II 
+Ib' 	 II 
+0) 	 II 
+AtJjIJj 	I 
+I CO) 
+250000 
+200000 
+150000 
+100000 
+(1) 50000 
+150000 
+100000 
+n --'----- 	 ____ 
+, 	 I I I I 	I I I I I I I 	 I 	 I 	 I 	I I I I I I I 	 I  I -rT, I I 	 I I I I I I I I I J 
+50 	100 150 200 250 300 350 400 450 500 550 600 
+Energy (key) 
+Chapter 4. Results and Discussion 	 103 
+8.Oxl 06 
+6.0x106  
+4.0x106  
+2.0x106  
+PPAC X position 
+Figure 4.13: PPAC x position spectrum for the 125  Pm experiment. 
+4.4 Search for proton radioactivity of 125Pm 
+An experiment searching for proton decay from 125Pm was performed, the 
+first known attempt. The run took place during the same period as the 
+' 26  Pm run with the same experimental set-up, lasted roughly 102 hours, 
+and utilised a 260MeV 40  Ca beam, with an average current of 22pnA, pro-
+ducing a compound nucleus excitation energy of 108MeV in the centre of 
+the 0.775mg/cm2 92 Mo target (the optimal excitation energy for the p6n 
+evaporation channel). The FMA was set to transmit recoils of mass 125, 
+energy 62.5MeV and charge state 22.5, with the focal plane slits positioned 
+to allow transmission of the charge states 22+  and  23+,  as shown in Figure 
+4.13. 
+The decays that occurred in the DSSD during the "'Pm run with an 
+energy below 2MeV are shown in Figure 4.14 for various recoil-decay time 
+limits, while Figure 4.15 shows a two-dimensional plot of recoil-decay time 
+Chapter 4. Results and Discussion 
+30-1 	n 	 T<ls 
+20-1 	 Oh'10 	Oii 
+200 400 600 800 1000 1200 1400 1600 1800 2000 
+T < lOOms 
+0 	 	.'." ' I I q I j .  	' 111  11 J'91 I  J J I  	U 	IJI J 1 . ih1J 1  
+200 400 600 800 1000 1200 1400 1600 1800 2000 - 4- C 
+o 	 T<lOms 0 
+ All  P 	Q ill0 .' 91 	I 	  	. .?I 'I, 11;11111    IJ I J I P1 	 
+200 400 600 800 1000 1200 1400 1600 1800 2000 
+2- 	 ,T<lms 
+ . 	 . . 	 . 	 	 	   	 	. 	  	. 	  	 
+0 	200 400 600 800 1000 1200 1400 1600 1800 2000 
+Energy (keV) 
+Figure 4.14: DSSD decay events associated with A =125 recoils from the reaction 
+40Ca+92Mo 
+500 	 1000 	 1500 	 2000 
+' 	150 
+Chapter 4. Results and Discussion 	 105 
+Decay energy (key) 
+Figure 4.15: DSSD decay events associated with A-125 recoils from  the reaction 
+50 C + 92 Mo. 
+Chapter 4. Results and Discussion 	 106 
+against decay energy (again, output from shaping amplifiers rather than 
+delay-line amplifiers were used). Although there is a fast event at an energy 
+of about 1.35MeV shown in the bottom part of the figure, the spectrum is 
+not completely clean (due to background from 3-delayed protons) and in 
+fact this event was found to have a recoil-decay time of less than 1s, so 
+it is impossible that this event could relate to proton radioactivity. The 
+upper two sections of Figure 4.14 hint at potential candidate proton peaks 
+in the region 1.3-1.4MeV, but a long-lived proton decay such as this cannot 
+be cleanly identified as a vertical line (with a decaying exponential time 
+distribution, as demonstrated for ' 35Tb in Figure 4.6) amidst the background 
+in the two-dimensional plot Figure 4.15. A cross-section limit of .--'200pb can 
+be placed on 125  PM for proton decay with t 1 12  <50ms, based on an integrated 
+beam current on target of '-' 5.2 x 1016  particles, which represents a search of 
+unprecedented sensitivity in proton radioactivity experiments, made possible 
+by the higher beam currents available from ATLAS and the corresponding 
+improvements in the FMA experimental set-up (i.e. split anode, high-rate 
+PPAC and the 80x80 DSSD). 
+125Pm is predicted by Mller et al [Mo197] and Liran and Zeldes [Lir76] 
+to have a S, of 1.24MeV and 1.45MeV respectively, either of which one would 
+naively expect to lead to a proton decay significantly faster than the pre-
+dicted/3-decay partial half-life of 158rns. Spherical WKB calculations predict 
+t112 ''50ns for the likely single-particle levels d31 2  and d512 , whereas deformed 
+calculations (in the method of Esbensen and Davids described in Chapter 2) 
+suggest t112 r.i120jts for the likely 5/2[532] Nilsson configuration. A proton 
+decay with this predicted energy and half-life should be easily detectable 
+using the FMA-DSSD experimental method, and so the non-observation of 
+Chapter 4. Results and Discussion 	 107 
+proton emission from 125  Pm apparently represents a rare case of the failure 
+of mass model predictions to localise the onset of proton radioactivity in this 
+region. In terms of energetics, two possible explanations present themselves. 
+The proton separation energy may be too large, and thus the decay rate too 
+fast, for the proton decay to be observable (i.e. t 112 < 1s), in which case it is 
+possible that Prometheum may be the only odd-Z element between Z=51 and 
+Z=83 which does not have at least one proton-decaying isotope. However, if 
+S is indeed too large for 125Pm, it may in fact be lower for its more exotic 
+odd-odd neighbour 124Pm  (this effect has been seen in the proton emitting 
+partners 112,113  Cs and the highly deformed l40,l4iHo,  for example). The other 
+explanation for non-observation of 125Pm is that its S, may be too low, and 
+thus the decay rate too slow, for proton emissionto compete effectively with 
+/3-decay. It is still possible that 124Pm may have a higher S, than 125pm, 
+which is the case for Prometheum's near-neighbours 130,13iEu  and so could 
+potentially exhibit proton decay. However, with current stable beam-target 
+combinations the nuclide 124pm  could only be produced via a (p7n) evapo-
+ration channel, which would probably be too weak to be detectable with this 
+experimental technique, even with the recent upgrades in the ATLAS-FMA 
+system. It is also possible that the centrifugal barrier helping to contain the 
+odd proton in 125Pm is unusually low, due to the proton having a lower l 
+value than expected, which could cause the decay to occur too quickly for 
+observation. This could be the case if the proton occupied the 1/2[420] 
+Nilsson level (based on the d 512  spherical sub-shell), allowing s-wave proton 
+emission, although this state is not expected to be close to the Fermi sur-
+face at the expected deformation, therefore this explanation seems unlikely. 
+Of course, a final possibility is that 125Pm does exhibit proton radioactivity 
+Chapter 4. Results and Discussion 	 108 
+but the production cross-section for this particular (p6n) fusion-evaporation 
+reaction is below '-'.'200pb. Experimental measurements of production cross-
+sections of proton emitters have shown that 'nuclides produced via a (p5n) 
+evaporation channel (e.g. 140Ho, 130Eu and '64b) have cross sections in the 
+range '10-15nb, while (p4n) evaporation residues (e.g. 145Tm, 141 Eu, 131 E 
+and "'La) exhibit cross-sections over a wide range from '-'lOOnb to ri500nb. 
+Given the measured (p6n) production cross-section for ' 35Tb of '--'1.5nb, it 
+is not unreasonable that the (p6n) cross-section for 125 Pm could be a factor 
+of 7-8 lower, given the factor of 5 variation in the (p4n) cross-sections. To 
+settle the issue, the experiment should be repeated with a similarly high 
+beam current (20-25pnA) and over a longer period, for example 200 hours, 
+which would probe production cross-sections of lOOpb or lower. 
+Again, the Germanium detector mounted behind the DSSD provided 
+some comfort that ATLAS was producing a 40  Ca (rather than 40Ar) beam. 
+The top half of Figure 4.12 shows the gamma decay spectrum during the 
+A=125 run, with tentative assignments for gamma lines. Lines consistent 
+with the e3-decay of the nuclides 125 Ce, 125 La, 125Ba, 125  Cs and 125 X can be 
+identified, along with the A=124 nuclides 1 24 B and 124 Cs, which are pro-
+duced by /3-delayed proton emission from 125Ce. There is no clear evidence 
+for gammas produced by the 0-decay of 115  Pr [Pau98], which suggests that 
+125 C is being produced via the (ci2pn) evaporation channel from the 132 Sm* 
+compound nucleus produced by the 40Ca beam, rather than the much lower 
+cross-section (a3n) residues from a 132Nd*  compound nucleus produced by 
+an 40Ar beam. 
+Chapter 4. Results and Discussion 	 109 
+4.5 Comparison with mass model predictions 
+The complete set of data on ground-state proton decay energies in the range 
+51<Z<83 (for odd Z) was used to test the accuracy of the one-proton sep-
+aration energy predictions of the two mass models described in section 2.5. 
+It should be noted that nuclides for which proton emission has been ob-
+served from an isomer but not the ground state (i.e. 164mfr  and 185mBi)  have 
+been included in the comparison, assuming that the excitation energy of the 
+isomer is small relative to the proton separation energy of the nucleus. Sim-
+ilarly, 135Tb has been included in the comparison, although it has not yet 
+been established whether the proton decay proceeds from the ground state 
+or a possible isomer, as discussed in section 4.2. The proton emitters 121  Pr 
+and 144Tm, which were discovered after the experiments discussed in this 
+chapter took place (see Chapter 5 for further information), are also included 
+in the comparison. 
+The comparison is extended by the inclusion of known proton sepa-
+ration energies of other proton-unbound nuclides (which are not sufficiently 
+unbound to exhibit proton radioactivity). These values were taken from 
+the most recent Atomic Mass Evaluation (AME) [Aud03], and only include 
+those nuclides with masses derived from experimental reaction/decay mea-
+surements (rather than systematic trends). It should be noted that most 
+of these AME S values were derived using experimental data on c de-
+cays measured by Edinburgh group collaborations using the mass separator-
+DSSD technique that has proved so fruitful in the study of proton decay (see 
+{Pag96], [Dav97] and [Po199] for examples). 
+Only one of the proton separation energy values used in this compari- 
+Chapter 4. Results and Discussion 	 110 
+son, that of 18913i, has been surveyed by direct mass measurement techniques 
+(as opposed to indirect methods such as the study of decays). This was 
+achieved by Schottky mass spectrometry at the Experimental Storage Ring 
+at GSI [Nov02, Lit05], and yielded a result of S=-370(110)keV, in agree-
+ment with the AME value of -470(50)keV which was derived from indirect 
+methods. This mass measurement technique is currently limited to the study 
+of nuclides with half-lives on the order of several hundreds of milliseconds or 
+longer, and is therefore of limited use in further exploring the mass surface 
+in this region of odd-Z proton-unbound nuclei. However, the ISOLTRAP 
+Penning trap facility at CERN-ISOLDE has been shown to provide accu-
+rate mass measurements for nuclides with half-lives as short as "-70ms, so 
+this alternative method may provide more useful mass data in this region in 
+the future (see [BecOO] and [Lun03] for more information on this technique). 
+Figures 4.16 and 4.17 show the predictions of the Mller-Nix and Liran-
+Zeldes models compared to the experimentally-derived S, values. 
+It was found that the Liran-Zeldes model produces better overall Q 
+predictions than the model of Mller et al for this extremely neutron-deficient 
+region, with mean and RMS deviations of -46keV and 211keV respectively, 
+compared to -230keV and 430keV respectively for the latter model. It was 
+observed that the Liran-Zeldes model Q predictions tend to be too high 
+for the lighter (Z<69) proton emitters, thus underbinding them, while the 
+heavier examples are overbound (with the exception of the Thallium and 
+Bismuth isotopes). The Mller-Nix model was seen to generally overbind 
+the nuclides over the whole mass region considered (again, with the notable 
+exception of the Bismuth isotopes), hence the larger mean deviation. To 
+put these deviation values in perspective, it is useful to note that the RMS 
+Chapter 4 . Results and Discussion 
+S P  (keV) 
+.. 	0 0) 0) .  
+o 0 	C) 0 0 CD 0 0 0 
+o o o o 0 0 0 0 0 0 0 
+I. 	1,1.1.1 	1.1.1 
+- 	 - 
+0 	 C) S 
+. 	 ) 
+ :-__ 
+. , 	  
+3 	 3. .-------- 
+- a). 	 . 
+o 	 *- 
+S 0 -a 
+Figure 4.16: Proton separation energy predictions of the Mller-Nix mass model 
+compared to experimentally-measured proton decay Q-values (black circles) and 
+proton separation energies derived from indirect experimental mass measurements 
+(red circles, with error bars shown where they exceed the size of the data point). 
+Chapter 4. Results and Discussion 
+SP  (keV) 
+- 	.- .- - 
+o O 0) . 	IQC 0) 0) .  
+0000000000 
+00000000000 
+. 	I 	 	I 	 	I 	 	I 	 	I 	 	I 	 	I 	 	I 	 	I 	 	I 
+ 	 S 
+C) CD 
+0 	  
+- 	m 	 
+U) 	.i.. 
+3 	 S 
+CD 0  - 
+S-I.--- 
+C) 	 CD 
+..- 	- 	 ;o  
+Figure 4.17: Proton separation energy predictions of the Liran-Zeldes mass 
+model compared to experimentally-measured proton decay Q-values (black circles) 
+and proton separation energies derived from indirect experimental mass measure-
+ments (red circles, with error bars shown where they exceed the size of the data 
+point). 
+Chapter 4. Results and Discussion 	 113 
+deviations of these two models when compared to the 2135 nuclei of an in-
+terim atomic mass compilation were found to be 586keV for Liran-Zeldes 
+and 676keV for Mller-Nix [Lun03], which demonstrates that both models 
+are relatively successful in this particular region. 
+The Liran-Zeldes model is significantly older than the macroscopic-
+microscopic model, although it does contain 178 independent parameters 
+which are determined by least-squares fitting from the data of 1818 nu-
+clides, while the Mller-Nix model contains 38 parameters, only 16 of which 
+are evaluated by least-squares fitting to measured mass data of 1654 nu-
+clides. Thus it is not surprising that the model with the largest parameter 
+space and the largest data set fares best, although it is remarkable that 
+either model comes so close to calculating the masses of such exotic nu-
+clei, bearing in mind that these predictions are extrapolated many neutrons 
+further from stability than the nuclides used in the model data sets. The 
+accuracy of the Liran-Zeldes predictions for the Bismuth isotopes 185189 13i 
+is particularly notable, as can be seen in Figure 4.17, with an RMS deviation 
+of only 55keV (compared to 205keV for the nuclides in the range 71<Z<81), 
+which would probably be reduced even further if the excitation energy of 
+the isomeric proton emitter 115mBj  were known and subtracted. The success 
+of the Bismuth predictions may be due to the proximity of the Z=82 shell 
+closure; the predictions for the Lutetium isotopes have a relatively low RMS 
+deviation of 129keV, which may be due to the presence of the N=82 shell 
+closure. It has also been demonstrated that the Liran-Zeldes predictions for 
+Qa in the region below the Z=82 shell closure are far superior to those of 
+the Mller-Nix model [Sew99]. 
+Although the predictions of the Mller-Nix model in terms of absolute 
+Chapter 4. Results and Discussion 	 114 
+Table 4.1: Comparison of spin-parity predictions of the Mller-Nix model for de-
+formed lanthanide proton emitters with values derived from the theoretical analysis 
+of the experimentally-measured half-lives (assuming deformations close to those 
+predicted by Mller-Nix). It should be noted that the spin-parity assignment for 
+131 has been confirm' onfirmed independently by analysis of the fine structure branching 
+ratio [Son991. 
+Nucleus Mller-Nix Q 	from t 112  
+"7La 3/2k 3/2k or 3/2 
+121 Pr 3/2-  3/2k or 3/2 
+131 Eu 3/2k 3/2k 
+135 T 3/2k 7/2 
+141 Ho 7/2-  7/2 
+values may be inferior, it can be seen to predict the onset of proton emission 
+at the correct mass number for many isotopes by a large sudden increase 
+in Q; for example, predicted Q increases by 0.7MeV between 132 E and 
+131 Eu, by 0.6MeV between 1 36 T and 135Tb, and by 0.8MeV between 112  Ho 
+and "Ho. The Liran-Zeldes model Qp tends to increase more smoothly, 
+with increments of 0.45MeV for the onset of proton emission in Eu, Tb and 
+Ho. It can be seen from the figures that the effect of odd-even staggering is 
+much more pronounced in the Mller-Nix predictions than their Liran-Zeldes 
+counterparts, with the exception of Bismuth. This staggering includes the 
+accurate prediction that the Qp  values of the odd-odd proton emitters 112 Cs 
+and 140110  are less than their odd-even neighbours 113  Cs and 141  Ho, which 
+is not the case in the Liran-Zeldes predictions. The Mller-Nix model also 
+provides predictions regarding 0 decay (Qfi and half-life) and the spin and 
+parity of the odd particle (as shown in Table 4.1), which were found to be 
+accurate for 131 Eu and 141 Ho, but not 135Tb (although the density of Nilsson 
+levels in this region is likely to be finer than the precision of the model, 
+Chapter 4. Results and Discussion 	 115 
+so this one failure is certainly not significant). The Mller-Nix model also 
+predicts the ground-state deformation of the nucleus, and has been shown 
+to be in excellent agreement with experimentally-derived shape information 
+in this region. The presence of prolate deformation in the neutron-deficient 
+lanthanide region has been demonstrated directly by the observation of rota-
+tional bands in proton emitters (e.g. in ''Ho [SewOla]), as well as indirectly 
+by the reduced energy of the first excited state of even-even proton-decay 
+daughter nuclei which allows fine structure branching (e.g. in 131 Eu [Son99]). 
+Deformation is also implied by the failure of spherical proton decay mod-
+els to reproduce the measured decay rates, and is also indicated by other 
+experimental methods (e.g. the study of 6-delayed proton emission [Xu05]). 
+Chapter 5 
+Conclusions 
+5.1 Summary 
+Searches for new examples of proton radioactivity from highly deformed lan-
+thanide nuclei were conducted at the FMA at Argonne National Laboratory 
+in 2001 and 2002, utilising a new purpose-built double-sided silicon strip 
+detector (DSSD) system. 
+The properties of the detector (in terms of energy resolution and strip 
+multiplicity) were found to be acceptable for such studies during a brief 
+commissioning run, and shortly after this the new proton emitter 135Tb 
+was observed with a proton energy of 1.18MeV. This highly exotic nuclide 
+was produced using heavy ion fusion-evaporation reactions via the (p6n) 
+evaporation channel, the first such use of this extremely low cross-section 
+channel, which illustrates the improved sensitivity of the FMA-DSSD tech-
+nique (made possible by an increase in available beam current and the new 
+detector). The experimental proton decay rate was compared to calculations 
+Chapter 5. Conclusions 	 117 
+made by C.N. Davids, using the coupled channels method as described in 
+[EsbOO], and was found to be consistent with the large prolate deformation 
+predicted for this isotope (due to its remoteness from closed shells for both 
+protons and neutrons), specifically a deformation of 32 >0.3, with the odd 
+proton occuping a 7/2 -  Nilsson state. It is not clear whether this proton-
+decaying state is the ground state of '35Tb, or a low-lying isomeric state. It 
+is also possible that this proton emitter exhibits fine structure, as is the case 
+with its near-neighbours 131 Eu and 141 Ho, although another experiment with 
+improved statistics is required to confirm this hypothesis. Figure 5.1 com-
+pares the decays of these three highly-deformed lanthanide odd-even proton 
+emitters. 
+Experimental searches for proton emission from the nuclides 125,126  Pm 
+were carried out the following year, 2002. The production reactions utilised 
+the (p6n) and (p5n) evaporation channels respectively, and further upgrades 
+to the experimental system (i.e. a split anode and new PPAC) allowed the 
+experiments to be run with twice the beam current of the '35Tb experiment, 
+and thus to be more sensitive in terms of probing low production cross-
+sections. No evidence was found for proton radioactivity from either of these 
+nuclides: this was not entirely surprising in the case of 126  Pm, as mass models 
+predict that the proton separation energy for this isotope is unlikely to be 
+sufficiently large for proton emission to compete effectively with /3-decay. 
+The non-observation of the proton decay of 125Pm can be explained in four 
+ways. Firstly, the proton separation energy is too large (and thus the decay 
+process too fast) for proton emission to be observable in this experimental 
+method. Secondly, the proton separation energy may still be too low for 
+proton emission to compete with /3-decay, despite this nuclide being further 
+Chapter 5. Conclusions 
+131 E 
+T112  2Oms 
+130 s 
+__________________ 
+Isomer 
+7/2 	 1 p =o/2  
+Ground state 	 T112  - 8s 
+-4ms 	 N;200keV 
+135 1_tn 
+3/2 k  
+1p=3 	 2 
+T1  Ims 	 I15keV? 
+134 Gd 
+Figure 5.1: Proton decay schemes of 131Eu, 141  Ho and 135 
+Chapter 5. Conclusions 	 119 
+from stability (and thus probably having a larger proton separation energy) 
+than 116  Pm. Thirdly, the odd proton has a lower than expeted angular 
+momentum which reduces the height of the centrifugal barrier and allows 
+the decay to proceed too quickly for observation. Finally, "'Pm may in fact 
+decay by proton emission on an observable timescale, but the production 
+cross-section may be too low for the decay to have been observed in the 
+experiment. It would be unusual if Prometheum had no observable proton-
+emitting isotopes at all, as at least one has been found for every odd-Z 
+element in the range 51<Z<83 (see next section), so it is important that the 
+search for proton emission from "'Pm is repeated with improved statistics in 
+order to settle this important question. It is possible that, with yet further 
+improvements in the sensitivity of the system, the even more exotic 124  Pm 
+could be investigated in the future. 
+A comparison of experimentally determined proton separation energies 
+and those predicted by mass models (specifically those models of Mller et 
+al [Mol95, Mo197] and Liran & Zeldes [Lir76]) was carried out. It was found 
+that the older Liran-Zeldes model produces results closer to experimental S 
+values than the newer model of Mller et al (with RMS deviations of 216keV 
+and 438keV respectively), although it should be noted that the former model 
+contains a much larger parameter space than the latter (178 parameters in 
+the former, 38 in the latter). 
+5.2 Future progress 
+After the experiments described in this thesis were performed, a major de- 
+velopment in the field of proton emission from highly deformed nuclei was 
+Chapter 5. Conclusions 	 120 
+the discovery of the proton radioactivity of 12  'Pr [Rob05a], again utilising 
+the FMA-DSSD system at Argonne. This nuclide was again produced via a 
+(p6n) evaporation reaction, with a production cross-section comparable to 
+that probed in the search for 125Pm. The proton-decaying state was identi-
+fied as either 3/2k or 3/2 -  by comparison of experimental and theoretical 
+half-lives, and the measured half-life of '-'lOms was shown to be far too fast 
+to agree with the postulated observation of "'Pr proton radioactivity by the 
+Dubna group in the 1970s. This proton emitter was included in the mass 
+model comparison in the previous chapter, with Qp  of 0.9MeV. The discov-
+ery of this proton emitter leaves Prometheum as the only element in the 
+range 51<Z<83 which does not have a single observable proton-emitting 
+isotope, which emphasises the importance of further investigation of the 
+neutron-deficient Pm isotopes. Another proton emitter, ' 44Tm, has also 
+been recently discovered by the Oak Ridge group [Grz05] via a (p5n) evapo-
+ration reaction with production cross-section of '-.'10nb (which is consistent 
+with other examples of this evaporation channel). Two proton lines were 
+reported, at energies of 1.70MeV and 1.43MeV, although the interpretation 
+of these lines in terms of the structure of the nucleus is complicated by its 
+odd-odd nature, as is the case with ' 46Tm. For the purposes of the 'mass 
+model comparison in the previous chapter, it was assumed that Q for 1 44 T 
+is 1.7MeV. 
+The programme of upgrades to the FMA-DSSD detection technique 
+includes; an upgraded ion source producing higher beam currents, a split 
+anode in the first electric dipole of the FMA which drastically reduces the 
+number of scattered beam particles reaching the focal plane, a new position-
+sensitive focal plane detector (the PPAC) with a much higher rate limit, 
+Chapter 5. Conclusions 	 121 
+the new large area (and fine granularity) DSSD which is large enough to 
+cover the full FMA image and was used for the first time in the experiments 
+described in this thesis, and the delay-line amplifiers which now instrument 
+the DSSD and allow accurate measurement of decay energies within 1s 
+of an implantation. These improvements allow the experimenter to search 
+for proton decay candidates with extremely low production cross-sections 
+(<500 picobarns with '-.50 hours of beam time) and to detect decays with 
+half-lives on the order of a few microseconds. For example, this could allow 
+the detection of proton radioactivity from more exotic nuclides in the region 
+of predicted high deformation such as ' 29Eu and "6  La, which may possi-
+bly have Q, values which lead to proton decays on an observable timescale 
+(predicted r'-1.8MeV and '--.0.7-1.3MeV respectively), produced by (p6n) and 
+(p5n) evaporation channels respectively. A cross-section limit of '--.5nb has 
+already been placed on the decay of "'La in a previous experiment at the 
+FMA [Mah02a], which occurred prior to the installation of the delay-line 
+amplifiers and thus was not sensitive to decays on the order of a few mi-
+croseconds. It is possible that proton decay candidates produced via (p7n) 
+evaporation channels could be probed in the future: for example, 1 34 T is 
+predicted to have a Qp  value only slightly larger than 135  T (1.28MeV com-
+pared to 1.15MeV according to the Mller-Nix model), and so the decay 
+could be slow enough to be detected if the nucleus could be produced in 
+sufficient quantities. It is also possible that the improved experimental set-
+up could be used to search for ground-state proton decay candidates below 
+Z=50, although it is likely that if proton emitters exist in this region then 
+they should have already been identified in fragmentation reactions which 
+have mapped the proton drip-line. 
+Chapter 5. Conclusions 	 122 
+A repetition of the 135Tb experiment with higher statistics would be 
+very beneficial in terms of confirming or. ruling out the presence of fine 
+structure in the proton decay of this nucleus. Fine structure has already 
+been observed in the neighbouring proton emitters 131 Eu and 141  Ho, and 
+its presence in the decay of 135 T would provide another way of identifying 
+the spin and parity of the decaying state (in addition to the comparison of 
+experimental and theoretical half-lives), as well as measuring the energy of 
+the first excited state in 134Gd. 
+The main focus of proton radioactivity studies at the FMA in re-
+cent years has been the investigation of odd-odd nuclei to study the effect 
+of the residual interaction between the odd proton and the odd neutron. 
+Specifically, 146Tm [Rob05b] and ' 50Lu [Rob03] have been reinvestigated 
+with much improved statistics compared to previous experiments. Proton 
+emission from odd-odd nuclei is influenced by the level schemes of both par-
+ent and daughter, which may be complex due to the coupling of the odd 
+proton and neutron, and so highly accurate measurements of the proton en-
+ergy and particularly the decay half-life are essential to perform meaningful 
+comparisons with theory and so piece together the decay schemes. 
+After the experiments described in this thesis, the Gammasphere de-
+tector was installed around the target chamber at the FMA. This allows the 
+detection of gamma-rays from the fusion-evaporation recoils shortly after 
+they are created, which can then be 'tagged' by correlating them with mea-
+sured particle decay events when the recoils reach the DSSD (the so-called 
+recoil-decay tagging, or RDT, method). This technique has previously been 
+used to identify rotational bands in the gamma-ray spectra of 141 Ho [SewOla] 
+and ' 31 Eu [SewOib], which acts as independent and direct confirmation of 
+Chapter 5. Conclusions 	 123 
+the deformation of these nuclei (in addition to the comparison of experimen-
+tal and theoretical half-lives). The RDT technique has since been used to 
+identify rotational bands in 1 45 T and 146  T [Sew05]. 
+The search for proton emitters heavier than 1 85 B could be facilitated 
+by the use of gas-filled separators such as RITU, or by the use of fragmen-
+tation reactions using a 238U beam [Liu04]. Fragmentation reactions were 
+recently used to discover the second example of two-proton emission, 54  Z 
+[B1a05], at the GANIL facility, which now allows meaningful comparisons 
+with theory for this highly exotic decay mode. A single candidate event for 
+the two-proton decay of 48  N has also been recently reported [Dos05]. 
+The other important recent development in the field of proton radioac-
+tivity was the discovery of direct proton emission from a 21+  isomer in 94  A 
+(which is proton-bound in its ground state) at the GSI on-line mass sepa-
+rator [Muk05]. There is preliminary evidence that this isomer also exhibits 
+two-proton decay, as well as /3-delayed proton and two-proton emission, mak-
+ing it a truly unique state. This discovery also represents only the second 
+example of one-proton emission below Z=50, the other being the very first 
+proton emitter to be discovered, 13,  Co, 35 years previously. 
+In conclusion, the study of proton radioactivity in highly-deformed 
+neutron-deficient nuclei provides unique information on nuclear structure 
+beyond the proton drip-line, demonstrates the effect of deformation on the 
+tunneling process, inspires progress in theoretical proton decay models, and 
+also provides data for comparison with (and the future improvement of) 
+mass models. The investigation of proton emission from nuclei remains a 
+vital and interesting branch of nuclear physics. 
+Bibliography 
+[Abe97] S. Aberg, P. B. Semmes and W. Nazarewicz, Phys. Rev. C 56, 1762 
+(1997). 
+[Aro86] J. Aron et al, Rev. Sd. Inst. 57(5), 737 (1986). 
+[Aud03] G. Audi, A. H. Wapstra and C. Thibault, Nuci. Phys. A 729, 337 (2003). 
+[Bat98] J. C. Batchelder et al, Phys. Rev. C 57, R1042 (1998). 
+[Bec69] F. D. Becchetti, Jr. and G. W. Greenlees, Phys. Rev. 182, 1190 (1969). 
+[BecOO] D. Beck et al, Eur. Phys. J. A 8, 307 (2000). 
+[Ben85] T. Bengtsson and I. Ragnarsson, Nuci. Phys. A 436, 14 (1985). 
+[B1a05] B. Blank et al, Phys. Rev. Lett. 94, 232501 (2005). 
+[B1u96] D. J. Blumenthal, http://www.phys.anl.gov/fma/fmarecoiLform.html  
+(1996). 
+[Boh69] A. Bohr and B. R. Mottelson, Nuclear Structure, Vol. 1, McGraw-Hill 
+(1969). 
+[Bo193] L. M. Bollinger et al, Nuci. Instr. Methods A 328, 221 (1993). 
+[Bug85] V. P. Bugrov.et al, Soy. J. Nucl. Phys. 41, 717 (1985). 
+[Bug89] V. P. Bugrov and S. G. Kadmensky, Soy. J. Nucl. Phys. 49, 967 (1989). 
+BIBLIOGRAPHY 
+[Cer70] J. Cerny et al, Phys. Lett. B 33, 284 (1970). 
+[Dav89] C. N. Davids and J. D. Larson, Nuci. Instr. Methods B 40/41, 1224 
+(1989). 
+[Dav92] C. N. Davids et al, Nuci. Instr. Methods B 70, 358 (1992). 
+[Dav94] C. N. Davids, Nuci. Instr. Methods A 345(3), 528 (1994). 
+[Dav96] C. N. Davids et al, Phys. Rev. Lett. 76, 592 (1996). 
+[Dav97] C. N. Davids et al, Phys. Rev. C 55, 2255 (1997). 
+[Dav98] C. N. Davids et al, Phys. Rev. Lett. 80, 1849 (1998). 
+[DavOOa] C. N. Davids and H. Esbensen, Phys. Rev. C 61, 054302 (2000). 
+[DavOOb] C. N. Davids, Proc. 1st mt. Symposium on Proton-Emitting Nuclei, ed. 
+J. C. Batchelder, American Institute of Physics, 200 (2000). 
+[Dav02] C. N. Davids, Argonne Annual Report 2002, 104 (2002). 
+[Dav04] C. N. Davids et. al., Phys. Rev. C 69, 011302(R) (2004). 
+[DosOS] C. Dossat et al, Phys. Rev. C 72, 054315 (2005). 
+[EsbOO] H. Esbensen and C. N. Davids, Phys. Rev. C 63, 014315 (2000). 
+[Fae84] T. Faestermann et al, Phys. Lett. B 137, 23 (1984). 
+[Fes92] H. Fesbach, Theoretical Nuclear Physics: Nuclear Reactions, John Wiley 
+and Sons Inc., New York (1992). 
+[Fir95] R. B. Firestone, Table of Isotopes 8th edition, John Wiley and Sons Inc., 
+New York (1995). 
+[Gam28] G. Z. Gamow, Phys. 51, 204 (1928). 
+BIBLIOGRAPHY 
+[Gi187} A. Gillitzer et al, Zeitschrift fr Physik A 326, 107 (1987). 
+[Gin03} T. N. Ginter et al, Phys. Rev. C 68, 034330 (2003). 
+[Gio02] J. Giovinzzo et al, Phys. Rev. Lett. 89 102501 (2002). 
+[Gro62] L. Grodzins, Phys. Lett. 2, 88 (1962). 
+[Grz05] R. Grzywacz et al, Eur. Phys. J. A 25, 145 (2005). 
+[Hax49] O.Haxel, J. H. D. Jensen and H. E. Suess, Phys. Rev 75, 1766 (1949). 
+[Hof8l] S. Hofmann et al, Zeitschrift fr Physik A 299, 281 (1981). 
+[Hof82a] S. Hofmann et al, Zeitschrift fr Physik A 305, 111 (1982). 
+[Hof82b} S. Hofmann et al, GSI Sci. Rep. 1981 GSI 81-1, 241 (1982). 
+[Hof89] S. Hofmann, in Particle Emission from Nuclei Vol. 2, eds. D. N. Poenaru 
+and M. S. Ivascu, CRC Press Inc., Florida (1989). 
+[Hua76] K. N. Huang and H. Mark, At. Data Nuci. Data Tables 18, 243 (1976). 
+[Jac70] K. P. Jackson et al, Phys. Lett. B 33, 281 (1970). 
+[Kan05} R. Kanungo et al, Eur. Phys. J. A 25, 327 (2005). 
+[Kar03] M. Karny et al, Phys. Rev. Lett. 90 012502 (2003). 
+[KetOl] H. Kettunen et al, Acta Phys. Pol. B 32, 989 (2001). 
+[K1e82] 0. Klepper et al, Zeitschrift fr Physik A 305, 125 (1982). 
+[Lar831 P. 0. Larsson et al, Zeitschrift fr Physik A, 314, 9 (1983). 
+[Len86] W. N. Lennard et. al., Nucl. Instr. Methods A 248, 454 (1986). 
+[Lir76] S. Liran and N. Zeldes, At. Data Nucl. Data Tables 17, 431 (1976). 
+BIBLIOGRAPHY 
+[Lit05J Yu. A. Litvinov et al, Nuci. Phys. A 756, 3 (2005). 
+[Liu04] Z. Liu et al, Nuci. Instr. Methods A 543, 591 (2004). 
+[Liu05] Z. Liu et al, Phys. Rev. C 72, 047301 (2005). 
+[Liv93a] K. Livingston et al, Phys. Rev. C 48, 3113, (1993). 
+[Liv93b] K. Livingston et al, Phys. Lett. B 312, 46, (1993). 
+[Liv96] K. Livingston et al, Nuci. Instr. Methods A 370, 445, (1996). 
+[Lun03] D. Lunney, J. M. Pearson and C. Thibault, Rev. Mod. Phys. 75, 1021 
+(2003). 
+[Mag98] E. Maglione, L. S. Ferreira and R. J. Liotta, Phys. Rev. Lett. 81, 538 
+(1998). 
+[Mah02a] H. Mahmud, PhD Thesis, University of Edinburgh (2002). 
+[Mah02b] H. Mahmud et al, Eur. Phys. J. A 15, 85 (2002). 
+[May49] M. G. Mayer, Phys. Rev 75, 1969 (1949). 
+[Mey75] S. L. Meyer, Data Analysis for Scientists and Engineers, John Wiley and 
+Sons Inc., New York (1975). 
+[Moe02] D. P. Moehs et al, Rev. Sci. Inst. 73(2), 576 (2002). 
+[Mo195] P. Mller et al, At. Data Nuci. Data Tables 59, 185 (1995). 
+[Mol97] P. Mller, J. R. Nix and K.-L. Kratz, At. Data Nuci. Data Tables 66, 
+131 (1997). 
+[Muk05] I. Mukha etal, Phys. Rev. Lett. 95, 022501 (2005). 
+[Mun79] G. Mnzenberg et al, Nucl. Instr. Methods 161, 65 (1979). 
+BIBLIOGRAPHY 
+[Mye77] W. D. Myers, Droplet Model of the Atomic Nucleus, Plenum, New York 
+(1977). 
+[Ni155] S. G. Nilsson, Dan. Mat.-Fys. Medd 29, 16 (1955). 
+[Nit83] J. M. Nitschke, M. D. Cable and W. D. Zeitz, Zeitschrift fr Physik A 
+312, 265 (1983). 
+[Nov02] Y. N. Novikov et al, Nuci. Phys. A 697, 92 (2002). 
+[Pag92] R. D. Page et al, Phys. Rev. Lett. 68, 1287 (1992). 
+[Pag94] R. D. Page et al, Phys. Rev. Lett. 72, 1798 (1994). 
+[Pag96] R. D. Page et al, Phys. Rev. C 53, 660 (1996). 
+[Pau95] E. S. Paul et al, Phys. Rev. C 51, 78 (1995). 
+[Pau98] E. S. Paul et al, Phys. Rev. C 58, 801 (1998). 
+[PenOl] T. Pennington et al, Argonne Annual Report 2001, 96 (2001). 
+[Pfu02] M. Pfutzner et al, Eur. Phys. J. A 14, 279 (2002). 
+[Poe89] Particle Emission from Nuclei, Vol. 3, eds. D. N. Poenaru and M. S. 
+Ivascu, CRC Press Inc., Florida (1989). 
+[Po199] G. L. Poli et al, Phys. Rev. C 59, R2979 (1999). 
+[Pra73] H. C. Pradhan, Y. Nogami and J. Law, Nuci. Phys. A 201, 357 (1973). 
+[Rai50] J. Rainwater, Phys. Rev. 79, 432 (1950). 
+[Rei85] W. Reisdorf, Zeitschrift fr Physik A 444, 154 (1985). 
+[Rob03] A. P. Robinson et al, Phys. Rev. C 68, 054301 (2003). 
+[RobOSaJ A. P. Robinson et al, Phys. Rev. Lett. 95, 032502 (2005). 
+BIBLIOGRAPHY 
+[Rob05b] A. P. Robinson, et al, Eur. Phys. J. A 25, 155 (2005). 
+[Ryk99] K. Rykaczewski et al, Phys. Rev. C 60, 011301 (1999). 
+[Se192a] P. J. Sellin et al, Nuci. Instr. Methods A 311, 217 (1992). 
+[Se192b] P. J Sellin, PhD Thesis, University of Edinburgh (1992). 
+[Se193] P. J. Sellin et al, Phys. Rev. C 47, 1933 (1993). 
+[Sew97] D. Seweryniak et al, Phys. Rev. C 55, R2137 (1997). 
+[Sew99] D. Seweryniak et al, Phys. Rev. C 60, 031304 (1999). 
+[SewOla] D. Seweryniak et al, Phys. Rev. Lett. 86, 1458 (2001). 
+[SewOib] D. Seweryniak et al, Nuci. Phys. A 682, 247c (2001). 
+[Sew03] D. Seweryniak et al, Acta Phys. Pol. B 34, 2419 (2003). 
+[SewOS] D. Seweryniak et al, Eur. Phys. J. A 25, 159 (2005). 
+[She6l] R. K. Sheline, T. Sikkeland and R. N. Chanda, Phys. Rev. Lett. 7, 446 
+(1961). 
+[She69] H. Sherif, Nuci. Phys. A 131, 532 (1969). 
+[Son99] A. A. Sonzogni et al, Phys. Rev. Lett. 83, 1116 (1999). 
+[SorOl] F. Soramel et al, Phys. Rev. C 63, R031304 (2001). 
+[Sor03] F. Soramel et al, Proc. 2nd mt. Symposium on Proton-Emitting Nuclei, 
+eds. E. Maglione and F. Soramel, American Institute of Physics (2003). 
+[Str67] V. M. Strutinsky, Nuci. 'Phys. A 95, 420 (1967). 
+[Str68] V. M. Strutinsky, Nuci. Phys. A 122, 1 (1968). 
+BIBLIOGRAPHY 
+[Tan85] I. Tanihata et al, Phys. Rev. Lett. 55, 2676 (1985). 
+[Tig94] R. J. Tighe et al, Phys. Rev. C 49, R2871 (1994). 
+[Woo54} R. D. Woods and D. S. Saxon, Phys. Rev. 95, 577 (1954). 
+[Woo89] P. J. Woods et al, Nuci. Instr. Methods A 276, 196 (1989). 
+[Woo97] P. J. Woods and C. N. Davids, Annu. Rev. Nuci. Part. Sci. 47, 541 
+(1997). 
+[Woo04] P. J. Woods et al, Phys. Rev. C 69, 051302 (2004). 
+[Yor871 J. Yorkston et al, Nuci. Instr. Methods A 262, 353 (1987). 
+[Xu05] S. W. Xu et al, Phys. Rev. C 71, 054318 (2005). 

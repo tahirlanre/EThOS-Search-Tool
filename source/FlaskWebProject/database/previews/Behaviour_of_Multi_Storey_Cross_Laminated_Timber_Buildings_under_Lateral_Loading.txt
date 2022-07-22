@@ -1,0 +1,30 @@
+DOCTOR OF PHILOSOPHY
+In response to the global drive towards sustainable construction, CLT has emerged as a
+competitive alternative to other construction materials. CLT buildings taller than 10-storeys
+and CLT buildings in regions of moderate to high seismicity would be subject to higher lateral
+loads due to wind and earthquakes than CLT buildings which have already been completed.
+The lack of structural design codes and limited literature regarding the performance of CLT
+buildings under lateral loading are barriers to the adoption of CLT for buildings which could
+experience high lateral loading. Previous research into the behaviour of CLT buildings under
+lateral loading has involved testing of building components. These studies have generally
+been limited to testing wall systems and connections which replicate configurations at
+ground floor storeys in buildings no taller than three storeys. Consequently, to develop the
+understanding of the performance of multi-storey CLT buildings under lateral loading, the
+performance of wall systems and connections which replicate conditions of those in above
+ground floor storeys in buildings taller than three storeys were experimentally investigated.
+The testing of typical CLT connections involved testing eighteen configurations under cyclic
+loading in shear and tension. The results of this experimental investigation highlighted the
+need for capacity-based design of CLT connections to prevent brittle failure. It was found that
+both hold down and angle bracket connections have strength and stiffness in shear and
+tension and by considering the strength of the connections in both directions, more
+economical design of CLT buildings could be achieved. The testing of CLT wall systems
+involved testing three CLT wall systems with identical configurations under monotonic lateral
+load and constant vertical load, with vertical loads replicating gravity loads at storeys within
+a 10-storey CLT building. The results show that vertical load has a significant influence on wall
+system behaviour; varying the vertical load was found to vary the contribution of
+deformation mechanisms to global behaviour within the elastic region, reinforcing the need
+to consider connection design at each individual storey.  As there are still no structural design
+codes for CLT buildings, the accuracy of analytical methods presented within the literature
+for predicting the behaviour of CLT connections and wall systems under lateral loading was
+assessed. It was found that the analytical methods for both connections and wall systems are
+highly inaccurate and do not reflect experimentally observed behaviour.

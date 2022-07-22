@@ -1,0 +1,13 @@
+Search for diboson resonance
+A search for heavy exotic diboson resonances decaying to ``qq final states is
+presented using pp collision data collected with the ATLAS detector at the Large
+Hadron Collider. The analysis uses a data sample corresponding to an integrated
+luminosity of 20.3 fb1 at
+s = 8 TeV collected between April and December
+2012. No significant excess of data events over the predicted Standard Model
+background is observed and 95% confidence level upper limits are set on the
+product of the production cross-section and the branching ratio for spin-2 Kaluza-
+Klein gravitons predicted by the bulk Randall-Sundrum model and for Extended
+Gauge Model W  bosons. These results are subsequently combined with limits
+obtained from searches using the ```, `qq and qqqq final states, and new mass
+limits are set on both signal models.

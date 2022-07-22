@@ -1,0 +1,21 @@
+University of Bradford eThesis 
+The current era of technology, which is also known as the age of data has
+changed the entire perception about technology. The amount of data
+generated everyday by devices with limited resources is unprecedented and
+the volume of worlds data doubles in every two years [1]. This means that the
+level of security required to protect the data generation and management
+entities is more than it ever was. The recent attacks by a ransomware known
+as WannaCry, which shook the infrastructure of many big organizations
+before it was stopped [2], [3] raises the question on the security mechanisms
+that are used to protect the computing infrastructure and sensitive data.
+The samples of recent lethal malware; WannaCry, Petya [4], [5] or Mirai [6]
+caught in the wild, are not only capable of damaging giant organization or
+causing financial damage to banks, they have the capability of bringing down
+the entire infrastructure of World Wide Web that could possibly trigger a
+catastrophic event [7] . The most disturbing aspect of this scenario is, that
+these malware target the existing vulnerabilities in individual computers
+without even triggering an alert in the security software installed [8]. Not only
+the individual computers, computers part of an enterprise network, or smart
+devices are attacked by such malware, the infected devices are frequently
+used to attack bigger targets [9], such as; internet service providers,
+government organizations and infrastructures, and email servers.

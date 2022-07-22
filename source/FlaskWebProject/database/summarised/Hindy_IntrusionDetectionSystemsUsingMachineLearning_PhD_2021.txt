@@ -1,0 +1,5 @@
+The ever-evolving technological landscape of interconnected
+devices constantly expands the network attack surface, which has contributed to the
+number and complexity of cyber attacks in recent years. To cope with the increased rate and complexity of cyber
+attacks, researchers have utilised Machine Learning (ML) and Deep Learning (DL)
+techniques to develop IDS to cope with new and zero-day attacks.

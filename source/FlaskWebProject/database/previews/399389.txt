@@ -1,0 +1,22 @@
+Reinforcement learning iii gaines, 
+This thesis investigates the properties of learning in games, where the information
+available to each player does not include a specification of the game or observations
+of opponent play. Each player responds only to the rewards they received for
+playing particular actions on previous plays of the game.
+We relate two modifications of 136rgers and Sarin's stimulus-response learning
+(B6rgcrs and Sarin 1997) to the replicator dynamics. In these algorithms, observed
+rewards are used to directly modify the strategies of the players.
+Then an example of actor-critic learning, in which a value function is used to adapt
+the strategies, is studied using two-timescaics stochastic approximation to show
+that the strategies track the smooth best response dynamics. An extension, in
+which players learn at different rates, is analysed using a newly-developed theory
+of multi ple-timescales stochastic approximation (Leslie and Collins 2003).
+Q-1carning in games, where the strategies are simply functions of value estimates, is
+then studied using similar methods, employing smooth best responses and player-
+dependent learning rates.
+A modified actor-critic algorithm is introduced, in which strategies adapt towards
+a best response (instead of a smooth best response). This is analysed, by gcner-
+alising some results on fictitious play, and shown to converge in several classes of
+games.
+Initial investigations into extending these algorithms to stochastic games study
+the contraction properties of classes of smooth best responses.

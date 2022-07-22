@@ -1,0 +1,7 @@
+Over the last decade, the scientific advancements in seismology have provided higher
+resolution seismic catalogues as well as improved fault characterisations; this presents
+us with great opportunities to (1) evaluate their usefulness in improving the short-
+term performance of models of both forecast categories, (2) explore which specific
+modelling choices driven by real-time data quality and availability boost our fore-
+casting skills and by how much, and (3) assess what are the data products required
+for such model improvements to be operationally delivered.

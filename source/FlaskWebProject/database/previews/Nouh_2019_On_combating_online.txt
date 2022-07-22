@@ -1,0 +1,39 @@
+On Combating Online Radicalisation:
+The Internet is the crime scene of the 21st century.
+The complexity of cybercrimes is constantly increasing with advanced tools,
+attack vectors, and Modus Operandi adopted by offenders every day. Criminals
+have easy access to advanced technical abilities that they need to carry their attacks,
+using what is called crime-as-a-service, from the dark web and online black markets.
+Similarly, the nature of cybercrimes has generated multitudes of data introduced by
+the cyber aspect of these crimes, which makes the process of identifying evidence
+similar to searching for a needle in a haystack. To aid law enforcement to better
+detect, analyse, and understand the threat landscape posed by cyber-criminals,
+research into the area of cybercrime intelligence has flourished. Law enforcement
+faces numerous challenges when policing cybercrimes. The methods and processes
+they use when dealing with traditional crimes do not necessarily apply in the cyber
+world. Additionally, criminals are usually technologically-aware and one step ahead
+of the police. Furthermore, current tools created to support law enforcement to
+better police cybercrimes more often conflict with how they are used to operate,
+and are too complex, thus making them difficult to adopt.
+In this thesis, we aim to design and develop a cybercrime intelligence framework
+for law enforcement that provides decision support to detect and analyse the
+behaviour of cyber-criminals. To do so, we need to better understand the cyber-
+criminal ecosystem, as well as understand the current capabilities of law enforcement
+agencies, and the challenges they face when policing cybercrimes. We achieve
+this through semi-structured interviews conducted with professionals and law
+enforcement agents investigating cybercrimes. From there, we define a framework to
+aid them in addressing some of the challenges they face. Moreover, the cybercrime
+landscape varies considerably in regards to the type of crime and what they target.
+Some crimes target computers and systems while others target the human. As
+there has been considerable research focusing on analysing cybercrimes that target
+systems such as (Malware, Hacking, DDOS), the focus on the crimes that target
+the human ( e.g., cyber-bullying, online radicalisation) has recently become more
+evident. In this research, we focus on the area of online radicalisation and utilise our
+framework to better understand the properties of radical propaganda and develop
+methods to defend against its spread. We focus on the ISIS group aiming to identify
+measures to automatically detect radical content and activities in social media.
+We identify several signals, including textual, psychological and behavioural, that
+together allow for the identification of radical messages, using methods such as
+natural language processing, social network analysis, and machine learning. Our
+findings can be utilised as signals for detecting online radicalisation activities by
+law enforcement and social media platforms to help keep the online world safe.

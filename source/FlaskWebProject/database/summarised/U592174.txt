@@ -1,0 +1,4 @@
+This thesis describes the development o f a linked 1000th scale mimic o f four
+distinct unit operations, including precipitation and centrifugation. The mimic requires only millilitre quantities o f material to
+predict changes in the physical and biological properties o f key components, such
+as particle size and antibody activity.

@@ -1,0 +1,36 @@
+City, University of London Institutional Repository
+This thesis empirically examines the contribution of financial institutions to systemic
+risk by looking at their interactions with market-based finance. The financial crisis of
+2007-09 catalysed the transformation of the financial system with the introduction of
+the post-crisis regulations, which were aimed at mitigating systemic risk by addressing
+vulnerabilities that manifested in the crisis. This resulted in the increased resilience of the
+banking sector, which was at the centre of the financial crisis, as well as the proliferation
+of market-based finance as an alternative source of funding for corporations. Yet, as the
+recent market turmoil due to Covid-19 has showcased, this has created new vulnerabilities
+which necessitate the continuous assessment of the evolving financial system.
+The thesis is based on three essays. The first essay examines the effects of the mandatory
+collateralisation of over-the-counter derivatives contracts on counterparty, liquidity and
+systemic risks of the largest dealer banks and central counterparties (CCPs). Using a
+stress test network model calibrated to the banks balance sheet data, we document risk-
+shifting effects in the form of risk transformation from counterparty to liquidity risk and a
+reduction of systemic risk at the expense of increased propensity for contagion from the
+CCP to its members. In addition, we find that the expansion of central clearing reduces
+systemic risk, in accordance with regulatory predictions.
+The second essay examines the effects of exchange-traded funds (ETFs) on the under-
+lying securities liquidity, returns and volatility via information links which are formed
+when investors use information from one asset to price the other. Using a proprietary
+dataset of Irish ETF holdings from the Central Bank of Ireland, we find that ETFs form
+close information links with the underlying equities but weak ones with the underly-
+ing corporate debt securities because of the higher accessibility of the former, leading to
+stronger co-movements of liquidity, returns and volatility with the equities compared
+to the corporate debt securities. The results indicate that ETFs can affect the underlying
+markets in different ways depending on their accessibility, contributing to the ongoing
+debate on the role of ETFs in propagating shocks and systemic risk.
+Finally, the third essay examines the resilience of banks to liquidity shocks originating
+from money market funds (MMFs) using a stress test network model calibrated to the
+full US MMF holdings data, following the introduction of post-crisis regulations in both
+sectors. My findings suggest that while the banks can withstand a withdrawal of short-
+term funding from MMFs due to their high liquidity reserves, the MMFs can incur severe
+fire sales losses in the face of large redemption shocks and in the absence of a regulatory
+authority acting as buyer of last resort of commercial paper, despite the regulations
+introduced to increase their resilience.

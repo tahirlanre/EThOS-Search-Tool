@@ -1,0 +1,5 @@
+This thesis examines foreshock and aftershock seismicity patterns with the accelerated
+seismic release model and the non-extensive statistical physics approach in the South
+Aegean. This method uses a power law
+equation to quantify the cumulative energy release (or Benioff strain, or number events)
+from the earthquakes that occur before the large event.

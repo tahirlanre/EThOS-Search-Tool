@@ -1,0 +1,6 @@
+This work proposes a novel reinforcement learning approach combined with the
+universal function approximation capability of fuzzy systems within a
+probabilistic fuzzy logic theory framework, where the information from the
+environment is not interpreted in a deterministic way as in classic approaches but
+rather, in a statistical way that considers a probability distribution of long term
+consequences.

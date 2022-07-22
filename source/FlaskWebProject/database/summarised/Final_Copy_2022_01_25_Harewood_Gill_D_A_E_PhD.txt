@@ -1,0 +1,7 @@
+However, despite these advantages, SDN traditionally uses heuristic algorithms such as
+single metric shortest path which may not be suitable for Quality of Service (QoS) based routing.
+Next, I would like to thank my colleagues and the academic staff within the Centre for Doctoral
+Training (CDT) for Communications, High Performance Networking (HPN) and the University of Bristol
+in general for their continuous support and advice with specific thanks going to Anderson Bravalheri
+from HPN, visiting Associate Professor Magnos Martinello from the Universidade Federal do Esprito
+Santo and Professor Celio Trois from the Universidade Federal de Santa Maria.

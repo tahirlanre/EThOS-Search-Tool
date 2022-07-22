@@ -1,0 +1,6 @@
+In this thesis I present two measurements of Standard Model Higgs boson
+properties in the context of the International Linear Collider (ILC) at
+s = 500
+GeV, using the proposed International Linear Detector (ILD). Therefore, in the second part of this thesis, I present
+a study of e+e  ttH with the aim of making a direct measurement of the
+the top-Higgs coupling, using the semi-leptonic final state and mH of 120 GeV.

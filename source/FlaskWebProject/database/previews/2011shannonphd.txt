@@ -1,4 +1,4 @@
-The Construction of High-Performance Virtual Machines for Dynamic Languages
+Glasgow Theses Service 
 Dynamic languages, such as Python and Ruby, have become more widely used
 over the past decade. Despite this, the standard virtual machines for these lan-
 guages have disappointing performance. These virtual machines are slow, not be-

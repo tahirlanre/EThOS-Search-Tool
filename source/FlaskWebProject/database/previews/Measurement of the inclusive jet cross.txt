@@ -1,0 +1,10 @@
+Measurement of the inclusive jet cross section with the ATLAS detector at the Large Hadron Collider
+This thesis presents the measurement of the inclusive jet cross section using
+data collected in 2010 by the ATLAS detector, with a particular focus on the
+reconstruction and calibration techniques used for jets in this measurement
+and on the estimate of the systematic uncertainty on their energy scale. The
+inclusive jet cross section measurement is used as input to fits of parton
+distribution functions. Although the PDF analysis in this thesis is preliminary
+and its main purpose is to serve as a proof of principle for future studies,
+improvements in the knowledge of the gluon density are observed thanks to
+the inclusion of ATLAS data.

@@ -1,0 +1,4 @@
+The integration of virtual prototyping with the SystemC design
+methodology is proposed to deal with issues such as the modelling of the interfaces and the
+exploration of user-machine interaction which are becoming of vital importance in embedded
+handheld devices.

@@ -1,0 +1,7 @@
+They can take the form of
+either dramatic radio jets, which extend vast distances into the inter-galactic medium,
+or of much smaller scale winds - whose existence can be inferred only indirectly via their
+influence on the observed spectra. The clearest observational signature comes in the form of the broad,
+blue-shifted absorption features seen in the spectra of broad absorption line quasars
+(BALQSOs) and the aim of this work is to investigate how the geometry and physical
+parameters of disk winds affect their absorption spectra.

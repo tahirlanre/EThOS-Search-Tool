@@ -1,0 +1,6 @@
+The high energy physics community considers electron-positron linear col-
+liders in order to complement the results obtained at the Large Hadron
+Collider. This test facility has been studying this matter for more than 20
+years, achieving two of its main goals: obtaining a stable beam size around
+37 nm at the IP and an orbit stabilisation with a nanometer precision at
+the IP.

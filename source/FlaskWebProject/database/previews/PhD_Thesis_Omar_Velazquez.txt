@@ -1,0 +1,53 @@
+Investigating the cross-disciplinary 
+Earthquake early warning (EEW) systems typically provide early estimates of
+earthquake magnitude, hypocentre location and/or ground-shaking estimates,
+as well as alerts ranging from a few seconds to tens of seconds, before the
+arrival of the damaging ground shaking at a target site. The warnings provided
+by these systems allow for the implementation of fast protection actions carried
+out by individuals like drop, cover, and hold-on, or the evacuation of buildings
+if the lead time is long enough. Nevertheless, the information and warning time
+provided by an EEW system could also be used by earthquake engineers as
+EEW seems to bear a powerful potential for the automatic activation of
+protection measures for infrastructure and critical systems, aiming at the
+reduction of risk due to earthquakes. Such automatic actions may include
+stopping elevators at the nearest floor, opening firehouse doors, slowing rapid-
+transit vehicles and high-speed trains to avoid accidents, to mention some.
+Few are the attempts found in literature about engineering applicability of
+EEW. This scarcity might be related to the fact that the real-time estimation of
+earthquake source parameters contains considerable uncertainty that may
+lead to potential economic losses if false or missed alarms are not avoided.
+However, different state-of-the-art studies regarding decision-making
+procedures for EEW have suggested more reliable approaches that can
+potentially reduce the uncertainty in the estimates provided by the system
+(e.g., earthquake source parameters and ground shaking), reducing the
+probability of triggering missed/false alarms, and therefore minimising the
+expected losses.
+The potential of designing new real-time advanced building protection
+applications for EEW is the motivation of this thesis. Mainly, two applications
+are considered:
+1) Design of controlled structural systems using the early warning information,
+particularly, the use of semi-active devices denominated magnetorheological
+dampers. A control algorithm that governs the behaviour of the dampers is
+calibrated to obtain the most favourable response of a benchmark structure
+equipped with one damper. The results reveal that the developed EEW-based
+control algorithm can effectively reduce the expected loss of the considered
+case-study structure.
+2) Prediction of shaking demands that can be expected in mid-rise to high-rise
+buildings, using a simplified continuum building model. A series of illustrative
+examples show how the newly developed prediction models can be efficiently
+used, in a Bayesian framework, for building-specific EEW applications based
+on the (acceleration) response in buildings, such as a) early warning of floor-
+shaking sensed by occupants; and b) control of elevator in buildings.
+The progress of technology and advances in the scientific understanding of
+engineering and seismology have promoted the rapid development of EEW
+systems around the world. However, their effectiveness is often limited as they
+lack the integration between their technical and social components. This thesis
+also aims at filling this gap to investigate which measures could be needed to
+increase the organisational resilience of local community stakeholders and the
+private sector. This topic is explored by implementing a mixed-method
+approach on the case study Mexico City (Mexico), that can be considered an
+area at risk due to the combination of high seismic hazard, structural and social
+vulnerabilities.
+This thesis shows the promising applicability of engineered applications of
+EEW systems and suggests a robust framework for the integration of the
+technical and societal components of EEW.

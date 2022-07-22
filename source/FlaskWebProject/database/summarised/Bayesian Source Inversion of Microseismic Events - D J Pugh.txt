@@ -1,0 +1,6 @@
+Earthquakes either
+occur naturally, such as in volcanic eruptions and natural geothermal fields, or are linked to
+anthropogenic activities including hydrofracture of gas and oil reservoirs, mining events and
+extraction of geothermal fluids. Two methods for estimating the posterior model
+probability of the double-couple source type are explored, one using the Bayesian evidence,
+the other using trans-dimensional Markov chain Monte Carlo sampling.

@@ -1,0 +1,3 @@
+The aim of this work was to investigate the
+precipitation and stability of nm-sized Ti oxides in vanadium-based alloys, a prime candidate
+material for future nuclear fusion reactors based on the magnetic confinement of the plasma.

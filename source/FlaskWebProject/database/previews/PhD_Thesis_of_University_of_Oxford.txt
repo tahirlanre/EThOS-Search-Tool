@@ -1,0 +1,29 @@
+Advanced Accelerator Interaction
+In order to further probe our understanding of the structure of matter and
+the universe, physicists constantly strive to create particle colliders that
+reach higher energies and luminosities. Improved technologies can partly
+help to fulfil these goals, however, novel experimental interaction region
+(EIR) optics and methods are also essential to this cause.
+This thesis covers several optics issues and solutions applicable to the
+Large Hadron Collider (LHC), its High Energy (HE-LHC) upgrade as well
+as the Future Circular Collider (FCC-hh). A key tool presented in this
+thesis is an optimisation method to produce short final focus triplets that
+produce large integrated gradients whilst having an aperture sufficiently
+large to sustain the beams and radiation shielding.
+The optimisation method uses a thin lens solution as a first approximation
+for the required quadrupole strength. This solution is outlined in the
+thesis, it has a large range of potential applications. This is demonstrated
+by using it to optimise the dynamic aperture of the Nuclotron-based Ion
+Collider fAcility (NICA), which is severely impacted by quadrupole fringe
+field effects.
+An optimised triplet for the FCC-hh is integrated into the EIR and the
+resulting optics as well as the general impact it has on the machine is
+presented in this thesis. It also presents how the LHC EIR can be modified
+for the HE-LHC, including the implementation of an optimised triplet.
+Dynamic aperture studies of the HE-LHC with triplet field errors were
+also performed in the scope of this work.
+Finally, a ballistic alignment optics for the LHC will be presented as well
+as a method that uses singular value decomposition to measure the offset
+of modulated quadrupoles. It will also be illustrated how this method can
+be used to improve the accuracy to optics measurements. These efforts
+can be used to improve the stability and luminosity of the LHC.

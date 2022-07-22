@@ -1,0 +1,28 @@
+This thesis has been submitted in fulfilment of the requirements for a postgraduate degree 
+Coloured final states are ubiquitous at hadron colliders such as the Large Hadron
+Collider (LHC). Therefore understanding high energy perturbative quantum chromody-
+namics (QCD) at these experiments is essential not only as a test of the Standard Model,
+but also because these processes form the dominant background to many searches
+for new physics. One such standard candle is the production of a dilepton pair in
+association with dijets. Here we present a new description of this final state (through
+the production of a Z0 boson and virtual photon). This calculation adds to the fixed-
+order accuracy the dominant logarithms in the limit of large partonic centre-of-mass
+energy to all orders in the strong coupling s. This is achieved within the framework
+of High Energy Jets. This calculation is made possible by extending the high energy
+treatment to take into account the multiple t-channel exchanges arising from Z0 and
+-emissions off several quark lines. The correct description of the interference effects
+from the various t-channel exchanges requires an extension of the subtraction terms
+in the all-order calculation. We describe this construction and compare the resulting
+predictions to a number of recent analyses of LHC data. The description of a wide
+range of observables is good, and, as expected, stands out from other approaches in
+particular in the regions of large dijet invariant mass and large dijet rapidity spans.
+In addition we also present the application of the High Energy Jets framework to
+two new experimental scenarios. Firstly, we show a comparison of High Energy Jets
+matched to the ARIADNE parton shower to an ATLAS study of gap activity in dijet
+events. We see that our description agrees well with the data throughout and in many
+distributions gives the best theoretical description. This shows the extra logarithmic
+corrections are essential to describe data already in LHC Run I. Secondly, we present
+a study of Z0/ plus dijets at 100 TeV. We compare the behaviour of the high energy
+logarithmic enhancements to the QCD perturbative series at 7 TeV and 100 Tev and see
+that at any high energy hadronic Future Circular Collider (FCC) the effects described
+by our resummation become significantly more important.

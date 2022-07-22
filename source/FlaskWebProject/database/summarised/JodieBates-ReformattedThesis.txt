@@ -1,0 +1,11 @@
+An important driver of zoonotic disease
+is the pet trade; however, little is known about the presence of bacterial species
+across publicly accessible surfaces within pet shops. This project aimed to i)
+develop a DNA extraction method suitable for retrieving data from low-biomass
+samples; ii) identify key bacterial zoonotic pathogens, referred to as target genera,
+within the literature to provide a foundation for microbial community analysis; iii)
+characterise bacterial communities associated with a range of surfaces - primarily
+publicly accessible - within a pet shop; iv) characterise bacterial microbiota asso-
+ciated with Python regius and feeder rodents within breeding farms in Africa; and
+v) use the information gathered from the wider literature to infer the presence of
+target genera within the pet shop and animal samples.

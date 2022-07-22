@@ -1,0 +1,5 @@
+The next generation of particle colliders after the LHC (Large Hadron Collider)
+at CERN are likely to be high-precision electron positron colliders such as the
+ILC (International Linear Collider) or CLIC (Compact Linear Collider). In the first part of this thesis I present a solution to a torque
+problem affecting the positron production target of high-energy electron-positrons
+colliders.

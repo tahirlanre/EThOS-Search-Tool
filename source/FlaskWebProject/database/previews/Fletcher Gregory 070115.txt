@@ -1,0 +1,21 @@
+Queen Mary, University of London
+The Large Hadron Collider is a particle accelerator designed to produce proton-
+proton collisions at unprecedented energies. ATLAS is a general purpose de-
+tector designed to measure the products of such collisions, thereby allowing
+scientists to explore a new and extremely rich physics programme. In such an
+environment, certain components of the Standard Model of particle physics
+will be produced in abundance. Among them are the propagators of the weak
+nuclear force, namely the W and Z vector bosons1. Such particles will be pro-
+duced in association with hadronic activity, which we can measure in ATLAS
+as jets of particles. It is therefore imperative for searches for new physics
+processes, and continued study of the Standard Model, to gain a comprehensive
+understanding of quantum chromodynamics (QCD). A deeper understanding
+of QCD will facilitate precise predictions of hadronic behaviour at the high
+energy frontier of experimental particle physics.
+In addition, W and Z bosons with associated hadronic activity produce the
+same final state signatures as processes that could indicate the presence of new
+physics. A thorough understanding of how W+jets and Z+jets events behave
+is crucial to new physics studies, and studies of the Higgs boson, for which
+W+jets and Z+jets events are background processes.
+1Throughout this work, W refers to either a W+ or W boson, and Z refers to either a
+Z0 or  boson.

@@ -1,0 +1,37 @@
+Intrusion Detection in SCADA Systems
+Modern Supervisory Control and Data Acquisition (SCADA) systems are essential for
+monitoring and managing electric power generation, transmission and distribution. In the age
+of the Internet of Things, SCADA has evolved into big, complex and distributed systems that
+are prone to conventional in addition to new threats. So as to detect intruders in a timely and
+efficient manner a real time detection mechanism, capable of dealing with a range of forms of
+attacks is highly salient. Such a mechanism has to be distributed, low cost, precise, reliable
+and secure, with a low communication overhead, thereby not interfering in the industrial
+systems operation.
+In this commentary two distributed Intrusion Detection Systems (IDSs) which are able to
+detect attacks that occur in a SCADA system are proposed, both developed and evaluated
+for the purposes of the CockpitCI project. The CockpitCI project proposes an architecture
+based on real-time Perimeter Intrusion Detection System (PIDS), which provides the core
+cyber-analysis and detection capabilities, being responsible for continuously assessing and
+protecting the electronic security perimeter of each CI. Part of the PIDS that was developed
+for the purposes of the CockpitCI project, is the OCSVM module. During the duration
+of the project two novel OCSVM modules were developed and tested using datasets from
+a small-scale testbed that was created, providing the means to mimic a SCADA system
+operating both in normal conditions and under the influence of cyberattacks.
+The first method, namely K-OCSVM, can distinguish real from false alarms using the
+OCSVM method with default values for parameters  and  combined with a recursive
+K-means clustering method. The K-OCSVM is very different from all similar methods that
+required pre-selection of parameters with the use of cross-validation or other methods that
+ensemble outcomes of one class classifiers. Building on the K-OCSVM and trying to cope
+with the high requirements that were imposed from the CockpitCi project, both in terms of
+accuracy and time overhead, a second method, namely IT-OCSVM is presented. IT-OCSVM
+method is capable of performing outlier detection with high accuracy and low overhead
+within a temporal window, adequate for the nature of SCADA systems.
+The two presented methods are performing well under several attack scenarios. Having to
+balance between high accuracy, low false alarm rate, real time communication requirements
+and low overhead, under complex and usually persistent attack situations, a combination
+of several techniques is needed. Despite the range of intrusion detection activities, it has
+been proven that half of these have human error at their core. An increased empirical and
+theoretical research into human aspects of cyber security based on the volumes of human
+error related incidents can enhance cyber security capabilities of modern systems. In order to
+strengthen the security of SCADA systems, another solution is to deliver defence in depth by
+layering security controls so as to reduce the risk to the assets being protected.

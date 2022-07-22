@@ -1,0 +1,36 @@
+Essays in Behavioural Economics and
+Chapter 1- The importance of the Probability of Winning in Risky Choices: Media reports say
+that high earners and syndicates buy lottery tickets in bulk. Experimental evidence shows
+that agents aggressively bid in auctions and contests. Do people try to trade-off probability of
+winning with other basic risk dimensions (for example, cost) to achieve a subjective threshold
+probability of winning (in environments they can) even when such choices are second-order
+stochastic dominated? The literature on risky choices suggests so. In the main design of
+this experiment, we deconstruct the expected value with variance and skewness of a lottery
+with Bernoulli distribution to examine the decision-making process. Based on the results,
+a proportion is classified as expected utility maximizer (EUM)1 while another proportion
+seems to achieve a subjective threshold probability of winning (termed as target probability
+of winning (TPW)). More TPWs prefer higher probabilities compared to EUMs in a constant
+value lottery set which may explain the preference for negative skewness in experiments.
+Additionally, we test two contest designs and find TPWs in the population which may explain
+the puzzle of equilibrium effort more than risk-neutral Nash equilibrium in experiments.
+Chapter 2- Reinforcement Learning in Contests: We study contests as an example of winner-
+take-all competition with linearly ordered large strategy space. We study a model in which
+each player optimizes the probability of winning above some subjective threshold. The envi-
+ronment we consider is that of limited information where agents play the game repeatedly
+and know their own efforts and outcomes. Players learn through reinforcement. Predictions
+are derived based on the model dynamics and asymptotic analysis. The model is able to
+predict individual behavior regularities found in experimental data and track the behavior at
+aggregate level with reasonable accuracy.
+Chapter 3- A Mechanism and Matching in a Social Dilemma: Cooperation can be achieved
+via incentives from future interactions, specifically in the case of public monitoring. But,
+today, our social and professional spheres keep shifting rapidly and we interact often with
+strangers. We are interested in such sporadic interactions which can be modeled as a con-
+tinuous Prisoners Dilemma in an environment of the symmetric market where the whole
+population is competing among themselves to interact with other agents who will contribute
+the most. The interaction is private, only the agents involved know how much they have
+contributed to each others well-being, and partners may change in the next period. In
+such an environment if the reputation of agents is not available, then there is no incentive
+to cooperate. In this paper, we show that if an experience reporting mechanism facilitates
+assortative matching, then cooperation and honest reporting is evolutionarily (neutral) stable.
+1In this thesis whenever we say expected utility theory (EUT) or maximization (EUM) we mean any continu-
+ous and smooth utility function for which second-order stochastic dominance holds.

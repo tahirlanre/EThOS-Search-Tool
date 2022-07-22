@@ -1,0 +1,5 @@
+The Standard Model of particle physics is discussed with emphasis on light quark QCD,
+and existing data on light quark fragmentation from e+e annihilation and deep inelastic
+scattering experiments.
+A method is developed to measure the directionally correlated pionic scaled momen-
+tum distribution, or partonic fragmentation function, in large hadron collider conditions.

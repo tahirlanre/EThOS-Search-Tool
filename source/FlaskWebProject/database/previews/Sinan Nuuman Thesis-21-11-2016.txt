@@ -1,0 +1,25 @@
+Quantum Reinforcement Learning for 
+This thesis proposes Quantum Reinforcement Learning (QRL) as an improvement to
+conventional reinforcement learning-based dynamic spectrum access used within cognitive
+radio networks. The aim is to overcome the slow convergence problem associated with
+exploration within reinforcement learning schemes.
+A literature review for the background of the carried out research work is illustrated.
+Review of research works on learning-based assignment techniques as well as quantum search
+techniques is provided. Modelling of three traditional dynamic channel assignment techniques
+is illustrated and the advantage characteristic of each technique is discussed. These techniques
+have been simulated to provide a comparison with learning based techniques, including QRL.
+Reinforcement learning techniques are used as a direct comparison with the Quantum
+Reinforcement Learning approaches. The elements of Quantum computation are then
+presented as an introduction to quantum search techniques. The Grover search algorithm is
+introduced. The algorithm is discussed from a theoretical perspective. The Grover algorithm
+is then used for the first time as a spectrum allocation scheme and compared to conventional
+schemes.  Quantum Reinforcement Learning (QRL) is introduced as a natural evolution of the
+quantum search. The Grover search algorithm is combined as a decision making mechanism
+with conventional Reinforcement Learning (RL) algorithms resulting in a more efficient
+learning engine. Simulation results are provided and discussed. The convergence speed has
+been significantly increased. The beneficial effects of Quantum Reinforcement Learning
+(QRL) become more pronounced as the traffic load increases. The thesis shows that both
+system performance and capacity can be improved. Depending on the traffic load, the system
+capacity has improved by 9-84% from a number of users supported perspective. It also
+demonstrated file delay reduction for up to an average of 26% and 2.8% throughput
+improvement.

@@ -1,0 +1,23 @@
+Searches for proton 
+Proton radioactivity from the highly neutron-deficient nuclide ' 35Tb
+has been identified using a new double-sided silicon strip detector (DSSD)
+system at the Fragment Mass Analyser at Argonne National Laboratory.
+The decay occurs with an energy of E = 1179(7)keV and a half-life t 1 ,, 2  =
+94Otjts. ' 35Tb was produced via the bombardment of a 92Mo target with
+a 315MeV 50Cr beam, and is the first isotope to be detected from a (p6n)
+evaporation channel in heavy ion fusion-evaporation reactions. Proton decay
+rate calculations suggest that this nuclide has a large prolate deformation,
+in agreement with the predictions of the Mller-Nix mass model and the
+experimental observations of the neighbouring odd-even lanthanide proton
+emitters 131 Eu and 141 Ho.
+An unsuccessful search for the predicted proton emitters 125,126  Pm,
+using the (p6n) and (p5n) evaporation channels respectively, is also reported.
+The non-observation of 126Pm is consistent with mass model Q predictions,
+but the non-observation of proton emission from 125Pm suggests a Q value
+which differs significantly from predictions, or places an upper limit on the
+production cross-section of this nucleus.
+The Q predictions of the Mller-Nix and Liran-Zeldes mass models are
+compared with the currently available data set of experimentally-derived Q
+values for proton-unbound nuclei in the region of observed proton radioac-
+tivity. Both models are found to perform reasonably well and provide useful
+predictions in this extremely neutron-deficient region.

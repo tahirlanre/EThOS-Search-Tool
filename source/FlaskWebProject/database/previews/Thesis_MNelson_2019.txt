@@ -1,0 +1,30 @@
+Hadronic Jet Physics and the Quest for New
+The Standard Model of particle physics is one of the triumphs of contemporary
+science, but it is well-established that this theory must be incomplete. This thesis
+focuses on searching for the production of new matter, motivated by beyond-
+Standard Model framework of supersymmetry, with data recorded by the ATLAS
+experiment during Run 2 of the Large Hadron Collider. One of the crucial physics
+objects in the search for new matter described in this thesis is the hadronic jet.
+Before describing in detail the multi-jets search for new matter, which uses 36
+fb1 of ATLAS data in signal regions where at least 7 hadronic jets are required
+in the final state, the latest developments in hadronic jet physics at ATLAS shall
+be motivated and studied. Particular detail will be paid to new approaches in jet
+reconstruction, jet mass calculations and the corresponding jet mass resolution,
+and jet calibration at the energy and mass scales. Furthermore the issue of pileup
+contributions to hadronic jets shall be described, together with recent studies
+outlining how new developments in inputs to jet reconstruction and jet grooming
+can be used to improve the performance of hadronic jets in ATLAS and mitigate
+the effects of pileup therein. The full power of jet reconstruction at ATLAS will
+then be utilised in the multi-jets analysis. With the 36 fb1 ATLAS data-set, no
+statistically significant evidence for new matter is reported, and new constraints
+on the mass of gluinos and stops are pushed up to 1.8 TeV and 1.4 TeV, at the 95 %
+confidence level, respectively (within the context of particular sets of new physics
+models). The multi-jets search is sensitive to final states with moderate EmissT , and
+consequently is used to assess the LHC sensitivity to both R-parity-conserving
+(RPC) and R-parity-violating (RPV) supersymmetric scenarios. World-leading
+constraints across this RPC-meets-RPV spectrum will be assessed at the 95 %
+confidence level. Finally the ultimate plans for the full Run 2 iteration of the
+multi-jets analysis, amounting to 140 fb1 of data, will be described.
+Hadronic Jet Physics and the Quest for New
+Matter in Multi-Jet Final States with the
+ATLAS Detector at the Large Hadron Collider

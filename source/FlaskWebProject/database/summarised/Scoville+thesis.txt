@@ -1,0 +1,6 @@
+Super-
+symmetry (SUSY) is an attractive potential solution to this problem, though the fact that
+no supersymmetric particles have been discovered thus far raises fine tuning of most mod-
+els to O(1%). The auto-concealment mechanism applies when the lightest ordinary super-
+symmetric particle (LOSP), a brane localized state, promptly decays to the Kaluza-Klein
+(KK) tower of a bulk lightest supersymmetric particle (LSP).

@@ -294,7 +294,7 @@ def read_and_store_pdf(paper_name):
 
     #if paper_name in changed_paper_names:
     #    pdf_path =  + changed_paper_names[paper_name] + '.pdf'
-
+    print(pdf_path)
 
     raw = parser.from_file(pdf_path)
     out_str = raw['content']
