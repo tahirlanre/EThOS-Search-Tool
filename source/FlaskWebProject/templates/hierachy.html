@@ -6,8 +6,8 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="static/content/style.css">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -17,15 +17,11 @@
 		<!-- Sidebar -->
 		<div id="sidebar-wrapper">
 			<ul class="sidebar-nav">
-				<li class="white-font">
-					<a href="#menu-toggle" id="menu-toggle" style="outline: 0 !important;"><i class="fa fa-align-left sidebar-icon fa-lg" style="padding-top: 20px;"></i></a>
-				</li>
 				<li class="sidebar-brand white-font">
-					<h1 style="margin-top: 0;">EThOS</h1>
-					<h3>British Library</h3>
+					<h1 style="margin-top: 50;">EThOS</h1>
+					<h3>The British Library</h3>
 				</li>
 
-				<a href="/"><button type="button" class="btn btn-primary pdf-zone" style="position:absolute;right:0px;top:10px;" ><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
 
 				
 
@@ -61,7 +57,7 @@
 									<div id="key-selector" class="input-group mb-3">
 										<input type="number" name="n-keys" value = "5" id="n-keys" class="form-control" min="4" max="32">
 										<div class="input-group-append">
-											<button  class="btn btn-success" onclick="set_n_keys()" type="submit">Set Number of Keys </button>
+											<button  class="btn btn-primary" onclick="set_n_keys()" type="submit">Set Number of Keys </button>
 										</div>
 									</div>
 
@@ -105,7 +101,7 @@
 										<div class="form-group">
 											<div class="input-group" id="submit">
 
-										<button type="submit" class="btn btn-success" onclick="submit_keywords()">Submit</button>
+										<button type="submit" class="btn btn-primary" onclick="submit_keywords()">Submit</button>
 										</div>
 									</div>
 									</form>
@@ -130,61 +126,63 @@
 						
 						<div class="row">
 							<!--Choices Zone-->
-							<div class="container choices-zone  zone-title">
-								<div class="row">
-									<h1 id="groups-title">Clusters</h1>
+							<div class="clusers">
+								<div class="container choices-zone  zone-title">
+									<div class="row">
+										<h1 id="groups-title">Clusters</h1>
 
-								</div>
-
-								<p style="margin-bottom: 0">Please select the branch, left or right, that most closely matches what you are looking for. You can create both summaries of abstracts or keywords of all theses in the cluster with the buttons below as well as view the origional PDFs.</p>
-							</div>
-							<div class="container-lg choices-zone" id="choices-zone">
-								<div class="row">
-									<div class="col-lg hr-cols">
-										<h2>Left Branch</h2>
-										<div class="input-group">
-											<button class="btn btn-primary" onclick="summaryRequest(0)">Create Cluster Summary</button>
-											<button class="btn btn-primary" onclick="keywordsRequest(0)">Get Cluster Keywords</button>
-											<button class="btn btn-success" onclick="left_traverse()">Go Left</button>
-										</div>
-										
-										<div id=left_c_responses class="responses"></div>
-										<table class="table table-dark">
-										  <thead>
-										    <tr>
-										      <th scope="col">Thesis ID</th>
-										      <th scope="col">Summary</th>
-										      <th scope="col">Load PDF</th>
-										    </tr>
-										  </thead>
-										  <tbody id="left-list">
-										  </tbody>
-										</table>
-										<div class="input-group">
-											<button class="btn btn-success" onclick="left_traverse()">Go Left</button>
-										</div>
 									</div>
-									<div class="col-lg hr-cols">
-										<h2>Right Branch</h2>
-										<div class="input-group">
-											<button class="btn btn-primary" onclick="summaryRequest(1)">Create Cluster Summary</button>
-											<button class="btn btn-primary" onclick="keywordsRequest(1)">Get Cluster Keywords</button>
-											<button class="btn btn-danger" onclick="right_traverse()">Go Right</button>
-										</div>
-										<div id=right_c_responses class="responses"></div>
 
-										<table class="table table-dark">
-										  <thead>
-										    <tr>
-										      <th scope="col">Thesis ID</th>
-										      <th scope="col">Summary</th>
-										    </tr>
-										  </thead>
-										  <tbody id="right-list">
-										  </tbody>
-										</table>
-										<div class="input-group">
-											<button class="btn btn-danger" onclick="right_traverse()">Go Right</button>
+									<p style="margin-bottom: 0">Please select the branch, left or right, that most closely matches what you are looking for. You can create both summaries of abstracts or keywords of all theses in the cluster with the buttons below as well as view the origional PDFs.</p>
+								</div>
+								<div class="container-lg choices-zone" id="choices-zone">
+									<div class="row">
+										<div class="col hr-cols">
+											<h2>Left Branch</h2>
+											<div class="input-group">
+												<button class="btn btn-primary" onclick="summaryRequest(0)">Create Cluster Summary</button>
+												<button class="btn btn-primary" onclick="keywordsRequest(0)">Get Cluster Keywords</button>
+												<button class="btn btn-success" onclick="left_traverse()">Go Left</button>
+											</div>
+											
+											<div id=left_c_responses class="responses"></div>
+											<table class="table table-dark">
+											  <thead>
+											    <tr>
+											      <th scope="col">Thesis ID</th>
+											      <th scope="col">Summary</th>
+											      <th scope="col">Load PDF</th>
+											    </tr>
+											  </thead>
+											  <tbody id="left-list">
+											  </tbody>
+											</table>
+											<div class="input-group">
+												<button class="btn btn-success" onclick="left_traverse()">Go Left</button>
+											</div>
+										</div>
+										<div class="col-lg hr-cols">
+											<h2>Right Branch</h2>
+											<div class="input-group">
+												<button class="btn btn-primary" onclick="summaryRequest(1)">Create Cluster Summary</button>
+												<button class="btn btn-primary" onclick="keywordsRequest(1)">Get Cluster Keywords</button>
+												<button class="btn btn-danger" onclick="right_traverse()">Go Right</button>
+											</div>
+											<div id=right_c_responses class="responses"></div>
+
+											<table class="table table-dark">
+											  <thead>
+											    <tr>
+											      <th scope="col">Thesis ID</th>
+											      <th scope="col">Summary</th>
+											    </tr>
+											  </thead>
+											  <tbody id="right-list">
+											  </tbody>
+											</table>
+											<div class="input-group">
+												<button class="btn btn-danger" onclick="right_traverse()">Go Right</button>
+											</div>
 										</div>
 									</div>
 								</div>

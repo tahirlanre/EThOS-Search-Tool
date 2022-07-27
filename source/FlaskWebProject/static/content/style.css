@@ -4,16 +4,16 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
  :root {
-	 --main-bg-color: #362b2e;
-	 --secondary-bg-color: #302729;
-	 --white-bg-color: #f9f0ff;
+	 --main-bg-color: #4B4E6D;
+	 --secondary-bg-color: #95A3B3;
+	 --white-bg-color: #CEB5B7;
 	 
 	 
-	 --main-txt-color: #f37b83;
-	 --secondary-txt-color: #a88590;
-	 --white-txt-color: #ffffff;
+	 --main-txt-color: #222222;
+	 --secondary-txt-color: #143021;
+	 --white-txt-color: #D8D6D0;
 
-	 --sidebar-width: 350px;
+	 --sidebar-width: 200px;
 	 --sidebar-close-width: 55px;
  }
 
@@ -25,11 +25,7 @@ body {
 }
 
 #wrapper {
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
 	padding-left: 0;
-	transition: all 0.5s ease;
 }
 
 #wrapper.toggled { padding-left: var(--sidebar-width); }
@@ -119,7 +115,8 @@ body {
 @media (min-width: 768px) {
 	#wrapper { padding-left: var(--sidebar-close-width); }
 
-	#wrapper.toggled { padding-left: var(--sidebar-width); }
+	#wrapper.toggled { padding-left: var(--sidebar-width);
+	width: 100%; }
 
 	#sidebar-wrapper { width: var(--sidebar-close-width); }
 
@@ -127,6 +124,7 @@ body {
 
 	#page-content-wrapper {
 		position: relative;
+		width: 100%;
 	}
 
 	#wrapper.toggled #page-content-wrapper {
@@ -145,17 +143,27 @@ body {
  }
 
 
-h1 {
+#sidebar-wrapper h1 {
+	padding-top: 50px;
+	color: var(--main-txt-color);
+	font-size: 3rem;
+	font-weight: 600;
+}
+ h1 {
 	color: var(--main-txt-color);
 	font-size: 4rem;
 	font-weight: 600;
+}
+h3 {
+	color: var(--main-txt-color);
+	font-size: 2rem;
+	font-weight: 300;
 }
 .white-font {
 	color: var(--main-txt-color);
 }
 .sidebar-brand {
 	text-align: right;
-	padding-right: var(--sidebar-close-width);
 }
 #page-content-wrapper {
 	color: var(--secondary-txt-color);
@@ -194,9 +202,9 @@ h1 {
 	 border-radius: 0;
  }
 .btn-primary {
-	background-color: var(--secondary-txt-color);
+	background-color: var(--main-bg-color);
 	border-color: var(--secondary-txt-color);
-	color: var(--main-bg-color);
+	color: #84DCC6;
     margin: 2px;
 }
  .btn-primary:hover {
@@ -408,9 +416,14 @@ Tertiary: #d9d9d9
 ETHoS: #284b63
 
 */
-* 
+
+#main-body{
+	width: 95%;
+}
+
 .hr-cols{
-	padding: 10px;
+	padding-top: 10px;
+	width: 45%;
 }
 
 .responses{
@@ -419,4 +432,10 @@ ETHoS: #284b63
 
 .hidden{
 	visibility: hidden;
+}
+
+.clusers{
+	padding: 10px;
+	width: 95%;
+
 }
