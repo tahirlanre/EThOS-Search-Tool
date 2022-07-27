@@ -3,6 +3,8 @@ var summaries;
 var json_tree;
 var tree_dict;
 
+
+const NUMBERS_INDEX = 1
 //binary search tree
 
 class TreeNode {
@@ -29,24 +31,8 @@ function to_Tree(dict, names_order, current_node){
 
 //end
 
-function node_name_to_list(name, names_order, summaries){
-    var list = [];
-    for( char in name){
-        if (name[char] != '-'){
-            list.push([names_order[parseInt(name[char])], summaries[parseInt(name[char])]]);
-        }
-    }
-    return list;
-}
-function node_name_to_abstract_list(name, names_order, summaries){
-    var list = [];
-    for( char in name){
-        if (name[char] != '-'){
-            list.push(summaries[parseInt(name[char])]);
-        }
-    }
-    return list;
-}
+
+
 
 function keywordsRequest(side) {
     var abstracts_list = node_name_to_abstract_list(tree_dict['children'][side]['name'], names_order, summaries);
@@ -62,13 +48,22 @@ function keywordsRequest(side) {
     };
     var FD = new FormData();
     FD.append("message_tag", "keywordsRequest");
-    FD.append("bodies", abstracts_list.toString());
+    let abstract_no_break = []
+    for(let i = 0;i< abstracts_list.length; i++){
+        abstract_no_break.push(no_break(abstracts_list[i])+ '\n')
+    }
+    console.log(abstracts_list)
+    FD.append("bodies", abstract_no_break.toString());
 
     xmlHttp.open("POST", "/search", true); // false for synchronous request
     //xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xmlHttp.send(FD);
 }
 
+function no_break(in_str){
+    const out_str = in_str.replace(/[\r\n]/gm, '');
+    return out_str
+}
 function summaryRequest(side) {
     var abstracts_list = node_name_to_abstract_list(tree_dict['children'][side]['name'], names_order, summaries);
     console.log(abstracts_list);
@@ -82,7 +77,11 @@ function summaryRequest(side) {
     };
     var FD = new FormData();
     FD.append("message_tag", "summaryRequest");
-    FD.append("bodies", abstracts_list.toString());
+    let abstract_no_break = []
+    for(let i = 0;i< abstracts_list.length; i++){
+        abstract_no_break.push(no_break(abstracts_list[i]))
+    }
+    FD.append("bodies", abstract_no_break.toString());
 
 
     xmlHttp.open("POST", "/search", true); // false for synchronous request
@@ -229,20 +228,44 @@ function send_keywords(keyword_data) {
     //xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xmlHttp.send(FD);
 }
+function node_name_to_list(name, names_order, summaries){
+    var list = [];
+    name = name.split('-')
+    for( char in name){
+        if (name[char] != '-'){
+            list.push([names_order[parseInt(name[char])], summaries[parseInt(name[char])]]);
+        }
+    }
+    return list;
+}
 
+function node_name_to_abstract_list(name, names_order, summaries){
+    
+
+    var list = [];
+    name = name.split('-')
+    for( char in name){
+        if (name[char] != '-'){
+            list.push( summaries[parseInt(name[char])]);
+        }
+    }
+    return list;
+}
 function keyword_response(xmlHttp_response){
     var json_response = JSON.parse(xmlHttp_response.responseText);
+    console.log(json_response)
     tree_data = json_response;
     var linkage = tree_data[0];
     names_order = tree_data[1];
     
+    console.log(names_order)
     summaries = tree_data[2];
     json_tree = tree_data[3];
     tree_dict = JSON.parse(json_tree);
     //cut out root node
     tree_dict = tree_dict['children'][0];
 
-   
+    console.log(tree_dict['children'])
    
     var tree_box = document.getElementById("tree");
     tree_box.style = "display: inline-block;"
@@ -259,8 +282,13 @@ function keyword_response(xmlHttp_response){
     //list titles of theses in left and right subclusters
     for( x in left){
     var row = document.createElement("TR");                 // Create a <li> node
-    var node = document.createElement("TD");                 // Create a <li> node
-    var textnode = document.createTextNode(left[x][0]);         // Create a text node
+    var node = document.createElement("TD"); 
+    if (NUMBERS_INDEX){        // Create a <li> node
+        var textnode = document.createTextNode(names_order.indexOf(left[x][0]));  
+    }else{
+        var textnode = document.createTextNode(left[x][0]);  
+    }     
+      // Create a text node
     node.appendChild(textnode);  
     var node2 = document.createElement("TD");                 // Create a <li> node
     var textnode2 = document.createTextNode(left[x][1]);         // Create a text node
@@ -278,8 +306,11 @@ function keyword_response(xmlHttp_response){
     for( x in right){
     var row = document.createElement("TR");                 // Create a <li> node
     var node = document.createElement("TD");                 // Create a <li> node
-    var textnode = document.createTextNode(right[x][0]);         // Create a text node
-    node.appendChild(textnode);  
+    if (NUMBERS_INDEX){        // Create a <li> node
+        var textnode = document.createTextNode(names_order.indexOf(right[x][0]));  
+    }else{
+        var textnode = document.createTextNode(right[x][0]);  
+    }    node.appendChild(textnode);  
     var node2 = document.createElement("TD");                 // Create a <li> node
     var textnode2 = document.createTextNode(right[x][1]);         // Create a text node
     node2.appendChild(textnode2);                               // Append the text to <li>
@@ -410,8 +441,11 @@ function left_traverse(){
     for( x in left){
     var row = document.createElement("TR");                 // Create a <li> node
     var node = document.createElement("TD");                 // Create a <li> node
-    var textnode = document.createTextNode(left[x][0]);         // Create a text node
-    node.appendChild(textnode);  
+    if (NUMBERS_INDEX){        // Create a <li> node
+        var textnode = document.createTextNode(names_order.indexOf(left[x][0]));  
+    }else{
+        var textnode = document.createTextNode(left[x][0]);  
+    }    node.appendChild(textnode);  
     var node2 = document.createElement("TD");                 // Create a <li> node
     var textnode2 = document.createTextNode(left[x][1]);         // Create a text node
     node2.appendChild(textnode2);                               // Append the text to <li>
@@ -428,8 +462,11 @@ function left_traverse(){
     for( x in right){
     var row = document.createElement("TR");                 // Create a <li> node
     var node = document.createElement("TD");                 // Create a <li> node
-    var textnode = document.createTextNode(right[x][0]);         // Create a text node
-    node.appendChild(textnode);  
+    if (NUMBERS_INDEX){        // Create a <li> node
+        var textnode = document.createTextNode(names_order.indexOf(right[x][0]));  
+    }else{
+        var textnode = document.createTextNode(right[x][0]);  
+    }    node.appendChild(textnode);  
     var node2 = document.createElement("TD");                 // Create a <li> node
     var textnode2 = document.createTextNode(right[x][1]);         // Create a text node
     node2.appendChild(textnode2);                               // Append the text to <li>
@@ -474,8 +511,11 @@ function right_traverse(){
     for( x in left){
     var row = document.createElement("TR");                 // Create a <li> node
     var node = document.createElement("TD");                 // Create a <li> node
-    var textnode = document.createTextNode(left[x][0]);         // Create a text node
-    node.appendChild(textnode);  
+    if (NUMBERS_INDEX){        // Create a <li> node
+        var textnode = document.createTextNode(names_order.indexOf(left[x][0]));  
+    }else{
+        var textnode = document.createTextNode(left[x][0]);  
+    }    node.appendChild(textnode);  
     var node2 = document.createElement("TD");                 // Create a <li> node
     var textnode2 = document.createTextNode(left[x][1]);         // Create a text node
     node2.appendChild(textnode2);                               // Append the text to <li>
@@ -492,8 +532,11 @@ function right_traverse(){
     for( x in right){
     var row = document.createElement("TR");                 // Create a <li> node
     var node = document.createElement("TD");                 // Create a <li> node
-    var textnode = document.createTextNode(right[x][0]);         // Create a text node
-    node.appendChild(textnode);  
+    if (NUMBERS_INDEX){        // Create a <li> node
+        var textnode = document.createTextNode(names_order.indexOf(right[x][0]));  
+    }else{
+        var textnode = document.createTextNode(right[x][0]);  
+    }    node.appendChild(textnode);  
     var node2 = document.createElement("TD");                 // Create a <li> node
     var textnode2 = document.createTextNode(right[x][1]);         // Create a text node
     node2.appendChild(textnode2);                               // Append the text to <li>

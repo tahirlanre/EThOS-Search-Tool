@@ -13,7 +13,7 @@ from flask import send_file
 #openai setup
 import os
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 
 #if using full matrix set to 0, 1 for new matrix and 2 for old matrix
 FIRST_RUN = 1
