@@ -1,4 +1,0 @@
-This thesis describes a data-driven technique for estimating the multijet
-background to Supersymmetry (SUSY) searches with no leptons using the
-ATLAS detector at the Large Hadron Collider. The technique is used to
-estimate multijet distributions in SUSY signal and control regions with

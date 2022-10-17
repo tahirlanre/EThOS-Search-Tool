@@ -1,7 +1,0 @@
-This thesis proposes Quantum Reinforcement Learning (QRL) as an improvement to
-conventional reinforcement learning-based dynamic spectrum access used within cognitive
-radio networks.
-Review of research works on learning-based assignment techniques as well as quantum search
-techniques is provided. The Grover search algorithm is combined as a decision making mechanism
-with conventional Reinforcement Learning (RL) algorithms resulting in a more efficient
-learning engine.

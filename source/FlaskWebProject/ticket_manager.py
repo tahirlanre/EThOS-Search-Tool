@@ -12,7 +12,7 @@ import pickle
 from shutil import copyfile
 import shutil
 import jsonpickle
-#import FlaskWebProject.webscraping as webscraper
+import FlaskWebProject.webscraping as webscraper
 
 tickets = {}
 biggest_ticket_id = -1
@@ -172,10 +172,10 @@ def process_ticket(ticket):
     else:
         os.mkdir(id_folder)
 
-    #if len(ticket.papers_and_ids) == 0:
-        #downloaded_ids = webscraper.scrape(ticket.search, 3, download_folder)
-        #move_downloaded_pdfs_to_input_folder(ticket, download_folder, id_folder)
-        #ticket.load_papers(id_folder)
+    if len(ticket.papers_and_ids) == 0:
+        downloaded_ids = webscraper.scrape(ticket.search, 3, download_folder)
+        move_downloaded_pdfs_to_input_folder(ticket, download_folder, id_folder)
+        ticket.load_papers(id_folder)
 
 
     #found_ids = []

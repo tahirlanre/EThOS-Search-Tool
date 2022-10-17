@@ -1,7 +1,0 @@
-A simple condition is presented that ensures that TD-like estimators converge in the
-mean for all a and this is used to propose a non-divergent form of Accumulating
-traces TD(k).
-The reason why TD(, %) shows a small sample advantage over simpler estimators is
-examined. ) estimator in a range of
-models, it is proposed that the action of weighted rewards accounts for TD(A)'s small
-sample advantage.

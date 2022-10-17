@@ -1,7 +1,0 @@
-The particular models considered are as follows:
-(i) We consider the porous medium equation (PME)
-ut =  A (|u |m-1u) in R^ x R+, u(x, 0) =  u(x) in R ^,
-with continuous, compactly supported initial data u. The PME admits various
-similarity solutions of the form Uk{x,t) =  t~akipk{x/t^k), k =  0 ,1 ,2 ,__  The
-nonlinear eigenfunction subset $  =  {ipk} is shown to be evolutionary complete,
-i.

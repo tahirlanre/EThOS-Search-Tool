@@ -1,6 +1,0 @@
-In a DCA scheme, instead of having a fixed frequency plan, all
-channels are placed into a channel pool and potentially available to all the local
-users [12-13]. DDCA schemes remove the control overhead required by the
-CDCA schemes, but the behaviour of DDCA schemes is likely to be more selfish
-than other approaches so that new activations may introduce excessive
-interference to the existing transition links [20].

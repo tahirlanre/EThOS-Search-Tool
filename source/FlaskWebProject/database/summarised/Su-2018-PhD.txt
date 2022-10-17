@@ -1,6 +1,0 @@
-Modelling dialogue management as a reinforcement learning task enables a system
-to learn to act optimally by maximising a reward function.
-First, a recurrent neural network-based predictor pre-trained from off-line data
-is proposed to estimate task success during subsequent on-line dialogue policy
-learning to avoid noisy user ratings and problems related to not knowing the users
-goal.

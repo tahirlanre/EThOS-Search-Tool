@@ -1,6 +1,0 @@
-The accelerator is called a non-scaling, Fixed Field Alternating
-Gradient (ns-FFAG) accelerator, and will accelerate both protons and carbon ions to
-energies required for clinical use. It is found that this
-design is particularly sensitive to alignment errors and would be unable to accelerate
-protons and carbon ions at the proposed acceleration rate due to betatron resonance
-crossing phenomena.

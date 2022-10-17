@@ -1,3 +1,0 @@
-This thesis brings together two strands of neural networks research - weightless
-systems and statistical learning theory - in an attempt to understand better the
-learning and generalisation abilities of a class of pattern classifying machines.

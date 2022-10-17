@@ -1,8 +1,0 @@
-A Search for Supersymmetry in Events with
-An exclusion of Gauge Mediated Supersymmetry Breaking at 95% confidence level is
-made in the squark mass vs gluino mass parameter space using 1.1 fb1 of proton-proton
-collisions data from the Large Hadron Collider. The event selection is based on the strong
-production signature of photons, jets and missing transverse energy. Missing transverse
-energy is used to distinguish signal from background. The background is estimated with
-a data driven technique. The CLs method is used to exclude models with squark mass
-and gluino mass up to around 1 TeV.

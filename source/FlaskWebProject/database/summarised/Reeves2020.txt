@@ -1,4 +1,0 @@
-The introduction of the CSD Python
-Application Programming Interface (API) has allowed users to interpret, retrieve, and
-manipulate data in new ways, and now presents an avenue to introduce new data to
-CSD entries and user structures alike.

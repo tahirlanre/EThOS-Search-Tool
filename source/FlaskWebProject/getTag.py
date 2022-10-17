@@ -1,3 +1,4 @@
+import os
 import spacy
 import numpy as np
 from sklearn.cluster import KMeans
@@ -144,11 +145,12 @@ def k_means_clustering(word_matrix, name_order, number_of_clusters):
                        n_init=10, 
                        max_iter=300, 
                        tol=0.0001, 
+                    #    precompute_distances='auto', 
                        verbose=0, 
                        random_state =None, 
-                       copy_x=True,
+                       copy_x=True, 
+                    #    n_jobs=-1,
                        algorithm='auto')
-
     result = np.c_[word_matrix,estimator.fit_predict(word_matrix)]
 
 

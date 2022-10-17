@@ -1,8 +1,0 @@
-Andres Santiago Robles Durazno  2021  Page 18
-component in the Supervisory Control and Data Acquisition (SCADA), which is the
-system responsible for monitoring, collecting and processing input and output data
-from field devices such as motors, valves, sensors, and pumps.
-In the PLC market, the main end-user segment includes industries such as
-automotive, chemical and petrol-chemical, paper, packaging and printing, food and
-beverages, mining and metallurgy, water and waste-water treatment as well as oil,
-gas and nuclear power plants (Thirumurugan, 2018).

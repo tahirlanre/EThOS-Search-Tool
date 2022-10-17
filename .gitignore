@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.jpeg
+*.txt
+
+source/FlaskWebProject/database/downloaded/*
+source/FlaskWebProject/static/PDF_Files_Input/*

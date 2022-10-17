@@ -1,4 +1,0 @@
-Although much research is focused on the classic structure-function relationship of
-enzymes, the details of protonation states are generally unavailable from classical
-structural determination methods (namely X-ray crystallography), they are however
-important.

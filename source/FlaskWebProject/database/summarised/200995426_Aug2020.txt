@@ -1,4 +1,0 @@
-An ensemble of 30 random beam junctions was generated for Monte Carlo simulations
-with Finite Element Method (FEM) that allowed Experimental Statistical Energy
-Analysis (ESEA) to be used to determine Coupling Loss Factors (CLFs) between the
-two beams.

@@ -1,5 +1,0 @@
-ETAS is a special case of the Hawkes
-process - a self-exciting point process that provides the opportunity for a multilayered
-intensity structure that addresses the rate of events as a function of previous events his-
-tory. In this thesis we contribute primarily to three main aspects of a Hawkes
-process - temporal, spatial and multivariate analyses.

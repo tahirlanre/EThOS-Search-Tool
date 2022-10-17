@@ -31,43 +31,6 @@ function papersRequest(paper_list) {
     xmlHttp.send(FD);
 }
 
-function keywordsRequest(abstracts_list) {
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.onreadystatechange = function () {
-        if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
-            papers_response(xmlHttp);
-    }
-    xmlHttp.ontimeout = function (e) {
-        dev_error("Error contacting server!");
-    };
-    var FD = new FormData();
-    FD.append("message_tag", "keywordsRequest");
-    FD.append("bodies", abstracts_list.toString());
-
-    xmlHttp.open("POST", "/search", true); // false for synchronous request
-    //xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xmlHttp.send(FD);
-}
-
-function summaryRequest(abstracts_list) {
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.onreadystatechange = function () {
-        if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
-            papers_response(xmlHttp);
-    }
-    xmlHttp.ontimeout = function (e) {
-        dev_error("Error contacting server!");
-    };
-    var FD = new FormData();
-    FD.append("message_tag", "summaryRequest");
-    FD.append("bodies", abstracts_list.toString());
-
-
-    xmlHttp.open("POST", "/search", true); // false for synchronous request
-    //xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xmlHttp.send(FD);
-}
-
 
 function summarisationRequest(paper_name) {
     var xmlHttp = new XMLHttpRequest();
@@ -205,125 +168,12 @@ function submit_ticket() {
     transition_to_start();
 }
 
-//sending the list of keywords for the keywords search
-function submit_keywords() {
-
-
-    console.log("Submitting keywords");
-
-    keywordsform = document.getElementById("keywords");
-    var formData = new FormData(keywordsform);
-    console.log(formData);
-    var object = {};
-    formData.forEach((value, key) => {
-        // Reflect.has in favor of: object.hasOwnProperty(key)
-        if(!Reflect.has(object, key)){
-            object[key] = value;
-            return;
-        }
-        if(!Array.isArray(object[key])){
-            object[key] = [object[key]];    
-        }
-        object[key].push(value);
-    });
-    var json = JSON.stringify(object);
-    console.log(json);
-    send_keywords(json)
-    event.preventDefault();
-    transition_to_start();
-}
-
-
-//function to send the keywords to the flask server
-function send_keywords(keyword_data) {
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.onreadystatechange = function () {
-        if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
-            keyword_response(xmlHttp, keyword_data);
-    }
-    xmlHttp.ontimeout = function (e) {
-        dev_error("Error contacting server!");
-    };
-    var FD = new FormData();
-    FD.append("message_tag", "keywords");
-    FD.append("data", keyword_data);
-
-    xmlHttp.open("POST", "/hierachy_search", true); // false for synchronous request
-    //xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xmlHttp.send(FD);
-}
-
-
-//function to handle the flask servers keyword response
-function keyword_response(xmlHttp_response, keyword_data){
-    console.log("good");
-
-    var json_response = JSON.parse(xmlHttp_response.responseText);
-    tree_data = json_response;
-    var linkage = tree_data[0];
-    var names_order = tree_data[1];
-    var summaries = tree_data[2];
-    var json_tree = tree_data[3];
-    var tree_dict = JSON.parse(json_tree);
-
-    console.log(tree_data);
-    console.log(tree_dict);
-
-    var tree_box = document.getElementById("tree");
-    tree_box.style = "display: inline-block;"
-    refreshImage('den', '/get_image');
-
-    var summaries_para = document.getElementById('summaries');
-    summaries_para.innerHTML = tree_data;
-    console.log("done");
-
-    var choices_zone = document.getElementById("choices-zone");
-    var left_theses = document.createElement("P", "left");
-    var right_theses = document.createElement("P", "right");
-
-
-}
-
-//takes linkage matrix and returns a tree
-function to_Tree(linkage, names_order){
-    console.log(linkage);
-    console.log(names_order);
-
-
-    //new bst
-    var tree = New BinaryTree;
-    for(x = 0; x < len(linkage); x+=1){
-
-    }
-
-
-
-}
-//function to handle digging down the bst to find a useful cluster
-function dig_tree(theses_summary, theses_title, tree){
-
-} 
-
-
-
-
 
 function submit_search(event) {
     request_all_papers_in_ticket();
     event.preventDefault();
     transition_to_results(title="Showing All Results");
 }
-
-function refreshImage(imgElement, imgURL){    
-    // create a new timestamp 
-    var timestamp = new Date().getTime();  
-  
-    var el = document.getElementById(imgElement);  
-    console.log(el)
-    var queryString = "?t=" + timestamp;    
-   
-    el.src = imgURL + queryString;    
-}    
 
 function create_PDF_result_HTML(paper_name ,preview, thumbnail_url, pdf_url) {
     var preview_split = preview.split(/\r?\n/);

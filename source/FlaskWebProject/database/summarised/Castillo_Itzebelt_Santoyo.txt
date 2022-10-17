@@ -1,6 +1,0 @@
-In this document I will dis-
-cuss the results of the analysis I performed during my PhD at the university of Sussex
-for the search of Supersymmetry in events with three leptons (electron/muon/tau) and
-missing transverse energy in the final state. These results are
-interpreted in SUSY models with chargino-neutralino pair production via decays involving
-sleptons, staus, gauge bosons and the newly discovered Higgs boson.

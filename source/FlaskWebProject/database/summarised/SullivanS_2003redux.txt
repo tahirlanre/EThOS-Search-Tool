@@ -1,5 +1,0 @@
-A murine cell hybrid system was established and optimised to study nuclear reprogramming of somatic cells via fusion with embryonic stem cells.
-Moderate heat shocking of thymocytes prior to fusion with ES cells resulted in increased
-reprogrammed hybridisation frequencies but as fusion was also increased it was
-impossible to verify whether an increase in nuclear reprogramming was partly
-responsible.

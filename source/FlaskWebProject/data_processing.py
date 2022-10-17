@@ -76,27 +76,28 @@ def SummarisePaper(paper_name):
     #    print("Paper " + paper_name + " failed: ")
     #    print(e)
     #    return None
+    if input:
+        summarization = ""
+        min_characters = 300.0
+        abstract_characters = len(input)
+        proportion = min_characters / abstract_characters
+
+        if proportion < 1:
+            ### ML CODE:
+            #print("WARNING\nWARNING: ML CODE IS NOT LOADED!")
+            sentence_set,sentence_with_index = esearch.split_sentence(input, punctuation_list="!.?")
+            tfidf_matrix = esearch.get_tfidf_matrix(sentence_set,stop_word)
+            sentence_with_words_weight = esearch.get_sentence_with_words_weight(tfidf_matrix)
+            sentence_with_position_weight = esearch.get_sentence_with_position_weight(sentence_set)
+            sentence_score = esearch.get_similarity_weight(tfidf_matrix)
+            sort_sent_weight = esearch.ranking_base_on_weigth(sentence_with_words_weight,sentence_with_position_weight,sentence_score, feature_weight = [0.6,0.2,0.2])
+            summarization = esearch.get_summarization(sentence_with_index,sort_sent_weight,topK_ratio =proportion)
+
+            ### END OF ML CODE
+            
+            return summarization.strip()
     
-    summarization = ""
-    min_characters = 300.0
-    abstract_characters = len(input)
-    proportion = min_characters / abstract_characters
-
-    ### ML CODE:
-    #print("WARNING\nWARNING: ML CODE IS NOT LOADED!")
-    sentence_set,sentence_with_index = esearch.split_sentence(input, punctuation_list="!.?")
-    tfidf_matrix = esearch.get_tfidf_matrix(sentence_set,stop_word)
-    sentence_with_words_weight = esearch.get_sentence_with_words_weight(tfidf_matrix)
-    sentence_with_position_weight = esearch.get_sentence_with_position_weight(sentence_set)
-    sentence_score = esearch.get_similarity_weight(tfidf_matrix)
-    sort_sent_weight = esearch.ranking_base_on_weigth(sentence_with_words_weight,sentence_with_position_weight,sentence_score, feature_weight = [0.6,0.2,0.2])
-    summarization = esearch.get_summarization(sentence_with_index,sort_sent_weight,topK_ratio =proportion)
-
-
-
-    ### END OF ML CODE
-    
-    return summarization.strip()
+    return ""
 
 def clean_files(all_paper_names):
     global SUMMARISED_PATH,RAW_TEXT_PATH,THUMBS_PATH,PREVIEWS_PATH,WORD_VECTOR_PATH
@@ -294,7 +295,7 @@ def read_and_store_pdf(paper_name):
 
     #if paper_name in changed_paper_names:
     #    pdf_path =  + changed_paper_names[paper_name] + '.pdf'
-    print(pdf_path)
+
 
     raw = parser.from_file(pdf_path)
     out_str = raw['content']
@@ -983,7 +984,6 @@ def process_groups(ticket):
         if name in ticket.papers_and_ids:
             current_ordering.append(name)
             current_matrix.append(word_vector_matrix[i])
-
 
     clustered_groups = groupsystem.k_means_clustering(current_matrix, current_ordering, amount_of_groups)
     #clustered_groups = groupsystem.k_means_clustering(word_vector_matrix, word_vector_names_order, amount_of_groups)

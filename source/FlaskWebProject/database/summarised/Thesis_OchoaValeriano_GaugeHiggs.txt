@@ -1,4 +1,0 @@
-It is possible to treat the Standard Model as an Effective Field Theory, valid up to
-a high cut-off energy scale above the electroweak scale, equipped with a new set of
-Lorentz structures, the so-called anomalous couplings, that extend and parametrise
-with modified couplings the vertices allowed by the Standard Model.

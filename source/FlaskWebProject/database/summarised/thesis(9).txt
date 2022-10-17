@@ -1,6 +1,0 @@
-Background information, radiation-matter interactions and their descriptions
-as nuclear data are discussed before an introduction to several useful methods in nuclear
-analyses. This
-analysis uses Total Monte Carlo sampling of nuclear parameters to determine the spread in
-Tritium Breeding Ratio (TBR) values for the proposed DEMO reactor, due to uncertainty in
-our knowledge of neutron interactions with the lead nucleus.

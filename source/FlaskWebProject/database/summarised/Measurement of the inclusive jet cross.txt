@@ -1,4 +1,0 @@
-This thesis presents the measurement of the inclusive jet cross section using
-data collected in 2010 by the ATLAS detector, with a particular focus on the
-reconstruction and calibration techniques used for jets in this measurement
-and on the estimate of the systematic uncertainty on their energy scale.

@@ -1,4 +1,0 @@
-This thesis documents the measurements of the W   (charged current Drell-Yan
-Process) production cross section and the muon charge asymmetry. Experimental data and
-Monte Carlo samples, from proton-proton collisions at a centre of mass energy of 13 TeV,
-corresponding to a total integrated luminosity of 44.

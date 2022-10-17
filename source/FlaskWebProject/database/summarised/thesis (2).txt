@@ -1,7 +1,0 @@
-After motivating the requirement for a Monte
-Carlo event generator, the principles and Physics behind such a generator are laid
-Following this, the Monte Carlo tuning system Professor is used to give an assess-
-ment of the uncertainty from tuning Herwig++ and the results from this analysis
-used, along with a more accurate implementation of Higgs boson decays using the
-POWHEG method, to determine the error associated with searching for the Higgs
-boson with a jet substructure technique.

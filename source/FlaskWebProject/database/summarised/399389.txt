@@ -1,6 +1,0 @@
-This thesis investigates the properties of learning in games, where the information
-available to each player does not include a specification of the game or observations
-of opponent play.
-Then an example of actor-critic learning, in which a value function is used to adapt
-the strategies, is studied using two-timescaics stochastic approximation to show
-that the strategies track the smooth best response dynamics.

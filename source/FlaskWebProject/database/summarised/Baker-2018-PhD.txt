@@ -1,5 +1,0 @@
-We focus specifically on the cancer domain in terms of applications,
-where we introduce two NLP classification tasks and datasets: the first task is that
-of semantic text classification according to the Hallmarks of Cancer (HoC), which
-enables text mining of scientific literature assisted by a taxonomy that explains the
-processes by which cancer starts and spreads in the body.

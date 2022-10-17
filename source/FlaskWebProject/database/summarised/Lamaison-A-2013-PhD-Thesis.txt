@@ -1,4 +1,0 @@
-Existing ap-
-proaches that target dynamically typed languages infer types using flow
-analysis, but flow analysis does not cope well with heavily used features
-such as heterogeneous containers and implicit interfaces.

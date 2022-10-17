@@ -1,7 +1,0 @@
-A search for heavy exotic diboson resonances decaying to ``qq final states is
-presented using pp collision data collected with the ATLAS detector at the Large
-Hadron Collider. No significant excess of data events over the predicted Standard Model
-background is observed and 95% confidence level upper limits are set on the
-product of the production cross-section and the branching ratio for spin-2 Kaluza-
-Klein gravitons predicted by the bulk Randall-Sundrum model and for Extended
-Gauge Model W  bosons.

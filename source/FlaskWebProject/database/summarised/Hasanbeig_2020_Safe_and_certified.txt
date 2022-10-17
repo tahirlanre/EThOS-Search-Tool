@@ -1,5 +1,0 @@
-Reinforcement Learning (RL) is a widely employed machine learning
-architecture that has been applied to a variety of decision-making
-problems, from resource management to robot locomotion, from rec-
-ommendation systems to systems biology, and from traffic control to
-superhuman performance in video games.

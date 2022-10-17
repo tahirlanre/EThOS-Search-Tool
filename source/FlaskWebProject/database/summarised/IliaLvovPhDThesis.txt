@@ -1,7 +1,0 @@
-The emerging discipline
-of social data science is subject to questions of epistemology, politics, ethics and
-responsibility, while the practice of doing social data science raises significant
-project management issues that include logistics, team communication, software
-system integration and stakeholder engagement. Using the ethnographic findings and the basic content and
-structure of the SEMAT model, I develop the Social Science Scorecard Deck  an
-agile project management tool for social data science.

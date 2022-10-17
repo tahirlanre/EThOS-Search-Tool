@@ -1,3 +1,0 @@
-This thesis is concerned with the application of the time-dependent Hartree-Fock method,
-adopting the Skyrme effective nuclear interaction, to investigate induced nuclear fission
-processes.

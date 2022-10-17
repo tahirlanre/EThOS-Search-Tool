@@ -1,3 +1,0 @@
-Although there is a vast amount of recorded seismological data available, current
-technology and processing methods fail to represent accurate ground displacement
-over time as the considerable technological challenges have yet to be overcome.

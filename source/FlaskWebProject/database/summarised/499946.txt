@@ -1,5 +1,0 @@
-In most companies and organisations valuable time and effort is
-wasted in ineffective searches through multiple information sources including
-web sites and other conventional sources. [19] This type of unstructured data
-usually lacks metadata (data about data) and as a consequence there is no
-standard means to facilitate search, query and analysis.

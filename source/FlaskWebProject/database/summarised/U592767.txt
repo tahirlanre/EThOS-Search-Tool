@@ -1,5 +1,0 @@
-In the central nervous system, small conductance calcium-activated potassium
-channels (SK) are important for the generation of the afterhyperpolarisation that
-follows single or trains of action potentials. Three SK channels have been cloned
-(SKI, SK2 and SK3), which are selectively blocked by the venom toxin apamin and
-present distinct pharmacological properties.

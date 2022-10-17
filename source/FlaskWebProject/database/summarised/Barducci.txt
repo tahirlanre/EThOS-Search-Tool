@@ -1,8 +1,0 @@
-This Thesis is devoted to the phenomenological analysis at the large hadron collider
-(LHC), as well at a future electron positron collider, of the 4 dimensional (4D) composite
-Higgs model (4DCHM), a compelling beyond the standard model scenario where the
-Higgs state arises as a pseudo Nambu Goldstone boson. The motivations and the main
-characteristics of the model are summarised and then an analysis of the gauge and Higgs
-sectors of the 4DCHM is performed. Finally we propose a general framework for the
-analysis of models with an extended quark sector that we have applied to a simplified
-composite Higgs scenario.

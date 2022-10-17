@@ -1,9 +1,0 @@
-The
-energy distribution of the PFNS can be indicative of the material under
-observation; the measurement of the energy spectrum of neutrons however is
-notoriously difficult, due to the stochastic manner in which they interact with
-radiation instrumentation.
-This research has used a variety of the associated particle TOF
-technique, to perform real time TOF spectrometry of fission nuclides with a
-small-scale portable set up,  triggering on the  prompt fission gamma
-emission.

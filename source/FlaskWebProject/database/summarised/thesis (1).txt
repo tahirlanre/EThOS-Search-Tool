@@ -1,6 +1,0 @@
-In the high energy environment of the Large Hadron Collider, there is a finite probability
-for the longitudinal tail of the hadronic shower represented by a jet to leak out of the
-calorimeter, commonly referred to as longitudinal hadronic shower leakage, or jet punch-
-through. This thesis prescribes a method for identifying such punch-through jets via
-the use of muon activity found behind a jet in the ATLAS muon spectrometer, finding an
-occurance rate of up to 18% in the worst aected regions.

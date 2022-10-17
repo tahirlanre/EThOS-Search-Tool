@@ -1,38 +1,20 @@
 """
 Routes and views for the flask application.
 """
-import json
+
 from datetime import datetime
 from flask import render_template, request, jsonify
 from FlaskWebProject import app
 import FlaskWebProject.data_processing as backend
 import FlaskWebProject.ticket_manager as ticketmanager
-import FlaskWebProject.hierachical as hierachical
-from flask import send_file
 
-#openai setup
-import os
-import openai
-openai.api_key = "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"
-
-#if using full matrix set to 0, 1 for new matrix and 2 for old matrix
-FIRST_RUN = 1
-
+@app.route('/')
 @app.route('/home')
 def home():
     """Renders the home page."""
     return render_template(
         'index.html',
         title='Home Page',
-        year=datetime.now().year,
-    )
-@app.route('/')
-@app.route('/hierachy')
-def hierachy():
-    """Renders the home page."""
-    return render_template(
-        'hierachy.html',
-        title='Hierachy Page',
         year=datetime.now().year,
     )
 
@@ -46,9 +28,6 @@ def search():
             result = all_papers_in_ticket(int(request.form['ticket_id']))
         elif message_tag == "papers_request":
             result = papers_request(request.form['papers'], request.form['ticket'])
-        elif message_tag == "papers_request_h":
-            print("request h")
-            result = papers_request_h(request.form['papers'], request.form['ticket'])
         elif message_tag == "summarisation_request":
             result = summarisation_request(request.form['paper_name'])
         elif message_tag == "group_search":
@@ -59,64 +38,9 @@ def search():
             result = submit_ticket(request.form['search_terms'], int(request.form['group_size']),int(request.form['clustering_dimensions']))
         elif message_tag == "queue_request":
             result = get_ticket_queue_json()
-        elif message_tag == "keywordsRequest":
-            result = gpt3_keywords(request.form['bodies'])
-        elif message_tag == "summaryRequest":
-            result = gpt3_summary(request.form['bodies'])
         return result
 
     return "NO DATA"
-
-@app.route('/hierachy_search', methods=['POST', 'GET'])
-def hierachy_search():
-    error = None
-    if request.method == 'POST':
-        #separate useful data from request and structure
-        data = request.form['data']
-        message_tag = request.form['message_tag']
-        data = json.loads(data)
-        new_lis = list(data.items())
-        print(new_lis)
-        print(data)
-        x = 0
-        keys = []
-        breadth = 16
-        if( new_lis[0][1] != ''):
-            breadth = int(new_lis[0][1])
-        
-        new_lis = new_lis[1:]
-        while x < len(new_lis):
-            keys.append([new_lis[x][1],int(new_lis[x+1][1])])
-            x+=2
-
-        print(keys)
-        print(breadth)
-        print(new_lis)
-
-
-        #do some clustering based on results
-        tree, linkage, names_order, tree_json = hierachical.run_search(keys,FIRST_RUN, breadth)
-
-        #return a big json of all the useful shit
-
-
-        #
-        summaries = []
-        for x in names_order:
-            summary = open('FlaskWebProject/database/summarised/'+x)
-            txt = summary.read()
-            summary.close()
-            summaries.append(txt)
-        #print(summaries)
-        result = [linkage.tolist(), names_order, summaries, tree_json]
-
-        print(result)
-        result = jsonify(result)
-        print(result)
-        return result
-
-    return "NO DATA"
-
 
 @app.route('/devtool', methods=['POST', 'GET'])
 def devtool():
@@ -133,14 +57,6 @@ def devtool():
 
         return result
     return "NO DATA"
-
-@app.route('/get_image')
-def get_image():
-    print('test')
-    filename = 'static/dendograms/den.png'
-    
-    return send_file(filename, mimetype='image/gif')
-
 
 def devtool_delete_generated_data():
     backend.delete_generated_data()
@@ -161,16 +77,6 @@ def summarisation_request(paper_name):
 
 def papers_request(papers, ticket_id):
     paper_list = papers.split(',')
-
-    return create_json_from_papers(paper_list, ticket_id)
-
-def papers_request_h(papers, ticket_id):
-    
-    
-    paper_list = papers.split(',')
-    for paper in range(0,len(paper_list)):
-        paper_list[paper] = paper_list[paper][:-4]
-    print (paper_list)
 
     return create_json_from_papers(paper_list, ticket_id)
 
@@ -251,45 +157,6 @@ def create_json_from_papers(enumerable_of_papers, ticket_id):
         "pdf_urls": pdf_url_array,
         "ticket": ticket_id
         })
-
-
-#authenticate open_ai
-#openai gpt3 quereys
-
-def gpt3_summary(bodies):
-    print(bodies)
-    response = openai.Completion.create(
-      model="text-davinci-002",
-      prompt="Summarize these abstracts: \n\n" + bodies,
-      temperature=0.7,
-      max_tokens=512,
-      top_p=1.0,
-      frequency_penalty=0.5,
-      presence_penalty=0.5
-    )
-    print(response)
-
-    return( jsonify({'keywords': response}))
-
-def gpt3_keywords(bodies):
-    print(bodies)
-
-    response = openai.Completion.create(
-      model="text-davinci-002",
-      prompt="Extract keywords from this text:\n\n"  + bodies,       
-      temperature=0.3,
-      max_tokens=400,
-      top_p=1.0,
-      frequency_penalty=0.8,
-      presence_penalty=0.5
-    )
-    print(response)
-    return( jsonify({'keywords': response}))
-
-
-def remove_new_line(text_string):
-    text_string = text_string.replace('\n', ' ').replace('\r', '')
-    return text_string
 
 #backend.update_database(True)
 backend.load_data_into_memory()

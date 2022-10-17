@@ -1,4 +1,0 @@
-The CockpitCI project proposes an architecture
-based on real-time Perimeter Intrusion Detection System (PIDS), which provides the core
-cyber-analysis and detection capabilities, being responsible for continuously assessing and
-protecting the electronic security perimeter of each CI.

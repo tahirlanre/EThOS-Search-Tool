@@ -3273,7 +3273,7 @@ boxes. The value returned by the call is the next active link to be run. This
 allows the steady state dispatching in the super-interpreter to be implemented as a
 simple call-threaded interpreter (Section 2.2.1):
 l i n k = l i n k > c a l l ( t h r e a d _ s t a t e , frame , l i n k ) ;
-} wh i le ( 1 ) ;
+} w h i le ( 1 ) ;
 An active link can be in one of six states. Four of these states are starting states and
 depend on the instruction that caused the trace to exit, whether it was a boolean
 test failure, a back-edge, a return (or yield) or a many-valued test failure. These

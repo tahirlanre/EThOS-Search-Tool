@@ -1,4 +1,0 @@
-The neutrons and gamma rays created in nuclear reactions provide a way to measure
-conditions in Inertial Confinement Fusion (ICF) experiments. This
-thesis presents a computational study of the nuclear observables based on radiation
-hydrodynamics simulations of ICF experiments.

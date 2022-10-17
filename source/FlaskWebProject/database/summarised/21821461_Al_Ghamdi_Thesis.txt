@@ -1,6 +1,0 @@
-The majority of the running time in the original K-Means algorithm
-(known as Lloyds algorithm) is spent on computing distances from each data
-point to all cluster centres to find the closest centre to each data point.
-MapReduce, and its popular open-source implementation known as Hadoop,
-provides a distributed computing framework that efficiently stores, manages, and
-processes large-scale datasets over a large cluster of commodity machines.

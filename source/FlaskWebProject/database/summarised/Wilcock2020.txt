@@ -1,3 +1,0 @@
-Here, I introduce a new clustering method which uses an automated line plotting saddle-
-point (ALPS) algorithm to separate dependent (linked) and independent (background) events,
-using a two-dimensional histogram of the inter-event times and the inter-event distances.
