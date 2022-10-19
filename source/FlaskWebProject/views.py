@@ -113,12 +113,15 @@ def begin_process_ticket(ticket_id):
     current_ticket = ticketmanager.get_ticket(ticket_id)
 
     ticketmanager.process_ticket(current_ticket)
+    if len(current_ticket.papers_and_ids) > 0:
 
-    group_tags, papers_in_each_group, thumbnail_urls = backend.get_all_group_data(current_ticket)
+        group_tags, papers_in_each_group, thumbnail_urls = backend.get_all_group_data(current_ticket)
 
-    ticketmanager.write_certain_ticket_to_file(ticket_id)
-    return jsonify({"group_tags": group_tags, "papers_in_each_group": papers_in_each_group, "thumbnail_urls":thumbnail_urls, "ticket":ticket_id})
-    return None
+        ticketmanager.write_certain_ticket_to_file(ticket_id)
+        return jsonify({"group_tags": group_tags, "papers_in_each_group": papers_in_each_group, "thumbnail_urls":thumbnail_urls, "ticket":ticket_id})
+    else:
+        return {}
+
 
 #def runAISearch(input, ticket_id):
 

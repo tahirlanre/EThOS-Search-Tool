@@ -984,7 +984,6 @@ def process_groups(ticket):
         if name in ticket.papers_and_ids:
             current_ordering.append(name)
             current_matrix.append(word_vector_matrix[i])
-
     clustered_groups = groupsystem.k_means_clustering(current_matrix, current_ordering, amount_of_groups)
     #clustered_groups = groupsystem.k_means_clustering(word_vector_matrix, word_vector_names_order, amount_of_groups)
 

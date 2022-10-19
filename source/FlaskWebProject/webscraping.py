@@ -64,17 +64,18 @@ def scrape(search_text, max_pages, download_folder):
     downloaded_ids, pdf_names = scraper.start_requests(search_text_list, max_pages)
     print("Waiting 3 seconds for downloads to complete...")
     time.sleep(3)
-    unzip_files(download_folder)
-    for i in range(len(downloaded_ids)):
-        f= open(download_folder + "/" + downloaded_ids[i] + ".txt","w", encoding="utf-8")
-        f.write(pdf_names[i])
+    if len(downloaded_ids) > 0:
+        unzip_files(download_folder)
+        for i in range(len(downloaded_ids)):
+            f= open(download_folder + "/" + downloaded_ids[i] + ".txt","w", encoding="utf-8")
+            f.write(pdf_names[i])
 
-    for filename in os.listdir(download_folder):
-        if filename.endswith(".zip"):
-            try:
-                os.remove(download_folder + "/" + filename)
-            except OSError:
-                continue
+        for filename in os.listdir(download_folder):
+            if filename.endswith(".zip"):
+                try:
+                    os.remove(download_folder + "/" + filename)
+                except OSError:
+                    continue
     return downloaded_ids
 
 class ScrapeSpider():
@@ -104,7 +105,6 @@ class ScrapeSpider():
         inputElement2.send_keys(account_pass)
         inputElement2.submit()
 
-       
         sel.get("https://ethos.bl.uk/AdvancedSearch.do")
         add_button  = sel.find_element(By.ID, "newSearchRowId")
         add_button.click()
@@ -117,7 +117,6 @@ class ScrapeSpider():
         time.sleep(0.2)
         checkbox = sel.find_element(By.ID, "chk1")
         checkbox.click()
-        
         search_amount = len(search_text_list)
         if search_amount > 6:
             search_amount = 6
